@@ -1,0 +1,16 @@
+# Seismograph evidence store. Zetaris federates this database as the datasource seismo_pg.
+# Local development credentials only; the port is bound to this machine.
+services:
+  evidence-db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: seismo
+      POSTGRES_PASSWORD: seismo
+      POSTGRES_DB: seismograph
+    ports:
+      - "5433:5432"
+    volumes:
+      - evidence-data:/var/lib/postgresql/data
+    restart: unless-stopped
+volumes:
+  evidence-data:

@@ -1,0 +1,20 @@
+[
+ {
+  "record_id": "rec_12acb20e3bee",
+  "company": "Latch, Inc.",
+  "cik": "1826000",
+  "event_date": "2026-08-10",
+  "jobs_cut": null,
+  "jobs_cut_text": "workforce reduction",
+  "ai_attribution": "partial",
+  "ai_quote": "By embedding AI across software development, customer support, and our internal operations, we have built a leaner, more efficient organization that is expected to continue delivering innovative products for our customers.",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1826000/000182600026000050/tmb-20260810xex99d1.htm",
+  "doc_type": "EX-99.1",
+  "judge_model": "nvidia/nemotron-3-ultra-550b-a55b",
+  "extractor_model": "nvidia/nemotron-3-ultra-550b-a55b",
+  "warn_match": [],
+  "gap_flags": [],
+  "supersedes": null,
+  "reviewed_at": "2026-10-27 07:21:34.0"
+ }
+]

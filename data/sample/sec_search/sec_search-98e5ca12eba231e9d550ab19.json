@@ -1,0 +1,581 @@
+{
+ "request": {
+  "q": "\"automation\" \"workforce reduction\"",
+  "forms": "8-K,6-K",
+  "dateRange": "custom",
+  "startdt": "2026-07-29",
+  "enddt": "2026-10-27"
+ },
+ "response": {
+  "took": 73,
+  "timed_out": false,
+  "_shards": {
+   "total": 50,
+   "successful": 50,
+   "skipped": 0,
+   "failed": 0
+  },
+  "hits": {
+   "total": {
+    "value": 8,
+    "relation": "eq"
+   },
+   "max_score": 16.586653,
+   "hits": [
+    {
+     "_index": "edgar_file",
+     "_id": "0001826000-26-000050:tmb-20260810xex99d1.htm",
+     "_score": 16.586653,
+     "_source": {
+      "ciks": [
+       "0001826000"
+      ],
+      "period_ending": "2026-08-10",
+      "file_num": [
+       "001-39688"
+      ],
+      "display_names": [
+       "Latch, Inc.  (LTCH)  (CIK 0001826000)"
+      ],
+      "xsl": null,
+      "sequence": "2",
+      "root_forms": [
+       "8-K"
+      ],
+      "file_date": "2026-08-10",
+      "biz_states": [
+       "MO"
+      ],
+      "sics": [
+       "5072"
+      ],
+      "form": "8-K",
+      "adsh": "0001826000-26-000050",
+      "film_num": [
+       "261256335"
+      ],
+      "biz_locations": [
+       "Olivette, MO"
+      ],
+      "file_type": "EX-99.1",
+      "file_description": "EX-99.1",
+      "inc_states": [
+       "DE"
+      ],
+      "items": [
+       "2.02",
+       "9.01"
+      ]
+     }
+    },
+    {
+     "_index": "edgar_file",
+     "_id": "0001517375-26-000056:a2q26investorpresentatio.htm",
+     "_score": 15.631469,
+     "_source": {
+      "ciks": [
+       "0001517375"
+      ],
+      "period_ending": "2026-08-06",
+      "file_num": [
+       "001-39156"
+      ],
+      "display_names": [
+       "Sprout Social, Inc.  (SPT)  (CIK 0001517375)"
+      ],
+      "xsl": null,
+      "sequence": "3",
+      "root_forms": [
+       "8-K"
+      ],
+      "file_date": "2026-08-06",
+      "biz_states": [
+       "IL"
+      ],
+      "sics": [
+       "7372"
+      ],
+      "form": "8-K",
+      "adsh": "0001517375-26-000056",
+      "film_num": [
+       "261249049"
+      ],
+      "biz_locations": [
+       "Chicago, IL"
+      ],
+      "file_type": "EX-99.2",
+      "file_description": "EX-99.2",
+      "inc_states": [
+       "DE"
+      ],
+      "items": [
+       "2.02",
+       "7.01",
+       "9.01"
+      ]
+     }
+    },
+    {
+     "_index": "edgar_file",
+     "_id": "0001628280-26-055207:niqpressrelease-q226.htm",
+     "_score": 14.3026705,
+     "_source": {
+      "ciks": [
+       "0002054696"
+      ],
+      "period_ending": "2026-08-10",
+      "file_num": [
+       "001-42763"
+      ],
+      "display_names": [
+       "NIQ Global Intelligence plc  (NIQ)  (CIK 0002054696)"
+      ],
+      "xsl": null,
+      "sequence": "2",
+      "root_forms": [
+       "8-K"
+      ],
+      "file_date": "2026-08-10",
+      "biz_states": [
+       "IL"
+      ],
+      "sics": [
+       "7370"
+      ],
+      "form": "8-K",
+      "adsh": "0001628280-26-055207",
+      "film_num": [
+       "261258366"
+      ],
+      "biz_locations": [
+       "Chicago, IL"
+      ],
+      "file_type": "EX-99",
+      "file_description": "EX-99.1",
+      "inc_states": [
+       "L2"
+      ],
+      "items": [
+       "2.02",
+       "9.01"
+      ]
+     }
+    },
+    {
+     "_index": "edgar_file",
+     "_id": "0000950103-26-013227:dp252658_ex9901.htm",
+     "_score": 13.622432,
+     "_source": {
+      "ciks": [
+       "0000003124"
+      ],
+      "period_ending": "2026-08-31",
+      "file_num": [
+       "000-17444"
+      ],
+      "display_names": [
+       "AKZO NOBEL NV  (AKZOF, AKZOY)  (CIK 0000003124)"
+      ],
+      "xsl": null,
+      "sequence": "2",
+      "root_forms": [
+       "6-K"
+      ],
+      "file_date": "2026-08-31",
+      "biz_states": [],
+      "sics": [
+       "2800"
+      ],
+      "form": "6-K",
+      "adsh": "0000950103-26-013227",
+      "film_num": [
+       "261344983"
+      ],
+      "biz_locations": [
+       "Amsterdam"
+      ],
+      "file_type": "EX-99.1",
+      "file_description": "EXHIBIT 99.1",
+      "inc_states": [],
+      "items": []
+     }
+    },
+    {
+     "_index": "edgar_file",
+     "_id": "0001628280-26-052125:sophiageneticssaex992q22026.htm",
+     "_score": 11.630207,
+     "_source": {
+      "ciks": [
+       "0001840706"
+      ],
+      "period_ending": "2026-06-30",
+      "file_num": [
+       "001-40627"
+      ],
+      "display_names": [
+       "SOPHiA GENETICS SA  (SOPH)  (CIK 0001840706)"
+      ],
+      "xsl": null,
+      "sequence": "3",
+      "root_forms": [
+       "6-K"
+      ],
+      "file_date": "2026-08-04",
+      "biz_states": [
+       "V8"
+      ],
+      "sics": [
+       "7374"
+      ],
+      "form": "6-K",
+      "adsh": "0001628280-26-052125",
+      "film_num": [
+       "261235355"
+      ],
+      "biz_locations": [
+       "Rolle, V8"
+      ],
+      "file_type": "EX-99.2",
+      "file_description": "EX-99.2",
+      "inc_states": [
+       "V8"
+      ],
+      "items": []
+     }
+    },
+    {
+     "_index": "edgar_file",
+     "_id": "0001104659-26-106574:crgo-20260630xex99d2.htm",
+     "_score": 11.429922,
+     "_source": {
+      "ciks": [
+       "0001927719"
+      ],
+      "period_ending": "2026-06-30",
+      "file_num": [
+       "001-41604"
+      ],
+      "display_names": [
+       "Freightos Ltd  (CRGO, CRGOW)  (CIK 0001927719)"
+      ],
+      "xsl": null,
+      "sequence": "3",
+      "root_forms": [
+       "6-K"
+      ],
+      "file_date": "2026-09-10",
+      "biz_states": [
+       "U3"
+      ],
+      "sics": [
+       "4731"
+      ],
+      "form": "6-K",
+      "adsh": "0001104659-26-106574",
+      "film_num": [
+       "261369822"
+      ],
+      "biz_locations": [
+       "Barcelona, U3"
+      ],
+      "file_type": "EX-99.2",
+      "file_description": "EX-99.2",
+      "inc_states": [
+       "E9"
+      ],
+      "items": []
+     }
+    },
+    {
+     "_index": "edgar_file",
+     "_id": "0001770450-26-000034:ex991xrx630268-ker.htm",
+     "_score": 9.021249,
+     "_source": {
+      "ciks": [
+       "0001770450",
+       "0000108772"
+      ],
+      "period_ending": "2026-07-30",
+      "file_num": [
+       "001-39013",
+       "001-04471"
+      ],
+      "display_names": [
+       "Xerox Holdings Corp  (XRX, XRXDW)  (CIK 0001770450)",
+       "XEROX CORP  (CIK 0000108772)"
+      ],
+      "xsl": null,
+      "sequence": "2",
+      "root_forms": [
+       "8-K"
+      ],
+      "file_date": "2026-07-30",
+      "biz_states": [
+       "CT"
+      ],
+      "sics": [
+       "3577",
+       "3577"
+      ],
+      "form": "8-K",
+      "adsh": "0001770450-26-000034",
+      "film_num": [
+       "261220037",
+       "261220038"
+      ],
+      "biz_locations": [
+       "Norwalk, CT",
+       "Norwalk, CT"
+      ],
+      "file_type": "EX-99.1",
+      "file_description": "EX-99.1",
+      "inc_states": [
+       "CT",
+       "CT"
+      ],
+      "items": [
+       "2.02",
+       "9.01"
+      ]
+     }
+    },
+    {
+     "_index": "edgar_file",
+     "_id": "0001104659-26-106807:dsgx-20260731xex99d1.htm",
+     "_score": 5.6868296,
+     "_source": {
+      "ciks": [
+       "0001050140"
+      ],
+      "period_ending": "2026-07-31",
+      "file_num": [
+       "000-29970"
+      ],
+      "display_names": [
+       "DESCARTES SYSTEMS GROUP INC  (DSGX)  (CIK 0001050140)"
+      ],
+      "xsl": null,
+      "sequence": "2",
+      "root_forms": [
+       "6-K"
+      ],
+      "file_date": "2026-09-11",
+      "biz_states": [
+       "A6"
+      ],
+      "sics": [
+       "7372"
+      ],
+      "form": "6-K",
+      "adsh": "0001104659-26-106807",
+      "film_num": [
+       "261372324"
+      ],
+      "biz_locations": [
+       "Waterloo, A6"
+      ],
+      "file_type": "EX-99.1",
+      "file_description": "EXHIBIT 99.1",
+      "inc_states": [
+       "A6"
+      ],
+      "items": []
+     }
+    }
+   ]
+  },
+  "aggregations": {
+   "entity_filter": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "AKZO NOBEL NV  (AKZOF, AKZOY)  (CIK 0000003124)",
+      "doc_count": 1
+     },
+     {
+      "key": "DESCARTES SYSTEMS GROUP INC  (DSGX)  (CIK 0001050140)",
+      "doc_count": 1
+     },
+     {
+      "key": "Freightos Ltd  (CRGO, CRGOW)  (CIK 0001927719)",
+      "doc_count": 1
+     },
+     {
+      "key": "Latch, Inc.  (LTCH)  (CIK 0001826000)",
+      "doc_count": 1
+     },
+     {
+      "key": "NIQ Global Intelligence plc  (NIQ)  (CIK 0002054696)",
+      "doc_count": 1
+     },
+     {
+      "key": "SOPHiA GENETICS SA  (SOPH)  (CIK 0001840706)",
+      "doc_count": 1
+     },
+     {
+      "key": "Sprout Social, Inc.  (SPT)  (CIK 0001517375)",
+      "doc_count": 1
+     },
+     {
+      "key": "XEROX CORP  (CIK 0000108772)",
+      "doc_count": 1
+     },
+     {
+      "key": "Xerox Holdings Corp  (XRX, XRXDW)  (CIK 0001770450)",
+      "doc_count": 1
+     }
+    ]
+   },
+   "sic_filter": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "7372",
+      "doc_count": 2
+     },
+     {
+      "key": "2800",
+      "doc_count": 1
+     },
+     {
+      "key": "3577",
+      "doc_count": 1
+     },
+     {
+      "key": "4731",
+      "doc_count": 1
+     },
+     {
+      "key": "5072",
+      "doc_count": 1
+     },
+     {
+      "key": "7370",
+      "doc_count": 1
+     },
+     {
+      "key": "7374",
+      "doc_count": 1
+     }
+    ]
+   },
+   "biz_states_filter": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "IL",
+      "doc_count": 2
+     },
+     {
+      "key": "A6",
+      "doc_count": 1
+     },
+     {
+      "key": "CT",
+      "doc_count": 1
+     },
+     {
+      "key": "MO",
+      "doc_count": 1
+     },
+     {
+      "key": "U3",
+      "doc_count": 1
+     },
+     {
+      "key": "V8",
+      "doc_count": 1
+     }
+    ]
+   },
+   "form_filter": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "6-K",
+      "doc_count": 4
+     },
+     {
+      "key": "8-K",
+      "doc_count": 4
+     }
+    ]
+   }
+  },
+  "query": {
+   "_source": {
+    "exclude": [
+     "doc_text"
+    ]
+   },
+   "query": {
+    "bool": {
+     "must": [
+      {
+       "match_phrase": {
+        "doc_text": "automation"
+       }
+      },
+      {
+       "match_phrase": {
+        "doc_text": "workforce reduction"
+       }
+      }
+     ],
+     "must_not": [],
+     "should": [],
+     "filter": [
+      {
+       "terms": {
+        "root_forms": [
+         "8-K",
+         "6-K"
+        ]
+       }
+      },
+      {
+       "range": {
+        "file_date": {
+         "gte": "2026-07-29",
+         "lte": "2026-10-27"
+        }
+       }
+      }
+     ]
+    }
+   },
+   "from": 0,
+   "size": 100,
+   "aggregations": {
+    "form_filter": {
+     "terms": {
+      "field": "root_forms",
+      "size": 30
+     }
+    },
+    "entity_filter": {
+     "terms": {
+      "field": "display_names.raw",
+      "size": 30
+     }
+    },
+    "sic_filter": {
+     "terms": {
+      "field": "sics",
+      "size": 30
+     }
+    },
+    "biz_states_filter": {
+     "terms": {
+      "field": "biz_states",
+      "size": 30
+     }
+    }
+   }
+  }
+ }
+}

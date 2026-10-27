@@ -1,0 +1,37 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1">
+<title>Seismograph record</title><style>
+:root{--bg:#f7f5f0;--fg:#1d1b17;--muted:#6b665c;--card:#fff;--line:#e3ded3;--ex:#b42318;--pa:#b54708;--no:#475467;--accent:#0b5cad}
+@media (prefers-color-scheme:dark){:root{--bg:#16140f;--fg:#ece7dc;--muted:#a39d90;--card:#201d17;--line:#38332a;--ex:#f97066;--pa:#fdb022;--no:#98a2b3;--accent:#7cb4ff}}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.5 system-ui,-apple-system,Segoe UI,sans-serif}
+main{max-width:880px;margin:0 auto;padding:32px 16px} h1{font-size:28px;margin:0 0 4px} .muted,.meta{color:var(--muted)}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:24px 0}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px} .stat b{display:block;font-size:26px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px;margin:14px 0}
+.card header{display:flex;justify-content:space-between;gap:12px;align-items:center} .card h3{margin:0;font-size:19px}
+.tag{font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.04em;padding:3px 8px;border-radius:99px;border:1px solid}
+.explicit{color:var(--ex)} .partial{color:var(--pa)} .none{color:var(--no)}
+blockquote{margin:12px 0;padding:8px 14px;border-left:3px solid var(--line);font-family:Georgia,serif}
+a{color:var(--accent)} .src{font-size:14px} .flags{font-size:14px;color:var(--muted);margin:8px 0 0;padding-left:18px}
+footer{font-size:13px;color:var(--muted);margin-top:32px;border-top:1px solid var(--line);padding-top:16px}
+</style></head><body><main>
+<h1>Seismograph: AI-attributed job cuts, in employers' own words</h1>
+<p class=muted>Live run · generated 2026-10-27 07:29 UTC. Each entry quotes the employer verbatim and links the filing it came from. The labels describe what the employer said, not whether AI caused the cuts.</p>
+<section class=stats>
+<div class=stat><b>1</b>published records</div>
+<div class=stat><b>0</b>employer says AI is a reason</div>
+<div class=stat><b>0</b>jobs stated in those filings</div>
+<div class=stat><b>0</b>awaiting editor review</div>
+<div class=stat><b>0</b>held back by the checks</div>
+<div class=stat><b>2</b>rejected by the editor</div>
+</section>
+
+<article class=card>
+  <header><h3>Latch, Inc.</h3><span class="tag partial">partial</span></header>
+  <p class=meta>2026-08-10 · workforce reduction</p>
+  <blockquote>&ldquo;By embedding AI across software development, customer support, and our internal operations, we have built a leaner, more efficient organization that is expected to continue delivering innovative products for our customers.&rdquo;</blockquote>
+  <p class=src>Source: <a href="https://www.sec.gov/Archives/edgar/data/1826000/000182600026000050/tmb-20260810xex99d1.htm">EX-99.1</a> · No WARN notice matched</p>
+  <ul class=flags><li>No gaps flagged</li></ul>
+</article>
+<footer>Published only when the quote matched the source verbatim, the Judge agent passed it and a human editor approved it.
+Data: SEC EDGAR filings; WARN notices via Big Local News warn-scraper (states loaded only). Built for the Open Agent Hackathon 2026.</footer>
+</main></body></html>

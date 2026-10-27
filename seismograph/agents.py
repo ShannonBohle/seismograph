@@ -162,6 +162,12 @@ class Scout:
                 seen.add(doc_id)
                 out.append(Candidate(h["accession"], h["cik"], h["company"], h["form"] or "", h["file_date"] or "",
                                      h["items"], doc_id, h["url"], h["file_type"] or h["form"] or ""))
+        replay = getattr(self.edgar, "replay", None)
+        if replay is not None and replay.sample_mode:  # replay only documents that a live run recorded
+            recorded = [c for c in out if replay.has("sec_doc", {"url": c.url})]
+            self.log.log("Scout", "sample_filter", output_summary=f"{len(recorded)} of {len(out)} candidates have "
+                         "recorded documents in data/sample/")
+            out = recorded
         out = out[:max_docs]
         self.log.log("Scout", "handoff", output_summary=f"{len(out)} new documents to fetch", target_agent="Extractor",
                      skipped_known=len(known))

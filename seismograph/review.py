@@ -16,6 +16,13 @@ from .agents import MemorySteward
 PUBLISHABLE_SQL = ("status = 'approved' AND judge_verdict = 'pass' AND quote_verified = {true}")
 
 
+def out_dir(ctx) -> Path:
+    """Live results go to out/; SAMPLE_MODE results go to out/sample/ so they never overwrite live ones."""
+    out = ctx.settings.out_dir / "sample" if ctx.settings.sample_mode else ctx.settings.out_dir
+    out.mkdir(parents=True, exist_ok=True)
+    return out
+
+
 def pending(ctx) -> list[dict]:
     return ctx.store.fetch("SELECT * FROM records WHERE status = 'pending_review' ORDER BY created_at")
 
@@ -73,17 +80,19 @@ def publish(ctx) -> dict:
     true = "true"
     rows = z.query(
         f"SELECT record_id, company, cik, event_date, jobs_cut, jobs_cut_text, ai_attribution, ai_quote, source_url, "
-        f"doc_type, judge_model, extractor_model, warn_match, gap_flags, supersedes, reviewed_at "
+        f"doc_type, judge_model, extractor_model, warn_match, gap_flags, supersedes, memory_id, reviewed_at "
         f"FROM {z.t('records')} WHERE {PUBLISHABLE_SQL.format(true=true)} ORDER BY event_date DESC",
         agent="Publisher", purpose="approved, verified records for the public record")
-    out = ctx.settings.out_dir
-    out.mkdir(parents=True, exist_ok=True)
+    out = out_dir(ctx)
+    superseded = {r.get("supersedes") for r in rows if r.get("supersedes")}
     for r in rows:
         for k in ("warn_match", "gap_flags"):
             try:
                 r[k] = json.loads(r.get(k) or "[]")
             except (TypeError, ValueError):
                 r[k] = []
+        if r.get("memory_id") and r["memory_id"] in superseded:
+            r["gap_flags"].insert(0, "Superseded: a later record for the same event adds detail (see the other entry)")
     (out / "records.json").write_text(json.dumps(rows, indent=1, default=str, ensure_ascii=False), encoding="utf-8")
     with (out / "records.csv").open("w", newline="", encoding="utf-8") as fh:
         cols = ["record_id", "company", "event_date", "jobs_cut", "jobs_cut_text", "ai_attribution", "ai_quote",
@@ -96,7 +105,7 @@ def publish(ctx) -> dict:
         f"SELECT status, judge_verdict, ai_attribution, COUNT(*) AS n FROM {z.t('records')} "
         f"GROUP BY status, judge_verdict, ai_attribution", agent="Publisher", purpose="pipeline totals for the report")
     (out / "index.html").write_text(render(rows, totals, ctx), encoding="utf-8")
-    ctx.log.log("Publisher", "publish", output_summary=f"{len(rows)} records -> out/index.html, records.json, records.csv")
+    ctx.log.log("Publisher", "publish", output_summary=f"{len(rows)} records -> {out}/index.html, records.json, records.csv")
     return {"published": len(rows)}
 
 
@@ -181,7 +190,6 @@ def evaluate(ctx) -> dict:
         result = {"n": n, "accuracy": round(agree, 3), "cohens_kappa": None if kappa != kappa else round(kappa, 3),
                   "judge_pass_but_human_rejected": fp, "judge_fail_but_human_approved": fn, "both_pass": tp}
     ctx.log.log("Evaluator", "judge_vs_human", output_summary=json.dumps(result))
-    out = ctx.settings.out_dir
-    out.mkdir(parents=True, exist_ok=True)
+    out = out_dir(ctx)
     (out / "judge_eval.json").write_text(json.dumps(result, indent=1), encoding="utf-8")
     return result

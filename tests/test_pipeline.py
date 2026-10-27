@@ -195,3 +195,17 @@ def test_boilerplate_is_not_an_announcement():
                     "cut_quote": "the effectiveness of our restructuring and workforce reduction program"})
     problems = Verifier(TraceLog(pathlib.Path(tempfile.mkdtemp()), echo=False)).check(d, BOILERPLATE_FILING, retry=0)
     assert any("boilerplate" in p for p in problems)
+
+
+def test_replay_matches_on_another_day_and_model(tmp_path):
+    from seismograph.replay import Replay
+    import os
+    os.environ["RECORD_SAMPLE"] = "true"
+    live = Replay(tmp_path, sample_mode=False)
+    live.save("sec_search", {"q": "x", "forms": "8-K", "dateRange": "custom", "startdt": "2026-07-01", "enddt": "2026-10-01"}, {"hits": 1})
+    live.save("nightshift", {"model": "nvidia/a", "system": "S", "user": "U\nWhat memory already holds: one"}, {"text": "{}"})
+    os.environ.pop("RECORD_SAMPLE")
+    sample = Replay(tmp_path, sample_mode=True)
+    assert sample.load("sec_search", {"q": "x", "forms": "8-K", "dateRange": "custom", "startdt": "2026-09-01", "enddt": "2026-12-01"}) == {"hits": 1}
+    assert sample.load("nightshift", {"model": "meterless/auto", "system": "S", "user": "U\nWhat memory already holds: none"}) == {"text": "{}"}
+    assert not sample.has("nightshift", {"model": "m", "system": "other", "user": "U"})

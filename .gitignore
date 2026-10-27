@@ -8,3 +8,4 @@ logs/
 data/hmem.sqlite
 out/*.sqlite
 warn/
+out/sample/

@@ -12,6 +12,7 @@ from datetime import date, timedelta
 
 from .agents import (Candidate, Corroborator, Draft, Extractor, Judge, MemorySteward, ModelCaller, Scout,
                      Verifier)
+from .replay import SampleMissing
 from .store import norm_company
 
 MAX_RETRIES = 2
@@ -44,6 +45,11 @@ class Pipeline:
             stats["documents"] += 1
             try:
                 outcome = self.process(c)
+            except SampleMissing as exc:  # sample mode only: this document's model answers were not recorded
+                self.log.log("Pipeline", "not_in_sample", status="skipped", input_summary=c.doc_id,
+                             output_summary=str(exc)[:200])
+                stats["not_in_sample"] = stats.get("not_in_sample", 0) + 1
+                continue
             except Exception as exc:  # keep going; the failure is in the log
                 self.log.log("Pipeline", "document_failed", status="failure", input_summary=c.doc_id,
                              output_summary=f"{type(exc).__name__}: {exc}"[:300])
@@ -73,6 +79,8 @@ class Pipeline:
                 continue
             try:
                 verdict = self.judge.review(draft, c, text, self.memory.describe(recalled), retry=attempt)
+            except SampleMissing:
+                raise
             except Exception as exc:  # Judge unreachable after provider retries: hold the record back
                 verdict = {"verdict": "not_reached", "critique": f"Judge unavailable: {exc}"[:300], "model": None}
                 self.log.log("Judge", "verdict", status="failure", output_summary=verdict["critique"],

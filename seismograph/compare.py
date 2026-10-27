@@ -111,7 +111,7 @@ def _body(result: dict) -> str:
                      f"<td>{r['jobs_stated']:,}</td><td>{r['outcomes_reported']}</td>"
                      f"<td>{r['savings_achieved']} / {r['savings_expected']}</td><td>{r['problems_or_reversals']}</td>"
                      f"<td class=muted>{escape(r['public_regulator_layoff_notices'])}</td></tr>")
-    return (f"<h1>Country comparison: what employers disclosed</h1>"
+    return (""
             f"<div class=note><b>Read this first.</b> {escape(result['caveat'])}</div>"
             f"<div style='overflow-x:auto'><table>{head}{''.join(cells)}</table></div>"
             "<p class=muted>Country: business-address country for SEC filers; listing market for announcements from the FCA "

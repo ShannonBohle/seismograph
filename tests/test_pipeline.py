@@ -434,3 +434,10 @@ def test_postgres_statements_without_params_keep_like_patterns():
     assert any("LIKE '%SAFETY:%'" in a[0] for a in calls)
     st.execute("SELECT 1 WHERE x = %s", [1])
     assert calls[-1] == ("SELECT 1 WHERE x = %s", [1])
+
+
+def test_secondary_pages_get_the_site_navigation():
+    from seismograph.review import brand
+    page = brand("<html><head><title>x</title></head><body><main>x</main></body></html>", "countries.html")
+    assert "class=brandbar" in page and 'href="index.html#record"' in page and '<a class=on href="countries.html">' in page
+    assert brand(page, "countries.html") == page

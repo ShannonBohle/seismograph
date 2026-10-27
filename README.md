@@ -227,7 +227,7 @@ WARN data: `python -m seismograph warn-all` runs warn-scraper for every state an
 .\.venv\Scripts\python -m seismograph evaluate                       # Judge vs editor agreement (Cohen's kappa)
 .\.venv\Scripts\python -m seismograph memory                         # H-MEM memories and ledger size
 .\.venv\Scripts\python -m seismograph schedule-daily --time 06:30    # Windows Task Scheduler: every step daily, then push the pages
-.\.venv\Scripts\python -m pytest -q                                  # 29 tests
+.\.venv\Scripts\python -m pytest -q                                  # 30 tests
 ```
 
 **Daily run.** `schedule-daily` registers a Windows scheduled task that runs every step above once a day (WARN, SEC, 20-F, UK, spenders, outcomes, playbook, scorecard, publish), then commits and pushes only the generated pages (`docs/`, `out/`) so GitHub Pages serves the public record. It runs on the host machine, so that machine must be on with Docker, Zetaris and Nightshift running. New records still wait for the editor; the daily run never approves anything.

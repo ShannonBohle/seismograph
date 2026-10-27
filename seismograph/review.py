@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import csv
 import json
+import re
 from datetime import datetime, timezone
 from html import escape
 from pathlib import Path
@@ -129,6 +130,36 @@ def publish(ctx) -> dict:
             "record_gaps": gaps["record_counts"]}
 
 
+
+BRAND_HEAD = """<link rel=preconnect href="https://fonts.googleapis.com"><link rel=preconnect href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Public+Sans:wght@400;600;700&display=swap" rel=stylesheet>
+<style>
+:root{--bg:#F6F3EC;--fg:#1B1F2A;--muted:#5d6370;--card:#FFFDF8;--line:#D8D2C4;--accent:#1D4E89}
+@media (prefers-color-scheme:dark){:root{--bg:#12151c;--fg:#ECE7DC;--muted:#a4a9b4;--card:#1b1f29;--line:#323847;--accent:#7cb4ff}}
+body{font-family:'Public Sans',system-ui,sans-serif!important}
+h1{font-family:'Libre Baskerville',Georgia,serif;font-size:clamp(26px,4vw,40px)!important;line-height:1.15}
+q,blockquote{font-family:'Libre Baskerville',Georgia,serif}
+.brandbar{background:#1B1F2A;color:#F6F3EC;padding:14px 0}
+.brandbar .in{max-width:1180px;margin:0 auto;padding:0 16px;display:flex;flex-wrap:wrap;align-items:center;gap:10px 18px}
+.brandbar a.home{display:flex;align-items:center;gap:8px;color:#F6F3EC;text-decoration:none;font:700 22px 'Libre Baskerville',Georgia,serif}
+.brandbar a.home b{color:#E8A27C} .brandbar svg{height:26px;flex:none}
+.brandbar nav{display:flex;flex-wrap:wrap;gap:6px} .brandbar nav a{color:#F6F3EC;text-decoration:none;border:1px solid #4a5163;border-radius:99px;padding:4px 12px;font-size:13px}
+.brandbar nav a:hover{background:#2b3140} .brandbar nav a.on{background:#F6F3EC;color:#1B1F2A;border-color:#F6F3EC}
+</style>"""
+
+BRAND_BAR = """<div class=brandbar><div class=in><a class=home href="index.html"><svg viewBox="0 0 90 60" width="40" aria-hidden=true><polyline fill=none stroke="#C2410C" stroke-width=4 stroke-linejoin=round points="0,32 30,32 38,14 46,50 54,6 62,44 70,32 90,32"/></svg><span><b>AI</b> Seismograph</span></a>
+<nav><a href="index.html#picture">Big picture</a><a href="index.html#record">The record</a><a href="countries.html">Countries</a><a href="playbook.html">What happened next</a><a href="scorecard-2026Q3.html">Scorecard</a><a href="spenders.html">Big spenders</a><a href="records.csv">Download CSV</a><a href="https://github.com/ShannonBohle/seismograph">Code &amp; method</a></nav></div></div>"""
+
+
+def brand(html: str, name: str = "") -> str:
+    """Give the secondary pages the main page's header, navigation, fonts and colours (site copy only)."""
+    if "class=brandbar" in html:
+        return html
+    bar = BRAND_BAR.replace(f'<a href="{name}">', f'<a class=on href="{name}">') if name else BRAND_BAR
+    html = html.replace("</head>", BRAND_HEAD + "</head>", 1)
+    return re.sub(r"<body([^>]*)>", lambda m: m.group(0) + bar, html, count=1)
+
+
 def copy_to_site(ctx, out: Path) -> Path | None:
     """Live runs only: copy the published pages to docs/, which GitHub Pages serves."""
     if ctx.settings.sample_mode:
@@ -138,7 +169,10 @@ def copy_to_site(ctx, out: Path) -> Path | None:
     site.mkdir(exist_ok=True)
     for f in out.iterdir():
         if f.is_file() and f.suffix in (".html", ".json", ".csv"):
-            shutil.copy2(f, site / f.name)
+            if f.suffix == ".html" and f.name != "index.html":
+                (site / f.name).write_text(brand(f.read_text(encoding="utf-8"), f.name), encoding="utf-8")
+            else:
+                shutil.copy2(f, site / f.name)
     (site / ".nojekyll").write_text("", encoding="utf-8")
     return site
 

@@ -144,7 +144,8 @@ q,blockquote{font-family:'Libre Baskerville',Georgia,serif}
 .brandbar a.home{display:flex;align-items:center;gap:8px;color:#F6F3EC;text-decoration:none;font:700 22px 'Libre Baskerville',Georgia,serif}
 .brandbar a.home b{color:#F5C542} .brandbar svg{height:26px;flex:none}
 .brandbar nav{display:flex;flex-wrap:wrap;gap:6px} .brandbar nav a{color:#F6F3EC;text-decoration:none;border:1px solid #4a5163;border-radius:99px;padding:4px 12px;font-size:13px}
-.brandbar nav a:hover{background:#2b3140} .brandbar nav a.on{background:#F6F3EC;color:#1B1F2A;border-color:#F6F3EC}
+.brandbar nav a:hover{background:#2b3140}
+main table{display:block!important;width:auto!important;max-width:100%!important;overflow-x:auto!important;min-width:0!important} img{max-width:100%;height:auto} .brandbar nav a.on{background:#F6F3EC;color:#1B1F2A;border-color:#F6F3EC}
 </style>"""
 
 BRAND_BAR = """<div class=brandbar><div class=in><a class=home href="index.html"><svg viewBox="0 0 90 60" width="40" aria-hidden=true><polyline fill=none stroke="#C2410C" stroke-width=4 stroke-linejoin=round points="0,32 30,32 38,14 46,50 54,6 62,44 70,32 90,32"/></svg><span><b>AI</b> Seismograph</span></a>
@@ -273,7 +274,7 @@ def render(rows: list[dict], totals: list[dict], ctx, gaps: dict | None = None) 
 *{{box-sizing:border-box}} body{{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 'Public Sans',system-ui,sans-serif}}
 a{{color:var(--accent)}} .wrap{{max-width:1120px;margin:0 auto;padding:0 16px}}
 .hero{{background:var(--hero);color:var(--herofg);padding:28px 0 96px}}
-.logo{{display:flex;align-items:center;margin:6px 0 8px -8px;max-width:100%;overflow:hidden}} .tag{{font-family:'Libre Baskerville',Georgia,serif;font-style:italic;font-size:clamp(20px,2.6vw,28px);color:var(--peach);margin:0 0 10px}} .logo h1{{margin:0 10px}} .logo .ai{{color:#F5C542}}.logo svg{{height:clamp(40px,6vw,64px);flex:none}} .logo .l{{width:clamp(50px,7vw,90px)}} .logo .r{{width:clamp(90px,13vw,170px)}}.logo polyline{{fill:none;stroke:#C2410C;stroke-width:3;stroke-linejoin:round;stroke-linecap:round;stroke-dasharray:400;stroke-dashoffset:400;animation:draw 1.6s ease-out forwards}}.logo .r polyline{{animation-delay:.5s}} .nav{{margin-top:22px}}
+.logo{{display:flex;align-items:center;margin:6px 0 8px -8px;max-width:100%;overflow:hidden}} .tag{{font-family:'Libre Baskerville',Georgia,serif;font-style:italic;font-size:clamp(20px,2.6vw,28px);color:var(--peach);margin:0 0 10px}} .logo h1{{margin:0 10px;white-space:nowrap;font-size:clamp(28px,7.5vw,64px)}} .logo .ai{{color:#F5C542}}.logo svg{{height:clamp(40px,6vw,64px);flex:none}} .logo .l{{width:clamp(50px,7vw,90px)}} .logo .r{{width:clamp(90px,13vw,170px)}}.logo polyline{{fill:none;stroke:#C2410C;stroke-width:3;stroke-linejoin:round;stroke-linecap:round;stroke-dasharray:400;stroke-dashoffset:400;animation:draw 1.6s ease-out forwards}}.logo .r polyline{{animation-delay:.5s}} .nav{{margin-top:22px}}
 
 @keyframes draw{{to{{stroke-dashoffset:0}}}} @media (prefers-reduced-motion:reduce){{.logo polyline{{animation:none;stroke-dashoffset:0}}}}
 .kicker{{font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:var(--peach);font-weight:700}}
@@ -281,7 +282,7 @@ h1{{font-family:'Libre Baskerville',Georgia,serif;font-size:clamp(34px,6vw,64px)
 .sub{{max-width:760px;color:#d9d4c7;font-size:18px;margin:0}}
 .nav{{display:flex;flex-wrap:wrap;gap:8px;position:relative}} .nav a{{color:var(--herofg);text-decoration:none;border:1px solid #4a5163;border-radius:99px;padding:6px 14px;font-size:14px}}
 .nav a:hover{{background:#2b3140}}
-.bigs{{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin:-64px 0 0;position:relative}}
+.bigs{{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(240px,100%),1fr));gap:16px;margin:-64px 0 0;position:relative}}
 .big{{background:var(--card);color:var(--fg);border:1px solid var(--line);border-radius:16px;padding:20px 22px;box-shadow:0 8px 24px rgba(0,0,0,.08)}}
 .big .num{{display:block;font-family:'Libre Baskerville',Georgia,serif;font-size:44px;font-weight:700;color:var(--pa);line-height:1.1}}
 .big .num small{{font-size:22px;color:var(--muted)}} .big .cap{{display:block;color:var(--muted);font-size:15px;margin-top:6px}}
@@ -294,7 +295,7 @@ section h2{{font-family:'Libre Baskerville',Georgia,serif;font-size:26px;margin:
 .chip{{font:inherit;font-size:14px;border:1px solid var(--line);background:var(--card);color:var(--fg);border-radius:99px;padding:6px 12px;cursor:pointer}}
 .chip.on{{background:var(--fg);color:var(--bg);border-color:var(--fg)}} .chip b{{opacity:.7;margin-left:4px}}
 input[type=search]{{font:inherit;font-size:15px;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--fg);min-width:220px;flex:1}}
-.grid{{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:16px}}
+.grid{{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(330px,100%),1fr));gap:16px}}
 .card{{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;border-top:5px solid var(--no);display:flex;flex-direction:column}}
 .card.partial{{border-top-color:var(--pa)}} .card.explicit{{border-top-color:var(--ex)}}
 .top{{display:flex;justify-content:space-between;gap:8px;align-items:center;font-size:13px}} .where{{color:var(--muted);text-align:right}}
@@ -306,17 +307,17 @@ blockquote{{font-family:'Libre Baskerville',Georgia,serif;font-size:16px;line-he
 .noai{{color:var(--muted);font-style:italic;margin:8px 0}} .told{{font-size:14px;margin:6px 0}}
 .src{{font-size:13px;color:var(--muted);margin:auto 0 0;padding-top:8px}} .flags{{font-size:13px;color:var(--muted);margin:6px 0 0;padding-left:18px}}
 .empty{{display:none;color:var(--muted)}}
-.stats{{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}}
+.stats{{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(150px,100%),1fr));gap:10px}}
 .stat{{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;font-size:14px;color:var(--muted)}} .stat b{{display:block;font-size:24px;color:var(--fg)}}
-.method{{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;font-size:15px}}
+.method{{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(240px,100%),1fr));gap:14px;font-size:15px}}
 .method div{{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px}} .method b{{display:block;margin-bottom:4px}}
 h3{{font-size:19px;margin:26px 0 10px}} .lede{{font-size:18px;max-width:860px}}
-.ctx,.find{{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}}
+.ctx,.find{{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(240px,100%),1fr));gap:14px}}
 .ctx div,.find div{{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px;font-size:15px}}
 .ctx .num{{display:block;font-family:'Libre Baskerville',Georgia,serif;font-size:30px;font-weight:700;color:var(--no);margin-bottom:6px}}
 .ctx b,.find b{{display:block;margin-bottom:4px}} .ctx small{{display:block;color:var(--muted);font-size:12px;margin-top:8px}}
 .find div{{border-left:5px solid var(--pa)}}
-.two{{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:20px}} .two ul,.trends{{padding-left:20px;font-size:15px}} .two li,.trends li{{margin:6px 0}}
+.two{{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(320px,100%),1fr));gap:20px}} .two ul,.trends{{padding-left:20px;font-size:15px}} .two li,.trends li{{margin:6px 0}}
 footer{{font-size:13px;color:var(--muted);margin:40px 0;border-top:1px solid var(--line);padding-top:16px}}
 </style></head><body>
 <header class=hero><div class=wrap>
@@ -339,7 +340,7 @@ footer{{font-size:13px;color:var(--muted);margin:40px 0;border-top:1px solid var
 {BIG_PICTURE_CONTEXT}
 <h3>What this record shows so far</h3>
 <div class=find>
-<div><b>AI is named beside the cuts, never as the reason.</b> Of {len(rows)} published records, {by_label['partial']} put AI next to the cuts (for example “transformation enabled by AI”), {by_label['none']} make no AI link, and {by_label['explicit']} say AI did the work of the people cut.</div>
+<div><b>AI is primarily named beside the cuts, not as the reason.</b> Of {len(rows)} published records, {by_label['partial']} put AI next to the cuts (for example “transformation enabled by AI”), {by_label['none']} make no AI link, and {by_label['explicit']} say AI did the work of the people cut.</div>
 <div><b>Investors hear it; layoff notices don't.</b> {n_linked} {'employer' if n_linked == 1 else 'employers'} linked cuts to AI in shareholder filings; {'none has' if n_nowarn == n_linked else str(n_linked - n_nowarn) + ' have'} a matching US WARN notice. Across {n_reason_s} WARN notices that give a reason, {n_ai_s} cite AI.</div>
 {erm_find}
 <div><b>Small numbers, now measurable.</b> These counts come from the first days of runs. The point is that what employers say, and to whom, can now be checked and counted every day.</div>

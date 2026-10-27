@@ -4,16 +4,16 @@
   "2026-07-01",
   "2026-09-30"
  ],
- "published": 6,
- "pending_review": 0,
- "rejected": 3,
+ "published": 7,
+ "pending_review": 1,
+ "rejected": 4,
  "by_label": {
   "explicit": 0,
   "partial": 4,
-  "none": 2
+  "none": 3
  },
  "jobs_stated": 65,
- "judge_editor_agreement": "6/9",
+ "judge_editor_agreement": "7/11",
  "companies_with_reported_outcomes": [
   "Latch, Inc.",
   "NIQ Global Intelligence plc",
@@ -103,6 +103,20 @@
    "status": "approved",
    "judge_verdict": "pass",
    "reviewer_note": "Real 1.2% like-for-like headcount reduction (cost control) plus redundancies in restructuring costs. Automation appears only as a product line. None is correct."
+  },
+  {
+   "record_id": "rec_48226fabc925",
+   "cik": "AMF:969500ZX35JFNKB6H637",
+   "company": "VOLTZ",
+   "event_date": "2026-09-09",
+   "jobs_cut": null,
+   "jobs_cut_text": null,
+   "ai_attribution": "none",
+   "ai_quote": null,
+   "source_url": "https://fr.ftp.opendatasoft.com/datadila/INFOFI/ACT/2026/09/FCACT081269_20260909.pdf",
+   "status": "approved",
+   "judge_verdict": "pass",
+   "reviewer_note": "checked source: restructuring and job-protection plan, number not stated; no AI link"
   }
  ]
 }

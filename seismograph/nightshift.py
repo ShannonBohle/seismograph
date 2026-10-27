@@ -1,4 +1,4 @@
-"""Meterless Nightshift client: the product's primary (and only) AI provider.
+"""Meterless Nightshift client: the model provider for every call the agent makes at run time.
 
 Follows the Meterless Runtime provider contract
 (https://github.com/Meterless/Meterless/blob/main/docs/agent-ready/add-meterless-provider.md):

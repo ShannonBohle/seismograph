@@ -36,7 +36,7 @@ class Settings:
     zetaris_db: str  # Zetaris name of the registered evidence-store datasource
     # Evidence store (PostgreSQL that Zetaris federates)
     pg_dsn: str
-    # Meterless Nightshift (primary AI provider)
+    # Meterless Nightshift (the agent's model provider at run time)
     meterless_base_url: str
     meterless_token: str
     meterless_app: str

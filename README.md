@@ -68,7 +68,7 @@ Every run writes `logs/run-<id>.jsonl`. Each line has `timestamp`, `agent_name`,
 
 ## AI and model usage
 
-**Models (through Meterless Nightshift, the only AI provider the product calls):**
+**Models (every model call the agent makes while running goes through Meterless Nightshift):**
 - Extractor and Judge: `nvidia/nemotron-3-ultra-550b-a55b`, pinned by name in `EXTRACTOR_MODEL` and `JUDGE_MODEL`, with `REQUIRE_NEMOTRON=true` so the agent refuses any answer Nightshift did not serve with a Nemotron model. The two roles have separate prompts; the Verifier's verbatim checks do not depend on any model.
 - We first assigned `nvidia/nemotron-3.5-lightning-30b-a3b` to the Extractor (a faster model in its own lane). Through Nightshift it returned empty responses on every call in one run; the agent retried, logged each failure and skipped the documents without creating records. The Extractor was then moved to Ultra.
 - In the very first run the models were left on `meterless/auto`, which routed calls to `nemotron-3.5-bolt-e4b`, Lightning and Ultra; the logs record which one answered each call.
@@ -76,10 +76,10 @@ Every run writes `logs/run-<id>.jsonl`. Each line has `timestamp`, `agent_name`,
 **Sponsor technology:**
 - **Zetaris**: the data layer. The evidence store (PostgreSQL) is registered in Zetaris as the datasource `seismo_pg` (`sql/02_zetaris_register.sql`). Scout, Extractor, Corroborator, Publisher and Evaluator read everything through Zetaris SQL (`POST /api/proxy/sql-editor/sqls/run-query`), including the cross-source WARN and same-filing checks.
 - **Meterless Engine: H-MEM**, implemented in Python in `seismograph/hmem/memory.py` from the engine spec. It powers recall, duplicate and supersession detection, and learning from the editor's decisions (approve = `helpful` +0.05 and promotion to `long_term`; reject = `wrong` −0.20 and a `review` tag), with an append-only trust ledger. **Test:** `tests/test_hmem_conformance.py` runs the engine's own conformance vectors (11 checks across record validation, feedback deltas, ranking order, conflict gate and ledger audit, all passing). The sleep-cycle and dreaming sections are not implemented. `tests/test_pipeline.py` tests H-MEM inside the product.
-- **Meterless Nightshift**: the primary AI provider, implemented to the Meterless Runtime provider contract (`seismograph/nightshift.py`): normalised `/v1` base URL, bearer token from Nightshift's `proxy-token`, `meterless-app: seismograph` and `meterless-scope: user` headers, 180 s timeout, and `GET /v1/models` as the status check.
+- **Meterless Nightshift**: the agent's model provider at run time, implemented to the Meterless Runtime provider contract (`seismograph/nightshift.py`): normalised `/v1` base URL, bearer token from Nightshift's `proxy-token`, `meterless-app: seismograph` and `meterless-scope: user` headers, 180 s timeout, and `GET /v1/models` as the status check.
 - **NVIDIA**: Nemotron 3 Ultra, reached through Nightshift's NVIDIA provider (the NVIDIA key lives in Nightshift, not in this project), runs the Extractor and the Judge.
 
-**Development tools:** Built with Claude (Anthropic) as the AI coding assistant, for scaffolding, code, tests and documentation. Cursor was not used. All code was reviewed and tested by the author.
+**Development tools:** Built with Claude (Anthropic) as the AI coding assistant, for design, code, tests, debugging and documentation, including this README and the slide deck. The earlier jobs-tracker dashboard this project builds on (see Pre-existing work) was also built with Claude. Cursor was not used. All code was reviewed and tested by the author.
 
 **Agent framework:** none; a small custom orchestrator (`seismograph/pipeline.py`).
 
@@ -152,7 +152,7 @@ Sample mode replays the SEC and Nightshift responses recorded during the live ru
 
 ## Pre-existing work (declared)
 
-The idea and the earlier jobs-tracker dashboard (WARN Act data and a press-claims ledger) predate the build window. This repository's code was written during the build window.
+The idea and an earlier jobs-tracker dashboard (WARN Act data and a press-claims ledger) predate the build window. That earlier dashboard was also built with Claude as the AI coding assistant. It is declared as a pre-existing component in the submission form. This repository's code was written during the build window and does not include the earlier dashboard's code.
 
 ## Third-party code and licences
 

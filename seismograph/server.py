@@ -30,6 +30,8 @@ def handle(payload: dict) -> dict:
     started = time.time()
     ctx = build(echo=False)
     try:
+        if ctx.settings.sample_mode and task in ("ask", "check", "countries", "evaluate"):
+            seed_published(ctx)
         if task == "discover":
             src = payload.get("source", "sec")
             result = Pipeline(ctx).run(days=int(payload.get("days", 30)), forms=payload.get("forms", "8-K,6-K"),
@@ -79,6 +81,34 @@ def app():
 def serve(host: str = "0.0.0.0", port: int = 8000) -> None:
     import uvicorn
     uvicorn.run(app(), host=host, port=port)
+
+
+def seed_published(ctx) -> int:
+    """Sample mode only: load the committed published record (out/records.json) into the local SQLite store, so
+    ask and check answer from the same 12 records the public site shows. Nothing is invented: these rows are the
+    published file, with the editor's approval already recorded in it."""
+    from .store import norm_company
+    if ctx.store.fetch("SELECT COUNT(*) AS n FROM records WHERE status = 'approved'")[0]["n"]:
+        return 0
+    path = ctx.settings.out_dir / "records.json"
+    if not path.exists():
+        return 0
+    rows = json.loads(path.read_text(encoding="utf-8"))
+    for r in rows:
+        ctx.store.upsert("records", {
+            "record_id": r["record_id"], "run_id": "published-record", "company": r["company"],
+            "company_norm": norm_company(r["company"]), "cik": r.get("cik"), "event_date": r.get("event_date"),
+            "jobs_cut": r.get("jobs_cut"), "jobs_cut_text": r.get("jobs_cut_text"),
+            "ai_attribution": r["ai_attribution"], "ai_quote": r.get("ai_quote"), "doc_id": r["record_id"],
+            "source_url": r["source_url"], "doc_type": r.get("doc_type"), "quote_verified": True,
+            "judge_verdict": "pass", "status": "approved",
+            "reviewer_note": "published record, loaded for sample mode"}, "record_id")
+        if r.get("cik"):
+            ctx.store.upsert("issuers", {"issuer_id": str(r["cik"]), "company": r["company"],
+                                         "market": r.get("market") or "", "country": r.get("country"),
+                                         "country_source": "published record"}, "issuer_id")
+    ctx.log.log("API", "sample_seed", output_summary=f"loaded {len(rows)} published records from {path.name}")
+    return len(rows)
 
 
 def run_samples(folder: Path) -> list[str]:

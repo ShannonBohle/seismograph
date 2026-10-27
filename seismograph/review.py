@@ -142,7 +142,7 @@ q,blockquote{font-family:'Libre Baskerville',Georgia,serif}
 .brandbar{background:#1B1F2A;color:#F6F3EC;padding:14px 0}
 .brandbar .in{max-width:1180px;margin:0 auto;padding:0 16px;display:flex;flex-wrap:wrap;align-items:center;gap:10px 18px}
 .brandbar a.home{display:flex;align-items:center;gap:8px;color:#F6F3EC;text-decoration:none;font:700 22px 'Libre Baskerville',Georgia,serif}
-.brandbar a.home b{color:#E8A27C} .brandbar svg{height:26px;flex:none}
+.brandbar a.home b{color:#F5C542} .brandbar svg{height:26px;flex:none}
 .brandbar nav{display:flex;flex-wrap:wrap;gap:6px} .brandbar nav a{color:#F6F3EC;text-decoration:none;border:1px solid #4a5163;border-radius:99px;padding:4px 12px;font-size:13px}
 .brandbar nav a:hover{background:#2b3140} .brandbar nav a.on{background:#F6F3EC;color:#1B1F2A;border-color:#F6F3EC}
 </style>"""
@@ -273,7 +273,7 @@ def render(rows: list[dict], totals: list[dict], ctx, gaps: dict | None = None) 
 *{{box-sizing:border-box}} body{{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 'Public Sans',system-ui,sans-serif}}
 a{{color:var(--accent)}} .wrap{{max-width:1120px;margin:0 auto;padding:0 16px}}
 .hero{{background:var(--hero);color:var(--herofg);padding:28px 0 96px}}
-.logo{{display:flex;align-items:center;margin:6px 0 8px -8px;max-width:100%;overflow:hidden}} .tag{{font-family:'Libre Baskerville',Georgia,serif;font-style:italic;font-size:clamp(20px,2.6vw,28px);color:var(--peach);margin:0 0 10px}} .logo h1{{margin:0 10px}} .logo .ai{{color:var(--peach)}}.logo svg{{height:clamp(40px,6vw,64px);flex:none}} .logo .l{{width:clamp(50px,7vw,90px)}} .logo .r{{width:clamp(90px,13vw,170px)}}.logo polyline{{fill:none;stroke:#C2410C;stroke-width:3;stroke-linejoin:round;stroke-linecap:round;stroke-dasharray:400;stroke-dashoffset:400;animation:draw 1.6s ease-out forwards}}.logo .r polyline{{animation-delay:.5s}} .nav{{margin-top:22px}}
+.logo{{display:flex;align-items:center;margin:6px 0 8px -8px;max-width:100%;overflow:hidden}} .tag{{font-family:'Libre Baskerville',Georgia,serif;font-style:italic;font-size:clamp(20px,2.6vw,28px);color:var(--peach);margin:0 0 10px}} .logo h1{{margin:0 10px}} .logo .ai{{color:#F5C542}}.logo svg{{height:clamp(40px,6vw,64px);flex:none}} .logo .l{{width:clamp(50px,7vw,90px)}} .logo .r{{width:clamp(90px,13vw,170px)}}.logo polyline{{fill:none;stroke:#C2410C;stroke-width:3;stroke-linejoin:round;stroke-linecap:round;stroke-dasharray:400;stroke-dashoffset:400;animation:draw 1.6s ease-out forwards}}.logo .r polyline{{animation-delay:.5s}} .nav{{margin-top:22px}}
 
 @keyframes draw{{to{{stroke-dashoffset:0}}}} @media (prefers-reduced-motion:reduce){{.logo polyline{{animation:none;stroke-dashoffset:0}}}}
 .kicker{{font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:var(--peach);font-weight:700}}

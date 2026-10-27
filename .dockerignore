@@ -5,3 +5,6 @@ out/*.sqlite
 warn/
 __pycache__/
 .git/
+data/hmem.sqlite
+replication/.venv/
+replication/.env

@@ -4,6 +4,17 @@
 
 Open Agent Hackathon 2026 entry by Shannon Bohle (solo). Tracks: *The Agent That Can Explain Why* and *Solving Fragmented Intelligence*.
 
+> **For judges: the five-minute tour**
+>
+> | | |
+> |---|---|
+> | **Live record (updated daily)** | **https://shannonbohle.github.io/seismograph/**: 12 published records from 6 countries, every quote linked to its source, with the big-picture context and filters |
+> | **Headline finding** | 1 of 5,108 US WARN layoff notices that give a reason cites AI, while employers link cuts to AI in shareholder filings ([`out/gap.json`](out/gap.json)) |
+> | **Run it in one command** | `docker build -t seismograph . && docker run --rm -p 8000:8000 seismograph`, then in a second terminal `curl -X POST localhost:8000/run -H "Content-Type: application/json" -d @samples/02_ask.input.json` (on Windows PowerShell use `curl.exe`). No keys needed: it replays the recorded live run ([details](#run-it-in-one-command-judges)) |
+> | **How it was checked** | [Independent replication in Cursor](replication/REPLICATION.md) (it found a real flaw, now disclosed) · [Evaluations](EVALS.md): 31 tests, Judge vs editor 12 of 17, open Judge benchmark · [14 failure modes](FAILURE_MODES.md) |
+> | **Sponsor tech** | Every read through **Zetaris** SQL · every model call through **Meterless Nightshift** to **NVIDIA Nemotron 3 Ultra** · **Meterless H-MEM** memory that learns from the editor ([details](#ai-and-model-usage)) |
+> | **Agent traces** | One JSONL line per agent action: submitted as `seismograph-logs.zip`; a sample run is replayed in `data/sample/` |
+
 ## The problem
 
 Data journalists and labor-market researchers keep hearing that AI is causing layoffs. There is no public record of what employers themselves say about it, and reported framing often goes further than the employer's words. Checking each claim means reading SEC filings, press releases and state WARN notices, which live in different systems, and separating real announcements from legal boilerplate.
@@ -175,10 +186,11 @@ The aim is a trusted data service for AI and work, in the way financial markets 
 
 ```bash
 docker build -t seismograph . && docker run --rm -p 8000:8000 seismograph
+# in a second terminal (Windows PowerShell: curl.exe)
 curl -X POST localhost:8000/run -H "Content-Type: application/json" -d @samples/02_ask.input.json
 ```
 
-The container runs `SAMPLE_MODE=true` with an empty `.env`: it replays the recorded live run, needs no keys, Zetaris or Nightshift, and still runs the real agent logic (verification, memory, Judge loop). `POST /run` takes `{"task": "discover" | "ask" | "check" | "publish" | "countries" | "evaluate", ...}` and returns JSON with the trace path; errors come back as JSON. Three sample inputs and their real outputs are in `samples/`.
+The container runs `SAMPLE_MODE=true` with an empty `.env`: it replays the recorded live run, needs no keys, Zetaris or Nightshift, and still runs the real agent logic (verification, memory, Judge loop). `POST /run` takes `{"task": "discover" | "ask" | "check" | "publish" | "countries" | "evaluate", ...}` and returns JSON with the trace path; errors come back as JSON. Three sample inputs and their real outputs are in `samples/`. In sample mode, `ask` and `check` answer from the published record in `out/records.json`, the same 12 records as the live site.
 
 ## Setup
 
@@ -227,7 +239,7 @@ WARN data: `python -m seismograph warn-all` runs warn-scraper for every state an
 .\.venv\Scripts\python -m seismograph evaluate                       # Judge vs editor agreement (Cohen's kappa)
 .\.venv\Scripts\python -m seismograph memory                         # H-MEM memories and ledger size
 .\.venv\Scripts\python -m seismograph schedule-daily --time 06:30    # Windows Task Scheduler: every step daily, then push the pages
-.\.venv\Scripts\python -m pytest -q                                  # 30 tests
+.\.venv\Scripts\python -m pytest -q                                  # 31 tests
 ```
 
 **Daily run.** `schedule-daily` registers a Windows scheduled task that runs every step above once a day (WARN, SEC, 20-F, UK, spenders, outcomes, playbook, scorecard, publish), then commits and pushes only the generated pages (`docs/`, `out/`) so GitHub Pages serves the public record. It runs on the host machine, so that machine must be on with Docker, Zetaris and Nightshift running. New records still wait for the editor; the daily run never approves anything.

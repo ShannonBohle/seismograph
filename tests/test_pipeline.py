@@ -441,3 +441,20 @@ def test_secondary_pages_get_the_site_navigation():
     page = brand("<html><head><title>x</title></head><body><main>x</main></body></html>", "countries.html")
     assert "class=brandbar" in page and 'href="index.html#record"' in page and '<a class=on href="countries.html">' in page
     assert brand(page, "countries.html") == page
+
+
+def test_sample_mode_ask_answers_from_the_published_record(tmp_path):
+    """Docker/sample mode starts with an empty local store; ask and check must still see the published record."""
+    import json as _json
+    from seismograph import server
+    ctx, _ = make_ctx(tmp_path, [])
+    ctx.settings.sample_mode = True
+    ctx.settings.out_dir.mkdir(parents=True, exist_ok=True)
+    (ctx.settings.out_dir / "records.json").write_text(_json.dumps([{
+        "record_id": "rec_1", "company": "Example Widgets Corp", "cik": "123", "country": "United States",
+        "market": "SEC (US)", "event_date": "2026-03-01", "jobs_cut": 40, "jobs_cut_text": "40 roles",
+        "ai_attribution": "partial", "ai_quote": "AI tools let us run a leaner team", "source_url": "https://x",
+        "doc_type": "8-K"}]), encoding="utf-8")
+    assert server.seed_published(ctx) == 1 and server.seed_published(ctx) == 0
+    rows = ctx.store.fetch("SELECT company, country FROM v_employer_claims")
+    assert rows == [{"company": "Example Widgets Corp", "country": "United States"}]

@@ -1,0 +1,108 @@
+{
+ "quarter": "2026Q3",
+ "window": [
+  "2026-07-01",
+  "2026-09-30"
+ ],
+ "published": 6,
+ "pending_review": 0,
+ "rejected": 3,
+ "by_label": {
+  "explicit": 0,
+  "partial": 4,
+  "none": 2
+ },
+ "jobs_stated": 65,
+ "judge_editor_agreement": "6/9",
+ "companies_with_reported_outcomes": [
+  "Latch, Inc.",
+  "NIQ Global Intelligence plc",
+  "monday.com Ltd."
+ ],
+ "records": [
+  {
+   "record_id": "rec_12acb20e3bee",
+   "cik": "1826000",
+   "company": "Latch, Inc.",
+   "event_date": "2026-08-10",
+   "jobs_cut": null,
+   "jobs_cut_text": "workforce reduction",
+   "ai_attribution": "partial",
+   "ai_quote": "By embedding AI across software development, customer support, and our internal operations, we have built a leaner, more efficient organization that is expected to continue delivering innovative products for our customers.",
+   "source_url": "https://www.sec.gov/Archives/edgar/data/1826000/000182600026000050/tmb-20260810xex99d1.htm",
+   "status": "approved",
+   "judge_verdict": "pass",
+   "reviewer_note": "CEO links AI to a leaner organization right after announcing cost cuts made through a workforce reduction; no explicit statement that AI caused the cuts, so partial."
+  },
+  {
+   "record_id": "rec_10ba9dd832c6",
+   "cik": "1826000",
+   "company": "Latch, Inc.",
+   "event_date": "2026-08-05",
+   "jobs_cut": "65",
+   "jobs_cut_text": "The restructuring plan eliminates approximately 65 roles globally.",
+   "ai_attribution": "partial",
+   "ai_quote": "We've embedded AI across software development, customer support, and our internal systems, and the result is a company that can design, build, and ship with a substantially leaner organization.",
+   "source_url": "https://www.sec.gov/Archives/edgar/data/1826000/000110465926091071/tm2622239d1_ex99-1.htm",
+   "status": "approved",
+   "judge_verdict": "pass",
+   "reviewer_note": "Restructuring announcement eliminating ~65 roles; CEO says embedding AI resulted in a substantially leaner organization. Close to explicit but no direct causal statement, so partial. Supersedes the 10 Aug record (adds headcount)."
+  },
+  {
+   "record_id": "rec_67da24882607",
+   "cik": "1816431",
+   "company": "Quantum-Si Inc",
+   "event_date": "2026-08-13",
+   "jobs_cut": null,
+   "jobs_cut_text": "approximately 20% of the Company\u2019s workforce",
+   "ai_attribution": "none",
+   "ai_quote": null,
+   "source_url": "https://www.sec.gov/Archives/edgar/data/1816431/000181643126000053/qsi8132026ex991.htm",
+   "status": "approved",
+   "judge_verdict": "pass",
+   "reviewer_note": "Real reduction in force (~20% of workforce) in the main body; AI appears only in forward-looking boilerplate, not linked to the cuts. None is correct."
+  },
+  {
+   "record_id": "rec_b60868941d85",
+   "cik": "2054696",
+   "company": "NIQ Global Intelligence plc",
+   "event_date": "2026-08-10",
+   "jobs_cut": null,
+   "jobs_cut_text": null,
+   "ai_attribution": "partial",
+   "ai_quote": "Investments in automation and artificial intelligence (\"AI\") are anticipated to accelerate the Company's optimization efforts as it begins its journey to operationalize these digital tools throughout the organization.",
+   "source_url": "https://www.sec.gov/Archives/edgar/data/2054696/000162828026055207/niqpressrelease-q226.htm",
+   "status": "approved",
+   "judge_verdict": "pass",
+   "reviewer_note": "2026 Restructuring Program with workforce optimization and employee separation costs; AI and automation described as accelerating these optimization efforts, in the restructuring section itself. No direct causal claim, so partial."
+  },
+  {
+   "record_id": "rec_f110b0ccbfa9",
+   "cik": "1845338",
+   "company": "monday.com Ltd.",
+   "event_date": "2026-07-22",
+   "jobs_cut": null,
+   "jobs_cut_text": "approximately 20% of the Company's current workforce",
+   "ai_attribution": "partial",
+   "ai_quote": "On July 22, 2026, the Company announced a restructuring plan (the \"2026 Restructuring Plan\") designed to align its organizational structure with its strategic focus on the AI Work Platform, support a leaner operating model, and accelerate investment in its AI-driven growth strategy.",
+   "source_url": "https://www.sec.gov/Archives/edgar/data/1845338/000117891326003971/exhibit_99-2.htm",
+   "status": "approved",
+   "judge_verdict": "pass",
+   "reviewer_note": "Restructuring of ~20% of workforce explicitly framed around refocusing on the AI Work Platform and AI-driven growth; resources shifted to AI, not AI replacing the work, so partial."
+  },
+  {
+   "record_id": "rec_7c4a9be7344d",
+   "cik": "LEI:213800N68SQY5X5XS290",
+   "company": "FLOWTECH FLUIDPOWER PLC",
+   "event_date": "2026-09-08",
+   "jobs_cut": null,
+   "jobs_cut_text": "1.2%",
+   "ai_attribution": "none",
+   "ai_quote": null,
+   "source_url": "https://data.fca.org.uk/artefacts/NSM/RNS/bb1981c7-263c-4432-af88-d02aeaaa3ed0.html",
+   "status": "approved",
+   "judge_verdict": "pass",
+   "reviewer_note": "Real 1.2% like-for-like headcount reduction (cost control) plus redundancies in restructuring costs. Automation appears only as a product line. None is correct."
+  }
+ ]
+}

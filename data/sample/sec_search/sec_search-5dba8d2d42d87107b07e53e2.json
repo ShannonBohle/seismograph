@@ -1,0 +1,1862 @@
+{
+ "request": {
+  "q": "\"artificial intelligence\" \"restructuring\" \"employees\"",
+  "forms": "8-K,10-K,10-Q",
+  "dateRange": "custom",
+  "startdt": "2024-10-27",
+  "enddt": "2026-10-27",
+  "ciks": "0001018724,0000789019,0001652044,0001326801,0001341439,0000320193,0001769628,0001318605,0001045810,0000051143"
+ },
+ "response": {
+  "took": 387,
+  "timed_out": false,
+  "_shards": {
+   "total": 50,
+   "successful": 50,
+   "skipped": 0,
+   "failed": 0
+  },
+  "hits": {
+   "total": {
+    "value": 37,
+    "relation": "eq"
+   },
+   "max_score": 18.822626,
+   "hits": [
+    {
+     "_index": "edgar_file",
+     "_id": "0001628280-25-045861:exhibit991.htm",
+     "_score": 18.822626,
+     "_source": {
+      "ciks": [
+       "0001318605"
+      ],
+      "period_ending": "2025-10-22",
+      "file_num": [
+       "001-34756"
+      ],
+      "display_names": [
+       "Tesla, Inc.  (TSLA)  (CIK 0001318605)"
+      ],
+      "xsl": null,
+      "sequence": "2",
+      "root_forms": [
+       "8-K"
+      ],
+      "file_date": "2025-10-22",
+      "biz_states": [
+       "TX"
+      ],
+      "sics": [
+       "3711"
+      ],
+      "form": "8-K",
+      "adsh": "0001628280-25-045861",
+      "film_num": [
+       "251410180"
+      ],
+      "biz_locations": [
+       "Austin, TX"
+      ],
+      "file_type": "EX-99.1",
+      "file_description": "EX-99.1",
+      "inc_states": [
+       "TX"
+      ],
+      "items": [
+       "2.02",
+       "9.01"
+      ]
+     }
+    },
+    {
+     "_index": "edgar_file",
+     "_id": "0001628280-25-035738:exhibit991.htm",
+     "_score": 18.736168,
+     "_source": {
+      "ciks": [
+       "0001318605"
+      ],
+      "period_ending": "2025-07-23",
+      "file_num": [
+       "001-34756"
+      ],
+      "display_names": [
+       "Tesla, Inc.  (TSLA)  (CIK 0001318605)"
+      ],
+      "xsl": null,
+      "sequence": "2",
+      "root_forms": [
+       "8-K"
+      ],
+      "file_date": "2025-07-23",
+      "biz_states": [
+       "TX"
+      ],
+      "sics": [
+       "3711"
+      ],
+      "form": "8-K",
+      "adsh": "0001628280-25-035738",
+      "film_num": [
+       "251143276"
+      ],
+      "biz_locations": [
+       "Austin, TX"
+      ],
+      "file_type": "EX-99.1",
+      "file_description": "EX-99.1",
+      "inc_states": [
+       "TX"
+      ],
+      "items": [
+       "2.02",
+       "9.01"
+      ]
+     }
+    },
+    {
+     "_index": "edgar_file",
+     "_id": "0001326801-24-000081:meta-20240930.htm",
+     "_score": 18.100779,
+     "_source": {
+      "ciks": [
+       "0001326801"
+      ],
+      "period_ending": "2024-09-30",
+      "file_num": [
+       "001-35551"
+      ],
+      "display_names": [
+       "Meta Platforms, Inc.  (META)  (CIK 0001326801)"
+      ],
+      "xsl": null,
+      "sequence": 1,
+      "root_forms": [
+       "10-Q"
+      ],
+      "file_date": "2024-10-31",
+      "biz_states": [
+       "CA"
+      ],
+      "sics": [
+       "7370"
+      ],
+      "form": "10-Q",
+      "adsh": "0001326801-24-000081",
+      "film_num": [
+       "241411943"
+      ],
+      "biz_locations": [
+       "Menlo Park, CA"
+      ],
+      "file_type": "10-Q",
+      "file_description": "10-Q",
+      "inc_states": [
+       "DE"
+      ],
+      "items": []
+     }
+    },
+    {
+     "_index": "edgar_file",
+     "_id": "0001628280-26-003952:tsla-20251231.htm",
+     "_score": 17.850237,
+     "_source": {
+      "ciks": [
+       "0001318605"
+      ],
+      "period_ending": "2025-12-31",
+      "file_num": [
+       "001-34756"
+      ],
+      "display_names": [
+       "Tesla, Inc.  (TSLA)  (CIK 0001318605)"
+      ],
+      "xsl": null,
+      "sequence": 1,
+      "root_forms": [
+       "10-K"
+      ],
+      "file_date": "2026-01-29",
+      "biz_states": [
+       "TX"
+      ],
+      "sics": [
+       "3711"
+      ],
+      "form": "10-K",
+      "adsh": "0001628280-26-003952",
+      "film_num": [
+       "26574326"
+      ],
+      "biz_locations": [
+       "Austin, TX"
+      ],
+      "file_type": "10-K",
+      "file_description": "10-K",
+      "inc_states": [
+       "TX"
+      ],
+      "items": []
+     }
+    },
+    {
+     "_index": "edgar_file",
+     "_id": "0001193125-26-389274:orcl-20260831.htm",
+     "_score": 17.610926,
+     "_source": {
+      "ciks": [
+       "0001341439"
+      ],
+      "period_ending": "2026-08-31",
+      "file_num": [
+       "001-35992"
+      ],
+      "display_names": [
+       "ORACLE CORP  (ORCL, ORCL-PD)  (CIK 0001341439)"
+      ],
+      "xsl": null,
+      "sequence": 1,
+      "root_forms": [
+       "10-Q"
+      ],
+      "file_date": "2026-09-11",
+      "biz_states": [
+       "TX"
+      ],
+      "sics": [
+       "7372"
+      ],
+      "form": "10-Q",
+      "adsh": "0001193125-26-389274",
+      "film_num": [
+       "261374468"
+      ],
+      "biz_locations": [
+       "Austin, TX"
+      ],
+      "file_type": "10-Q",
+      "file_description": "10-Q",
+      "inc_states": [],
+      "items": []
+     }
+    },
+    {
+     "_index": "edgar_file",
+     "_id": "0001018724-25-000004:amzn-20241231.htm",
+     "_score": 17.603052,
+     "_source": {
+      "ciks": [
+       "0001018724"
+      ],
+      "period_ending": "2024-12-31",
+      "file_num": [
+       "000-22513"
+      ],
+      "display_names": [
+       "AMAZON COM INC  (AMZN)  (CIK 0001018724)"
+      ],
+      "xsl": null,
+      "sequence": 1,
+      "root_forms": [
+       "10-K"
+      ],
+      "file_date": "2025-02-07",
+      "biz_states": [
+       "WA"
+      ],
+      "sics": [
+       "5961"
+      ],
+      "form": "10-K",
+      "adsh": "0001018724-25-000004",
+      "film_num": [
+       "25598704"
+      ],
+      "biz_locations": [
+       "Seattle, WA"
+      ],
+      "file_type": "10-K",
+      "file_description": "10-K",
+      "inc_states": [
+       "DE"
+      ],
+      "items": []
+     }
+    },
+    {
+     "_index": "edgar_file",
+     "_id": "0001326801-25-000017:meta-20241231.htm",
+     "_score": 17.568836,
+     "_source": {
+      "ciks": [
+       "0001326801"
+      ],
+      "period_ending": "2024-12-31",
+      "file_num": [
+       "001-35551"
+      ],
+      "display_names": [
+       "Meta Platforms, Inc.  (META)  (CIK 0001326801)"
+      ],
+      "xsl": null,
+      "sequence": 1,
+      "root_forms": [
+       "10-K"
+      ],
+      "file_date": "2025-01-30",
+      "biz_states": [
+       "CA"
+      ],
+      "sics": [
+       "7370"
+      ],
+      "form": "10-K",
+      "adsh": "0001326801-25-000017",
+      "film_num": [
+       "25570747"
+      ],
+      "biz_locations": [
+       "Menlo Park, CA"
+      ],
+      "file_type": "10-K",
+      "file_description": "10-K",
+      "inc_states": [
+       "DE"
+      ],
+      "items": []
+     }
+    },
+    {
+     "_index": "edgar_file",
+     "_id": "0001628280-25-018851:exhbit991.htm",
+     "_score": 17.100304,
+     "_source": {
+      "ciks": [
+       "0001318605"
+      ],
+      "period_ending": "2025-04-22",
+      "file_num": [
+       "001-34756"
+      ],
+      "display_names": [
+       "Tesla, Inc.  (TSLA)  (CIK 0001318605)"
+      ],
+      "xsl": null,
+      "sequence": "2",
+      "root_forms": [
+       "8-K"
+      ],
+      "file_date": "2025-04-22",
+      "biz_states": [
+       "CA"
+      ],
+      "sics": [
+       "3711"
+      ],
+      "form": "8-K",
+      "adsh": "0001628280-25-018851",
+      "film_num": [
+       "25857828"
+      ],
+      "biz_locations": [
+       "Palo Alto, CA"
+      ],
+      "file_type": "EX-99.1",
+      "file_description": "EX-99.1",
+      "inc_states": [
+       "DE"
+      ],
+      "items": [
+       "2.02",
+       "9.01"
+      ]
+     }
+    },
+    {
+     "_index": "edgar_file",
+     "_id": "0001628280-26-026551:exhibit991.htm",
+     "_score": 17.09723,
+     "_source": {
+      "ciks": [
+       "0001318605"
+      ],
+      "period_ending": "2026-04-22",
+      "file_num": [
+       "001-34756"
+      ],
+      "display_names": [
+       "Tesla, Inc.  (TSLA)  (CIK 0001318605)"
+      ],
+      "xsl": null,
+      "sequence": "2",
+      "root_forms": [
+       "8-K"
+      ],
+      "file_date": "2026-04-22",
+      "biz_states": [
+       "TX"
+      ],
+      "sics": [
+       "3711"
+      ],
+      "form": "8-K",
+      "adsh": "0001628280-26-026551",
+      "film_num": [
+       "26883889"
+      ],
+      "biz_locations": [
+       "Austin, TX"
+      ],
+      "file_type": "EX-99.1",
+      "file_description": "EX-99.1",
+      "inc_states": [
+       "TX"
+      ],
+      "items": [
+       "2.02",
+       "9.01"
+      ]
+     }
+    },
+    {
+     "_index": "edgar_file",
+     "_id": "0001628280-25-003063:tsla-20241231.htm",
+     "_score": 16.788052,
+     "_source": {
+      "ciks": [
+       "0001318605"
+      ],
+      "period_ending": "2024-12-31",
+      "file_num": [
+       "001-34756"
+      ],
+      "display_names": [
+       "Tesla, Inc.  (TSLA)  (CIK 0001318605)"
+      ],
+      "xsl": null,
+      "sequence": 1,
+      "root_forms": [
+       "10-K"
+      ],
+      "file_date": "2025-01-30",
+      "biz_states": [
+       "CA"
+      ],
+      "sics": [
+       "3711"
+      ],
+      "form": "10-K",
+      "adsh": "0001628280-25-003063",
+      "film_num": [
+       "25570807"
+      ],
+      "biz_locations": [
+       "Palo Alto, CA"
+      ],
+      "file_type": "10-K",
+      "file_description": "10-K",
+      "inc_states": [
+       "DE"
+      ],
+      "items": []
+     }
+    },
+    {
+     "_index": "edgar_file",
+     "_id": "0001628280-25-002993:exhibit991.htm",
+     "_score": 16.734753,
+     "_source": {
+      "ciks": [
+       "0001318605"
+      ],
+      "period_ending": "2025-01-29",
+      "file_num": [
+       "001-34756"
+      ],
+      "display_names": [
+       "Tesla, Inc.  (TSLA)  (CIK 0001318605)"
+      ],
+      "xsl": null,
+      "sequence": "2",
+      "root_forms": [
+       "8-K"
+      ],
+      "file_date": "2025-01-29",
+      "biz_states": [
+       "CA"
+      ],
+      "sics": [
+       "3711"
+      ],
+      "form": "8-K",
+      "adsh": "0001628280-25-002993",
+      "film_num": [
+       "25569413"
+      ],
+      "biz_locations": [
+       "Palo Alto, CA"
+      ],
+      "file_type": "EX-99.1",
+      "file_description": "EX-99.1",
+      "inc_states": [
+       "DE"
+      ],
+      "items": [
+       "2.02",
+       "9.01"
+      ]
+     }
+    },
+    {
+     "_index": "edgar_file",
+     "_id": "0001628280-25-035806:tsla-20250630.htm",
+     "_score": 16.213371,
+     "_source": {
+      "ciks": [
+       "0001318605"
+      ],
+      "period_ending": "2025-06-30",
+      "file_num": [
+       "001-34756"
+      ],
+      "display_names": [
+       "Tesla, Inc.  (TSLA)  (CIK 0001318605)"
+      ],
+      "xsl": null,
+      "sequence": 1,
+      "root_forms": [
+       "10-Q"
+      ],
+      "file_date": "2025-07-24",
+      "biz_states": [
+       "TX"
+      ],
+      "sics": [
+       "3711"
+      ],
+      "form": "10-Q",
+      "adsh": "0001628280-25-035806",
+      "film_num": [
+       "251144243"
+      ],
+      "biz_locations": [
+       "Austin, TX"
+      ],
+      "file_type": "10-Q",
+      "file_description": "10-Q",
+      "inc_states": [
+       "TX"
+      ],
+      "items": []
+     }
+    },
+    {
+     "_index": "edgar_file",
+     "_id": "0001628280-25-045968:tsla-20250930.htm",
+     "_score": 15.601647,
+     "_source": {
+      "ciks": [
+       "0001318605"
+      ],
+      "period_ending": "2025-09-30",
+      "file_num": [
+       "001-34756"
+      ],
+      "display_names": [
+       "Tesla, Inc.  (TSLA)  (CIK 0001318605)"
+      ],
+      "xsl": null,
+      "sequence": 1,
+      "root_forms": [
+       "10-Q"
+      ],
+      "file_date": "2025-10-23",
+      "biz_states": [
+       "TX"
+      ],
+      "sics": [
+       "3711"
+      ],
+      "form": "10-Q",
+      "adsh": "0001628280-25-045968",
+      "film_num": [
+       "251411222"
+      ],
+      "biz_locations": [
+       "Austin, TX"
+      ],
+      "file_type": "10-Q",
+      "file_description": "10-Q",
+      "inc_states": [
+       "TX"
+      ],
+      "items": []
+     }
+    },
+    {
+     "_index": "edgar_file",
+     "_id": "0001628280-26-003837:exhibit991.htm",
+     "_score": 14.304035,
+     "_source": {
+      "ciks": [
+       "0001318605"
+      ],
+      "period_ending": "2026-01-28",
+      "file_num": [
+       "001-34756"
+      ],
+      "display_names": [
+       "Tesla, Inc.  (TSLA)  (CIK 0001318605)"
+      ],
+      "xsl": null,
+      "sequence": "2",
+      "root_forms": [
+       "8-K"
+      ],
+      "file_date": "2026-01-28",
+      "biz_states": [
+       "TX"
+      ],
+      "sics": [
+       "3711"
+      ],
+      "form": "8-K",
+      "adsh": "0001628280-26-003837",
+      "film_num": [
+       "26572582"
+      ],
+      "biz_locations": [
+       "Austin, TX"
+      ],
+      "file_type": "EX-99.1",
+      "file_description": "EX-99.1",
+      "inc_states": [
+       "TX"
+      ],
+      "items": [
+       "2.02",
+       "9.01"
+      ]
+     }
+    },
+    {
+     "_index": "edgar_file",
+     "_id": "0001628280-25-018911:tsla-20250331.htm",
+     "_score": 14.289676,
+     "_source": {
+      "ciks": [
+       "0001318605"
+      ],
+      "period_ending": "2025-03-31",
+      "file_num": [
+       "001-34756"
+      ],
+      "display_names": [
+       "Tesla, Inc.  (TSLA)  (CIK 0001318605)"
+      ],
+      "xsl": null,
+      "sequence": 1,
+      "root_forms": [
+       "10-Q"
+      ],
+      "file_date": "2025-04-23",
+      "biz_states": [
+       "CA"
+      ],
+      "sics": [
+       "3711"
+      ],
+      "form": "10-Q",
+      "adsh": "0001628280-25-018911",
+      "film_num": [
+       "25859036"
+      ],
+      "biz_locations": [
+       "Palo Alto, CA"
+      ],
+      "file_type": "10-Q",
+      "file_description": "10-Q",
+      "inc_states": [
+       "DE"
+      ],
+      "items": []
+     }
+    },
+    {
+     "_index": "edgar_file",
+     "_id": "0001193125-26-277521:orcl-20260531.htm",
+     "_score": 13.786577,
+     "_source": {
+      "ciks": [
+       "0001341439"
+      ],
+      "period_ending": "2026-05-31",
+      "file_num": [
+       "001-35992"
+      ],
+      "display_names": [
+       "ORACLE CORP  (ORCL, ORCL-PD)  (CIK 0001341439)"
+      ],
+      "xsl": null,
+      "sequence": 1,
+      "root_forms": [
+       "10-K"
+      ],
+      "file_date": "2026-06-22",
+      "biz_states": [
+       "TX"
+      ],
+      "sics": [
+       "7372"
+      ],
+      "form": "10-K",
+      "adsh": "0001193125-26-277521",
+      "film_num": [
+       "261107177"
+      ],
+      "biz_locations": [
+       "Austin, TX"
+      ],
+      "file_type": "10-K",
+      "file_description": "10-K",
+      "inc_states": [],
+      "items": []
+     }
+    },
+    {
+     "_index": "edgar_file",
+     "_id": "0001628280-26-026673:tsla-20260331.htm",
+     "_score": 13.763779,
+     "_source": {
+      "ciks": [
+       "0001318605"
+      ],
+      "period_ending": "2026-03-31",
+      "file_num": [
+       "001-34756"
+      ],
+      "display_names": [
+       "Tesla, Inc.  (TSLA)  (CIK 0001318605)"
+      ],
+      "xsl": null,
+      "sequence": 1,
+      "root_forms": [
+       "10-Q"
+      ],
+      "file_date": "2026-04-23",
+      "biz_states": [
+       "TX"
+      ],
+      "sics": [
+       "3711"
+      ],
+      "form": "10-Q",
+      "adsh": "0001628280-26-026673",
+      "film_num": [
+       "26885308"
+      ],
+      "biz_locations": [
+       "Austin, TX"
+      ],
+      "file_type": "10-Q",
+      "file_description": "10-Q",
+      "inc_states": [
+       "TX"
+      ],
+      "items": []
+     }
+    },
+    {
+     "_index": "edgar_file",
+     "_id": "0001628280-26-049213:exhibit991.htm",
+     "_score": 13.752257,
+     "_source": {
+      "ciks": [
+       "0001318605"
+      ],
+      "period_ending": "2026-07-22",
+      "file_num": [
+       "001-34756"
+      ],
+      "display_names": [
+       "Tesla, Inc.  (TSLA)  (CIK 0001318605)"
+      ],
+      "xsl": null,
+      "sequence": "2",
+      "root_forms": [
+       "8-K"
+      ],
+      "file_date": "2026-07-22",
+      "biz_states": [
+       "TX"
+      ],
+      "sics": [
+       "3711"
+      ],
+      "form": "8-K",
+      "adsh": "0001628280-26-049213",
+      "film_num": [
+       "261194091"
+      ],
+      "biz_locations": [
+       "Austin, TX"
+      ],
+      "file_type": "EX-99.1",
+      "file_description": "EX-99.1",
+      "inc_states": [
+       "TX"
+      ],
+      "items": [
+       "2.02",
+       "9.01"
+      ]
+     }
+    },
+    {
+     "_index": "edgar_file",
+     "_id": "0001628280-26-049270:tsla-20260630.htm",
+     "_score": 13.729971,
+     "_source": {
+      "ciks": [
+       "0001318605"
+      ],
+      "period_ending": "2026-06-30",
+      "file_num": [
+       "001-34756"
+      ],
+      "display_names": [
+       "Tesla, Inc.  (TSLA)  (CIK 0001318605)"
+      ],
+      "xsl": null,
+      "sequence": 1,
+      "root_forms": [
+       "10-Q"
+      ],
+      "file_date": "2026-07-23",
+      "biz_states": [
+       "TX"
+      ],
+      "sics": [
+       "3711"
+      ],
+      "form": "10-Q",
+      "adsh": "0001628280-26-049270",
+      "film_num": [
+       "261194921"
+      ],
+      "biz_locations": [
+       "Austin, TX"
+      ],
+      "file_type": "10-Q",
+      "file_description": "10-Q",
+      "inc_states": [
+       "TX"
+      ],
+      "items": []
+     }
+    },
+    {
+     "_index": "edgar_file",
+     "_id": "0000320193-24-000123:aapl-20240928.htm",
+     "_score": 12.089085,
+     "_source": {
+      "ciks": [
+       "0000320193"
+      ],
+      "period_ending": "2024-09-28",
+      "file_num": [
+       "001-36743"
+      ],
+      "display_names": [
+       "Apple Inc.  (AAPL)  (CIK 0000320193)"
+      ],
+      "xsl": null,
+      "sequence": 1,
+      "root_forms": [
+       "10-K"
+      ],
+      "file_date": "2024-11-01",
+      "biz_states": [
+       "CA"
+      ],
+      "sics": [
+       "3571"
+      ],
+      "form": "10-K",
+      "adsh": "0000320193-24-000123",
+      "film_num": [
+       "241416806"
+      ],
+      "biz_locations": [
+       "Cupertino, CA"
+      ],
+      "file_type": "10-K",
+      "file_description": "10-K",
+      "inc_states": [
+       "CA"
+      ],
+      "items": []
+     }
+    },
+    {
+     "_index": "edgar_file",
+     "_id": "0000950170-25-087926:orcl-20250531.htm",
+     "_score": 10.724064,
+     "_source": {
+      "ciks": [
+       "0001341439"
+      ],
+      "period_ending": "2025-05-31",
+      "file_num": [
+       "001-35992"
+      ],
+      "display_names": [
+       "ORACLE CORP  (ORCL)  (CIK 0001341439)"
+      ],
+      "xsl": null,
+      "sequence": 1,
+      "root_forms": [
+       "10-K"
+      ],
+      "file_date": "2025-06-18",
+      "biz_states": [
+       "TX"
+      ],
+      "sics": [
+       "7372"
+      ],
+      "form": "10-K",
+      "adsh": "0000950170-25-087926",
+      "film_num": [
+       "251057371"
+      ],
+      "biz_locations": [
+       "Austin, TX"
+      ],
+      "file_type": "10-K",
+      "file_description": "10-K",
+      "inc_states": [],
+      "items": []
+     }
+    },
+    {
+     "_index": "edgar_file",
+     "_id": "0001769628-26-000104:crwv-20251231.htm",
+     "_score": 9.854382,
+     "_source": {
+      "ciks": [
+       "0001769628"
+      ],
+      "period_ending": "2025-12-31",
+      "file_num": [
+       "001-42563"
+      ],
+      "display_names": [
+       "CoreWeave, Inc.  (CRWV)  (CIK 0001769628)"
+      ],
+      "xsl": null,
+      "sequence": 1,
+      "root_forms": [
+       "10-K"
+      ],
+      "file_date": "2026-03-02",
+      "biz_states": [
+       "NJ"
+      ],
+      "sics": [
+       "7372"
+      ],
+      "form": "10-K",
+      "adsh": "0001769628-26-000104",
+      "film_num": [
+       "26707757"
+      ],
+      "biz_locations": [
+       "Livingston, NJ"
+      ],
+      "file_type": "10-K",
+      "file_description": "10-K",
+      "inc_states": [
+       "DE"
+      ],
+      "items": []
+     }
+    },
+    {
+     "_index": "edgar_file",
+     "_id": "0001769628-25-000062:crwv-20250930.htm",
+     "_score": 9.672412,
+     "_source": {
+      "ciks": [
+       "0001769628"
+      ],
+      "period_ending": "2025-09-30",
+      "file_num": [
+       "001-42563"
+      ],
+      "display_names": [
+       "CoreWeave, Inc.  (CRWV)  (CIK 0001769628)"
+      ],
+      "xsl": null,
+      "sequence": 1,
+      "root_forms": [
+       "10-Q"
+      ],
+      "file_date": "2025-11-13",
+      "biz_states": [
+       "NJ"
+      ],
+      "sics": [
+       "7372"
+      ],
+      "form": "10-Q",
+      "adsh": "0001769628-25-000062",
+      "film_num": [
+       "251478809"
+      ],
+      "biz_locations": [
+       "Livingston, NJ"
+      ],
+      "file_type": "10-Q",
+      "file_description": "10-Q",
+      "inc_states": [
+       "DE"
+      ],
+      "items": []
+     }
+    },
+    {
+     "_index": "edgar_file",
+     "_id": "0000950103-25-008526:dp231288_ex0201.htm",
+     "_score": 9.313887,
+     "_source": {
+      "ciks": [
+       "0001769628"
+      ],
+      "period_ending": "2025-07-07",
+      "file_num": [
+       "001-42563"
+      ],
+      "display_names": [
+       "CoreWeave, Inc.  (CRWV)  (CIK 0001769628)"
+      ],
+      "xsl": null,
+      "sequence": "2",
+      "root_forms": [
+       "8-K"
+      ],
+      "file_date": "2025-07-07",
+      "biz_states": [
+       "NJ"
+      ],
+      "sics": [
+       "7372"
+      ],
+      "form": "8-K/A",
+      "adsh": "0000950103-25-008526",
+      "film_num": [
+       "251108994"
+      ],
+      "biz_locations": [
+       "Livingston, NJ"
+      ],
+      "file_type": "EX-2.1",
+      "file_description": "EXHIBIT 2.1",
+      "inc_states": [
+       "DE"
+      ],
+      "items": [
+       "1.01",
+       "9.01"
+      ]
+     }
+    },
+    {
+     "_index": "edgar_file",
+     "_id": "0001652044-26-000018:goog-20251231.htm",
+     "_score": 9.190464,
+     "_source": {
+      "ciks": [
+       "0001652044"
+      ],
+      "period_ending": "2025-12-31",
+      "file_num": [
+       "001-37580"
+      ],
+      "display_names": [
+       "Alphabet Inc.  (GOOG, GOOGL)  (CIK 0001652044)"
+      ],
+      "xsl": null,
+      "sequence": 1,
+      "root_forms": [
+       "10-K"
+      ],
+      "file_date": "2026-02-05",
+      "biz_states": [
+       "CA"
+      ],
+      "sics": [
+       "7370"
+      ],
+      "form": "10-K",
+      "adsh": "0001652044-26-000018",
+      "film_num": [
+       "26600221"
+      ],
+      "biz_locations": [
+       "Mountain View, CA"
+      ],
+      "file_type": "10-K",
+      "file_description": "10-K",
+      "inc_states": [
+       "DE"
+      ],
+      "items": []
+     }
+    },
+    {
+     "_index": "edgar_file",
+     "_id": "0001045810-25-000116:nvda-20250427.htm",
+     "_score": 9.021086,
+     "_source": {
+      "ciks": [
+       "0001045810"
+      ],
+      "period_ending": "2025-04-27",
+      "file_num": [
+       "000-23985"
+      ],
+      "display_names": [
+       "NVIDIA CORP  (NVDA)  (CIK 0001045810)"
+      ],
+      "xsl": null,
+      "sequence": 1,
+      "root_forms": [
+       "10-Q"
+      ],
+      "file_date": "2025-05-28",
+      "biz_states": [
+       "CA"
+      ],
+      "sics": [
+       "3674"
+      ],
+      "form": "10-Q",
+      "adsh": "0001045810-25-000116",
+      "film_num": [
+       "25995866"
+      ],
+      "biz_locations": [
+       "Santa Clara, CA"
+      ],
+      "file_type": "10-Q",
+      "file_description": "10-Q",
+      "inc_states": [
+       "DE"
+      ],
+      "items": []
+     }
+    },
+    {
+     "_index": "edgar_file",
+     "_id": "0001045810-25-000209:nvda-20250727.htm",
+     "_score": 8.872335,
+     "_source": {
+      "ciks": [
+       "0001045810"
+      ],
+      "period_ending": "2025-07-27",
+      "file_num": [
+       "000-23985"
+      ],
+      "display_names": [
+       "NVIDIA CORP  (NVDA)  (CIK 0001045810)"
+      ],
+      "xsl": null,
+      "sequence": 1,
+      "root_forms": [
+       "10-Q"
+      ],
+      "file_date": "2025-08-27",
+      "biz_states": [
+       "CA"
+      ],
+      "sics": [
+       "3674"
+      ],
+      "form": "10-Q",
+      "adsh": "0001045810-25-000209",
+      "film_num": [
+       "251266138"
+      ],
+      "biz_locations": [
+       "Santa Clara, CA"
+      ],
+      "file_type": "10-Q",
+      "file_description": "10-Q",
+      "inc_states": [
+       "DE"
+      ],
+      "items": []
+     }
+    },
+    {
+     "_index": "edgar_file",
+     "_id": "0001769628-26-000222:crwv-20260331.htm",
+     "_score": 8.824011,
+     "_source": {
+      "ciks": [
+       "0001769628"
+      ],
+      "period_ending": "2026-03-31",
+      "file_num": [
+       "001-42563"
+      ],
+      "display_names": [
+       "CoreWeave, Inc.  (CRWV)  (CIK 0001769628)"
+      ],
+      "xsl": null,
+      "sequence": 1,
+      "root_forms": [
+       "10-Q"
+      ],
+      "file_date": "2026-05-08",
+      "biz_states": [
+       "NJ"
+      ],
+      "sics": [
+       "7372"
+      ],
+      "form": "10-Q",
+      "adsh": "0001769628-26-000222",
+      "film_num": [
+       "26955501"
+      ],
+      "biz_locations": [
+       "Livingston, NJ"
+      ],
+      "file_type": "10-Q",
+      "file_description": "10-Q",
+      "inc_states": [
+       "DE"
+      ],
+      "items": []
+     }
+    },
+    {
+     "_index": "edgar_file",
+     "_id": "0001769628-26-000366:crwv-20260630.htm",
+     "_score": 8.582075,
+     "_source": {
+      "ciks": [
+       "0001769628"
+      ],
+      "period_ending": "2026-06-30",
+      "file_num": [
+       "001-42563"
+      ],
+      "display_names": [
+       "CoreWeave, Inc.  (CRWV)  (CIK 0001769628)"
+      ],
+      "xsl": null,
+      "sequence": 1,
+      "root_forms": [
+       "10-Q"
+      ],
+      "file_date": "2026-08-12",
+      "biz_states": [
+       "NJ"
+      ],
+      "sics": [
+       "7372"
+      ],
+      "form": "10-Q",
+      "adsh": "0001769628-26-000366",
+      "film_num": [
+       "261264891"
+      ],
+      "biz_locations": [
+       "Livingston, NJ"
+      ],
+      "file_type": "10-Q",
+      "file_description": "10-Q",
+      "inc_states": [
+       "DE"
+      ],
+      "items": []
+     }
+    },
+    {
+     "_index": "edgar_file",
+     "_id": "0001045810-25-000023:nvda-20250126.htm",
+     "_score": 7.9873266,
+     "_source": {
+      "ciks": [
+       "0001045810"
+      ],
+      "period_ending": "2025-01-26",
+      "file_num": [
+       "000-23985"
+      ],
+      "display_names": [
+       "NVIDIA CORP  (NVDA)  (CIK 0001045810)"
+      ],
+      "xsl": null,
+      "sequence": 1,
+      "root_forms": [
+       "10-K"
+      ],
+      "file_date": "2025-02-26",
+      "biz_states": [
+       "CA"
+      ],
+      "sics": [
+       "3674"
+      ],
+      "form": "10-K",
+      "adsh": "0001045810-25-000023",
+      "film_num": [
+       "25670928"
+      ],
+      "biz_locations": [
+       "Santa Clara, CA"
+      ],
+      "file_type": "10-K",
+      "file_description": "10-K",
+      "inc_states": [
+       "DE"
+      ],
+      "items": []
+     }
+    },
+    {
+     "_index": "edgar_file",
+     "_id": "0001045810-25-000230:nvda-20251026.htm",
+     "_score": 7.9183874,
+     "_source": {
+      "ciks": [
+       "0001045810"
+      ],
+      "period_ending": "2025-10-26",
+      "file_num": [
+       "000-23985"
+      ],
+      "display_names": [
+       "NVIDIA CORP  (NVDA)  (CIK 0001045810)"
+      ],
+      "xsl": null,
+      "sequence": 1,
+      "root_forms": [
+       "10-Q"
+      ],
+      "file_date": "2025-11-19",
+      "biz_states": [
+       "CA"
+      ],
+      "sics": [
+       "3674"
+      ],
+      "form": "10-Q",
+      "adsh": "0001045810-25-000230",
+      "film_num": [
+       "251499810"
+      ],
+      "biz_locations": [
+       "Santa Clara, CA"
+      ],
+      "file_type": "10-Q",
+      "file_description": "10-Q",
+      "inc_states": [
+       "DE"
+      ],
+      "items": []
+     }
+    },
+    {
+     "_index": "edgar_file",
+     "_id": "0001652044-25-000014:goog-20241231.htm",
+     "_score": 7.6543164,
+     "_source": {
+      "ciks": [
+       "0001652044"
+      ],
+      "period_ending": "2024-12-31",
+      "file_num": [
+       "001-37580"
+      ],
+      "display_names": [
+       "Alphabet Inc.  (GOOG, GOOGL)  (CIK 0001652044)"
+      ],
+      "xsl": null,
+      "sequence": 1,
+      "root_forms": [
+       "10-K"
+      ],
+      "file_date": "2025-02-05",
+      "biz_states": [
+       "CA"
+      ],
+      "sics": [
+       "7370"
+      ],
+      "form": "10-K",
+      "adsh": "0001652044-25-000014",
+      "film_num": [
+       "25590440"
+      ],
+      "biz_locations": [
+       "Mountain View, CA"
+      ],
+      "file_type": "10-K",
+      "file_description": "10-K",
+      "inc_states": [
+       "DE"
+      ],
+      "items": []
+     }
+    },
+    {
+     "_index": "edgar_file",
+     "_id": "0001769628-25-000014:crwv-20250331.htm",
+     "_score": 6.2848597,
+     "_source": {
+      "ciks": [
+       "0001769628"
+      ],
+      "period_ending": "2025-03-31",
+      "file_num": [
+       "001-42563"
+      ],
+      "display_names": [
+       "CoreWeave, Inc.  (CRWV)  (CIK 0001769628)"
+      ],
+      "xsl": null,
+      "sequence": 1,
+      "root_forms": [
+       "10-Q"
+      ],
+      "file_date": "2025-05-15",
+      "biz_states": [
+       "NJ"
+      ],
+      "sics": [
+       "7372"
+      ],
+      "form": "10-Q",
+      "adsh": "0001769628-25-000014",
+      "film_num": [
+       "25947963"
+      ],
+      "biz_locations": [
+       "Springfield, NJ"
+      ],
+      "file_type": "10-Q",
+      "file_description": "10-Q",
+      "inc_states": [
+       "DE"
+      ],
+      "items": []
+     }
+    },
+    {
+     "_index": "edgar_file",
+     "_id": "0001769628-25-000041:crwv-20250630.htm",
+     "_score": 6.06314,
+     "_source": {
+      "ciks": [
+       "0001769628"
+      ],
+      "period_ending": "2025-06-30",
+      "file_num": [
+       "001-42563"
+      ],
+      "display_names": [
+       "CoreWeave, Inc.  (CRWV)  (CIK 0001769628)"
+      ],
+      "xsl": null,
+      "sequence": 1,
+      "root_forms": [
+       "10-Q"
+      ],
+      "file_date": "2025-08-13",
+      "biz_states": [
+       "NJ"
+      ],
+      "sics": [
+       "7372"
+      ],
+      "form": "10-Q",
+      "adsh": "0001769628-25-000041",
+      "film_num": [
+       "251208347"
+      ],
+      "biz_locations": [
+       "Livingston, NJ"
+      ],
+      "file_type": "10-Q",
+      "file_description": "10-Q",
+      "inc_states": [
+       "DE"
+      ],
+      "items": []
+     }
+    },
+    {
+     "_index": "edgar_file",
+     "_id": "0000051143-25-000015:ibm-20241231_d2.htm",
+     "_score": 6.051685,
+     "_source": {
+      "ciks": [
+       "0000051143"
+      ],
+      "period_ending": "2024-12-31",
+      "file_num": [
+       "001-02360"
+      ],
+      "display_names": [
+       "INTERNATIONAL BUSINESS MACHINES CORP  (IBM)  (CIK 0000051143)"
+      ],
+      "xsl": null,
+      "sequence": "5",
+      "root_forms": [
+       "10-K"
+      ],
+      "file_date": "2025-02-25",
+      "biz_states": [
+       "NY"
+      ],
+      "sics": [
+       "3570"
+      ],
+      "form": "10-K",
+      "adsh": "0000051143-25-000015",
+      "film_num": [
+       "25663330"
+      ],
+      "biz_locations": [
+       "Armonk, NY"
+      ],
+      "file_type": "EX-13",
+      "file_description": "EX-13",
+      "inc_states": [
+       "NY"
+      ],
+      "items": []
+     }
+    },
+    {
+     "_index": "edgar_file",
+     "_id": "0000051143-26-000010:ibm-20251231_d2.htm",
+     "_score": 5.689294,
+     "_source": {
+      "ciks": [
+       "0000051143"
+      ],
+      "period_ending": "2025-12-31",
+      "file_num": [
+       "001-02360"
+      ],
+      "display_names": [
+       "INTERNATIONAL BUSINESS MACHINES CORP  (IBM)  (CIK 0000051143)"
+      ],
+      "xsl": null,
+      "sequence": "5",
+      "root_forms": [
+       "10-K"
+      ],
+      "file_date": "2026-02-24",
+      "biz_states": [
+       "NY"
+      ],
+      "sics": [
+       "3570"
+      ],
+      "form": "10-K",
+      "adsh": "0000051143-26-000010",
+      "film_num": [
+       "26671568"
+      ],
+      "biz_locations": [
+       "Armonk, NY"
+      ],
+      "file_type": "EX-13",
+      "file_description": "EX-13",
+      "inc_states": [
+       "NY"
+      ],
+      "items": []
+     }
+    },
+    {
+     "_index": "edgar_file",
+     "_id": "0001193125-25-227562:d910811dex101.htm",
+     "_score": 3.6813002,
+     "_source": {
+      "ciks": [
+       "0001769628"
+      ],
+      "period_ending": "2025-09-29",
+      "file_num": [
+       "001-42563"
+      ],
+      "display_names": [
+       "CoreWeave, Inc.  (CRWV)  (CIK 0001769628)"
+      ],
+      "xsl": null,
+      "sequence": "2",
+      "root_forms": [
+       "8-K"
+      ],
+      "file_date": "2025-10-02",
+      "biz_states": [
+       "NJ"
+      ],
+      "sics": [
+       "7372"
+      ],
+      "form": "8-K",
+      "adsh": "0001193125-25-227562",
+      "film_num": [
+       "251367156"
+      ],
+      "biz_locations": [
+       "Livingston, NJ"
+      ],
+      "file_type": "EX-10.1",
+      "file_description": "EX-10.1",
+      "inc_states": [
+       "DE"
+      ],
+      "items": [
+       "1.01",
+       "2.03",
+       "9.01"
+      ]
+     }
+    }
+   ]
+  },
+  "aggregations": {
+   "entity_filter": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "Tesla, Inc.  (TSLA)  (CIK 0001318605)",
+      "doc_count": 14
+     },
+     {
+      "key": "CoreWeave, Inc.  (CRWV)  (CIK 0001769628)",
+      "doc_count": 8
+     },
+     {
+      "key": "NVIDIA CORP  (NVDA)  (CIK 0001045810)",
+      "doc_count": 4
+     },
+     {
+      "key": "Alphabet Inc.  (GOOG, GOOGL)  (CIK 0001652044)",
+      "doc_count": 2
+     },
+     {
+      "key": "INTERNATIONAL BUSINESS MACHINES CORP  (IBM)  (CIK 0000051143)",
+      "doc_count": 2
+     },
+     {
+      "key": "Meta Platforms, Inc.  (META)  (CIK 0001326801)",
+      "doc_count": 2
+     },
+     {
+      "key": "ORACLE CORP  (ORCL, ORCL-PD)  (CIK 0001341439)",
+      "doc_count": 2
+     },
+     {
+      "key": "AMAZON COM INC  (AMZN)  (CIK 0001018724)",
+      "doc_count": 1
+     },
+     {
+      "key": "Apple Inc.  (AAPL)  (CIK 0000320193)",
+      "doc_count": 1
+     },
+     {
+      "key": "ORACLE CORP  (ORCL)  (CIK 0001341439)",
+      "doc_count": 1
+     }
+    ]
+   },
+   "sic_filter": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "3711",
+      "doc_count": 14
+     },
+     {
+      "key": "7372",
+      "doc_count": 11
+     },
+     {
+      "key": "3674",
+      "doc_count": 4
+     },
+     {
+      "key": "7370",
+      "doc_count": 4
+     },
+     {
+      "key": "3570",
+      "doc_count": 2
+     },
+     {
+      "key": "3571",
+      "doc_count": 1
+     },
+     {
+      "key": "5961",
+      "doc_count": 1
+     }
+    ]
+   },
+   "biz_states_filter": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "CA",
+      "doc_count": 13
+     },
+     {
+      "key": "TX",
+      "doc_count": 13
+     },
+     {
+      "key": "NJ",
+      "doc_count": 8
+     },
+     {
+      "key": "NY",
+      "doc_count": 2
+     },
+     {
+      "key": "WA",
+      "doc_count": 1
+     }
+    ]
+   },
+   "form_filter": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "10-Q",
+      "doc_count": 15
+     },
+     {
+      "key": "10-K",
+      "doc_count": 13
+     },
+     {
+      "key": "8-K",
+      "doc_count": 9
+     }
+    ]
+   }
+  },
+  "query": {
+   "_source": {
+    "exclude": [
+     "doc_text"
+    ]
+   },
+   "query": {
+    "bool": {
+     "must": [
+      {
+       "match_phrase": {
+        "doc_text": "artificial intelligence"
+       }
+      },
+      {
+       "match_phrase": {
+        "doc_text": "restructuring"
+       }
+      },
+      {
+       "match_phrase": {
+        "doc_text": "employees"
+       }
+      }
+     ],
+     "must_not": [],
+     "should": [],
+     "filter": [
+      {
+       "terms": {
+        "root_forms": [
+         "8-K",
+         "10-K",
+         "10-Q"
+        ]
+       }
+      },
+      {
+       "terms": {
+        "ciks": [
+         "0001018724",
+         "0000789019",
+         "0001652044",
+         "0001326801",
+         "0001341439",
+         "0000320193",
+         "0001769628",
+         "0001318605",
+         "0001045810",
+         "0000051143"
+        ]
+       }
+      },
+      {
+       "range": {
+        "file_date": {
+         "gte": "2024-10-27",
+         "lte": "2026-10-27"
+        }
+       }
+      }
+     ]
+    }
+   },
+   "from": 0,
+   "size": 100,
+   "aggregations": {
+    "form_filter": {
+     "terms": {
+      "field": "root_forms",
+      "size": 30
+     }
+    },
+    "entity_filter": {
+     "terms": {
+      "field": "display_names.raw",
+      "size": 30
+     }
+    },
+    "sic_filter": {
+     "terms": {
+      "field": "sics",
+      "size": 30
+     }
+    },
+    "biz_states_filter": {
+     "terms": {
+      "field": "biz_states",
+      "size": 30
+     }
+    }
+   }
+  }
+ },
+ "recorded_at": "2026-10-27T13:34:53+00:00"
+}

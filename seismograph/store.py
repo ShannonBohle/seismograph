@@ -40,17 +40,23 @@ class Store:
             self.kind = "postgres"
 
     def _sql(self, sql: str) -> str:
-        return sql.replace("%s", "?") if self.kind == "sqlite" else sql
+        # only bare %s placeholders; LIKE patterns such as '%safety%' must stay as written
+        return re.sub(r"%s(?![A-Za-z])", "?", sql) if self.kind == "sqlite" else sql
 
     def execute(self, sql: str, params=()):
         cur = self.conn.cursor()
-        cur.execute(self._sql(sql), params)
+        if self.kind == "postgres" and not params:
+            cur.execute(sql)  # no parameters: psycopg must not read '%' in LIKE patterns as placeholders
+        else:
+            cur.execute(self._sql(sql), params)
         if self.kind == "sqlite":
             self.conn.commit()
         return cur
 
     def init(self) -> None:
         code = "\n".join(re.sub(r"--.*$", "", line) for line in SCHEMA.splitlines())
+        if self.kind == "sqlite":  # SQLite spells view creation and booleans differently
+            code = code.replace("CREATE OR REPLACE VIEW", "CREATE VIEW IF NOT EXISTS").replace("= TRUE", "= 1")
         for stmt in code.split(";"):
             if stmt.strip():
                 self.execute(stmt.strip())

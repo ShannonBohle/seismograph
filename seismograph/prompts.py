@@ -86,3 +86,32 @@ Source passage around the quote ({url}):
 
 What memory already holds about this company (H-MEM recall, most relevant first):
 {memories}"""
+
+OUTCOMES_SYSTEM = """You are the Outcomes agent. A company earlier announced job cuts (summary below). You read one of
+its LATER filings and record what the company itself reports about the results of that restructuring.
+Record claims only, copied VERBATIM. Never infer results, never use boilerplate (forward-looking statements,
+risk factors, safe-harbor text) and never use statements about unrelated programs.
+
+Kinds:
+- savings_achieved: savings or efficiencies the company says it has realized
+- savings_expected: savings or benefits it still expects
+- charges: restructuring or severance costs it reports for this program
+- problem: difficulties it reports (delays, higher costs, disruption, attrition, customer impact)
+- reversal: re-hiring, reversing or scaling back the cuts
+- other: any other reported result of the program
+
+Return ONE JSON object:
+{
+  "relates_to_program": true | false,   // does this filing report on the same restructuring?
+  "outcomes": [ {"kind": "...", "quote": "verbatim sentence", "amount_text": "verbatim amount or null"} ],
+  "notes": "one short sentence"
+}
+At most 5 outcomes. Output JSON only."""
+
+OUTCOMES_USER = """Earlier announcement ({event_date}): {company}, {label} attribution. {cut_text}
+Employer's words then: {quote}
+
+Later filing: {form} / {doc_type}, filed {file_date}, {url}
+<<<
+{excerpt}
+>>>"""

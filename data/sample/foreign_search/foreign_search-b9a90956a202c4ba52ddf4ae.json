@@ -1,0 +1,82 @@
+{
+ "request": {
+  "source": "asx",
+  "start": "2026-09-27",
+  "end": "2026-10-27"
+ },
+ "response": [
+  {
+   "id": "2924-03152030-3A704751",
+   "issuer": "X2M",
+   "company": "X2M",
+   "title": "Signs Binding Agreement to Deliver AI-Enabled Data Centre",
+   "date": "2026-10-22",
+   "type": "Progress Report",
+   "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03152030-3A704751?access_token=83ff96335c2d45a094df02a206a39ff4"
+  },
+  {
+   "id": "2924-03150417-2A1705007",
+   "issuer": "MAP",
+   "company": "MAP",
+   "title": "Microba secures $2m placement and increases cost reductions",
+   "date": "2026-10-19",
+   "type": "Trading Update, Placement, Director Appointment/Resignation",
+   "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03150417-2A1705007?access_token=83ff96335c2d45a094df02a206a39ff4"
+  },
+  {
+   "id": "2924-03150315-3A704448",
+   "issuer": "NAB",
+   "company": "NAB",
+   "title": "NAB simplifying operating model and improving alignment",
+   "date": "2026-10-19",
+   "type": "Progress Report, Company Administration - Other",
+   "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03150315-3A704448?access_token=83ff96335c2d45a094df02a206a39ff4"
+  },
+  {
+   "id": "2924-03149878-6A1349873",
+   "issuer": "DAI",
+   "company": "DAI",
+   "title": "North American Leadership and Operating Model Update",
+   "date": "2026-10-18",
+   "type": "Company Administration - Other",
+   "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03149878-6A1349873?access_token=83ff96335c2d45a094df02a206a39ff4"
+  },
+  {
+   "id": "2924-03149135-2A1704448",
+   "issuer": "1AI",
+   "company": "1AI",
+   "title": "Peter Mac partners with Algorae on 3rd AI validation program",
+   "date": "2026-10-15",
+   "type": "Progress Report",
+   "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03149135-2A1704448?access_token=83ff96335c2d45a094df02a206a39ff4"
+  },
+  {
+   "id": "2924-03148728-3A704168",
+   "issuer": "MFD",
+   "company": "MFD",
+   "title": "Correction - FY26 Guidance Reinstated & Restructure Complete",
+   "date": "2026-10-14",
+   "type": "Profit Guidance, Company Administration - Other",
+   "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03148728-3A704168?access_token=83ff96335c2d45a094df02a206a39ff4"
+  },
+  {
+   "id": "2924-03148610-2A1704153",
+   "issuer": "GML",
+   "company": "GML",
+   "title": "Board Restructure as GML Enters Next Chapter of Development",
+   "date": "2026-10-14",
+   "type": "Chair Appointment/Resignation, CEO/Managing Director - Appointment Resignation, Director Appointment/Resignation",
+   "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03148610-2A1704153?access_token=83ff96335c2d45a094df02a206a39ff4"
+  },
+  {
+   "id": "2924-03148448-2A1704090",
+   "issuer": "BRN",
+   "company": "BRN",
+   "title": "Commercial Availability of Sequora Edge AI Processor IP",
+   "date": "2026-10-14",
+   "type": "Progress Report",
+   "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03148448-2A1704090?access_token=83ff96335c2d45a094df02a206a39ff4"
+  }
+ ],
+ "recorded_at": "2026-10-27T14:42:13+00:00"
+}

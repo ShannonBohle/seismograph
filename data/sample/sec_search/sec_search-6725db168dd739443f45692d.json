@@ -1,0 +1,784 @@
+{
+ "request": {
+  "q": "\"artificial intelligence\" \"headcount\"  \"restructuring\"",
+  "forms": "40-F",
+  "dateRange": "custom",
+  "startdt": "2025-10-27",
+  "enddt": "2026-10-27"
+ },
+ "response": {
+  "took": 262,
+  "timed_out": false,
+  "_shards": {
+   "total": 50,
+   "successful": 50,
+   "skipped": 0,
+   "failed": 0
+  },
+  "hits": {
+   "total": {
+    "value": 13,
+    "relation": "eq"
+   },
+   "max_score": 22.470156,
+   "hits": [
+    {
+     "_index": "edgar_file",
+     "_id": "0001823306-26-000025:mdafy26q4.htm",
+     "_score": 22.470156,
+     "_source": {
+      "ciks": [
+       "0001823306"
+      ],
+      "period_ending": "2026-03-31",
+      "file_num": [
+       "001-39498"
+      ],
+      "display_names": [
+       "Lightspeed Commerce Inc.  (LSPD)  (CIK 0001823306)"
+      ],
+      "xsl": null,
+      "sequence": "4",
+      "root_forms": [
+       "40-F"
+      ],
+      "file_date": "2026-05-21",
+      "biz_states": [
+       "Z4"
+      ],
+      "sics": [
+       "7372"
+      ],
+      "form": "40-F",
+      "adsh": "0001823306-26-000025",
+      "film_num": [
+       "261005901"
+      ],
+      "biz_locations": [
+       "Montreal, Z4"
+      ],
+      "file_type": "EX-99.2",
+      "file_description": "EX-99.2",
+      "inc_states": [
+       "Z4"
+      ],
+      "items": []
+     }
+    },
+    {
+     "_index": "edgar_file",
+     "_id": "0001753368-26-000011:mdaf26q4.htm",
+     "_score": 18.298372,
+     "_source": {
+      "ciks": [
+       "0001753368"
+      ],
+      "period_ending": "2026-06-30",
+      "file_num": [
+       "001-41175"
+      ],
+      "display_names": [
+       "Sangoma Technologies Corp  (SANG)  (CIK 0001753368)"
+      ],
+      "xsl": null,
+      "sequence": "5",
+      "root_forms": [
+       "40-F"
+      ],
+      "file_date": "2026-09-28",
+      "biz_states": [
+       "A6"
+      ],
+      "sics": [
+       "7370"
+      ],
+      "form": "40-F",
+      "adsh": "0001753368-26-000011",
+      "film_num": [
+       "261418206"
+      ],
+      "biz_locations": [
+       "Markham, A6"
+      ],
+      "file_type": "EX-99.3",
+      "ma_i_individual": null,
+      "file_description": "EX-99.3",
+      "inc_states": [
+       "A6"
+      ],
+      "items": []
+     }
+    },
+    {
+     "_index": "edgar_file",
+     "_id": "0001104659-26-037580:brag-20251231xex99d3.htm",
+     "_score": 17.343246,
+     "_source": {
+      "ciks": [
+       "0001867834"
+      ],
+      "period_ending": "2025-12-31",
+      "file_num": [
+       "001-40759"
+      ],
+      "display_names": [
+       "Bragg Gaming Group Inc.  (BRAG)  (CIK 0001867834)"
+      ],
+      "xsl": null,
+      "sequence": "5",
+      "root_forms": [
+       "40-F"
+      ],
+      "file_date": "2026-03-31",
+      "biz_states": [],
+      "sics": [
+       "7377"
+      ],
+      "form": "40-F",
+      "adsh": "0001104659-26-037580",
+      "film_num": [
+       "26820330"
+      ],
+      "biz_locations": [
+       "Toronto"
+      ],
+      "file_type": "EX-99.3",
+      "file_description": "EX-99.3",
+      "inc_states": [
+       "A6"
+      ],
+      "items": []
+     }
+    },
+    {
+     "_index": "edgar_file",
+     "_id": "0001104659-26-026450:dsgx-20260131xex99d2.htm",
+     "_score": 16.567677,
+     "_source": {
+      "ciks": [
+       "0001050140"
+      ],
+      "period_ending": "2026-01-31",
+      "file_num": [
+       "000-29970"
+      ],
+      "display_names": [
+       "DESCARTES SYSTEMS GROUP INC  (DSGX)  (CIK 0001050140)"
+      ],
+      "xsl": null,
+      "sequence": "4",
+      "root_forms": [
+       "40-F"
+      ],
+      "file_date": "2026-03-11",
+      "biz_states": [
+       "A6"
+      ],
+      "sics": [
+       "7372"
+      ],
+      "form": "40-F",
+      "adsh": "0001104659-26-026450",
+      "film_num": [
+       "26744327"
+      ],
+      "biz_locations": [
+       "Waterloo, A6"
+      ],
+      "file_type": "EX-99.2",
+      "file_description": "EX-99.2",
+      "inc_states": [
+       "A6"
+      ],
+      "items": []
+     }
+    },
+    {
+     "_index": "edgar_file",
+     "_id": "0001823306-26-000025:annualinformationform2026.htm",
+     "_score": 15.313083,
+     "_source": {
+      "ciks": [
+       "0001823306"
+      ],
+      "period_ending": "2026-03-31",
+      "file_num": [
+       "001-39498"
+      ],
+      "display_names": [
+       "Lightspeed Commerce Inc.  (LSPD)  (CIK 0001823306)"
+      ],
+      "xsl": null,
+      "sequence": "3",
+      "root_forms": [
+       "40-F"
+      ],
+      "file_date": "2026-05-21",
+      "biz_states": [
+       "Z4"
+      ],
+      "sics": [
+       "7372"
+      ],
+      "form": "40-F",
+      "adsh": "0001823306-26-000025",
+      "film_num": [
+       "261005901"
+      ],
+      "biz_locations": [
+       "Montreal, Z4"
+      ],
+      "file_type": "EX-99.1",
+      "file_description": "EX-99.1",
+      "inc_states": [
+       "Z4"
+      ],
+      "items": []
+     }
+    },
+    {
+     "_index": "edgar_file",
+     "_id": "0001193125-26-054689:tfii-ex99_3.htm",
+     "_score": 13.130779,
+     "_source": {
+      "ciks": [
+       "0001588823"
+      ],
+      "period_ending": "2025-12-31",
+      "file_num": [
+       "001-39224"
+      ],
+      "display_names": [
+       "TFI International Inc.  (TFII)  (CIK 0001588823)"
+      ],
+      "xsl": null,
+      "sequence": "5",
+      "root_forms": [
+       "40-F"
+      ],
+      "file_date": "2026-02-17",
+      "biz_states": [
+       "A8"
+      ],
+      "sics": [
+       "4210"
+      ],
+      "form": "40-F",
+      "adsh": "0001193125-26-054689",
+      "film_num": [
+       "26641571"
+      ],
+      "biz_locations": [
+       "Saint-laurent, A8"
+      ],
+      "file_type": "EX-99.3",
+      "file_description": "EX-99.3",
+      "inc_states": [
+       "A8"
+      ],
+      "items": []
+     }
+    },
+    {
+     "_index": "edgar_file",
+     "_id": "0001193125-26-128771:d20215dex9911.pdf",
+     "_score": 12.31521,
+     "_source": {
+      "ciks": [
+       "0000749098"
+      ],
+      "period_ending": "2025-12-31",
+      "file_num": [
+       "001-11444"
+      ],
+      "display_names": [
+       "MAGNA INTERNATIONAL INC  (MGA)  (CIK 0000749098)"
+      ],
+      "xsl": null,
+      "sequence": "3",
+      "root_forms": [
+       "40-F"
+      ],
+      "file_date": "2026-03-27",
+      "biz_states": [
+       "A6"
+      ],
+      "sics": [
+       "3714"
+      ],
+      "form": "40-F",
+      "adsh": "0001193125-26-128771",
+      "film_num": [
+       "26806511"
+      ],
+      "biz_locations": [
+       "Aurora, Ontario, Can, A6"
+      ],
+      "file_type": "EX-99.1",
+      "file_description": "PRINTER FRIENDLY COPY",
+      "inc_states": [],
+      "items": []
+     }
+    },
+    {
+     "_index": "edgar_file",
+     "_id": "0001193125-26-128771:d20215dex991.htm",
+     "_score": 12.275038,
+     "_source": {
+      "ciks": [
+       "0000749098"
+      ],
+      "period_ending": "2025-12-31",
+      "file_num": [
+       "001-11444"
+      ],
+      "display_names": [
+       "MAGNA INTERNATIONAL INC  (MGA)  (CIK 0000749098)"
+      ],
+      "xsl": null,
+      "sequence": "2",
+      "root_forms": [
+       "40-F"
+      ],
+      "file_date": "2026-03-27",
+      "biz_states": [
+       "A6"
+      ],
+      "sics": [
+       "3714"
+      ],
+      "form": "40-F",
+      "adsh": "0001193125-26-128771",
+      "film_num": [
+       "26806511"
+      ],
+      "biz_locations": [
+       "Aurora, Ontario, Can, A6"
+      ],
+      "file_type": "EX-99.1",
+      "file_description": "EX-99.1",
+      "inc_states": [],
+      "items": []
+     }
+    },
+    {
+     "_index": "edgar_file",
+     "_id": "0001097362-26-000010:a2025q4slfmdalive.htm",
+     "_score": 10.589423,
+     "_source": {
+      "ciks": [
+       "0001097362"
+      ],
+      "period_ending": "2025-12-31",
+      "file_num": [
+       "001-15014"
+      ],
+      "display_names": [
+       "SUN LIFE FINANCIAL INC  (SLF, SLFIF, SLFQF, SUNFF)  (CIK 0001097362)"
+      ],
+      "xsl": null,
+      "sequence": "3",
+      "root_forms": [
+       "40-F"
+      ],
+      "file_date": "2026-02-12",
+      "biz_states": [],
+      "sics": [
+       "6311"
+      ],
+      "form": "40-F",
+      "adsh": "0001097362-26-000010",
+      "film_num": [
+       "26622560"
+      ],
+      "biz_locations": [
+       "Toronto"
+      ],
+      "file_type": "EX-99.1",
+      "file_description": "EX-99.1",
+      "inc_states": [
+       "Z4"
+      ],
+      "items": []
+     }
+    },
+    {
+     "_index": "edgar_file",
+     "_id": "0001193125-26-102628:d92446dex991.htm",
+     "_score": 8.798577,
+     "_source": {
+      "ciks": [
+       "0001860805"
+      ],
+      "period_ending": "2025-12-31",
+      "file_num": [
+       "001-40924"
+      ],
+      "display_names": [
+       "Algoma Steel Group Inc.  (ASTL, ASTLW)  (CIK 0001860805)"
+      ],
+      "xsl": null,
+      "sequence": "2",
+      "root_forms": [
+       "40-F"
+      ],
+      "file_date": "2026-03-12",
+      "biz_states": [
+       "A6"
+      ],
+      "sics": [
+       "3312"
+      ],
+      "form": "40-F",
+      "adsh": "0001193125-26-102628",
+      "film_num": [
+       "26744950"
+      ],
+      "biz_locations": [
+       "Sault Ste. Marie, A6"
+      ],
+      "file_type": "EX-99.1",
+      "file_description": "EX-99.1",
+      "inc_states": [
+       "A1"
+      ],
+      "items": []
+     }
+    },
+    {
+     "_index": "edgar_file",
+     "_id": "0001628280-26-042364:mda20260331q42026.htm",
+     "_score": 8.6080885,
+     "_source": {
+      "ciks": [
+       "0001683541"
+      ],
+      "period_ending": "2026-03-31",
+      "file_num": [
+       "001-38691"
+      ],
+      "display_names": [
+       "AURORA CANNABIS INC  (ACB)  (CIK 0001683541)"
+      ],
+      "xsl": null,
+      "sequence": "7",
+      "root_forms": [
+       "40-F"
+      ],
+      "file_date": "2026-06-11",
+      "biz_states": [
+       "A0"
+      ],
+      "sics": [
+       "2833"
+      ],
+      "form": "40-F",
+      "adsh": "0001628280-26-042364",
+      "film_num": [
+       "261081425"
+      ],
+      "biz_locations": [
+       "Edmonton, A0"
+      ],
+      "file_type": "EX-99.6",
+      "file_description": "EX-99.6",
+      "inc_states": [
+       "A1"
+      ],
+      "items": []
+     }
+    },
+    {
+     "_index": "edgar_file",
+     "_id": "0001628280-26-022120:eqxaif2026-final.htm",
+     "_score": 7.050859,
+     "_source": {
+      "ciks": [
+       "0001756607"
+      ],
+      "period_ending": "2025-12-31",
+      "file_num": [
+       "001-39038"
+      ],
+      "display_names": [
+       "Equinox Gold Corp.  (EQX)  (CIK 0001756607)"
+      ],
+      "xsl": null,
+      "sequence": "2",
+      "root_forms": [
+       "40-F"
+      ],
+      "file_date": "2026-03-31",
+      "biz_states": [
+       "A1"
+      ],
+      "sics": [
+       "1040"
+      ],
+      "form": "40-F",
+      "adsh": "0001628280-26-022120",
+      "film_num": [
+       "26815014"
+      ],
+      "biz_locations": [
+       "Vancouver, A1"
+      ],
+      "file_type": "EX-99.1",
+      "file_description": "EX-99.1",
+      "inc_states": [
+       "A1"
+      ],
+      "items": []
+     }
+    },
+    {
+     "_index": "edgar_file",
+     "_id": "0001193125-26-102524:sndl-ex99_1.htm",
+     "_score": 6.438735,
+     "_source": {
+      "ciks": [
+       "0001766600"
+      ],
+      "period_ending": "2025-12-31",
+      "file_num": [
+       "001-39005"
+      ],
+      "display_names": [
+       "SNDL Inc.  (SNDL)  (CIK 0001766600)"
+      ],
+      "xsl": null,
+      "sequence": "2",
+      "root_forms": [
+       "40-F"
+      ],
+      "file_date": "2026-03-12",
+      "biz_states": [],
+      "sics": [
+       "2833"
+      ],
+      "form": "40-F",
+      "adsh": "0001193125-26-102524",
+      "film_num": [
+       "26744718"
+      ],
+      "biz_locations": [
+       "Edmonton"
+      ],
+      "file_type": "EX-99.1",
+      "file_description": "EX-99.1",
+      "inc_states": [
+       "A0"
+      ],
+      "items": []
+     }
+    }
+   ]
+  },
+  "aggregations": {
+   "entity_filter": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "Lightspeed Commerce Inc.  (LSPD)  (CIK 0001823306)",
+      "doc_count": 2
+     },
+     {
+      "key": "MAGNA INTERNATIONAL INC  (MGA)  (CIK 0000749098)",
+      "doc_count": 2
+     },
+     {
+      "key": "AURORA CANNABIS INC  (ACB)  (CIK 0001683541)",
+      "doc_count": 1
+     },
+     {
+      "key": "Algoma Steel Group Inc.  (ASTL, ASTLW)  (CIK 0001860805)",
+      "doc_count": 1
+     },
+     {
+      "key": "Bragg Gaming Group Inc.  (BRAG)  (CIK 0001867834)",
+      "doc_count": 1
+     },
+     {
+      "key": "DESCARTES SYSTEMS GROUP INC  (DSGX)  (CIK 0001050140)",
+      "doc_count": 1
+     },
+     {
+      "key": "Equinox Gold Corp.  (EQX)  (CIK 0001756607)",
+      "doc_count": 1
+     },
+     {
+      "key": "SNDL Inc.  (SNDL)  (CIK 0001766600)",
+      "doc_count": 1
+     },
+     {
+      "key": "SUN LIFE FINANCIAL INC  (SLF, SLFIF, SLFQF, SUNFF)  (CIK 0001097362)",
+      "doc_count": 1
+     },
+     {
+      "key": "Sangoma Technologies Corp  (SANG)  (CIK 0001753368)",
+      "doc_count": 1
+     },
+     {
+      "key": "TFI International Inc.  (TFII)  (CIK 0001588823)",
+      "doc_count": 1
+     }
+    ]
+   },
+   "sic_filter": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "7372",
+      "doc_count": 3
+     },
+     {
+      "key": "2833",
+      "doc_count": 2
+     },
+     {
+      "key": "3714",
+      "doc_count": 2
+     },
+     {
+      "key": "1040",
+      "doc_count": 1
+     },
+     {
+      "key": "3312",
+      "doc_count": 1
+     },
+     {
+      "key": "4210",
+      "doc_count": 1
+     },
+     {
+      "key": "6311",
+      "doc_count": 1
+     },
+     {
+      "key": "7370",
+      "doc_count": 1
+     },
+     {
+      "key": "7377",
+      "doc_count": 1
+     }
+    ]
+   },
+   "biz_states_filter": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "A6",
+      "doc_count": 5
+     },
+     {
+      "key": "Z4",
+      "doc_count": 2
+     },
+     {
+      "key": "A0",
+      "doc_count": 1
+     },
+     {
+      "key": "A1",
+      "doc_count": 1
+     },
+     {
+      "key": "A8",
+      "doc_count": 1
+     }
+    ]
+   },
+   "form_filter": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "40-F",
+      "doc_count": 13
+     }
+    ]
+   }
+  },
+  "query": {
+   "_source": {
+    "exclude": [
+     "doc_text"
+    ]
+   },
+   "query": {
+    "bool": {
+     "must": [
+      {
+       "match_phrase": {
+        "doc_text": "artificial intelligence"
+       }
+      },
+      {
+       "match_phrase": {
+        "doc_text": "headcount"
+       }
+      },
+      {
+       "match_phrase": {
+        "doc_text": "restructuring"
+       }
+      }
+     ],
+     "must_not": [],
+     "should": [],
+     "filter": [
+      {
+       "terms": {
+        "root_forms": [
+         "40-F"
+        ]
+       }
+      },
+      {
+       "range": {
+        "file_date": {
+         "gte": "2025-10-27",
+         "lte": "2026-10-27"
+        }
+       }
+      }
+     ]
+    }
+   },
+   "from": 0,
+   "size": 100,
+   "aggregations": {
+    "form_filter": {
+     "terms": {
+      "field": "root_forms",
+      "size": 30
+     }
+    },
+    "entity_filter": {
+     "terms": {
+      "field": "display_names.raw",
+      "size": 30
+     }
+    },
+    "sic_filter": {
+     "terms": {
+      "field": "sics",
+      "size": 30
+     }
+    },
+    "biz_states_filter": {
+     "terms": {
+      "field": "biz_states",
+      "size": 30
+     }
+    }
+   }
+  }
+ },
+ "recorded_at": "2026-10-27T14:20:41+00:00"
+}

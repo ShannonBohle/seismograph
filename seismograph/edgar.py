@@ -70,9 +70,12 @@ class Edgar:
         r.raise_for_status()
         return r
 
-    def search(self, query: str, forms: str, start: str, end: str, max_hits: int = 40) -> list[dict]:
-        """Full-text search. Returns one dict per matching document."""
+    def search(self, query: str, forms: str, start: str, end: str, max_hits: int = 40,
+               ciks: str | None = None) -> list[dict]:
+        """Full-text search. Returns one dict per matching document. ciks: comma-separated 10-digit CIKs."""
         request = {"q": query, "forms": forms, "dateRange": "custom", "startdt": start, "enddt": end}
+        if ciks:
+            request["ciks"] = ciks
         if self.replay.sample_mode:
             payload = self.replay.load("sec_search", request)
         else:
@@ -96,6 +99,15 @@ class Edgar:
                 "index_url": f"{ARCHIVES}/{cik}/{adsh.replace('-', '')}/",
             })
         return hits
+
+    def get_json(self, url: str):
+        """SEC JSON endpoints (company tickers, XBRL company facts), recorded for sample mode."""
+        request = {"url": url}
+        if self.replay.sample_mode:
+            return self.replay.load("sec_json", request)
+        data = self._get(url).json()
+        self.replay.save("sec_json", request, data)
+        return data
 
     def fetch_text(self, url: str) -> str:
         request = {"url": url}

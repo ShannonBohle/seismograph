@@ -1,0 +1,16 @@
+{
+ "ok": true,
+ "task": "discover",
+ "result": {
+  "documents": 5,
+  "not_layoffs": 5,
+  "drafted": 0,
+  "judge_failed": 0,
+  "duplicates": 0,
+  "pending_review": 0,
+  "errors": 0
+ },
+ "trace": "C:\\Users\\shann\\seismograph\\logs\\run-20261027T162711Z-50cd85.jsonl",
+ "mode": "live",
+ "seconds": 40.2
+}

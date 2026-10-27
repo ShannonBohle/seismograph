@@ -144,16 +144,23 @@ class Scout:
                             purpose="documents already turned into records (skip them)")
         return {r["doc_id"] for r in rows}
 
-    def discover(self, start: str, end: str, forms: str, max_docs: int) -> list[Candidate]:
+    def discover(self, start: str, end: str, forms: str, max_docs: int, ciks: str | None = None,
+                 queries: list[str] | None = None, source: str = "sec") -> list[Candidate]:
         known = self.known_docs()
         seen, out = set(), []
-        for q in self.QUERIES:
+        if source == "uk":
+            from . import uk
+            out = uk.candidates(self.edgar.replay, self.log, start, end, known, queries)
+        elif source != "sec":
+            from . import foreign
+            out = foreign.candidates(self.edgar.replay, self.log, source, start, end, known)
+        for q in ([] if source != "sec" else (queries or self.QUERIES)):
             try:
-                hits = self.edgar.search(q, forms, start, end)
+                hits = self.edgar.search(q, forms, start, end, ciks=ciks) if ciks else self.edgar.search(q, forms, start, end)
             except Exception as exc:  # one failing query should not stop the run
                 self.log.log("Scout", "sec_search", status="failure", input_summary=q, output_summary=str(exc)[:200])
                 continue
-            self.log.log("Scout", "sec_search", input_summary=f"{q} | {forms} | {start}..{end}",
+            self.log.log("Scout", "sec_search", input_summary=f"{q} | {forms} | {start}..{end}" + (f" | ciks {ciks}" if ciks else ""),
                          output_summary=f"{len(hits)} matching documents")
             for h in hits:
                 doc_id = f"{h['accession']}:{h['filename']}"
@@ -175,7 +182,14 @@ class Scout:
 
     def fetch_and_store(self, c: Candidate, run_id: str) -> bool:
         try:
-            text = self.edgar.fetch_text(c.url)
+            if c.doc_id.startswith("NSM:"):
+                from . import uk
+                text = uk.fetch_text(self.edgar.replay, c.url)
+            elif c.doc_id.split(":")[0].lower() in __import__("seismograph.foreign", fromlist=["ADAPTERS"]).ADAPTERS:
+                from . import foreign
+                text = foreign.fetch_text(self.edgar.replay, c.url)
+            else:
+                text = self.edgar.fetch_text(c.url)
         except Exception as exc:
             self.log.log("Scout", "fetch_document", status="failure", input_summary=c.url, output_summary=str(exc)[:200])
             return False

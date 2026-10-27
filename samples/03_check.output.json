@@ -1,0 +1,29 @@
+{
+ "ok": true,
+ "task": "check",
+ "result": {
+  "question": "What did the employer named in this claim itself say about AI and its job cuts? Return its records with the verbatim quote and source. Claim: monday.com laid off 20% of its staff because AI replaced them",
+  "explanation": "Returns all employer claim records for monday.com with the verbatim AI quote and source URL.",
+  "sql": "SELECT record_id, company, event_date, jobs_cut, jobs_cut_text, ai_attribution, ai_quote, source_url FROM seismo_pg.v_employer_claims WHERE lower(company) LIKE '%monday.com%' LIMIT 50",
+  "rows": [
+   {
+    "record_id": "rec_f110b0ccbfa9",
+    "company": "monday.com Ltd.",
+    "event_date": "2026-07-22",
+    "jobs_cut": null,
+    "jobs_cut_text": "approximately 20% of the Company's current workforce",
+    "ai_attribution": "partial",
+    "ai_quote": "On July 22, 2026, the Company announced a restructuring plan (the \"2026 Restructuring Plan\") designed to align its organizational structure with its strategic focus on the AI Work Platform, support a leaner operating model, and accelerate investment in its AI-driven growth strategy.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1845338/000117891326003971/exhibit_99-2.htm"
+   }
+  ],
+  "row_count": 1,
+  "model": "nvidia/nemotron-3-ultra-550b-a55b",
+  "note": "Rows come straight from the published record through Zetaris; the model only wrote the query.",
+  "claim": "monday.com laid off 20% of its staff because AI replaced them",
+  "how_to_read": "The rows are the employer's own words from its filing. If no row is returned, the published record holds nothing from this employer that supports the claim."
+ },
+ "trace": "C:\\Users\\shann\\seismograph\\logs\\run-20261027T162803Z-9fd690.jsonl",
+ "mode": "live",
+ "seconds": 5.5
+}

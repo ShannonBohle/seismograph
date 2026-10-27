@@ -7,7 +7,7 @@
   "enddt": "2026-10-27"
  },
  "response": {
-  "took": 61,
+  "took": 72,
   "timed_out": false,
   "_shards": {
    "total": 50,
@@ -17,15 +17,15 @@
   },
   "hits": {
    "total": {
-    "value": 22,
+    "value": 23,
     "relation": "eq"
    },
-   "max_score": 26.3213,
+   "max_score": 26.31986,
    "hits": [
     {
      "_index": "edgar_file",
      "_id": "0001104659-26-091071:tm2622239d1_ex99-1.htm",
-     "_score": 26.3213,
+     "_score": 26.31986,
      "_source": {
       "ciks": [
        "0001826000"
@@ -72,7 +72,7 @@
     {
      "_index": "edgar_file",
      "_id": "0000749251-26-000243:it-06302026xex991.htm",
-     "_score": 24.579214,
+     "_score": 24.578682,
      "_source": {
       "ciks": [
        "0000749251"
@@ -118,8 +118,55 @@
     },
     {
      "_index": "edgar_file",
+     "_id": "0001193125-26-432963:ttgt-ex99_1.htm",
+     "_score": 23.241241,
+     "_source": {
+      "ciks": [
+       "0002018064"
+      ],
+      "period_ending": "2026-10-27",
+      "file_num": [
+       "001-42428"
+      ],
+      "display_names": [
+       "TechTarget, Inc.  (TTGT)  (CIK 0002018064)"
+      ],
+      "xsl": null,
+      "sequence": "2",
+      "root_forms": [
+       "8-K"
+      ],
+      "file_date": "2026-10-27",
+      "biz_states": [
+       "MA"
+      ],
+      "sics": [
+       "4822"
+      ],
+      "form": "8-K",
+      "adsh": "0001193125-26-432963",
+      "film_num": [
+       "261487713"
+      ],
+      "biz_locations": [
+       "Newton, MA"
+      ],
+      "file_type": "EX-99.1",
+      "ma_i_individual": null,
+      "file_description": "EX-99.1",
+      "inc_states": [
+       "DE"
+      ],
+      "items": [
+       "2.02",
+       "9.01"
+      ]
+     }
+    },
+    {
+     "_index": "edgar_file",
      "_id": "0001193125-26-324176:ttgt-ex99_1.htm",
-     "_score": 23.190907,
+     "_score": 23.190338,
      "_source": {
       "ciks": [
        "0002018064"
@@ -165,7 +212,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001193125-26-350246:utsi-ex99_1.htm",
-     "_score": 22.17915,
+     "_score": 22.179302,
      "_source": {
       "ciks": [
        "0001030471"
@@ -208,7 +255,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001826000-26-000050:tmb-20260810xex99d1.htm",
-     "_score": 21.425388,
+     "_score": 21.42522,
      "_source": {
       "ciks": [
        "0001826000"
@@ -254,7 +301,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001193125-26-335117:d91486dex991.htm",
-     "_score": 20.318153,
+     "_score": 20.318205,
      "_source": {
       "ciks": [
        "0001512673"
@@ -300,7 +347,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001816431-26-000053:qsi8132026ex991.htm",
-     "_score": 20.149681,
+     "_score": 20.148153,
      "_source": {
       "ciks": [
        "0001816431"
@@ -346,7 +393,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001616707-26-000147:a2026-08x04ex991.htm",
-     "_score": 19.839716,
+     "_score": 19.8388,
      "_source": {
       "ciks": [
        "0001616707"
@@ -390,7 +437,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001823239-26-000056:exhibit991-q22026.htm",
-     "_score": 18.575468,
+     "_score": 18.574303,
      "_source": {
       "ciks": [
        "0001823239"
@@ -436,7 +483,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001193125-26-338041:ttgt-ex99_1.htm",
-     "_score": 18.248253,
+     "_score": 18.247667,
      "_source": {
       "ciks": [
        "0002018064"
@@ -482,7 +529,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001213900-26-105352:ea030677801ex99-3.htm",
-     "_score": 17.450489,
+     "_score": 17.450335,
      "_source": {
       "ciks": [
        "0001631487"
@@ -526,7 +573,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001770450-26-000034:ex991xrx630268-ker.htm",
-     "_score": 16.783264,
+     "_score": 16.782665,
      "_source": {
       "ciks": [
        "0001770450",
@@ -579,7 +626,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001633917-26-000086:pypl3q-26earningsrelease.htm",
-     "_score": 16.440847,
+     "_score": 16.44049,
      "_source": {
       "ciks": [
        "0001633917"
@@ -624,7 +671,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001628280-26-055207:niqpressrelease-q226.htm",
-     "_score": 16.42805,
+     "_score": 16.427706,
      "_source": {
       "ciks": [
        "0002054696"
@@ -670,7 +717,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001171843-26-005044:exh_991.htm",
-     "_score": 15.340508,
+     "_score": 15.33999,
      "_source": {
       "ciks": [
        "0001039765"
@@ -713,7 +760,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001178913-26-003971:exhibit_99-2.htm",
-     "_score": 14.094245,
+     "_score": 14.093969,
      "_source": {
       "ciks": [
        "0001845338"
@@ -756,7 +803,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001104659-26-106807:dsgx-20260731xex99d1.htm",
-     "_score": 10.084322,
+     "_score": 10.083821,
      "_source": {
       "ciks": [
        "0001050140"
@@ -799,7 +846,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001628280-26-056525:valn-20260630.htm",
-     "_score": 8.296468,
+     "_score": 8.296901,
      "_source": {
       "ciks": [
        "0001836564"
@@ -842,7 +889,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001829126-26-011096:pioneeracq1_ex2-1.htm",
-     "_score": 8.151769,
+     "_score": 8.150583,
      "_source": {
       "ciks": [
        "0002040381"
@@ -890,7 +937,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001104659-26-088451:tm2621424d1_ex10-1.htm",
-     "_score": 6.2168427,
+     "_score": 6.2172184,
      "_source": {
       "ciks": [
        "0000895126"
@@ -936,7 +983,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001213900-26-084076:ea030007701ex10-1.htm",
-     "_score": 4.9401846,
+     "_score": 4.940179,
      "_source": {
       "ciks": [
        "0000839087"
@@ -983,7 +1030,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001104659-26-093056:tm2622394d1_ex2-1.htm",
-     "_score": 4.521638,
+     "_score": 4.521577,
      "_source": {
       "ciks": [
        "0001824502"
@@ -1034,11 +1081,11 @@
     "sum_other_doc_count": 0,
     "buckets": [
      {
-      "key": "Latch, Inc.  (LTCH)  (CIK 0001826000)",
-      "doc_count": 2
+      "key": "TechTarget, Inc.  (TTGT)  (CIK 0002018064)",
+      "doc_count": 3
      },
      {
-      "key": "TechTarget, Inc.  (TTGT)  (CIK 0002018064)",
+      "key": "Latch, Inc.  (LTCH)  (CIK 0001826000)",
       "doc_count": 2
      },
      {
@@ -1124,12 +1171,12 @@
     "sum_other_doc_count": 0,
     "buckets": [
      {
-      "key": "7372",
+      "key": "4822",
       "doc_count": 3
      },
      {
-      "key": "4822",
-      "doc_count": 2
+      "key": "7372",
+      "doc_count": 3
      },
      {
       "key": "5072",
@@ -1206,11 +1253,11 @@
       "doc_count": 4
      },
      {
-      "key": "CT",
-      "doc_count": 3
+      "key": "MA",
+      "doc_count": 4
      },
      {
-      "key": "MA",
+      "key": "CT",
       "doc_count": 3
      },
      {
@@ -1257,7 +1304,7 @@
     "buckets": [
      {
       "key": "8-K",
-      "doc_count": 16
+      "doc_count": 17
      },
      {
       "key": "6-K",
@@ -1337,5 +1384,6 @@
     }
    }
   }
- }
+ },
+ "recorded_at": "2026-10-27T16:27:14+00:00"
 }

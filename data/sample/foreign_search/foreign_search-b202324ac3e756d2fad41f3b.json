@@ -1,0 +1,127 @@
+{
+ "request": {
+  "source": "amf",
+  "start": "2026-06-29",
+  "end": "2026-10-27"
+ },
+ "response": [
+  {
+   "id": "081664_20261002",
+   "issuer": "9695005AQEGETJTO6R29",
+   "company": "METAVISIO",
+   "title": "METAVISIO - Thomson Computing poursuit son plan de restructuration pour une période de 6 mois.",
+   "date": "2026-10-02",
+   "type": "Ongoing regulated information",
+   "url": "https://fr.ftp.opendatasoft.com/datadila/INFOFI/ACT/2026/10/FCACT081664_20261002.pdf"
+  },
+  {
+   "id": "008701_20260914",
+   "issuer": "969500QNETQTC7OHHE57",
+   "company": "REALITES",
+   "title": "REALITES ACHEVE SA RESTRUCTURATION : LE DERNIER CHAPITRE D'UN GROUPE QUI A CHOISI DE TENIR",
+   "date": "2026-09-14",
+   "type": "Ongoing regulated information",
+   "url": "https://fr.ftp.opendatasoft.com/datadila/INFOFI/EQS/2026/09/FCEQS008701_20260914.pdf"
+  },
+  {
+   "id": "081269_20260909",
+   "issuer": "969500ZX35JFNKB6H637",
+   "company": "GRAINES VOLTZ",
+   "title": "PROJET DE RESTRUCTURATION DES ACTIVITÉS DE PÉPINIÈRE",
+   "date": "2026-09-09",
+   "type": "Ongoing regulated information",
+   "url": "https://fr.ftp.opendatasoft.com/datadila/INFOFI/ACT/2026/09/FCACT081269_20260909.pdf"
+  },
+  {
+   "id": "081089_20260826",
+   "issuer": "9695005AQEGETJTO6R29",
+   "company": "METAVISIO",
+   "title": "METAVISIO - Thomson Computing annonce la publication des résultats préliminaires du 1er semestre 2026. La restructuration permet à l'entreprise de renouer avec les bénéfices.",
+   "date": "2026-08-26",
+   "type": "Ongoing regulated information",
+   "url": "https://fr.ftp.opendatasoft.com/datadila/INFOFI/ACT/2026/08/FCACT081089_20260826.pdf"
+  },
+  {
+   "id": "132110_20260709",
+   "issuer": "969500I9Y690B3FZW590",
+   "company": "INVENTIVA",
+   "title": "Inventiva annonce la finalisation de la restructuration des BSA BEI à la suite de l'émission des Nouveaux BSA BEI",
+   "date": "2026-07-09",
+   "type": "Ongoing regulated information",
+   "url": "https://fr.ftp.opendatasoft.com/datadila/INFOFI/MKW/2026/07/FCMKW132110_20260709.pdf"
+  },
+  {
+   "id": "137809_20261014",
+   "issuer": "969500F0VMZLK2IULV85",
+   "company": "FORVIA",
+   "title": "FORVIA renforce son leadership en matière d’intelligence artificielle avec la nomination de Raphaël Viard au Comité exécutif",
+   "date": "2026-10-14",
+   "type": "Ongoing regulated information",
+   "url": "https://fr.ftp.opendatasoft.com/datadila/INFOFI/MKW/2026/10/FCMKW137809_20261014.pdf"
+  },
+  {
+   "id": "647692_20260928",
+   "issuer": "969500VF6MOVQXWHAE33",
+   "company": "INTRASENSE",
+   "title": "Intrasense publie ses résultats semestriels 2026 et accélère son recentrage stratégique sur l'intelligence artificielle en oncologie",
+   "date": "2026-09-28",
+   "type": "Ongoing regulated information",
+   "url": "https://fr.ftp.opendatasoft.com/datadila/INFOFI/936/2026/09/FC936647692_20260928.pdf"
+  },
+  {
+   "id": "081318_20260911",
+   "issuer": "969500KVDFCL47CTBX34",
+   "company": "SIRIUS MEDIA",
+   "title": "Sirius Media dévoile le teaser de ' 11 septembre, au pied des tours ', réalisé intégralement en intelligence artificielle, pour les 25 ans des attentats",
+   "date": "2026-09-11",
+   "type": "Ongoing regulated information",
+   "url": "https://fr.ftp.opendatasoft.com/datadila/INFOFI/ACT/2026/09/FCACT081318_20260911.pdf"
+  },
+  {
+   "id": "082776_20260728",
+   "issuer": "NFONVGN05Z0FMN5PEC35",
+   "company": "COMPAGNIE DE SAINT-GOBAIN",
+   "title": "Saint-Gobain signe un accord-cadre avec Microsoft et renforce son leadership dans l’Intelligence Artificielle pour la construction",
+   "date": "2026-07-28",
+   "type": "Ongoing regulated information",
+   "url": "https://fr.ftp.opendatasoft.com/datadila/INFOFI/ECO/2026/07/FCECO082776_20260728.pdf"
+  },
+  {
+   "id": "638867_20260723",
+   "issuer": "969500VF6MOVQXWHAE33",
+   "company": "INTRASENSE",
+   "title": "Un semestre de transition marqué par la cession en cours de Myrian® et le repositionnement stratégique d’Intrasense vers ses solutions d’intelligence artificielle DUOnco™ dédiées à l’oncologie",
+   "date": "2026-07-23",
+   "type": "Ongoing regulated information",
+   "url": "https://fr.ftp.opendatasoft.com/datadila/INFOFI/936/2026/07/FC936638867_20260723.pdf"
+  },
+  {
+   "id": "080630_20260722",
+   "issuer": "9695009BBZ5958ITOK21",
+   "company": "TOOSLA",
+   "title": "Toosla divise par trois ses délais de développement grâce à l'intelligence artificielle et accélère l'enrichissement de sa plateforme",
+   "date": "2026-07-22",
+   "type": "Ongoing regulated information",
+   "url": "https://fr.ftp.opendatasoft.com/datadila/INFOFI/ACT/2026/07/FCACT080630_20260722.pdf"
+  },
+  {
+   "id": "635664_20260701",
+   "issuer": "969500VF6MOVQXWHAE33",
+   "company": "INTRASENSE",
+   "title": "Projet de cession de l’activité Myrian® d’Intrasense à EDL et accélération de la transformation d’Intrasense en « pure player » de l’intelligence artificielle appliquée à l’oncologie.",
+   "date": "2026-07-01",
+   "type": "Ongoing regulated information",
+   "url": "https://fr.ftp.opendatasoft.com/datadila/INFOFI/936/2026/07/FC936635664_20260701.pdf"
+  },
+  {
+   "id": "080272_20260630",
+   "issuer": "969500Y1PUEV0APBE938",
+   "company": "ADOMOS",
+   "title": "Adomos engage sa transformation vers une plateforme SaaS de données propriétaire et d'intelligence artificielle au service de l'économie du patrimoine",
+   "date": "2026-06-30",
+   "type": "Ongoing regulated information",
+   "url": "https://fr.ftp.opendatasoft.com/datadila/INFOFI/ACT/2026/06/FCACT080272_20260630.pdf"
+  }
+ ],
+ "recorded_at": "2026-10-27T14:45:05+00:00"
+}

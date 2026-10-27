@@ -8,5 +8,6 @@
   "text": "{\"is_workforce_reduction\": false, \"company\": \"Block, Inc.\", \"event_date\": null, \"jobs_cut\": null, \"jobs_cut_text\": null, \"cut_quote\": null, \"ai_attribution\": \"none\", \"ai_quote\": null, \"notes\": \"Document is a shareholder letter discussing AI strategy and mentions a prior workforce reduction announced in February, but does not announce new job cuts.\"}",
   "served_model": "nvidia/nemotron-3-ultra-550b-a55b",
   "is_nemotron": true
- }
+ },
+ "recorded_at": "2026-10-27T16:27:35+00:00"
 }

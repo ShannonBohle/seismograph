@@ -1,0 +1,916 @@
+{
+ "countries": [
+  {
+   "country": "United States",
+   "markets": [
+    "SEC (US)"
+   ],
+   "documents_read": 37,
+   "employers_read": 16,
+   "job_cuts_found": 5,
+   "published": 4,
+   "explicit": 0,
+   "partial": 3,
+   "none": 1,
+   "jobs_stated": 65,
+   "outcomes_reported": 7,
+   "savings_achieved": 0,
+   "savings_expected": 2,
+   "problems_or_reversals": 0,
+   "companies": [
+    "Latch, Inc.",
+    "NIQ Global Intelligence plc",
+    "Quantum-Si Inc"
+   ],
+   "ai_linked_share_of_published": 0.75,
+   "job_cuts_per_100_documents": 13.5,
+   "public_regulator_layoff_notices": "Yes: state WARN Act notices (loaded for the states listed on the main page)"
+  },
+  {
+   "country": "United Kingdom",
+   "markets": [
+    "FCA NSM (UK)"
+   ],
+   "documents_read": 13,
+   "employers_read": 13,
+   "job_cuts_found": 3,
+   "published": 2,
+   "explicit": 0,
+   "partial": 1,
+   "none": 1,
+   "jobs_stated": 0,
+   "outcomes_reported": 0,
+   "savings_achieved": 0,
+   "savings_expected": 0,
+   "problems_or_reversals": 0,
+   "companies": [
+    "FLOWTECH FLUIDPOWER PLC",
+    "YouGov plc"
+   ],
+   "ai_linked_share_of_published": 0.5,
+   "job_cuts_per_100_documents": 23.1,
+   "public_regulator_layoff_notices": "No: HR1 advance notifications of collective redundancies are not published"
+  },
+  {
+   "country": "France",
+   "markets": [
+    "SEC (US)",
+    "info-financiere.gouv.fr / AMF (France)"
+   ],
+   "documents_read": 10,
+   "employers_read": 8,
+   "job_cuts_found": 4,
+   "published": 1,
+   "explicit": 0,
+   "partial": 0,
+   "none": 1,
+   "jobs_stated": 0,
+   "outcomes_reported": 3,
+   "savings_achieved": 1,
+   "savings_expected": 1,
+   "problems_or_reversals": 0,
+   "companies": [
+    "Valneva SE"
+   ],
+   "ai_linked_share_of_published": 0.0,
+   "job_cuts_per_100_documents": 40.0,
+   "public_regulator_layoff_notices": "None connected; none found public"
+  },
+  {
+   "country": "China",
+   "markets": [
+    "CNINFO / Shanghai and Shenzhen exchanges (China)",
+    "SEC (US)"
+   ],
+   "documents_read": 9,
+   "employers_read": 9,
+   "job_cuts_found": 1,
+   "published": 0,
+   "explicit": 0,
+   "partial": 0,
+   "none": 0,
+   "jobs_stated": 0,
+   "outcomes_reported": 0,
+   "savings_achieved": 0,
+   "savings_expected": 0,
+   "problems_or_reversals": 0,
+   "companies": [],
+   "ai_linked_share_of_published": null,
+   "job_cuts_per_100_documents": 11.1,
+   "public_regulator_layoff_notices": "None connected; none found public"
+  },
+  {
+   "country": "Australia",
+   "markets": [
+    "ASX (Australia)"
+   ],
+   "documents_read": 8,
+   "employers_read": 8,
+   "job_cuts_found": 2,
+   "published": 0,
+   "explicit": 0,
+   "partial": 0,
+   "none": 0,
+   "jobs_stated": 0,
+   "outcomes_reported": 0,
+   "savings_achieved": 0,
+   "savings_expected": 0,
+   "problems_or_reversals": 0,
+   "companies": [],
+   "ai_linked_share_of_published": null,
+   "job_cuts_per_100_documents": 25.0,
+   "public_regulator_layoff_notices": "None connected; none found public"
+  },
+  {
+   "country": "Japan",
+   "markets": [
+    "TDnet / Tokyo Stock Exchange (Japan)"
+   ],
+   "documents_read": 7,
+   "employers_read": 7,
+   "job_cuts_found": 3,
+   "published": 0,
+   "explicit": 0,
+   "partial": 0,
+   "none": 0,
+   "jobs_stated": 0,
+   "outcomes_reported": 0,
+   "savings_achieved": 0,
+   "savings_expected": 0,
+   "problems_or_reversals": 0,
+   "companies": [],
+   "ai_linked_share_of_published": null,
+   "job_cuts_per_100_documents": 42.9,
+   "public_regulator_layoff_notices": "None connected; none found public"
+  },
+  {
+   "country": "India",
+   "markets": [
+    "BSE (India)"
+   ],
+   "documents_read": 5,
+   "employers_read": 4,
+   "job_cuts_found": 0,
+   "published": 0,
+   "explicit": 0,
+   "partial": 0,
+   "none": 0,
+   "jobs_stated": 0,
+   "outcomes_reported": 0,
+   "savings_achieved": 0,
+   "savings_expected": 0,
+   "problems_or_reversals": 0,
+   "companies": [],
+   "ai_linked_share_of_published": null,
+   "job_cuts_per_100_documents": 0.0,
+   "public_regulator_layoff_notices": "None connected; none found public"
+  },
+  {
+   "country": "Israel",
+   "markets": [
+    "SEC (US)"
+   ],
+   "documents_read": 3,
+   "employers_read": 2,
+   "job_cuts_found": 2,
+   "published": 1,
+   "explicit": 0,
+   "partial": 1,
+   "none": 0,
+   "jobs_stated": 0,
+   "outcomes_reported": 5,
+   "savings_achieved": 0,
+   "savings_expected": 2,
+   "problems_or_reversals": 1,
+   "companies": [
+    "monday.com Ltd."
+   ],
+   "ai_linked_share_of_published": 1.0,
+   "job_cuts_per_100_documents": 66.7,
+   "public_regulator_layoff_notices": "None connected; none found public"
+  },
+  {
+   "country": "Ontario, Canada",
+   "markets": [
+    "SEC (US)"
+   ],
+   "documents_read": 3,
+   "employers_read": 2,
+   "job_cuts_found": 1,
+   "published": 0,
+   "explicit": 0,
+   "partial": 0,
+   "none": 0,
+   "jobs_stated": 0,
+   "outcomes_reported": 0,
+   "savings_achieved": 0,
+   "savings_expected": 0,
+   "problems_or_reversals": 0,
+   "companies": [],
+   "ai_linked_share_of_published": null,
+   "job_cuts_per_100_documents": 33.3,
+   "public_regulator_layoff_notices": "None connected; none found public"
+  },
+  {
+   "country": "Not known",
+   "markets": [
+    "SEC (US)"
+   ],
+   "documents_read": 2,
+   "employers_read": 2,
+   "job_cuts_found": 0,
+   "published": 0,
+   "explicit": 0,
+   "partial": 0,
+   "none": 0,
+   "jobs_stated": 0,
+   "outcomes_reported": 0,
+   "savings_achieved": 0,
+   "savings_expected": 0,
+   "problems_or_reversals": 0,
+   "companies": [],
+   "ai_linked_share_of_published": null,
+   "job_cuts_per_100_documents": 0.0,
+   "public_regulator_layoff_notices": "None connected; none found public"
+  },
+  {
+   "country": "Canada (Federal Level)",
+   "markets": [
+    "SEC (US)"
+   ],
+   "documents_read": 1,
+   "employers_read": 1,
+   "job_cuts_found": 0,
+   "published": 0,
+   "explicit": 0,
+   "partial": 0,
+   "none": 0,
+   "jobs_stated": 0,
+   "outcomes_reported": 0,
+   "savings_achieved": 0,
+   "savings_expected": 0,
+   "problems_or_reversals": 0,
+   "companies": [],
+   "ai_linked_share_of_published": null,
+   "job_cuts_per_100_documents": 0.0,
+   "public_regulator_layoff_notices": "None connected; none found public"
+  },
+  {
+   "country": "Netherlands",
+   "markets": [
+    "SEC (US)"
+   ],
+   "documents_read": 1,
+   "employers_read": 1,
+   "job_cuts_found": 0,
+   "published": 0,
+   "explicit": 0,
+   "partial": 0,
+   "none": 0,
+   "jobs_stated": 0,
+   "outcomes_reported": 0,
+   "savings_achieved": 0,
+   "savings_expected": 0,
+   "problems_or_reversals": 0,
+   "companies": [],
+   "ai_linked_share_of_published": null,
+   "job_cuts_per_100_documents": 0.0,
+   "public_regulator_layoff_notices": "None connected; none found public"
+  }
+ ],
+ "erm": {
+  "events": 342,
+  "mention_ai_or_automation": 50,
+  "countries": 29,
+  "by_country": [
+   {
+    "country": "Germany",
+    "events": 86,
+    "mention_ai": 15,
+    "jobs_lost": 51681
+   },
+   {
+    "country": "Spain",
+    "events": 36,
+    "mention_ai": 4,
+    "jobs_lost": 3916
+   },
+   {
+    "country": "France",
+    "events": 35,
+    "mention_ai": 2,
+    "jobs_lost": 3745
+   },
+   {
+    "country": "Poland",
+    "events": 32,
+    "mention_ai": 4,
+    "jobs_lost": 9228
+   },
+   {
+    "country": "Italy",
+    "events": 25,
+    "mention_ai": 6,
+    "jobs_lost": 4716
+   },
+   {
+    "country": "Ireland",
+    "events": 13,
+    "mention_ai": 3,
+    "jobs_lost": 964
+   },
+   {
+    "country": "Romania",
+    "events": 13,
+    "mention_ai": 3,
+    "jobs_lost": 1731
+   },
+   {
+    "country": "Finland",
+    "events": 11,
+    "mention_ai": 2,
+    "jobs_lost": 2556
+   },
+   {
+    "country": "World",
+    "events": 9,
+    "mention_ai": 5,
+    "jobs_lost": 109679
+   },
+   {
+    "country": "Portugal",
+    "events": 9,
+    "mention_ai": 0,
+    "jobs_lost": 539
+   },
+   {
+    "country": "Slovakia",
+    "events": 7,
+    "mention_ai": 1,
+    "jobs_lost": 268
+   },
+   {
+    "country": "European Union",
+    "events": 7,
+    "mention_ai": 0,
+    "jobs_lost": 6459
+   },
+   {
+    "country": "Austria",
+    "events": 7,
+    "mention_ai": 1,
+    "jobs_lost": 511
+   },
+   {
+    "country": "Czechia",
+    "events": 6,
+    "mention_ai": 1,
+    "jobs_lost": 543
+   },
+   {
+    "country": "Hungary",
+    "events": 6,
+    "mention_ai": 0,
+    "jobs_lost": 1390
+   },
+   {
+    "country": "Belgium",
+    "events": 5,
+    "mention_ai": 0,
+    "jobs_lost": 796
+   },
+   {
+    "country": "Estonia",
+    "events": 4,
+    "mention_ai": 1,
+    "jobs_lost": 575
+   },
+   {
+    "country": "Latvia",
+    "events": 4,
+    "mention_ai": 0,
+    "jobs_lost": 250
+   },
+   {
+    "country": "Sweden",
+    "events": 3,
+    "mention_ai": 0,
+    "jobs_lost": 548
+   },
+   {
+    "country": "Greece",
+    "events": 3,
+    "mention_ai": 0,
+    "jobs_lost": 0
+   },
+   {
+    "country": "Croatia",
+    "events": 3,
+    "mention_ai": 1,
+    "jobs_lost": 300
+   },
+   {
+    "country": "Lithuania",
+    "events": 3,
+    "mention_ai": 0,
+    "jobs_lost": 255
+   },
+   {
+    "country": "Denmark",
+    "events": 3,
+    "mention_ai": 0,
+    "jobs_lost": 610
+   },
+   {
+    "country": "Netherlands",
+    "events": 3,
+    "mention_ai": 0,
+    "jobs_lost": 591
+   },
+   {
+    "country": "Norway",
+    "events": 2,
+    "mention_ai": 0,
+    "jobs_lost": 330
+   },
+   {
+    "country": "Slovenia",
+    "events": 2,
+    "mention_ai": 0,
+    "jobs_lost": 0
+   },
+   {
+    "country": "Luxembourg",
+    "events": 2,
+    "mention_ai": 0,
+    "jobs_lost": 200
+   },
+   {
+    "country": "Bulgaria",
+    "events": 2,
+    "mention_ai": 1,
+    "jobs_lost": 670
+   },
+   {
+    "country": "Cyprus",
+    "events": 1,
+    "mention_ai": 0,
+    "jobs_lost": 1000
+   }
+  ],
+  "ai_events": [
+   {
+    "event_id": "ERM:301330",
+    "country": "France",
+    "company": "Ikea",
+    "announced": "2026-10-21",
+    "employment_change": "-303",
+    "event_type": "Internal restructuring",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/301330"
+   },
+   {
+    "event_id": "ERM:301324",
+    "country": "Slovakia",
+    "company": "Foxconn Slovakia",
+    "announced": "2026-10-18",
+    "employment_change": "300",
+    "event_type": "Business expansion",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/301324"
+   },
+   {
+    "event_id": "ERM:301293",
+    "country": "Poland",
+    "company": "SHEIN",
+    "announced": "2026-10-15",
+    "employment_change": "1000",
+    "event_type": "Business expansion",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/301293"
+   },
+   {
+    "event_id": "ERM:301270",
+    "country": "Spain",
+    "company": "Avatel",
+    "announced": "2026-10-14",
+    "employment_change": "-444",
+    "event_type": "Internal restructuring",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/301270"
+   },
+   {
+    "event_id": "ERM:301249",
+    "country": "Estonia",
+    "company": "Telia Eesti",
+    "announced": "2026-10-12",
+    "employment_change": "-100",
+    "event_type": "Internal restructuring",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/301249"
+   },
+   {
+    "event_id": "ERM:301284",
+    "country": "Ireland",
+    "company": "OpenAI Ireland",
+    "announced": "2026-10-12",
+    "employment_change": "200",
+    "event_type": "Business expansion",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/301284"
+   },
+   {
+    "event_id": "ERM:301258",
+    "country": "Spain",
+    "company": "TransPerfect",
+    "announced": "2026-10-09",
+    "employment_change": "-266",
+    "event_type": "Internal restructuring",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/301258"
+   },
+   {
+    "event_id": "ERM:301232",
+    "country": "Finland",
+    "company": "Nokia",
+    "announced": "2026-10-07",
+    "employment_change": "-253",
+    "event_type": "Internal restructuring",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/301232"
+   },
+   {
+    "event_id": "ERM:301235",
+    "country": "Italy",
+    "company": "Carlson Wagonlit",
+    "announced": "2026-10-07",
+    "employment_change": "-190",
+    "event_type": "Internal restructuring",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/301235"
+   },
+   {
+    "event_id": "ERM:301254",
+    "country": "Poland",
+    "company": "Ryanair",
+    "announced": "2026-10-05",
+    "employment_change": "250",
+    "event_type": "Business expansion",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/301254"
+   },
+   {
+    "event_id": "ERM:301215",
+    "country": "Germany",
+    "company": "Aldi Süd",
+    "announced": "2026-10-01",
+    "employment_change": "-150",
+    "event_type": "Internal restructuring",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/301215"
+   },
+   {
+    "event_id": "ERM:301229",
+    "country": "Finland",
+    "company": "F-Secure",
+    "announced": "2026-10-01",
+    "employment_change": "-58",
+    "event_type": "Internal restructuring",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/301229"
+   },
+   {
+    "event_id": "ERM:301244",
+    "country": "World",
+    "company": "F-Secure",
+    "announced": "2026-10-01",
+    "employment_change": "-145",
+    "event_type": "Internal restructuring",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/301244"
+   },
+   {
+    "event_id": "ERM:301214",
+    "country": "Germany",
+    "company": "Paul Köster",
+    "announced": "2026-09-30",
+    "employment_change": "-90",
+    "event_type": "Internal restructuring",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/301214"
+   },
+   {
+    "event_id": "ERM:301187",
+    "country": "Italy",
+    "company": "Honeywell",
+    "announced": "2026-09-28",
+    "employment_change": "100",
+    "event_type": "Business expansion",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/301187"
+   },
+   {
+    "event_id": "ERM:301195",
+    "country": "Romania",
+    "company": "Itility",
+    "announced": "2026-09-28",
+    "employment_change": "100",
+    "event_type": "Business expansion",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/301195"
+   },
+   {
+    "event_id": "ERM:301156",
+    "country": "Spain",
+    "company": "Accenture",
+    "announced": "2026-09-25",
+    "employment_change": "100",
+    "event_type": "Business expansion",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/301156"
+   },
+   {
+    "event_id": "ERM:301151",
+    "country": "Poland",
+    "company": "Amazon",
+    "announced": "2026-09-22",
+    "employment_change": "1000",
+    "event_type": "Business expansion",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/301151"
+   },
+   {
+    "event_id": "ERM:301155",
+    "country": "Germany",
+    "company": "Mubea",
+    "announced": "2026-09-21",
+    "employment_change": "-200",
+    "event_type": "Internal restructuring",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/301155"
+   },
+   {
+    "event_id": "ERM:301133",
+    "country": "Germany",
+    "company": "Mewa Textil-Service",
+    "announced": "2026-09-18",
+    "employment_change": "50",
+    "event_type": "Business expansion",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/301133"
+   },
+   {
+    "event_id": "ERM:301145",
+    "country": "Italy",
+    "company": "System House",
+    "announced": "2026-09-18",
+    "employment_change": "-525",
+    "event_type": "Internal restructuring",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/301145"
+   },
+   {
+    "event_id": "ERM:301138",
+    "country": "Austria",
+    "company": "Test-Fuchs",
+    "announced": "2026-09-17",
+    "employment_change": "250",
+    "event_type": "Business expansion",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/301138"
+   },
+   {
+    "event_id": "ERM:301157",
+    "country": "France",
+    "company": "Ouest-France",
+    "announced": "2026-09-17",
+    "employment_change": "-156",
+    "event_type": "Internal restructuring",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/301157"
+   },
+   {
+    "event_id": "ERM:301062",
+    "country": "Germany",
+    "company": "Ionos",
+    "announced": "2026-09-10",
+    "employment_change": "-225",
+    "event_type": "Internal restructuring",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/301062"
+   },
+   {
+    "event_id": "ERM:301105",
+    "country": "World",
+    "company": "Booksy",
+    "announced": "2026-09-10",
+    "employment_change": "-200",
+    "event_type": "Internal restructuring",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/301105"
+   },
+   {
+    "event_id": "ERM:301120",
+    "country": "World",
+    "company": "Uber",
+    "announced": "2026-09-02",
+    "employment_change": "-3300",
+    "event_type": "Internal restructuring",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/301120"
+   },
+   {
+    "event_id": "ERM:301224",
+    "country": "World",
+    "company": "Posten Bring",
+    "announced": "2026-09-02",
+    "employment_change": "-300",
+    "event_type": "Internal restructuring",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/301224"
+   },
+   {
+    "event_id": "ERM:301054",
+    "country": "Germany",
+    "company": "Rheinmetall",
+    "announced": "2026-09-01",
+    "employment_change": "1200",
+    "event_type": "Business expansion",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/301054"
+   },
+   {
+    "event_id": "ERM:301049",
+    "country": "Italy",
+    "company": "Recuperi Pugliesi",
+    "announced": "2026-08-27",
+    "employment_change": "200",
+    "event_type": "Business expansion",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/301049"
+   },
+   {
+    "event_id": "ERM:300935",
+    "country": "Germany",
+    "company": "Amazon",
+    "announced": "2026-08-25",
+    "employment_change": "1000",
+    "event_type": "Business expansion",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/300935"
+   },
+   {
+    "event_id": "ERM:300933",
+    "country": "Germany",
+    "company": "Glow25",
+    "announced": "2026-08-21",
+    "employment_change": "-120",
+    "event_type": "Internal restructuring",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/300933"
+   },
+   {
+    "event_id": "ERM:301017",
+    "country": "Poland",
+    "company": "Allegro",
+    "announced": "2026-08-19",
+    "employment_change": "300",
+    "event_type": "Business expansion",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/301017"
+   },
+   {
+    "event_id": "ERM:300889",
+    "country": "Italy",
+    "company": "LUO",
+    "announced": "2026-08-14",
+    "employment_change": "-1243",
+    "event_type": "Internal restructuring",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/300889"
+   },
+   {
+    "event_id": "ERM:300872",
+    "country": "Czechia",
+    "company": "GN Group",
+    "announced": "2026-08-12",
+    "employment_change": "150",
+    "event_type": "Business expansion",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/300872"
+   },
+   {
+    "event_id": "ERM:300874",
+    "country": "Germany",
+    "company": "Engmatec",
+    "announced": "2026-08-11",
+    "employment_change": "-150",
+    "event_type": "Bankruptcy",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/300874"
+   },
+   {
+    "event_id": "ERM:300855",
+    "country": "Germany",
+    "company": "1&1 Telecom Service Zweibrücken",
+    "announced": "2026-08-06",
+    "employment_change": "-60",
+    "event_type": "Internal restructuring",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/300855"
+   },
+   {
+    "event_id": "ERM:300843",
+    "country": "World",
+    "company": "Campari",
+    "announced": "2026-08-05",
+    "employment_change": "100",
+    "event_type": "Business expansion",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/300843"
+   },
+   {
+    "event_id": "ERM:300828",
+    "country": "Germany",
+    "company": "Amazon",
+    "announced": "2026-07-30",
+    "employment_change": "1000",
+    "event_type": "Business expansion",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/300828"
+   },
+   {
+    "event_id": "ERM:300822",
+    "country": "Germany",
+    "company": "Ceva Logistics",
+    "announced": "2026-07-28",
+    "employment_change": "800",
+    "event_type": "Business expansion",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/300822"
+   },
+   {
+    "event_id": "ERM:300882",
+    "country": "Ireland",
+    "company": "OpenAI Ireland",
+    "announced": "2026-07-27",
+    "employment_change": "250",
+    "event_type": "Business expansion",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/300882"
+   },
+   {
+    "event_id": "ERM:300867",
+    "country": "Romania",
+    "company": "Auchan",
+    "announced": "2026-07-26",
+    "employment_change": "160",
+    "event_type": "Business expansion",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/300867"
+   },
+   {
+    "event_id": "ERM:300806",
+    "country": "Germany",
+    "company": "BBS Automation",
+    "announced": "2026-07-22",
+    "employment_change": "-200",
+    "event_type": "Internal restructuring",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/300806"
+   },
+   {
+    "event_id": "ERM:300814",
+    "country": "Italy",
+    "company": "Poste Italiane",
+    "announced": "2026-07-22",
+    "employment_change": "1300",
+    "event_type": "Business expansion",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/300814"
+   },
+   {
+    "event_id": "ERM:300866",
+    "country": "Romania",
+    "company": "DEHN",
+    "announced": "2026-07-22",
+    "employment_change": "150",
+    "event_type": "Business expansion",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/300866"
+   },
+   {
+    "event_id": "ERM:300775",
+    "country": "Croatia",
+    "company": "Vertiv",
+    "announced": "2026-07-10",
+    "employment_change": "200",
+    "event_type": "Business expansion",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/300775"
+   },
+   {
+    "event_id": "ERM:300720",
+    "country": "Spain",
+    "company": "Allianz España",
+    "announced": "2026-07-08",
+    "employment_change": "-300",
+    "event_type": "Internal restructuring",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/300720"
+   },
+   {
+    "event_id": "ERM:300804",
+    "country": "Bulgaria",
+    "company": "Robert Bosch",
+    "announced": "2026-07-02",
+    "employment_change": "-670",
+    "event_type": "Closure",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/300804"
+   },
+   {
+    "event_id": "ERM:300681",
+    "country": "Germany",
+    "company": "Siemens",
+    "announced": "2026-07-01",
+    "employment_change": "700",
+    "event_type": "Business expansion",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/300681"
+   },
+   {
+    "event_id": "ERM:300894",
+    "country": "Ireland",
+    "company": "TikTok",
+    "announced": "2026-07-01",
+    "employment_change": "-300",
+    "event_type": "Internal restructuring",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/300894"
+   },
+   {
+    "event_id": "ERM:300678",
+    "country": "Germany",
+    "company": "Panariagroup Deutschland",
+    "announced": "2026-06-30",
+    "employment_change": "-165",
+    "event_type": "Bankruptcy",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/300678"
+   }
+  ],
+  "headline": "50 of 342 European restructuring events in Eurofound's monitor have a summary that mentions AI or automation (29 countries)."
+ },
+ "caveat": "it compares disclosures in the documents this agent read. Disclosure rules, languages,\nsearch terms, listing populations and sample sizes differ by country, so the figures describe this record. They do not\nmeasure which country is \"ahead\" in AI, and a low count can mean less disclosure rather than fewer AI-linked cuts."
+}

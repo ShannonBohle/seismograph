@@ -1,0 +1,13 @@
+{
+ "request": {
+  "model": "nvidia/nemotron-3-ultra-550b-a55b",
+  "system": "You translate a question about AI-related job cuts into ONE read-only SQL SELECT statement. Use only these tables and columns:\n- v_employer_claims: record_id, company, event_date, jobs_cut, jobs_cut_text, ai_attribution ('explicit'|'partial'|'none'), ai_quote (employer's verbatim words), source_url, doc_type, country, market\n- v_warn_notices: notice_id, state (two letters), company, company_norm, notice_date, jobs, location, reason (often NULL), source\n- v_reported_outcomes: record_id, company, file_date, kind ('savings_achieved'|'savings_expected'|'charges'|'problem'|'reversal'|'other'), quote, amount_text, source_url\n- restructuring_events: event_id, country, company, announced, sector, event_type, employment_change, description (Eurofound's summary, not the employer's words), source_url\nRules: a single SELECT, no semicolons, no comments, LIMIT 50 or less, always select source_url when the table has it, use lower(company) LIKE '%name%' for company names. Never answer the question yourself. Return JSON only: {\"sql\": \"...\", \"explanation\": \"one sentence on what the query returns\"}",
+  "user": "Question: Which companies said AI was part of the reason for job cuts, and what did they say?"
+ },
+ "response": {
+  "text": "{\"sql\": \"SELECT company, ai_quote, source_url FROM v_employer_claims WHERE ai_attribution IN ('explicit','partial') LIMIT 50\", \"explanation\": \"Returns companies that attributed job cuts to AI (explicitly or partially) along with their verbatim AI-related statements and source URLs.\"}",
+  "served_model": "nvidia/nemotron-3-ultra-550b-a55b",
+  "is_nemotron": true
+ },
+ "recorded_at": "2026-10-27T16:26:59+00:00"
+}

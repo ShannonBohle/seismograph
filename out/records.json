@@ -1,5 +1,51 @@
 [
  {
+  "record_id": "rec_09436ac27454",
+  "company": "YouGov plc",
+  "cik": "LEI:213800MZGBGCJIPOBB41",
+  "event_date": "2026-10-13",
+  "jobs_cut": null,
+  "jobs_cut_text": "targeted headcount and other cost reductions in non-revenue-generating areas",
+  "ai_attribution": "partial",
+  "ai_quote": "The waves combine efficiency improvements and enhanced ways of working along with significant transformation enabled by AI.",
+  "source_url": "https://data.fca.org.uk/artefacts/NSM/RNS/80994acc-64b5-4b25-84b2-e915b675f09e.html",
+  "doc_type": "UK announcement: Final Results",
+  "judge_model": "nvidia/nemotron-3-ultra-550b-a55b",
+  "extractor_model": "nvidia/nemotron-3-ultra-550b-a55b",
+  "warn_match": [],
+  "gap_flags": [
+   "no matching WARN notice within 120 days in the states loaded (AK, AL, AZ, CT, DE, GA, IN, KS, ME, MT, NE, NJ, OK, OR, SC, SD, UT, VT, WA)"
+  ],
+  "supersedes": null,
+  "memory_id": "mem_848a7e6728f0484c",
+  "reviewed_at": "2026-10-27 13:28:29.0",
+  "market": "FCA NSM (UK)",
+  "country": "United Kingdom"
+ },
+ {
+  "record_id": "rec_7c4a9be7344d",
+  "company": "FLOWTECH FLUIDPOWER PLC",
+  "cik": "LEI:213800N68SQY5X5XS290",
+  "event_date": "2026-09-08",
+  "jobs_cut": null,
+  "jobs_cut_text": "1.2%",
+  "ai_attribution": "none",
+  "ai_quote": null,
+  "source_url": "https://data.fca.org.uk/artefacts/NSM/RNS/bb1981c7-263c-4432-af88-d02aeaaa3ed0.html",
+  "doc_type": "UK announcement: Half-year Financial Report",
+  "judge_model": "nvidia/nemotron-3-ultra-550b-a55b",
+  "extractor_model": "nvidia/nemotron-3-ultra-550b-a55b",
+  "warn_match": [],
+  "gap_flags": [
+   "no matching WARN notice within 120 days in the states loaded (AK, AL, AZ, CT, DE, GA, IN, KS, ME, MT, NE, NJ, OK, OR, SC, SD, UT, VT, WA)"
+  ],
+  "supersedes": null,
+  "memory_id": "mem_316a3f7f7990462b",
+  "reviewed_at": "2026-10-27 13:25:11.0",
+  "market": "FCA NSM (UK)",
+  "country": "United Kingdom"
+ },
+ {
   "record_id": "rec_67da24882607",
   "company": "Quantum-Si Inc",
   "cik": "1816431",
@@ -18,7 +64,9 @@
   ],
   "supersedes": null,
   "memory_id": "mem_acb6f68a27864d64",
-  "reviewed_at": "2026-10-27 11:20:21.0"
+  "reviewed_at": "2026-10-27 11:20:21.0",
+  "market": "SEC (US)",
+  "country": "United States"
  },
  {
   "record_id": "rec_12acb20e3bee",
@@ -39,7 +87,9 @@
   ],
   "supersedes": null,
   "memory_id": "mem_a61b9baf8c824468",
-  "reviewed_at": "2026-10-27 07:21:34.0"
+  "reviewed_at": "2026-10-27 07:21:34.0",
+  "market": "SEC (US)",
+  "country": "United States"
  },
  {
   "record_id": "rec_b60868941d85",
@@ -60,7 +110,9 @@
   ],
   "supersedes": null,
   "memory_id": "mem_d7c2051f1d8647c2",
-  "reviewed_at": "2026-10-27 11:22:37.0"
+  "reviewed_at": "2026-10-27 11:22:37.0",
+  "market": "SEC (US)",
+  "country": "United States"
  },
  {
   "record_id": "rec_10ba9dd832c6",
@@ -81,7 +133,9 @@
   ],
   "supersedes": "mem_a61b9baf8c824468",
   "memory_id": "mem_e67ee8379666459e",
-  "reviewed_at": "2026-10-27 11:19:20.0"
+  "reviewed_at": "2026-10-27 11:19:20.0",
+  "market": "SEC (US)",
+  "country": "United States"
  },
  {
   "record_id": "rec_f110b0ccbfa9",
@@ -102,7 +156,9 @@
   ],
   "supersedes": null,
   "memory_id": "mem_d639ae4a0e5a4f9d",
-  "reviewed_at": "2026-10-27 11:23:20.0"
+  "reviewed_at": "2026-10-27 11:23:20.0",
+  "market": "SEC (US)",
+  "country": "Israel"
  },
  {
   "record_id": "rec_0387fb8146f6",
@@ -123,6 +179,8 @@
   ],
   "supersedes": null,
   "memory_id": "mem_d6e9d69182e3461b",
-  "reviewed_at": "2026-10-27 11:24:19.0"
+  "reviewed_at": "2026-10-27 11:24:19.0",
+  "market": "SEC (US)",
+  "country": "France"
  }
 ]

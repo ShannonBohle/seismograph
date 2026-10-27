@@ -1,0 +1,8 @@
+{
+ "n": 12,
+ "accuracy": 0.667,
+ "cohens_kappa": 0.0,
+ "judge_pass_but_human_rejected": 4,
+ "judge_fail_but_human_approved": 0,
+ "both_pass": 8
+}

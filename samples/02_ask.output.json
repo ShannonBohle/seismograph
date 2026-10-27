@@ -1,0 +1,47 @@
+{
+ "ok": true,
+ "task": "ask",
+ "result": {
+  "question": "Which published employers linked their job cuts to AI, in which country, and with what words?",
+  "explanation": "Returns each employer that linked job cuts to AI, the country of the event, the employer's verbatim AI-related statement, and the source URL.",
+  "sql": "SELECT company, country, ai_quote, source_url FROM seismo_pg.v_employer_claims WHERE ai_attribution IN ('explicit','partial') LIMIT 50",
+  "rows": [
+   {
+    "company": "Latch, Inc.",
+    "country": "United States",
+    "ai_quote": "By embedding AI across software development, customer support, and our internal operations, we have built a leaner, more efficient organization that is expected to continue delivering innovative products for our customers.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1826000/000182600026000050/tmb-20260810xex99d1.htm"
+   },
+   {
+    "company": "Latch, Inc.",
+    "country": "United States",
+    "ai_quote": "We've embedded AI across software development, customer support, and our internal systems, and the result is a company that can design, build, and ship with a substantially leaner organization.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1826000/000110465926091071/tm2622239d1_ex99-1.htm"
+   },
+   {
+    "company": "NIQ Global Intelligence plc",
+    "country": "United States",
+    "ai_quote": "Investments in automation and artificial intelligence (\"AI\") are anticipated to accelerate the Company's optimization efforts as it begins its journey to operationalize these digital tools throughout the organization.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/2054696/000162828026055207/niqpressrelease-q226.htm"
+   },
+   {
+    "company": "monday.com Ltd.",
+    "country": "Israel",
+    "ai_quote": "On July 22, 2026, the Company announced a restructuring plan (the \"2026 Restructuring Plan\") designed to align its organizational structure with its strategic focus on the AI Work Platform, support a leaner operating model, and accelerate investment in its AI-driven growth strategy.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1845338/000117891326003971/exhibit_99-2.htm"
+   },
+   {
+    "company": "YouGov plc",
+    "country": null,
+    "ai_quote": "The waves combine efficiency improvements and enhanced ways of working along with significant transformation enabled by AI.",
+    "source_url": "https://data.fca.org.uk/artefacts/NSM/RNS/80994acc-64b5-4b25-84b2-e915b675f09e.html"
+   }
+  ],
+  "row_count": 5,
+  "model": "nvidia/nemotron-3-ultra-550b-a55b",
+  "note": "Rows come straight from the published record through Zetaris; the model only wrote the query."
+ },
+ "trace": "C:\\Users\\shann\\seismograph\\logs\\run-20261027T162751Z-1b9186.jsonl",
+ "mode": "live",
+ "seconds": 12.4
+}

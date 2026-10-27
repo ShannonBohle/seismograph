@@ -1,0 +1,800 @@
+{
+ "request": {
+  "q": "redundancies automation",
+  "start": "2026-07-29",
+  "end": "2026-10-27",
+  "size": 100
+ },
+ "response": {
+  "took": 96,
+  "timed_out": false,
+  "_shards": {
+   "failed": 0.0,
+   "skipped": 0.0,
+   "successful": 4.0,
+   "total": 4.0
+  },
+  "hits": {
+   "total": {
+    "relation": "eq",
+    "value": 16
+   },
+   "hits": [
+    {
+     "_index": "fca-nsm-searchdata",
+     "_id": "NI-000153477",
+     "_source": {
+      "submitted_date": "2026-10-21T11:34:25.302Z",
+      "tag_esef": "",
+      "document_date": "2026-09-30",
+      "source": "Direct Upload",
+      "ContentVersionId": "068Tw00000t4U36IAE",
+      "type": "3rd Quarter Results",
+      "related_org": [],
+      "lei_remediation_flag": "N",
+      "document_format": "PDF",
+      "category_group": "Financial Results",
+      "lei": "213800573TEIBOSTZX92",
+      "ProcessType": "NSM",
+      "download_link": "NSM/DirectUpload/NI-000153477/NI-000153477.pdf",
+      "disclosure_id": "NI-000153477",
+      "latest_flag": "Y",
+      "hist_seq": "1",
+      "publication_date": "2026-10-21T11:15:00.000Z",
+      "seq_id": "NI-000153477",
+      "company": "AKADEMISKA HUS AKTIEBOLAG;",
+      "html_link": "",
+      "last_updated_date": "2026-10-21T11:34:55.068800764Z",
+      "headline": "Interim Report Q3 2026",
+      "type_code": "QRT"
+     },
+     "sort": [
+      1792582465302
+     ]
+    },
+    {
+     "_index": "fca-nsm-searchdata",
+     "_id": "NI-000153183",
+     "_source": {
+      "submitted_date": "2026-10-15T06:03:38.543Z",
+      "tag_esef": "",
+      "document_date": "2026-10-15",
+      "source": "Direct Upload",
+      "ContentVersionId": "068Tw00000sdCOqIAM",
+      "type": "Scheme of Arrangement",
+      "related_org": [],
+      "lei_remediation_flag": "N",
+      "document_format": "PDF",
+      "category_group": "Corporate actions",
+      "lei": "2138001S47XKWIB7TH90",
+      "ProcessType": "NSM",
+      "download_link": "NSM/DirectUpload/NI-000153183/NI-000153183.pdf",
+      "disclosure_id": "NI-000153183",
+      "latest_flag": "Y",
+      "hist_seq": "1",
+      "publication_date": "2026-10-15T06:00:00.000Z",
+      "seq_id": "NI-000153183",
+      "company": "EASYJET PLC;",
+      "html_link": "",
+      "last_updated_date": "2026-10-15T06:04:12.513162137Z",
+      "headline": "Scheme Document",
+      "type_code": "SOA"
+     },
+     "sort": [
+      1792044218543
+     ]
+    },
+    {
+     "_index": "fca-nsm-searchdata",
+     "_id": "NI-000152920",
+     "_source": {
+      "submitted_date": "2026-10-09T06:00:51.332Z",
+      "json_link": "NSM/DirectUpload/NI-000152920/NI-000152920_54930022EOITNKSIGH56-2026-06-30_ixbrl.json",
+      "source": "Direct Upload",
+      "ContentVersionId": "068Tw00000s9qJdIAI",
+      "type": "Annual Financial Report",
+      "related_org": [],
+      "lei_remediation_flag": "N",
+      "document_format": "Tagged",
+      "category_group": "Financial Results",
+      "lei": "54930022EOITNKSIGH56",
+      "ProcessType": "ESEF",
+      "disclosure_id": "NI-000152920",
+      "latest_flag": "Y",
+      "publication_date": "2026-10-09T06:00:00.000Z",
+      "csv_link": "NSM/DirectUpload/NI-000152920/NI-000152920_54930022EOITNKSIGH56-2026-06-30_ixbrl.csv.zip",
+      "company": "GENUS PLC;",
+      "html_link": "NSM/DirectUpload/NI-000152920/reports/54930022EOITNKSIGH56-2026-06-30_ixbrl.html",
+      "last_updated_date": "2026-10-09T06:03:14.967347642Z",
+      "headline": "Annual Financial Report",
+      "tag_esef": "Tagged",
+      "document_date": "2026-06-30",
+      "download_link": "NSM/DirectUpload/NI-000152920/NI-000152920_54930022EOITNKSIGH56-2026-06-30.zip",
+      "hist_seq": "1",
+      "seq_id": "NI-000152920",
+      "RegionOfIncorporation": "UK",
+      "type_code": "ACS",
+      "IsTestSubmission": false
+     },
+     "sort": [
+      1791525651332
+     ]
+    },
+    {
+     "_index": "fca-nsm-searchdata",
+     "_id": "NI-000152820",
+     "_source": {
+      "submitted_date": "2026-10-09T05:46:33.888Z",
+      "json_link": "NSM/DirectUpload/NI-000152820/NI-000152820_21380048ADXM6Z67CT18-2026-06-30_ixbrl.json",
+      "source": "Direct Upload",
+      "ContentVersionId": "068Tw00000s16CQIAY",
+      "type": "Annual Financial Report",
+      "related_org": [],
+      "lei_remediation_flag": "N",
+      "document_format": "Tagged",
+      "category_group": "Financial Results",
+      "lei": "21380048ADXM6Z67CT18",
+      "ProcessType": "ESEF",
+      "disclosure_id": "NI-000152820",
+      "latest_flag": "Y",
+      "publication_date": "2026-10-09T05:45:00.000Z",
+      "csv_link": "NSM/DirectUpload/NI-000152820/NI-000152820_21380048ADXM6Z67CT18-2026-06-30_ixbrl.csv.zip",
+      "company": "RENISHAW P L C;",
+      "html_link": "NSM/DirectUpload/NI-000152820/reports/21380048ADXM6Z67CT18-2026-06-30_ixbrl.html",
+      "last_updated_date": "2026-10-09T05:49:02.837817384Z",
+      "headline": "Annual Report 2026",
+      "tag_esef": "Tagged",
+      "document_date": "2026-06-30",
+      "download_link": "NSM/DirectUpload/NI-000152820/NI-000152820_21380048ADXM6Z67CT18-2026-06-30.zip",
+      "hist_seq": "1",
+      "seq_id": "NI-000152820",
+      "RegionOfIncorporation": "UK",
+      "type_code": "ACS",
+      "IsTestSubmission": false
+     },
+     "sort": [
+      1791524793888
+     ]
+    },
+    {
+     "_index": "fca-nsm-searchdata",
+     "_id": "fe7bd870-e172-4866-9ebd-4845ad843225",
+     "_source": {
+      "submitted_date": "2026-09-23T06:12:28Z",
+      "tag_esef": "",
+      "classifications_code": "",
+      "document_date": "2026-09-23T06:12:28Z",
+      "source": "RNS",
+      "type": "Final Results",
+      "related_org": [],
+      "lei_remediation_flag": "N",
+      "document_format": "Plain text",
+      "category_group": "Financial Results",
+      "classifications": "",
+      "lei": "21380048ADXM6Z67CT18",
+      "download_link": "NSM/RNS/fe7bd870-e172-4866-9ebd-4845ad843225.html",
+      "disclosure_id": "fe7bd870-e172-4866-9ebd-4845ad843225",
+      "latest_flag": "Y",
+      "hist_seq": "1",
+      "publication_date": "2026-09-23T06:00:03Z",
+      "seq_id": "fe7bd870-e172-4866-9ebd-4845ad843225",
+      "company": "RENISHAW P L C",
+      "last_updated_date": "2026-09-23T06:00:03Z",
+      "headline": "Final Results",
+      "type_code": "FR"
+     },
+     "sort": [
+      1790143948000
+     ]
+    },
+    {
+     "_index": "fca-nsm-searchdata",
+     "_id": "d34dddd5-7f33-4244-a6b7-76b35b3f8bdb",
+     "_source": {
+      "submitted_date": "2026-09-22T06:12:29Z",
+      "tag_esef": "",
+      "classifications_code": "",
+      "document_date": "2026-09-22T06:12:29Z",
+      "source": "RNS",
+      "type": "Half-year Financial Report",
+      "related_org": [],
+      "lei_remediation_flag": "N",
+      "document_format": "Plain text",
+      "category_group": "Financial Results",
+      "classifications": "",
+      "lei": "213800TUH2ZU68PZZN12",
+      "download_link": "NSM/RNS/d34dddd5-7f33-4244-a6b7-76b35b3f8bdb.html",
+      "disclosure_id": "d34dddd5-7f33-4244-a6b7-76b35b3f8bdb",
+      "latest_flag": "Y",
+      "hist_seq": "1",
+      "publication_date": "2026-09-22T06:00:04Z",
+      "seq_id": "d34dddd5-7f33-4244-a6b7-76b35b3f8bdb",
+      "company": "MIDWICH GROUP PLC",
+      "last_updated_date": "2026-09-22T06:00:04Z",
+      "headline": "Interim Results",
+      "type_code": "IR"
+     },
+     "sort": [
+      1790057549000
+     ]
+    },
+    {
+     "_index": "fca-nsm-searchdata",
+     "_id": "bb1981c7-263c-4432-af88-d02aeaaa3ed0",
+     "_source": {
+      "submitted_date": "2026-09-08T06:12:27Z",
+      "tag_esef": "",
+      "classifications_code": "",
+      "document_date": "2026-09-08T06:12:27Z",
+      "source": "RNS",
+      "type": "Half-year Financial Report",
+      "related_org": [],
+      "lei_remediation_flag": "N",
+      "document_format": "Plain text",
+      "category_group": "Financial Results",
+      "classifications": "",
+      "lei": "213800N68SQY5X5XS290",
+      "download_link": "NSM/RNS/bb1981c7-263c-4432-af88-d02aeaaa3ed0.html",
+      "disclosure_id": "bb1981c7-263c-4432-af88-d02aeaaa3ed0",
+      "latest_flag": "Y",
+      "hist_seq": "1",
+      "publication_date": "2026-09-08T06:00:02Z",
+      "seq_id": "bb1981c7-263c-4432-af88-d02aeaaa3ed0",
+      "company": "FLOWTECH FLUIDPOWER PLC",
+      "last_updated_date": "2026-09-08T06:00:02Z",
+      "headline": "2026 Half-Year Report",
+      "type_code": "IR"
+     },
+     "sort": [
+      1788847947000
+     ]
+    },
+    {
+     "_index": "fca-nsm-searchdata",
+     "_id": "9d81a7d2-eb66-4b30-a09b-f43a0880a501",
+     "_source": {
+      "submitted_date": "2026-09-03T06:12:29Z",
+      "tag_esef": "",
+      "classifications_code": "",
+      "document_date": "2026-09-03T06:12:29Z",
+      "source": "RNS",
+      "type": "Half-year Financial Report",
+      "related_org": [],
+      "lei_remediation_flag": "N",
+      "document_format": "Plain text",
+      "category_group": "Financial Results",
+      "classifications": "",
+      "lei": "213800JY7VJFS2OOX355",
+      "download_link": "NSM/RNS/9d81a7d2-eb66-4b30-a09b-f43a0880a501.html",
+      "disclosure_id": "9d81a7d2-eb66-4b30-a09b-f43a0880a501",
+      "latest_flag": "Y",
+      "hist_seq": "1",
+      "publication_date": "2026-09-03T06:00:04Z",
+      "seq_id": "9d81a7d2-eb66-4b30-a09b-f43a0880a501",
+      "company": "HILTON FOOD GROUP PLC",
+      "last_updated_date": "2026-09-03T18:39:45.267828353Z",
+      "headline": "Interim Results",
+      "type_code": "IR"
+     },
+     "sort": [
+      1788415949000
+     ]
+    },
+    {
+     "_index": "fca-nsm-searchdata",
+     "_id": "NI-000151046",
+     "_source": {
+      "submitted_date": "2026-09-02T01:36:46.593Z",
+      "json_link": "NSM/DirectUpload/NI-000151046/NI-000151046_213800LAZNPXSBKVHR17-2026-06-30_ixbrl.json",
+      "source": "Direct Upload",
+      "ContentVersionId": "068Tw00000pYJyyIAG",
+      "type": "Annual Financial Report",
+      "related_org": [],
+      "lei_remediation_flag": "N",
+      "document_format": "Tagged",
+      "category_group": "Financial Results",
+      "lei": "213800LAZNPXSBKVHR17",
+      "ProcessType": "ESEF",
+      "disclosure_id": "NI-000151046",
+      "latest_flag": "Y",
+      "publication_date": "2026-09-02T01:35:00.000Z",
+      "csv_link": "NSM/DirectUpload/NI-000151046/NI-000151046_213800LAZNPXSBKVHR17-2026-06-30_ixbrl.csv.zip",
+      "company": "SOUTH32 LIMITED;",
+      "html_link": "NSM/DirectUpload/NI-000151046/reports/213800LAZNPXSBKVHR17-2026-06-30_ixbrl.html",
+      "last_updated_date": "2026-09-03T18:39:45.247490688Z",
+      "headline": "South32 Limited 2026 Annual Report",
+      "tag_esef": "Tagged",
+      "document_date": "2026-06-30",
+      "download_link": "NSM/DirectUpload/NI-000151046/NI-000151046_213800LAZNPXSBKVHR17-2026-06-30.zip",
+      "hist_seq": "1",
+      "seq_id": "NI-000151046",
+      "RegionOfIncorporation": "Other (Neither UK nor EEA)",
+      "type_code": "ACS",
+      "IsTestSubmission": false
+     },
+     "sort": [
+      1788313006593
+     ]
+    },
+    {
+     "_index": "fca-nsm-searchdata",
+     "_id": "NI-000150815",
+     "_source": {
+      "submitted_date": "2026-08-27T06:23:23.539Z",
+      "tag_esef": "",
+      "document_date": "2026-08-27",
+      "source": "Direct Upload",
+      "ContentVersionId": "068Tw00000pC9BpIAK",
+      "type": "Annual Financial Report",
+      "related_org": [],
+      "lei_remediation_flag": "N",
+      "document_format": "PDF",
+      "category_group": "Financial Results",
+      "lei": "213800LAZNPXSBKVHR17",
+      "ProcessType": "NSM",
+      "download_link": "NSM/DirectUpload/NI-000150815/NI-000150815.pdf",
+      "disclosure_id": "NI-000150815",
+      "latest_flag": "Y",
+      "hist_seq": "1",
+      "publication_date": "2026-08-27T06:22:00.000Z",
+      "seq_id": "NI-000150815",
+      "company": "SOUTH32 LIMITED;",
+      "html_link": "",
+      "last_updated_date": "2026-08-28T18:02:08.186089953Z",
+      "headline": "Annual Report 2026",
+      "type_code": "ACS"
+     },
+     "sort": [
+      1787811803539
+     ]
+    },
+    {
+     "_index": "fca-nsm-searchdata",
+     "_id": "NI-000150360",
+     "_source": {
+      "submitted_date": "2026-08-18T12:34:12.459Z",
+      "json_link": "NSM/DirectUpload/NI-000150360/NI-000150360_WZE1WSENV6JSZFK0JC28-2026-06-30_ixbrl.json",
+      "source": "Direct Upload",
+      "ContentVersionId": "068Tw00000oZZvmIAG",
+      "type": "Annual Financial Report",
+      "related_org": [],
+      "lei_remediation_flag": "N",
+      "document_format": "Tagged",
+      "category_group": "Financial Results",
+      "lei": "WZE1WSENV6JSZFK0JC28",
+      "ProcessType": "ESEF",
+      "disclosure_id": "NI-000150360",
+      "latest_flag": "Y",
+      "publication_date": "2026-08-18T12:33:00.000Z",
+      "csv_link": "NSM/DirectUpload/NI-000150360/NI-000150360_WZE1WSENV6JSZFK0JC28-2026-06-30_ixbrl.csv.zip",
+      "company": "BHP GROUP LIMITED;",
+      "html_link": "NSM/DirectUpload/NI-000150360/reports/WZE1WSENV6JSZFK0JC28-2026-06-30_ixbrl.html",
+      "last_updated_date": "2026-08-22T14:05:39.121741790Z",
+      "headline": "BHP 2026 Annual Report - XML",
+      "tag_esef": "Tagged",
+      "document_date": "2026-06-30",
+      "download_link": "NSM/DirectUpload/NI-000150360/NI-000150360_WZE1WSENV6JSZFK0JC28-2026-06-30.zip",
+      "hist_seq": "1",
+      "seq_id": "NI-000150360",
+      "RegionOfIncorporation": "Other (Neither UK nor EEA)",
+      "type_code": "ACS",
+      "IsTestSubmission": false
+     },
+     "sort": [
+      1787056452459
+     ]
+    },
+    {
+     "_index": "fca-nsm-searchdata",
+     "_id": "NI-000150351",
+     "_source": {
+      "submitted_date": "2026-08-18T11:15:39.030Z",
+      "tag_esef": "",
+      "document_date": "2026-08-18",
+      "source": "Direct Upload",
+      "ContentVersionId": "068Tw00000oYoYuIAK",
+      "type": "Statement re",
+      "related_org": [],
+      "lei_remediation_flag": "N",
+      "document_format": "PDF",
+      "category_group": "Miscellaneous",
+      "lei": "WZE1WSENV6JSZFK0JC28",
+      "ProcessType": "NSM",
+      "download_link": "NSM/DirectUpload/NI-000150351/NI-000150351.pdf",
+      "disclosure_id": "NI-000150351",
+      "latest_flag": "Y",
+      "hist_seq": "1",
+      "publication_date": "2026-08-18T11:14:00.000Z",
+      "seq_id": "NI-000150351",
+      "company": "BHP GROUP LIMITED;",
+      "html_link": "",
+      "last_updated_date": "2026-08-22T14:05:39.121425163Z",
+      "headline": "2026 US Annual Report (Form 20-F)",
+      "type_code": "STR"
+     },
+     "sort": [
+      1787051739030
+     ]
+    },
+    {
+     "_index": "fca-nsm-searchdata",
+     "_id": "NI-000150323",
+     "_source": {
+      "submitted_date": "2026-08-18T00:08:47.702Z",
+      "tag_esef": "",
+      "document_date": "2026-06-30",
+      "source": "Direct Upload",
+      "ContentVersionId": "068Tw00000oWHiVIAW",
+      "type": "Annual Financial Report",
+      "related_org": [],
+      "lei_remediation_flag": "N",
+      "document_format": "PDF",
+      "category_group": "Financial Results",
+      "lei": "WZE1WSENV6JSZFK0JC28",
+      "ProcessType": "NSM",
+      "download_link": "NSM/DirectUpload/NI-000150323/NI-000150323.pdf",
+      "disclosure_id": "NI-000150323",
+      "latest_flag": "Y",
+      "hist_seq": "1",
+      "publication_date": "2026-08-18T00:07:00.000Z",
+      "seq_id": "NI-000150323",
+      "company": "BHP GROUP LIMITED;",
+      "html_link": "",
+      "last_updated_date": "2026-08-22T14:05:39.116967051Z",
+      "headline": "BHP 2026 Annual Report",
+      "type_code": "ACS"
+     },
+     "sort": [
+      1787011727702
+     ]
+    },
+    {
+     "_index": "fca-nsm-searchdata",
+     "_id": "NI-000149710",
+     "_source": {
+      "submitted_date": "2026-08-04T12:18:02.289Z",
+      "json_link": "NSM/DirectUpload/NI-000149710/NI-000149710_54930086FKBWWJIOBI79-2026-04-03_ixbrl.json",
+      "source": "Direct Upload",
+      "ContentVersionId": "068Tw00000noDAkIAM",
+      "type": "Annual Financial Report",
+      "related_org": [],
+      "lei_remediation_flag": "N",
+      "document_format": "Tagged",
+      "category_group": "Financial Results",
+      "lei": "54930086FKBWWJIOBI79",
+      "ProcessType": "ESEF",
+      "disclosure_id": "NI-000149710",
+      "latest_flag": "Y",
+      "publication_date": "2026-08-03T14:00:00.000Z",
+      "csv_link": "NSM/DirectUpload/NI-000149710/NI-000149710_54930086FKBWWJIOBI79-2026-04-03_ixbrl.csv.zip",
+      "company": "HALFORDS GROUP PLC;",
+      "html_link": "NSM/DirectUpload/NI-000149710/reports/54930086FKBWWJIOBI79-2026-04-03_ixbrl.html",
+      "last_updated_date": "2026-08-22T14:05:01.127553046Z",
+      "headline": "ESEF Annual Financial Reports",
+      "tag_esef": "Tagged",
+      "document_date": "2026-04-03",
+      "download_link": "NSM/DirectUpload/NI-000149710/NI-000149710_54930086FKBWWJIOBI79-2026-04-03.zip",
+      "hist_seq": "1",
+      "seq_id": "NI-000149710",
+      "RegionOfIncorporation": "UK",
+      "type_code": "ACS",
+      "IsTestSubmission": false
+     },
+     "sort": [
+      1785845882289
+     ]
+    },
+    {
+     "_index": "fca-nsm-searchdata",
+     "_id": "NI-000149632",
+     "_source": {
+      "submitted_date": "2026-08-03T09:05:12.908Z",
+      "json_link": "NSM/DirectUpload/NI-000149632/NI-000149632_2138008ZOT5K9PJW7168-2026-05-03_ixbrl.json",
+      "source": "Direct Upload",
+      "ContentVersionId": "068Tw00000njpTZIAY",
+      "type": "Annual Financial Report",
+      "related_org": [],
+      "lei_remediation_flag": "N",
+      "document_format": "Tagged",
+      "category_group": "Financial Results",
+      "lei": "2138008ZOT5K9PJW7168",
+      "ProcessType": "ESEF",
+      "disclosure_id": "NI-000149632",
+      "latest_flag": "Y",
+      "publication_date": "2026-07-31T15:00:00.000Z",
+      "csv_link": "NSM/DirectUpload/NI-000149632/NI-000149632_2138008ZOT5K9PJW7168-2026-05-03_ixbrl.csv.zip",
+      "company": "WATCHES OF SWITZERLAND GROUP PLC;",
+      "html_link": "NSM/DirectUpload/NI-000149632/reports/2138008ZOT5K9PJW7168-2026-05-03_ixbrl.html",
+      "last_updated_date": "2026-08-22T14:04:32.549828111Z",
+      "headline": "Annual Financial and Audit Report 2026",
+      "tag_esef": "Tagged",
+      "document_date": "2026-05-03",
+      "download_link": "NSM/DirectUpload/NI-000149632/NI-000149632_2138008ZOT5K9PJW7168-2026-05-03.zip",
+      "hist_seq": "1",
+      "seq_id": "NI-000149632",
+      "RegionOfIncorporation": "UK",
+      "type_code": "ACS",
+      "IsTestSubmission": false
+     },
+     "sort": [
+      1785747912908
+     ]
+    },
+    {
+     "_index": "fca-nsm-searchdata",
+     "_id": "NI-000149623",
+     "_source": {
+      "submitted_date": "2026-08-03T07:57:38.035Z",
+      "tag_esef": "",
+      "document_date": "2026-07-14",
+      "source": "Direct Upload",
+      "ContentVersionId": "068Tw00000njK3JIAU",
+      "type": "Annual Financial Report",
+      "related_org": [],
+      "lei_remediation_flag": "N",
+      "document_format": "PDF",
+      "category_group": "Financial Results",
+      "lei": "2138008ZOT5K9PJW7168",
+      "ProcessType": "NSM",
+      "download_link": "NSM/DirectUpload/NI-000149623/NI-000149623.pdf",
+      "disclosure_id": "NI-000149623",
+      "latest_flag": "Y",
+      "hist_seq": "1",
+      "publication_date": "2026-07-31T15:00:00.000Z",
+      "seq_id": "NI-000149623",
+      "company": "WATCHES OF SWITZERLAND GROUP PLC;",
+      "html_link": "",
+      "last_updated_date": "2026-08-22T14:04:32.549589626Z",
+      "headline": "Annual Financial and Audit Report",
+      "type_code": "ACS"
+     },
+     "sort": [
+      1785743858035
+     ]
+    }
+   ]
+  },
+  "aggregations": {
+   "sterms#document_format_options": {
+    "buckets": [
+     {
+      "top_hits#document_format_details": {
+       "hits": {
+        "total": {
+         "relation": "eq",
+         "value": 6
+        },
+        "hits": [
+         {
+          "_index": "fca-nsm-searchdata",
+          "_id": "NI-000153477",
+          "_score": 6.3580723,
+          "_source": {
+           "document_format": "PDF"
+          }
+         }
+        ],
+        "max_score": 6.3580723
+       }
+      },
+      "doc_count": 6,
+      "key": "pdf"
+     },
+     {
+      "top_hits#document_format_details": {
+       "hits": {
+        "total": {
+         "relation": "eq",
+         "value": 6
+        },
+        "hits": [
+         {
+          "_index": "fca-nsm-searchdata",
+          "_id": "NI-000152820",
+          "_score": 5.1247425,
+          "_source": {
+           "document_format": "Tagged"
+          }
+         }
+        ],
+        "max_score": 5.1247425
+       }
+      },
+      "doc_count": 6,
+      "key": "tagged"
+     },
+     {
+      "top_hits#document_format_details": {
+       "hits": {
+        "total": {
+         "relation": "eq",
+         "value": 4
+        },
+        "hits": [
+         {
+          "_index": "fca-nsm-searchdata",
+          "_id": "bb1981c7-263c-4432-af88-d02aeaaa3ed0",
+          "_score": 7.979669,
+          "_source": {
+           "document_format": "Plain text"
+          }
+         }
+        ],
+        "max_score": 7.979669
+       }
+      },
+      "doc_count": 4,
+      "key": "plain text"
+     }
+    ],
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0
+   },
+   "sterms#type_options": {
+    "buckets": [
+     {
+      "top_hits#type_details": {
+       "hits": {
+        "total": {
+         "relation": "eq",
+         "value": 1
+        },
+        "hits": [
+         {
+          "_index": "fca-nsm-searchdata",
+          "_id": "NI-000153477",
+          "_score": 6.3580723,
+          "_source": {
+           "type": "3rd Quarter Results",
+           "category_group": "Financial Results"
+          }
+         }
+        ],
+        "max_score": 6.3580723
+       }
+      },
+      "doc_count": 1,
+      "key": "3rd quarter results"
+     },
+     {
+      "top_hits#type_details": {
+       "hits": {
+        "total": {
+         "relation": "eq",
+         "value": 9
+        },
+        "hits": [
+         {
+          "_index": "fca-nsm-searchdata",
+          "_id": "NI-000152820",
+          "_score": 5.1247425,
+          "_source": {
+           "type": "Annual Financial Report",
+           "category_group": "Financial Results"
+          }
+         }
+        ],
+        "max_score": 5.1247425
+       }
+      },
+      "doc_count": 9,
+      "key": "annual financial report"
+     },
+     {
+      "top_hits#type_details": {
+       "hits": {
+        "total": {
+         "relation": "eq",
+         "value": 1
+        },
+        "hits": [
+         {
+          "_index": "fca-nsm-searchdata",
+          "_id": "fe7bd870-e172-4866-9ebd-4845ad843225",
+          "_score": 4.454239,
+          "_source": {
+           "type": "Final Results",
+           "category_group": "Financial Results"
+          }
+         }
+        ],
+        "max_score": 4.454239
+       }
+      },
+      "doc_count": 1,
+      "key": "final results"
+     },
+     {
+      "top_hits#type_details": {
+       "hits": {
+        "total": {
+         "relation": "eq",
+         "value": 3
+        },
+        "hits": [
+         {
+          "_index": "fca-nsm-searchdata",
+          "_id": "bb1981c7-263c-4432-af88-d02aeaaa3ed0",
+          "_score": 7.979669,
+          "_source": {
+           "type": "Half-year Financial Report",
+           "category_group": "Financial Results"
+          }
+         }
+        ],
+        "max_score": 7.979669
+       }
+      },
+      "doc_count": 3,
+      "key": "half-year financial report"
+     },
+     {
+      "top_hits#type_details": {
+       "hits": {
+        "total": {
+         "relation": "eq",
+         "value": 1
+        },
+        "hits": [
+         {
+          "_index": "fca-nsm-searchdata",
+          "_id": "NI-000153183",
+          "_score": 2.4917746,
+          "_source": {
+           "type": "Scheme of Arrangement",
+           "category_group": "Corporate actions"
+          }
+         }
+        ],
+        "max_score": 2.4917746
+       }
+      },
+      "doc_count": 1,
+      "key": "scheme of arrangement"
+     },
+     {
+      "top_hits#type_details": {
+       "hits": {
+        "total": {
+         "relation": "eq",
+         "value": 1
+        },
+        "hits": [
+         {
+          "_index": "fca-nsm-searchdata",
+          "_id": "NI-000150351",
+          "_score": 0.77152824,
+          "_source": {
+           "type": "Statement re",
+           "category_group": "Miscellaneous"
+          }
+         }
+        ],
+        "max_score": 0.77152824
+       }
+      },
+      "doc_count": 1,
+      "key": "statement re"
+     }
+    ],
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0
+   },
+   "sterms#source_options": {
+    "buckets": [
+     {
+      "doc_count": 12,
+      "key": "Direct Upload"
+     },
+     {
+      "doc_count": 4,
+      "key": "RNS"
+     }
+    ],
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0
+   }
+  }
+ },
+ "recorded_at": "2026-10-27T12:45:44+00:00"
+}

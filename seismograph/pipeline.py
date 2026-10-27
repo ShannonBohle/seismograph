@@ -31,14 +31,17 @@ class Pipeline:
         self.corroborator = Corroborator(ctx.zetaris, log)
         self.log = log
 
-    def run(self, days: int = 60, forms: str = "8-K,6-K", max_docs: int = 10, end: str | None = None) -> dict:
+    def run(self, days: int = 60, forms: str = "8-K,6-K", max_docs: int = 10, end: str | None = None,
+            ciks: str | None = None, queries: list[str] | None = None, source: str = "sec") -> dict:
         end_d = date.fromisoformat(end) if end else date.today()
         start = (end_d - timedelta(days=days)).isoformat()
-        self.log.log("Pipeline", "run_start", input_summary=f"window {start}..{end_d}, forms {forms}, max {max_docs}",
+        what = {"sec": f"SEC forms {forms}", "uk": "FCA NSM (UK announcements)"}.get(source, source.upper())
+        self.log.log("Pipeline", "run_start", input_summary=f"window {start}..{end_d}, {what}, max {max_docs}",
                      target_agent="Scout")
         stats = {"documents": 0, "not_layoffs": 0, "drafted": 0, "judge_failed": 0, "duplicates": 0,
                  "pending_review": 0, "errors": 0}
-        for c in self.scout.discover(start, end_d.isoformat(), forms, max_docs):
+        for c in self.scout.discover(start, end_d.isoformat(), forms, max_docs, ciks=ciks, queries=queries,
+                                     source=source):
             if not self.scout.fetch_and_store(c, self.log.run_id):
                 stats["errors"] += 1
                 continue
@@ -61,6 +64,11 @@ class Pipeline:
 
     def process(self, c: Candidate) -> str:
         text = self.extractor.read(c)
+        from .safety import scan
+        safety_flags = scan(text)
+        if safety_flags:
+            self.log.log("SafetyGuard", "prompt_injection_scan", status="flagged", input_summary=c.doc_id,
+                         output_summary="; ".join(safety_flags)[:300], target_agent="Editor (human review)")
         recalled = self.memory.recall(c.company)
         draft: Draft | None = None
         send_back: list[str] = []
@@ -117,6 +125,7 @@ class Pipeline:
             self.log.log("MemorySteward", "dedupe", output_summary=f"{c.doc_id} duplicates memory {existing}; not queued")
             return "duplicates"
         warn, flags = self.corroborator.check(record)
+        flags = safety_flags + flags
         if not passed:
             why = "failed the verbatim source checks" if verifier_problems else "the Judge did not pass it"
             flags.insert(0, f"Not publishable: {why} after {MAX_RETRIES} send-backs. Shown to the editor only for a label")

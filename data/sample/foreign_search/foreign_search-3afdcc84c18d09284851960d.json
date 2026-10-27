@@ -1,0 +1,496 @@
+{
+ "request": {
+  "source": "cninfo",
+  "start": "2026-06-29",
+  "end": "2026-10-27"
+ },
+ "response": [
+  {
+   "id": "1225513122",
+   "issuer": "300110",
+   "company": "华仁药业",
+   "title": "关于公司董事长及高级管理人员薪酬绩效优化方案的公告",
+   "date": "2026-08-26",
+   "type": "公告",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225513122.PDF"
+  },
+  {
+   "id": "1225582247",
+   "issuer": "603906",
+   "company": "龙蟠科技",
+   "title": "江苏龙蟠科技集团股份有限公司关于投资建设全球总部及新能源新材料人工智能智慧创新中心暨累计对外投资的公告",
+   "date": "2026-09-24",
+   "type": "公告",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-09-25/1225582247.PDF"
+  },
+  {
+   "id": "1225542537",
+   "issuer": "688781",
+   "company": "视涯科技",
+   "title": "视涯科技关于参加科创板2026年半年度人工智能行业集体业绩说明会的公告",
+   "date": "2026-09-01",
+   "type": "公告",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-09-02/1225542537.PDF"
+  },
+  {
+   "id": "1225541269",
+   "issuer": "688322",
+   "company": "奥比中光",
+   "title": "关于参加科创板2026年半年度人工智能行业集体业绩说明会的公告",
+   "date": "2026-09-01",
+   "type": "公告",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-09-02/1225541269.PDF"
+  },
+  {
+   "id": "1225541192",
+   "issuer": "688081",
+   "company": "兴图新科",
+   "title": "关于参加科创板2026年半年度人工智能行业集体业绩说明会的公告",
+   "date": "2026-09-01",
+   "type": "公告",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-09-02/1225541192.PDF"
+  },
+  {
+   "id": "1225540737",
+   "issuer": "688078",
+   "company": "龙软科技",
+   "title": "北京龙软科技股份有限公司关于参加科创板2026年半年度人工智能行业集体业绩说明会的公告",
+   "date": "2026-09-01",
+   "type": "公告",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-09-02/1225540737.PDF"
+  },
+  {
+   "id": "1225540500",
+   "issuer": "688207",
+   "company": "格灵深瞳",
+   "title": "格灵深瞳关于参加科创板2026年半年度人工智能行业集体业绩说明会的公告",
+   "date": "2026-09-01",
+   "type": "公告",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-09-02/1225540500.PDF"
+  },
+  {
+   "id": "1225540489",
+   "issuer": "688327",
+   "company": "云从科技",
+   "title": "关于参加科创板2026年半年度人工智能行业集体业绩说明会的公告",
+   "date": "2026-09-01",
+   "type": "公告",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-09-02/1225540489.PDF"
+  },
+  {
+   "id": "1225540274",
+   "issuer": "688648",
+   "company": "中邮科技",
+   "title": "关于参加科创板2026年半年度人工智能行业集体业绩说明会的公告",
+   "date": "2026-09-01",
+   "type": "公告",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-09-02/1225540274.PDF"
+  },
+  {
+   "id": "1225540230",
+   "issuer": "688561",
+   "company": "奇安信",
+   "title": "奇安信关于参加科创板2026年半年度人工智能行业集体业绩说明会的公告",
+   "date": "2026-09-01",
+   "type": "公告",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-09-02/1225540230.PDF"
+  },
+  {
+   "id": "1225540227",
+   "issuer": "688800",
+   "company": "瑞可达",
+   "title": "关于召开科创板2026年半年度人工智能行业集体业绩说明会的公告",
+   "date": "2026-09-01",
+   "type": "公告",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-09-02/1225540227.PDF"
+  },
+  {
+   "id": "1225538097",
+   "issuer": "688507",
+   "company": "索辰科技",
+   "title": "关于参加2026年半年度科创板人工智能行业集体业绩说明会的公告",
+   "date": "2026-08-31",
+   "type": "公告",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-09-01/1225538097.PDF"
+  },
+  {
+   "id": "1225537155",
+   "issuer": "688004",
+   "company": "博汇科技",
+   "title": "博汇科技关于参加科创板2026年半年度人工智能行业集体业绩说明会的公告",
+   "date": "2026-08-31",
+   "type": "公告",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-09-01/1225537155.PDF"
+  },
+  {
+   "id": "1225536405",
+   "issuer": "688158",
+   "company": "优刻得",
+   "title": "优刻得关于参加科创板2026年半年度人工智能行业集体业绩说明会的公告",
+   "date": "2026-08-31",
+   "type": "公告",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-09-01/1225536405.PDF"
+  },
+  {
+   "id": "1225533987",
+   "issuer": "688525",
+   "company": "佰维存储",
+   "title": "关于参加科创板2026年半年度人工智能行业集体业绩说明会的公告",
+   "date": "2026-08-28",
+   "type": "公告",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225533987.PDF"
+  },
+  {
+   "id": "1225527276",
+   "issuer": "688159",
+   "company": "有方科技",
+   "title": "有方科技：关于参加科创板2026年半年度人工智能行业集体业绩说明会的公告",
+   "date": "2026-08-28",
+   "type": "公告",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225527276.PDF"
+  },
+  {
+   "id": "1225525310",
+   "issuer": "688036",
+   "company": "传音控股",
+   "title": "传音控股关于召开科创板2026年半年度人工智能行业集体业绩说明会的公告",
+   "date": "2026-08-28",
+   "type": "公告",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225525310.PDF"
+  },
+  {
+   "id": "1225525304",
+   "issuer": "688619",
+   "company": "罗普特",
+   "title": "罗普特科技集团股份有限公司关于参加科创板2026年半年度人工智能行业集体业绩说明会的公告",
+   "date": "2026-08-28",
+   "type": "公告",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225525304.PDF"
+  },
+  {
+   "id": "1225525132",
+   "issuer": "688132",
+   "company": "邦彦技术",
+   "title": "关于参加科创板2026年半年度人工智能行业集体业绩说明会的公告",
+   "date": "2026-08-28",
+   "type": "公告",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225525132.PDF"
+  },
+  {
+   "id": "1225520482",
+   "issuer": "688400",
+   "company": "凌云光",
+   "title": "关于参加科创板2026年半年度人工智能行业集体业绩说明会的公告",
+   "date": "2026-08-27",
+   "type": "公告",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-08-28/1225520482.PDF"
+  },
+  {
+   "id": "1225520044",
+   "issuer": "688288",
+   "company": "鸿泉技术",
+   "title": "鸿泉技术：关于参加科创板2026年半年度人工智能行业集体业绩说明会的公告",
+   "date": "2026-08-27",
+   "type": "公告",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-08-28/1225520044.PDF"
+  },
+  {
+   "id": "1225518123",
+   "issuer": "688618",
+   "company": "三旺通信",
+   "title": "关于参加科创板2026年半年度人工智能行业集体业绩说明会的公告",
+   "date": "2026-08-27",
+   "type": "公告",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-08-28/1225518123.PDF"
+  },
+  {
+   "id": "1225509299",
+   "issuer": "688031",
+   "company": "星环科技",
+   "title": "关于参加科创板2026年半年度人工智能行业集体业绩说明会的公告",
+   "date": "2026-08-26",
+   "type": "公告",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225509299.PDF"
+  },
+  {
+   "id": "1225505878",
+   "issuer": "688039",
+   "company": "当虹科技",
+   "title": "杭州当虹科技股份有限公司关于参加科创板2026年半年度人工智能行业集体业绩说明会的公告",
+   "date": "2026-08-25",
+   "type": "公告",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225505878.PDF"
+  },
+  {
+   "id": "1225503338",
+   "issuer": "688615",
+   "company": "合合信息",
+   "title": "上海合合信息科技股份有限公司关于参加科创板2026年半年度人工智能行业集体业绩说明会的公告",
+   "date": "2026-08-25",
+   "type": "公告",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225503338.PDF"
+  },
+  {
+   "id": "1225502294",
+   "issuer": "688365",
+   "company": "光云科技",
+   "title": "光云科技：关于参加科创板2026年半年度人工智能行业集体业绩说明会的公告",
+   "date": "2026-08-25",
+   "type": "公告",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225502294.PDF"
+  },
+  {
+   "id": "1225499234",
+   "issuer": "688088",
+   "company": "虹软科技",
+   "title": "关于参加科创板2026年半年度人工智能行业集体业绩说明会的公告",
+   "date": "2026-08-24",
+   "type": "公告",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-08-25/1225499234.PDF"
+  },
+  {
+   "id": "1225513122",
+   "issuer": "300110",
+   "company": "华仁药业",
+   "title": "关于公司董事长及高级管理人员薪酬绩效优化方案的公告",
+   "date": "2026-08-26",
+   "type": "公告",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225513122.PDF"
+  },
+  {
+   "id": "1225582247",
+   "issuer": "603906",
+   "company": "龙蟠科技",
+   "title": "江苏龙蟠科技集团股份有限公司关于投资建设全球总部及新能源新材料人工智能智慧创新中心暨累计对外投资的公告",
+   "date": "2026-09-24",
+   "type": "公告",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-09-25/1225582247.PDF"
+  },
+  {
+   "id": "1225542537",
+   "issuer": "688781",
+   "company": "视涯科技",
+   "title": "视涯科技关于参加科创板2026年半年度人工智能行业集体业绩说明会的公告",
+   "date": "2026-09-01",
+   "type": "公告",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-09-02/1225542537.PDF"
+  },
+  {
+   "id": "1225541269",
+   "issuer": "688322",
+   "company": "奥比中光",
+   "title": "关于参加科创板2026年半年度人工智能行业集体业绩说明会的公告",
+   "date": "2026-09-01",
+   "type": "公告",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-09-02/1225541269.PDF"
+  },
+  {
+   "id": "1225541192",
+   "issuer": "688081",
+   "company": "兴图新科",
+   "title": "关于参加科创板2026年半年度人工智能行业集体业绩说明会的公告",
+   "date": "2026-09-01",
+   "type": "公告",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-09-02/1225541192.PDF"
+  },
+  {
+   "id": "1225540737",
+   "issuer": "688078",
+   "company": "龙软科技",
+   "title": "北京龙软科技股份有限公司关于参加科创板2026年半年度人工智能行业集体业绩说明会的公告",
+   "date": "2026-09-01",
+   "type": "公告",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-09-02/1225540737.PDF"
+  },
+  {
+   "id": "1225540500",
+   "issuer": "688207",
+   "company": "格灵深瞳",
+   "title": "格灵深瞳关于参加科创板2026年半年度人工智能行业集体业绩说明会的公告",
+   "date": "2026-09-01",
+   "type": "公告",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-09-02/1225540500.PDF"
+  },
+  {
+   "id": "1225540489",
+   "issuer": "688327",
+   "company": "云从科技",
+   "title": "关于参加科创板2026年半年度人工智能行业集体业绩说明会的公告",
+   "date": "2026-09-01",
+   "type": "公告",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-09-02/1225540489.PDF"
+  },
+  {
+   "id": "1225540274",
+   "issuer": "688648",
+   "company": "中邮科技",
+   "title": "关于参加科创板2026年半年度人工智能行业集体业绩说明会的公告",
+   "date": "2026-09-01",
+   "type": "公告",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-09-02/1225540274.PDF"
+  },
+  {
+   "id": "1225540230",
+   "issuer": "688561",
+   "company": "奇安信",
+   "title": "奇安信关于参加科创板2026年半年度人工智能行业集体业绩说明会的公告",
+   "date": "2026-09-01",
+   "type": "公告",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-09-02/1225540230.PDF"
+  },
+  {
+   "id": "1225540227",
+   "issuer": "688800",
+   "company": "瑞可达",
+   "title": "关于召开科创板2026年半年度人工智能行业集体业绩说明会的公告",
+   "date": "2026-09-01",
+   "type": "公告",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-09-02/1225540227.PDF"
+  },
+  {
+   "id": "1225538097",
+   "issuer": "688507",
+   "company": "索辰科技",
+   "title": "关于参加2026年半年度科创板人工智能行业集体业绩说明会的公告",
+   "date": "2026-08-31",
+   "type": "公告",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-09-01/1225538097.PDF"
+  },
+  {
+   "id": "1225537155",
+   "issuer": "688004",
+   "company": "博汇科技",
+   "title": "博汇科技关于参加科创板2026年半年度人工智能行业集体业绩说明会的公告",
+   "date": "2026-08-31",
+   "type": "公告",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-09-01/1225537155.PDF"
+  },
+  {
+   "id": "1225536405",
+   "issuer": "688158",
+   "company": "优刻得",
+   "title": "优刻得关于参加科创板2026年半年度人工智能行业集体业绩说明会的公告",
+   "date": "2026-08-31",
+   "type": "公告",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-09-01/1225536405.PDF"
+  },
+  {
+   "id": "1225533987",
+   "issuer": "688525",
+   "company": "佰维存储",
+   "title": "关于参加科创板2026年半年度人工智能行业集体业绩说明会的公告",
+   "date": "2026-08-28",
+   "type": "公告",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225533987.PDF"
+  },
+  {
+   "id": "1225527276",
+   "issuer": "688159",
+   "company": "有方科技",
+   "title": "有方科技：关于参加科创板2026年半年度人工智能行业集体业绩说明会的公告",
+   "date": "2026-08-28",
+   "type": "公告",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225527276.PDF"
+  },
+  {
+   "id": "1225525310",
+   "issuer": "688036",
+   "company": "传音控股",
+   "title": "传音控股关于召开科创板2026年半年度人工智能行业集体业绩说明会的公告",
+   "date": "2026-08-28",
+   "type": "公告",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225525310.PDF"
+  },
+  {
+   "id": "1225525304",
+   "issuer": "688619",
+   "company": "罗普特",
+   "title": "罗普特科技集团股份有限公司关于参加科创板2026年半年度人工智能行业集体业绩说明会的公告",
+   "date": "2026-08-28",
+   "type": "公告",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225525304.PDF"
+  },
+  {
+   "id": "1225525132",
+   "issuer": "688132",
+   "company": "邦彦技术",
+   "title": "关于参加科创板2026年半年度人工智能行业集体业绩说明会的公告",
+   "date": "2026-08-28",
+   "type": "公告",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225525132.PDF"
+  },
+  {
+   "id": "1225520482",
+   "issuer": "688400",
+   "company": "凌云光",
+   "title": "关于参加科创板2026年半年度人工智能行业集体业绩说明会的公告",
+   "date": "2026-08-27",
+   "type": "公告",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-08-28/1225520482.PDF"
+  },
+  {
+   "id": "1225520044",
+   "issuer": "688288",
+   "company": "鸿泉技术",
+   "title": "鸿泉技术：关于参加科创板2026年半年度人工智能行业集体业绩说明会的公告",
+   "date": "2026-08-27",
+   "type": "公告",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-08-28/1225520044.PDF"
+  },
+  {
+   "id": "1225518123",
+   "issuer": "688618",
+   "company": "三旺通信",
+   "title": "关于参加科创板2026年半年度人工智能行业集体业绩说明会的公告",
+   "date": "2026-08-27",
+   "type": "公告",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-08-28/1225518123.PDF"
+  },
+  {
+   "id": "1225509299",
+   "issuer": "688031",
+   "company": "星环科技",
+   "title": "关于参加科创板2026年半年度人工智能行业集体业绩说明会的公告",
+   "date": "2026-08-26",
+   "type": "公告",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225509299.PDF"
+  },
+  {
+   "id": "1225505878",
+   "issuer": "688039",
+   "company": "当虹科技",
+   "title": "杭州当虹科技股份有限公司关于参加科创板2026年半年度人工智能行业集体业绩说明会的公告",
+   "date": "2026-08-25",
+   "type": "公告",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225505878.PDF"
+  },
+  {
+   "id": "1225503338",
+   "issuer": "688615",
+   "company": "合合信息",
+   "title": "上海合合信息科技股份有限公司关于参加科创板2026年半年度人工智能行业集体业绩说明会的公告",
+   "date": "2026-08-25",
+   "type": "公告",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225503338.PDF"
+  },
+  {
+   "id": "1225502294",
+   "issuer": "688365",
+   "company": "光云科技",
+   "title": "光云科技：关于参加科创板2026年半年度人工智能行业集体业绩说明会的公告",
+   "date": "2026-08-25",
+   "type": "公告",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225502294.PDF"
+  },
+  {
+   "id": "1225499234",
+   "issuer": "688088",
+   "company": "虹软科技",
+   "title": "关于参加科创板2026年半年度人工智能行业集体业绩说明会的公告",
+   "date": "2026-08-24",
+   "type": "公告",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-08-25/1225499234.PDF"
+  }
+ ],
+ "recorded_at": "2026-10-27T14:50:32+00:00"
+}

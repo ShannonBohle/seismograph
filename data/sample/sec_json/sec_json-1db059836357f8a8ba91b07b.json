@@ -1,0 +1,86 @@
+{
+ "request": {
+  "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000789019.json"
+ },
+ "response": {
+  "capex": {
+   "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+   "rows": [
+    {
+     "end": "2026-06-30",
+     "value": 115948000000,
+     "accession": "0001193125-26-323660",
+     "filed": "2026-07-29",
+     "form": "10-K"
+    },
+    {
+     "end": "2025-06-30",
+     "value": 64551000000,
+     "accession": "0001193125-26-323660",
+     "filed": "2026-07-29",
+     "form": "10-K"
+    },
+    {
+     "end": "2024-06-30",
+     "value": 44477000000,
+     "accession": "0001193125-26-323660",
+     "filed": "2026-07-29",
+     "form": "10-K"
+    }
+   ]
+  },
+  "net_income": {
+   "tag": "NetIncomeLoss",
+   "rows": [
+    {
+     "end": "2026-06-30",
+     "value": 133749000000,
+     "accession": "0001193125-26-323660",
+     "filed": "2026-07-29",
+     "form": "10-K"
+    },
+    {
+     "end": "2025-06-30",
+     "value": 101832000000,
+     "accession": "0001193125-26-323660",
+     "filed": "2026-07-29",
+     "form": "10-K"
+    },
+    {
+     "end": "2024-06-30",
+     "value": 88136000000,
+     "accession": "0001193125-26-323660",
+     "filed": "2026-07-29",
+     "form": "10-K"
+    }
+   ]
+  },
+  "revenue": {
+   "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+   "rows": [
+    {
+     "end": "2026-06-30",
+     "value": 331839000000,
+     "accession": "0001193125-26-323660",
+     "filed": "2026-07-29",
+     "form": "10-K"
+    },
+    {
+     "end": "2025-06-30",
+     "value": 281724000000,
+     "accession": "0001193125-26-323660",
+     "filed": "2026-07-29",
+     "form": "10-K"
+    },
+    {
+     "end": "2024-06-30",
+     "value": 245122000000,
+     "accession": "0001193125-26-323660",
+     "filed": "2026-07-29",
+     "form": "10-K"
+    }
+   ]
+  }
+ },
+ "recorded_at": "2026-10-27T13:34:35+00:00"
+}

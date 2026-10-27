@@ -12,7 +12,9 @@ and with other model settings:
   sec_search  same query and forms (the date window is ignored; the latest recording wins)
   nightshift  same system prompt and the same user prompt up to the memory section
               (the model name is ignored; the model that actually answered is replayed and logged)
-  sec_doc     same URL
+  sec_doc     same URL (SEC documents and UK announcements)
+  uk_search   same search words (the date window is ignored)
+  foreign_search  same exchange (the date window is ignored)
 """
 from __future__ import annotations
 
@@ -34,9 +36,13 @@ def _nightshift_core(req: dict) -> tuple[str, str]:
 
 
 MATCHERS = {
-    "sec_search": lambda a, b: a.get("q") == b.get("q") and a.get("forms") == b.get("forms"),
+    "sec_search": lambda a, b: (a.get("q"), a.get("forms"), a.get("ciks")) == (b.get("q"), b.get("forms"), b.get("ciks")),
+    "sec_json": lambda a, b: a.get("url") == b.get("url"),
     "nightshift": lambda a, b: _nightshift_core(a) == _nightshift_core(b),
     "sec_doc": lambda a, b: a.get("url") == b.get("url"),
+    "uk_search": lambda a, b: a.get("q") == b.get("q"),
+    "foreign_search": lambda a, b: a.get("source") == b.get("source"),
+    "erm_events": lambda a, b: True,
 }
 
 

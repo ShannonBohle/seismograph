@@ -7,7 +7,7 @@
   "enddt": "2026-10-27"
  },
  "response": {
-  "took": 345,
+  "took": 35,
   "timed_out": false,
   "_shards": {
    "total": 50,
@@ -20,12 +20,12 @@
     "value": 9,
     "relation": "eq"
    },
-   "max_score": 16.586662,
+   "max_score": 16.586508,
    "hits": [
     {
      "_index": "edgar_file",
      "_id": "0001826000-26-000050:tmb-20260810xex99d1.htm",
-     "_score": 16.586662,
+     "_score": 16.586508,
      "_source": {
       "ciks": [
        "0001826000"
@@ -71,7 +71,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001517375-26-000056:a2q26investorpresentatio.htm",
-     "_score": 15.631314,
+     "_score": 15.631273,
      "_source": {
       "ciks": [
        "0001517375"
@@ -118,7 +118,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001628280-26-055207:niqpressrelease-q226.htm",
-     "_score": 14.302543,
+     "_score": 14.302532,
      "_source": {
       "ciks": [
        "0002054696"
@@ -164,7 +164,7 @@
     {
      "_index": "edgar_file",
      "_id": "0000950103-26-013227:dp252658_ex9901.htm",
-     "_score": 13.622038,
+     "_score": 13.621777,
      "_source": {
       "ciks": [
        "0000003124"
@@ -203,7 +203,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001628280-26-067381:exhibit991-earningspressre.htm",
-     "_score": 12.342686,
+     "_score": 12.342469,
      "_source": {
       "ciks": [
        "0001090727"
@@ -250,7 +250,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001628280-26-052125:sophiageneticssaex992q22026.htm",
-     "_score": 11.630077,
+     "_score": 11.630158,
      "_source": {
       "ciks": [
        "0001840706"
@@ -293,7 +293,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001104659-26-106574:crgo-20260630xex99d2.htm",
-     "_score": 11.429903,
+     "_score": 11.429861,
      "_source": {
       "ciks": [
        "0001927719"
@@ -336,7 +336,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001770450-26-000034:ex991xrx630268-ker.htm",
-     "_score": 9.021277,
+     "_score": 9.021113,
      "_source": {
       "ciks": [
        "0001770450",
@@ -389,7 +389,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001104659-26-106807:dsgx-20260731xex99d1.htm",
-     "_score": 5.686832,
+     "_score": 5.6867714,
      "_source": {
       "ciks": [
        "0001050140"
@@ -636,5 +636,6 @@
     }
    }
   }
- }
+ },
+ "recorded_at": "2026-10-27T16:27:16+00:00"
 }

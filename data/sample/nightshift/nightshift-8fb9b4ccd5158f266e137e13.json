@@ -8,5 +8,6 @@
   "text": "{\"is_workforce_reduction\": false, \"company\": \"GARTNER INC\", \"event_date\": null, \"jobs_cut\": null, \"jobs_cut_text\": null, \"ai_attribution\": \"none\", \"ai_quote\": null, \"notes\": \"Document excerpt contains only risk factors and non-GAAP financial definitions mentioning workforce reduction expenses as a line item, but no announcement of job cuts, layoffs, or reduction in force.\"}",
   "served_model": "nvidia/nemotron-3-ultra-550b-a55b",
   "is_nemotron": true
- }
+ },
+ "recorded_at": "2026-10-27T16:27:21+00:00"
 }

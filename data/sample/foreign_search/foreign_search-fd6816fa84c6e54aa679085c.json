@@ -1,0 +1,181 @@
+{
+ "request": {
+  "source": "bse",
+  "start": "2026-10-20",
+  "end": "2026-10-27"
+ },
+ "response": [
+  {
+   "id": "9805b331-058d-41b0-a2dc-30ea5795e569",
+   "issuer": "532806",
+   "company": "AI Champdany Industries Ltd",
+   "title": "AI Champdany Industries Ltd - 532806 - Announcement under Regulation 30 (LODR)-Newspaper Publication",
+   "date": "2026-10-27",
+   "type": "Company Update",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/457d7668-afe0-4ec7-886d-5b5280cfdada.pdf"
+  },
+  {
+   "id": "3770246c-d0a8-4a0c-aff6-064b2418688d",
+   "issuer": "539682",
+   "company": "Mobavenue AI Tech Ltd",
+   "title": "Mobavenue AI Tech Ltd - 539682 - Intimation Of Launch Of Resurgex, The Company'S AI-Powered App Retargeting Platform, In The United States.",
+   "date": "2026-10-27",
+   "type": "Company Update",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7fd7aab5-535b-481d-9129-f31e7a93dc5a.pdf"
+  },
+  {
+   "id": "0cccf4ec-7cc1-463a-abaa-b79083c74c0f",
+   "issuer": "500449",
+   "company": "Hindustan Organic Chemicals Ltd",
+   "title": "Hindustan Organic Chemicals Ltd - 500449 - Intimation Regarding Registration For Sale Of 92.258 Acres Of Land At Rasayani To BPCL",
+   "date": "2026-10-26",
+   "type": "Company Update",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/13811cd3-a583-4b9c-95be-32eeed0505fb.pdf"
+  },
+  {
+   "id": "02ca1fac-0cc5-4418-8735-b00ce4f733a4",
+   "issuer": "532806",
+   "company": "AI Champdany Industries Ltd",
+   "title": "AI Champdany Industries Ltd - 532806 -  Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+   "date": "2026-10-26",
+   "type": "AGM/EGM",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/cb0a5e6c-0805-4b1a-9db2-23b4498bae70.pdf"
+  },
+  {
+   "id": "d45fe94a-2065-45df-8e17-6db74f2d57d8",
+   "issuer": "532281",
+   "company": "HCL Technologies Ltd",
+   "title": "HCL Technologies Ltd - 532281 - Update - Completion Of Acquisition Of Robotic Process Automation D.O.O. ('Robotiq.Ai\")",
+   "date": "2026-10-26",
+   "type": "Company Update",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b14e396f-42a4-4dbb-baf3-f25037870555.pdf"
+  },
+  {
+   "id": "fe03ec29-f389-40e2-a153-266800a57536",
+   "issuer": "517286",
+   "company": "Rnit Ai Solutions Ltd",
+   "title": "Rnit Ai Solutions Ltd - 517286 - Board Meeting Intimation for Approving The Unaudited Financial Results For The Quarter And Half Year Ended September 30, 2026.",
+   "date": "2026-10-26",
+   "type": "Board Meeting",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/078435f7-8469-4d1d-9553-f29b0a2c092b.pdf"
+  },
+  {
+   "id": "8b8b2847-01a1-45e1-aaff-7cb6393e77cd",
+   "issuer": "544783",
+   "company": "E2E Networks Ltd",
+   "title": "E2E Networks Ltd - 544783 - Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+   "date": "2026-10-26",
+   "type": "Company Update",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/13feec5a-217c-44a9-a459-132aac6f3858.pdf"
+  },
+  {
+   "id": "49b0e8bd-afb4-4799-a09e-9f868048dfc8",
+   "issuer": "532406",
+   "company": "Avantel Ltd",
+   "title": "Avantel Ltd - 532406 - Announcement under Regulation 30 (LODR)-Restructuring",
+   "date": "2026-10-26",
+   "type": "Company Update",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4364eb71-da71-4e36-a217-d2f7212060f8.pdf"
+  },
+  {
+   "id": "f107df4d-8f5d-4c36-b581-9b344407288a",
+   "issuer": "500483",
+   "company": "Tata Communications Ltd",
+   "title": "Tata Communications Ltd - 500483 - Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+   "date": "2026-10-26",
+   "type": "Company Update",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f8f1221f-bccc-4b39-9e90-f6521076d981.pdf"
+  },
+  {
+   "id": "943d6c96-0d29-4b9f-881c-d933b3eb4c0f",
+   "issuer": "532541",
+   "company": "Coforge Ltd",
+   "title": "Coforge Ltd - 532541 - Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+   "date": "2026-10-26",
+   "type": "Company Update",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/42b23ada-1a0b-4c15-a95c-061c7c3217c4.pdf"
+  },
+  {
+   "id": "aefe26da-fa48-4433-81c8-c188cb37be44",
+   "issuer": "500260",
+   "company": "The Ramco Cements Ltd",
+   "title": "The Ramco Cements Ltd - 500260 - National Artificial Intelligence Awards",
+   "date": "2026-10-24",
+   "type": "Company Update",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b10ffdd7-2e67-4920-946c-0a7b3128d565.pdf"
+  },
+  {
+   "id": "4e1bccad-c88f-49b0-8337-90782ab893b7",
+   "issuer": "542678",
+   "company": "Cian Healthcare Ltd",
+   "title": "Cian Healthcare Ltd - 542678 - Announcement under Regulation 30 (LODR)-Restructuring",
+   "date": "2026-10-23",
+   "type": "Company Update",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/070e0c50-def4-4775-bc32-87d305059636.pdf"
+  },
+  {
+   "id": "3a7235b8-d522-400c-91a3-47e55fde9b4b",
+   "issuer": "530139",
+   "company": "Kreon Finnancial Services Ltd",
+   "title": "Kreon Finnancial Services Ltd - 530139 - Disclosure Under SEBI(Substantial Acquisition Of Shares And Substantial Takeover) Regulations, 2011",
+   "date": "2026-10-23",
+   "type": "Company Update",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/75166672-69cb-42c4-b88a-11e5053870f6.pdf"
+  },
+  {
+   "id": "7ef3574d-5b28-47d9-897b-1a18318fd221",
+   "issuer": "539682",
+   "company": "Mobavenue AI Tech Ltd",
+   "title": "Mobavenue AI Tech Ltd - 539682 - Board Meeting Intimation for Approval Of The Unaudited (Standalone And Consolidated) Financial Results Of The Company Along With The Limited Review Report For The Quarter And Half Year Ended September 30, 2026.",
+   "date": "2026-10-23",
+   "type": "Board Meeting",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ae5b139f-dacb-47c6-869e-94ada571f726.pdf"
+  },
+  {
+   "id": "a5810ac2-a363-4c3d-9e0d-6cad65d833a0",
+   "issuer": "531677",
+   "company": "Aris International Ltd",
+   "title": "Aris International Ltd - 531677 - Announcement under Regulation 30 (LODR)-Restructuring",
+   "date": "2026-10-22",
+   "type": "Company Update",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d88d744b-a95b-4372-bd5f-24b153c06db3.pdf"
+  },
+  {
+   "id": "a0700688-bea7-4062-9185-97759f51f5c4",
+   "issuer": "532805",
+   "company": "Redington Ltd",
+   "title": "Redington Ltd - 532805 - Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+   "date": "2026-10-22",
+   "type": "Company Update",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0ade21ba-1079-4977-9ce1-b1e0c8d2b964.pdf"
+  },
+  {
+   "id": "f590f6db-2185-4f0c-bada-20f2710a6c48",
+   "issuer": "544338",
+   "company": "Capital Infra Trus",
+   "title": "Capital Infra Trus - 544338 - Unitholding pattern post capital restructuring",
+   "date": "2026-10-22",
+   "type": "Others",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/af968ff8-4567-4955-82c3-5d5cf0fbb8b8.pdf"
+  },
+  {
+   "id": "fa8b4cae-cc01-49ca-89f1-334dbb2633ba",
+   "issuer": "543328",
+   "company": "Krsnaa Diagnostics Ltd",
+   "title": "Krsnaa Diagnostics Ltd - 543328 - Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+   "date": "2026-10-22",
+   "type": "Company Update",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/521bb97b-6b14-484b-af28-0ac648a298eb.pdf"
+  },
+  {
+   "id": "15f7c96b-d24a-46f7-9e04-c71db3f54f4c",
+   "issuer": "543320",
+   "company": "Eternal Ltd",
+   "title": "Eternal Ltd - 543320 - Announcement under Regulation 30 (LODR)-Restructuring",
+   "date": "2026-10-21",
+   "type": "Company Update",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a0daf632-ab45-41ef-bbc5-bfc655056cbb.pdf"
+  }
+ ],
+ "recorded_at": "2026-10-27T14:17:06+00:00"
+}

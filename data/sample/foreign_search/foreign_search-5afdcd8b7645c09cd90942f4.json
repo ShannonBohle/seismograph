@@ -1,0 +1,37 @@
+{
+ "request": {
+  "source": "cvm",
+  "start": "2026-06-29",
+  "end": "2026-10-27"
+ },
+ "response": [
+  {
+   "id": "025780IPE280120260321974860-37",
+   "issuer": "03342704000130",
+   "company": "PETRORECÔNCAVO S.A.",
+   "title": "Fato Relevante: Reestruturação Organizacional da Diretoria Estatutária",
+   "date": "2026-08-28",
+   "type": "Fato Relevante",
+   "url": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1562644&numSequencia=1087350&numVersao=3"
+  },
+  {
+   "id": "023612IPE070820260125535054-88",
+   "issuer": "08795211000170",
+   "company": "MAESTRO LOCADORA DE VEÍCULOS S.A.",
+   "title": "Fato Relevante: Reestruturação Debêntures",
+   "date": "2026-08-10",
+   "type": "Fato Relevante",
+   "url": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1554631&numSequencia=1079337&numVersao=1"
+  },
+  {
+   "id": "004820IPE180820260156240938-26",
+   "issuer": "42150391000170",
+   "company": "BRASKEM S.A.",
+   "title": "Fato Relevante: Braskem comunica sobre reestruturação da Braskem Idesa",
+   "date": "2026-08-18",
+   "type": "Fato Relevante",
+   "url": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1558841&numSequencia=1083547&numVersao=1"
+  }
+ ],
+ "recorded_at": "2026-10-27T16:37:45+00:00"
+}

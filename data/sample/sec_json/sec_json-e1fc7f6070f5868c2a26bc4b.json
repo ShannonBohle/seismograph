@@ -1,0 +1,70 @@
+{
+ "request": {
+  "url": "https://www.sec.gov/files/company_tickers.json",
+  "subset": [
+   "MSFT",
+   "GOOGL",
+   "AMZN",
+   "META",
+   "ORCL",
+   "AAPL",
+   "NVDA",
+   "TSLA",
+   "IBM",
+   "CRM",
+   "AVGO",
+   "CRWV"
+  ]
+ },
+ "response": {
+  "NVDA": {
+   "cik": 1045810,
+   "title": "NVIDIA CORP"
+  },
+  "AAPL": {
+   "cik": 320193,
+   "title": "Apple Inc."
+  },
+  "GOOGL": {
+   "cik": 1652044,
+   "title": "Alphabet Inc."
+  },
+  "MSFT": {
+   "cik": 789019,
+   "title": "MICROSOFT CORP"
+  },
+  "AMZN": {
+   "cik": 1018724,
+   "title": "AMAZON COM INC"
+  },
+  "META": {
+   "cik": 1326801,
+   "title": "Meta Platforms, Inc."
+  },
+  "AVGO": {
+   "cik": 1730168,
+   "title": "Broadcom Inc."
+  },
+  "TSLA": {
+   "cik": 1318605,
+   "title": "Tesla, Inc."
+  },
+  "ORCL": {
+   "cik": 1341439,
+   "title": "ORACLE CORP"
+  },
+  "IBM": {
+   "cik": 51143,
+   "title": "INTERNATIONAL BUSINESS MACHINES CORP"
+  },
+  "CRM": {
+   "cik": 1108524,
+   "title": "Salesforce, Inc."
+  },
+  "CRWV": {
+   "cik": 1769628,
+   "title": "CoreWeave, Inc."
+  }
+ },
+ "recorded_at": "2026-10-27T13:34:33+00:00"
+}

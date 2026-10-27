@@ -1,0 +1,692 @@
+[
+ {
+  "ticker": "AMZN",
+  "cik": "1018724",
+  "company": "AMAZON COM INC",
+  "capex": [
+   {
+    "end": "2025-12-31",
+    "value": 131819000000.0,
+    "tag": "PaymentsToAcquireProductiveAssets",
+    "accession": "0001018724-26-000004"
+   },
+   {
+    "end": "2024-12-31",
+    "value": 82999000000.0,
+    "tag": "PaymentsToAcquireProductiveAssets",
+    "accession": "0001018724-26-000004"
+   },
+   {
+    "end": "2023-12-31",
+    "value": 52729000000.0,
+    "tag": "PaymentsToAcquireProductiveAssets",
+    "accession": "0001018724-26-000004"
+   }
+  ],
+  "net_income": [
+   {
+    "end": "2025-12-31",
+    "value": 77670000000.0,
+    "tag": "NetIncomeLoss",
+    "accession": "0001018724-26-000004"
+   },
+   {
+    "end": "2024-12-31",
+    "value": 59248000000.0,
+    "tag": "NetIncomeLoss",
+    "accession": "0001018724-26-000004"
+   },
+   {
+    "end": "2023-12-31",
+    "value": 30425000000.0,
+    "tag": "NetIncomeLoss",
+    "accession": "0001018724-26-000004"
+   }
+  ],
+  "revenue": [
+   {
+    "end": "2025-12-31",
+    "value": 716924000000.0,
+    "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+    "accession": "0001018724-26-000004"
+   },
+   {
+    "end": "2024-12-31",
+    "value": 637959000000.0,
+    "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+    "accession": "0001018724-26-000004"
+   },
+   {
+    "end": "2023-12-31",
+    "value": 574785000000.0,
+    "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+    "accession": "0001018724-26-000004"
+   }
+  ],
+  "records": [],
+  "published": [],
+  "pending": [],
+  "documents_read": 1
+ },
+ {
+  "ticker": "MSFT",
+  "cik": "789019",
+  "company": "MICROSOFT CORP",
+  "capex": [
+   {
+    "end": "2026-06-30",
+    "value": 115948000000.0,
+    "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+    "accession": "0001193125-26-323660"
+   },
+   {
+    "end": "2025-06-30",
+    "value": 64551000000.0,
+    "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+    "accession": "0001193125-26-323660"
+   },
+   {
+    "end": "2024-06-30",
+    "value": 44477000000.0,
+    "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+    "accession": "0001193125-26-323660"
+   }
+  ],
+  "net_income": [
+   {
+    "end": "2026-06-30",
+    "value": 133749000000.0,
+    "tag": "NetIncomeLoss",
+    "accession": "0001193125-26-323660"
+   },
+   {
+    "end": "2025-06-30",
+    "value": 101832000000.0,
+    "tag": "NetIncomeLoss",
+    "accession": "0001193125-26-323660"
+   },
+   {
+    "end": "2024-06-30",
+    "value": 88136000000.0,
+    "tag": "NetIncomeLoss",
+    "accession": "0001193125-26-323660"
+   }
+  ],
+  "revenue": [
+   {
+    "end": "2026-06-30",
+    "value": 331839000000.0,
+    "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+    "accession": "0001193125-26-323660"
+   },
+   {
+    "end": "2025-06-30",
+    "value": 281724000000.0,
+    "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+    "accession": "0001193125-26-323660"
+   },
+   {
+    "end": "2024-06-30",
+    "value": 245122000000.0,
+    "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+    "accession": "0001193125-26-323660"
+   }
+  ],
+  "records": [],
+  "published": [],
+  "pending": [],
+  "documents_read": 0
+ },
+ {
+  "ticker": "GOOGL",
+  "cik": "1652044",
+  "company": "Alphabet Inc.",
+  "capex": [
+   {
+    "end": "2025-12-31",
+    "value": 91447000000.0,
+    "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+    "accession": "0001652044-26-000018"
+   },
+   {
+    "end": "2024-12-31",
+    "value": 52535000000.0,
+    "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+    "accession": "0001652044-26-000018"
+   },
+   {
+    "end": "2023-12-31",
+    "value": 32251000000.0,
+    "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+    "accession": "0001652044-26-000018"
+   }
+  ],
+  "net_income": [
+   {
+    "end": "2025-12-31",
+    "value": 132170000000.0,
+    "tag": "NetIncomeLoss",
+    "accession": "0001652044-26-000018"
+   },
+   {
+    "end": "2024-12-31",
+    "value": 100118000000.0,
+    "tag": "NetIncomeLoss",
+    "accession": "0001652044-26-000018"
+   },
+   {
+    "end": "2023-12-31",
+    "value": 73795000000.0,
+    "tag": "NetIncomeLoss",
+    "accession": "0001652044-26-000018"
+   }
+  ],
+  "revenue": [
+   {
+    "end": "2025-12-31",
+    "value": 402836000000.0,
+    "tag": "Revenues",
+    "accession": "0001652044-26-000018"
+   },
+   {
+    "end": "2024-12-31",
+    "value": 350018000000.0,
+    "tag": "Revenues",
+    "accession": "0001652044-26-000018"
+   },
+   {
+    "end": "2023-12-31",
+    "value": 307394000000.0,
+    "tag": "Revenues",
+    "accession": "0001652044-26-000018"
+   }
+  ],
+  "records": [],
+  "published": [],
+  "pending": [],
+  "documents_read": 0
+ },
+ {
+  "ticker": "META",
+  "cik": "1326801",
+  "company": "Meta Platforms, Inc.",
+  "capex": [
+   {
+    "end": "2025-12-31",
+    "value": 69691000000.0,
+    "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+    "accession": "0001628280-26-003942"
+   },
+   {
+    "end": "2024-12-31",
+    "value": 37256000000.0,
+    "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+    "accession": "0001628280-26-003942"
+   },
+   {
+    "end": "2023-12-31",
+    "value": 27045000000.0,
+    "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+    "accession": "0001628280-26-003942"
+   }
+  ],
+  "net_income": [
+   {
+    "end": "2025-12-31",
+    "value": 60458000000.0,
+    "tag": "NetIncomeLoss",
+    "accession": "0001628280-26-003942"
+   },
+   {
+    "end": "2024-12-31",
+    "value": 62360000000.0,
+    "tag": "NetIncomeLoss",
+    "accession": "0001628280-26-003942"
+   },
+   {
+    "end": "2023-12-31",
+    "value": 39098000000.0,
+    "tag": "NetIncomeLoss",
+    "accession": "0001628280-26-003942"
+   }
+  ],
+  "revenue": [
+   {
+    "end": "2025-12-31",
+    "value": 200966000000.0,
+    "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+    "accession": "0001628280-26-003942"
+   },
+   {
+    "end": "2024-12-31",
+    "value": 164501000000.0,
+    "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+    "accession": "0001628280-26-003942"
+   },
+   {
+    "end": "2023-12-31",
+    "value": 134902000000.0,
+    "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+    "accession": "0001628280-26-003942"
+   }
+  ],
+  "records": [],
+  "published": [],
+  "pending": [],
+  "documents_read": 2
+ },
+ {
+  "ticker": "ORCL",
+  "cik": "1341439",
+  "company": "ORACLE CORP",
+  "capex": [
+   {
+    "end": "2026-05-31",
+    "value": 55663000000.0,
+    "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+    "accession": "0001193125-26-277521"
+   },
+   {
+    "end": "2025-05-31",
+    "value": 21215000000.0,
+    "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+    "accession": "0001193125-26-277521"
+   },
+   {
+    "end": "2024-05-31",
+    "value": 6866000000.0,
+    "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+    "accession": "0001193125-26-277521"
+   }
+  ],
+  "net_income": [
+   {
+    "end": "2026-05-31",
+    "value": 17087000000.0,
+    "tag": "NetIncomeLoss",
+    "accession": "0001193125-26-277521"
+   },
+   {
+    "end": "2025-05-31",
+    "value": 12443000000.0,
+    "tag": "NetIncomeLoss",
+    "accession": "0001193125-26-277521"
+   },
+   {
+    "end": "2024-05-31",
+    "value": 10467000000.0,
+    "tag": "NetIncomeLoss",
+    "accession": "0001193125-26-277521"
+   }
+  ],
+  "revenue": [
+   {
+    "end": "2026-05-31",
+    "value": 67357000000.0,
+    "tag": "Revenues",
+    "accession": "0001193125-26-277521"
+   },
+   {
+    "end": "2025-05-31",
+    "value": 57399000000.0,
+    "tag": "Revenues",
+    "accession": "0001193125-26-277521"
+   },
+   {
+    "end": "2024-05-31",
+    "value": 52961000000.0,
+    "tag": "Revenues",
+    "accession": "0001193125-26-277521"
+   }
+  ],
+  "records": [],
+  "published": [],
+  "pending": [],
+  "documents_read": 2
+ },
+ {
+  "ticker": "AAPL",
+  "cik": "320193",
+  "company": "Apple Inc.",
+  "capex": [
+   {
+    "end": "2025-09-27",
+    "value": 12715000000.0,
+    "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+    "accession": "0000320193-25-000079"
+   },
+   {
+    "end": "2024-09-28",
+    "value": 9447000000.0,
+    "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+    "accession": "0000320193-25-000079"
+   },
+   {
+    "end": "2023-09-30",
+    "value": 10959000000.0,
+    "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+    "accession": "0000320193-25-000079"
+   }
+  ],
+  "net_income": [
+   {
+    "end": "2025-09-27",
+    "value": 112010000000.0,
+    "tag": "NetIncomeLoss",
+    "accession": "0000320193-25-000079"
+   },
+   {
+    "end": "2024-09-28",
+    "value": 93736000000.0,
+    "tag": "NetIncomeLoss",
+    "accession": "0000320193-25-000079"
+   },
+   {
+    "end": "2023-09-30",
+    "value": 96995000000.0,
+    "tag": "NetIncomeLoss",
+    "accession": "0000320193-25-000079"
+   }
+  ],
+  "revenue": [
+   {
+    "end": "2025-09-27",
+    "value": 416161000000.0,
+    "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+    "accession": "0000320193-25-000079"
+   },
+   {
+    "end": "2024-09-28",
+    "value": 391035000000.0,
+    "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+    "accession": "0000320193-25-000079"
+   },
+   {
+    "end": "2023-09-30",
+    "value": 383285000000.0,
+    "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+    "accession": "0000320193-25-000079"
+   }
+  ],
+  "records": [],
+  "published": [],
+  "pending": [],
+  "documents_read": 0
+ },
+ {
+  "ticker": "CRWV",
+  "cik": "1769628",
+  "company": "CoreWeave, Inc.",
+  "capex": [
+   {
+    "end": "2025-12-31",
+    "value": 10309000000.0,
+    "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+    "accession": "0001769628-26-000104"
+   },
+   {
+    "end": "2024-12-31",
+    "value": 8702000000.0,
+    "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+    "accession": "0001769628-26-000104"
+   },
+   {
+    "end": "2023-12-31",
+    "value": 2943000000.0,
+    "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+    "accession": "0001769628-26-000104"
+   }
+  ],
+  "net_income": [
+   {
+    "end": "2025-12-31",
+    "value": -1167000000.0,
+    "tag": "NetIncomeLoss",
+    "accession": "0001769628-26-000104"
+   },
+   {
+    "end": "2024-12-31",
+    "value": -863000000.0,
+    "tag": "NetIncomeLoss",
+    "accession": "0001769628-26-000104"
+   },
+   {
+    "end": "2023-12-31",
+    "value": -594000000.0,
+    "tag": "NetIncomeLoss",
+    "accession": "0001769628-26-000104"
+   }
+  ],
+  "revenue": [
+   {
+    "end": "2025-12-31",
+    "value": 5131000000.0,
+    "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+    "accession": "0001769628-26-000104"
+   },
+   {
+    "end": "2024-12-31",
+    "value": 1915000000.0,
+    "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+    "accession": "0001769628-26-000104"
+   },
+   {
+    "end": "2023-12-31",
+    "value": 229000000.0,
+    "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+    "accession": "0001769628-26-000104"
+   }
+  ],
+  "records": [],
+  "published": [],
+  "pending": [],
+  "documents_read": 0
+ },
+ {
+  "ticker": "TSLA",
+  "cik": "1318605",
+  "company": "Tesla, Inc.",
+  "capex": [
+   {
+    "end": "2025-12-31",
+    "value": 8527000000.0,
+    "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+    "accession": "0001628280-26-003952"
+   },
+   {
+    "end": "2024-12-31",
+    "value": 11342000000.0,
+    "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+    "accession": "0001628280-26-003952"
+   },
+   {
+    "end": "2023-12-31",
+    "value": 8899000000.0,
+    "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+    "accession": "0001628280-26-003952"
+   }
+  ],
+  "net_income": [
+   {
+    "end": "2025-12-31",
+    "value": 3794000000.0,
+    "tag": "NetIncomeLoss",
+    "accession": "0001628280-26-003952"
+   },
+   {
+    "end": "2024-12-31",
+    "value": 7091000000.0,
+    "tag": "NetIncomeLoss",
+    "accession": "0001628280-26-003952"
+   },
+   {
+    "end": "2023-12-31",
+    "value": 14997000000.0,
+    "tag": "NetIncomeLoss",
+    "accession": "0001628280-26-003952"
+   }
+  ],
+  "revenue": [
+   {
+    "end": "2025-12-31",
+    "value": 94827000000.0,
+    "tag": "Revenues",
+    "accession": "0001628280-26-003952"
+   },
+   {
+    "end": "2024-12-31",
+    "value": 97690000000.0,
+    "tag": "Revenues",
+    "accession": "0001628280-26-003952"
+   },
+   {
+    "end": "2023-12-31",
+    "value": 96773000000.0,
+    "tag": "Revenues",
+    "accession": "0001628280-26-003952"
+   }
+  ],
+  "records": [],
+  "published": [],
+  "pending": [],
+  "documents_read": 13
+ },
+ {
+  "ticker": "NVDA",
+  "cik": "1045810",
+  "company": "NVIDIA CORP",
+  "capex": [
+   {
+    "end": "2026-01-25",
+    "value": 6042000000.0,
+    "tag": "PaymentsToAcquireProductiveAssets",
+    "accession": "0001045810-26-000021"
+   },
+   {
+    "end": "2025-01-26",
+    "value": 3236000000.0,
+    "tag": "PaymentsToAcquireProductiveAssets",
+    "accession": "0001045810-26-000021"
+   },
+   {
+    "end": "2024-01-28",
+    "value": 1069000000.0,
+    "tag": "PaymentsToAcquireProductiveAssets",
+    "accession": "0001045810-26-000021"
+   }
+  ],
+  "net_income": [
+   {
+    "end": "2026-01-25",
+    "value": 120067000000.0,
+    "tag": "NetIncomeLoss",
+    "accession": "0001045810-26-000021"
+   },
+   {
+    "end": "2025-01-26",
+    "value": 72880000000.0,
+    "tag": "NetIncomeLoss",
+    "accession": "0001045810-26-000021"
+   },
+   {
+    "end": "2024-01-28",
+    "value": 29760000000.0,
+    "tag": "NetIncomeLoss",
+    "accession": "0001045810-26-000021"
+   }
+  ],
+  "revenue": [
+   {
+    "end": "2026-01-25",
+    "value": 215938000000.0,
+    "tag": "Revenues",
+    "accession": "0001045810-26-000021"
+   },
+   {
+    "end": "2025-01-26",
+    "value": 130497000000.0,
+    "tag": "Revenues",
+    "accession": "0001045810-26-000021"
+   },
+   {
+    "end": "2024-01-28",
+    "value": 60922000000.0,
+    "tag": "Revenues",
+    "accession": "0001045810-26-000021"
+   }
+  ],
+  "records": [],
+  "published": [],
+  "pending": [],
+  "documents_read": 0
+ },
+ {
+  "ticker": "IBM",
+  "cik": "51143",
+  "company": "INTERNATIONAL BUSINESS MACHINES CORP",
+  "capex": [
+   {
+    "end": "2025-12-31",
+    "value": 1091000000.0,
+    "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+    "accession": "0000051143-26-000010"
+   },
+   {
+    "end": "2024-12-31",
+    "value": 1048000000.0,
+    "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+    "accession": "0000051143-26-000010"
+   },
+   {
+    "end": "2023-12-31",
+    "value": 1245000000.0,
+    "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+    "accession": "0000051143-26-000010"
+   }
+  ],
+  "net_income": [
+   {
+    "end": "2025-12-31",
+    "value": 10593000000.0,
+    "tag": "NetIncomeLoss",
+    "accession": "0000051143-26-000010"
+   },
+   {
+    "end": "2024-12-31",
+    "value": 6023000000.0,
+    "tag": "NetIncomeLoss",
+    "accession": "0000051143-26-000010"
+   },
+   {
+    "end": "2023-12-31",
+    "value": 7502000000.0,
+    "tag": "NetIncomeLoss",
+    "accession": "0000051143-26-000010"
+   }
+  ],
+  "revenue": [
+   {
+    "end": "2025-12-31",
+    "value": 67535000000.0,
+    "tag": "Revenues",
+    "accession": "0000051143-26-000010"
+   },
+   {
+    "end": "2024-12-31",
+    "value": 62753000000.0,
+    "tag": "Revenues",
+    "accession": "0000051143-26-000010"
+   },
+   {
+    "end": "2023-12-31",
+    "value": 61860000000.0,
+    "tag": "Revenues",
+    "accession": "0000051143-26-000010"
+   }
+  ],
+  "records": [],
+  "published": [],
+  "pending": [],
+  "documents_read": 2
+ }
+]

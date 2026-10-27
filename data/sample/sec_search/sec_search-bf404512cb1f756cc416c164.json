@@ -1,0 +1,246 @@
+{
+ "request": {
+  "q": "\"artificial intelligence\" \"workforce reduction\"",
+  "forms": "8-K,10-K,10-Q",
+  "dateRange": "custom",
+  "startdt": "2024-10-27",
+  "enddt": "2026-10-27",
+  "ciks": "0001018724,0000789019,0001652044,0001326801,0001341439,0000320193,0001769628,0001318605,0001045810,0000051143"
+ },
+ "response": {
+  "took": 106,
+  "timed_out": false,
+  "_shards": {
+   "total": 50,
+   "successful": 50,
+   "skipped": 0,
+   "failed": 0
+  },
+  "hits": {
+   "total": {
+    "value": 2,
+    "relation": "eq"
+   },
+   "max_score": 3.5563946,
+   "hits": [
+    {
+     "_index": "edgar_file",
+     "_id": "0000051143-26-000010:ibm-20251231_d2.htm",
+     "_score": 3.5563946,
+     "_source": {
+      "ciks": [
+       "0000051143"
+      ],
+      "period_ending": "2025-12-31",
+      "file_num": [
+       "001-02360"
+      ],
+      "display_names": [
+       "INTERNATIONAL BUSINESS MACHINES CORP  (IBM)  (CIK 0000051143)"
+      ],
+      "xsl": null,
+      "sequence": "5",
+      "root_forms": [
+       "10-K"
+      ],
+      "file_date": "2026-02-24",
+      "biz_states": [
+       "NY"
+      ],
+      "sics": [
+       "3570"
+      ],
+      "form": "10-K",
+      "adsh": "0000051143-26-000010",
+      "film_num": [
+       "26671568"
+      ],
+      "biz_locations": [
+       "Armonk, NY"
+      ],
+      "file_type": "EX-13",
+      "file_description": "EX-13",
+      "inc_states": [
+       "NY"
+      ],
+      "items": []
+     }
+    },
+    {
+     "_index": "edgar_file",
+     "_id": "0000051143-25-000015:ibm-20241231_d2.htm",
+     "_score": 3.3245811,
+     "_source": {
+      "ciks": [
+       "0000051143"
+      ],
+      "period_ending": "2024-12-31",
+      "file_num": [
+       "001-02360"
+      ],
+      "display_names": [
+       "INTERNATIONAL BUSINESS MACHINES CORP  (IBM)  (CIK 0000051143)"
+      ],
+      "xsl": null,
+      "sequence": "5",
+      "root_forms": [
+       "10-K"
+      ],
+      "file_date": "2025-02-25",
+      "biz_states": [
+       "NY"
+      ],
+      "sics": [
+       "3570"
+      ],
+      "form": "10-K",
+      "adsh": "0000051143-25-000015",
+      "film_num": [
+       "25663330"
+      ],
+      "biz_locations": [
+       "Armonk, NY"
+      ],
+      "file_type": "EX-13",
+      "file_description": "EX-13",
+      "inc_states": [
+       "NY"
+      ],
+      "items": []
+     }
+    }
+   ]
+  },
+  "aggregations": {
+   "entity_filter": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "INTERNATIONAL BUSINESS MACHINES CORP  (IBM)  (CIK 0000051143)",
+      "doc_count": 2
+     }
+    ]
+   },
+   "sic_filter": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "3570",
+      "doc_count": 2
+     }
+    ]
+   },
+   "biz_states_filter": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "NY",
+      "doc_count": 2
+     }
+    ]
+   },
+   "form_filter": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "10-K",
+      "doc_count": 2
+     }
+    ]
+   }
+  },
+  "query": {
+   "_source": {
+    "exclude": [
+     "doc_text"
+    ]
+   },
+   "query": {
+    "bool": {
+     "must": [
+      {
+       "match_phrase": {
+        "doc_text": "artificial intelligence"
+       }
+      },
+      {
+       "match_phrase": {
+        "doc_text": "workforce reduction"
+       }
+      }
+     ],
+     "must_not": [],
+     "should": [],
+     "filter": [
+      {
+       "terms": {
+        "root_forms": [
+         "8-K",
+         "10-K",
+         "10-Q"
+        ]
+       }
+      },
+      {
+       "terms": {
+        "ciks": [
+         "0001018724",
+         "0000789019",
+         "0001652044",
+         "0001326801",
+         "0001341439",
+         "0000320193",
+         "0001769628",
+         "0001318605",
+         "0001045810",
+         "0000051143"
+        ]
+       }
+      },
+      {
+       "range": {
+        "file_date": {
+         "gte": "2024-10-27",
+         "lte": "2026-10-27"
+        }
+       }
+      }
+     ]
+    }
+   },
+   "from": 0,
+   "size": 100,
+   "aggregations": {
+    "form_filter": {
+     "terms": {
+      "field": "root_forms",
+      "size": 30
+     }
+    },
+    "entity_filter": {
+     "terms": {
+      "field": "display_names.raw",
+      "size": 30
+     }
+    },
+    "sic_filter": {
+     "terms": {
+      "field": "sics",
+      "size": 30
+     }
+    },
+    "biz_states_filter": {
+     "terms": {
+      "field": "biz_states",
+      "size": 30
+     }
+    }
+   }
+  }
+ },
+ "recorded_at": "2026-10-27T13:34:51+00:00"
+}

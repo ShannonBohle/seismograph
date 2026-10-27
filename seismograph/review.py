@@ -1,7 +1,8 @@
 """Human review (the editor) and publishing.
 
 Publishing rule, enforced in code: a record is published only if the quote passed the
-verbatim check, the Judge passed it, and a human approved it.
+verbatim check, the Judge passed it, and a human approved it; a record whose source was flagged by the
+safety scan (possible prompt injection) also needs the editor's note to say "safety checked".
 """
 from __future__ import annotations
 
@@ -13,7 +14,8 @@ from pathlib import Path
 
 from .agents import MemorySteward
 
-PUBLISHABLE_SQL = ("status = 'approved' AND judge_verdict = 'pass' AND quote_verified = {true}")
+PUBLISHABLE_SQL = ("status = 'approved' AND judge_verdict = 'pass' AND quote_verified = {true} "
+                   "AND (COALESCE(gap_flags, '') NOT LIKE '%SAFETY:%' OR lower(COALESCE(reviewer_note, '')) LIKE '%safety checked%')")
 
 
 def out_dir(ctx) -> Path:
@@ -104,12 +106,40 @@ def publish(ctx) -> dict:
     totals = ctx.zetaris.query(
         f"SELECT status, judge_verdict, ai_attribution, COUNT(*) AS n FROM {z.t('records')} "
         f"GROUP BY status, judge_verdict, ai_attribution", agent="Publisher", purpose="pipeline totals for the report")
-    (out / "index.html").write_text(render(rows, totals, ctx), encoding="utf-8")
-    ctx.log.log("Publisher", "publish", output_summary=f"{len(rows)} records -> {out}/index.html, records.json, records.csv")
-    return {"published": len(rows)}
+    from . import gap, issuers
+    where = issuers.ensure(ctx, rows)
+    for r in rows:
+        i = where.get(str(r.get("cik") or ""), {})
+        r["market"], r["country"] = i.get("market"), i.get("country")
+    gaps = gap.compute(ctx, rows)
+    (out / "gap.json").write_text(json.dumps(gaps, indent=1, default=str, ensure_ascii=False), encoding="utf-8")
+    (out / "records.json").write_text(json.dumps(rows, indent=1, default=str, ensure_ascii=False), encoding="utf-8")
+    (out / "index.html").write_text(render(rows, totals, ctx, gaps), encoding="utf-8")
+    site = copy_to_site(ctx, out)
+    ctx.log.log("Publisher", "publish", output_summary=f"{len(rows)} records -> {out}/index.html, records.json, records.csv"
+                + (f"; site copy in {site}" if site else ""))
+    countries = sorted({r["country"] for r in rows if r.get("country")})
+    return {"published": len(rows), "countries": countries, "headline": gaps["headline"],
+            "erm_headline": (gaps.get("erm") or {}).get("headline"),
+            "record_gaps": gaps["record_counts"]}
 
 
-def render(rows: list[dict], totals: list[dict], ctx) -> str:
+def copy_to_site(ctx, out: Path) -> Path | None:
+    """Live runs only: copy the published pages to docs/, which GitHub Pages serves."""
+    if ctx.settings.sample_mode:
+        return None
+    import shutil
+    site = ctx.settings.out_dir.parent / "docs"
+    site.mkdir(exist_ok=True)
+    for f in out.iterdir():
+        if f.is_file() and f.suffix in (".html", ".json", ".csv"):
+            shutil.copy2(f, site / f.name)
+    (site / ".nojekyll").write_text("", encoding="utf-8")
+    return site
+
+
+def render(rows: list[dict], totals: list[dict], ctx, gaps: dict | None = None) -> str:
+    gaps = gaps or {"headline": "", "records": {}, "labels": {}, "warn": {}}
     def count(**kw):
         return sum(int(t["n"]) for t in totals if all(str(t.get(k)) == v for k, v in kw.items()))
     stamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
@@ -123,14 +153,18 @@ def render(rows: list[dict], totals: list[dict], ctx) -> str:
         warn_txt = (f"{len(warn)} WARN notice(s): " + "; ".join(
             f"{escape(w.get('state') or '')} {escape(str(w.get('notice_date') or ''))} {escape(str(w.get('jobs') or '?'))} jobs"
             for w in warn[:4])) if warn else "No WARN notice matched"
+        g = gaps["records"].get(r["record_id"])
+        gap_txt = f"<p class=gap><b>Told regulators:</b> {escape(gaps['labels'].get(g['category'], ''))}</p>" if g else ""
+        where = " · ".join(x for x in (r.get("country"), r.get("market")) if x)
         quote = f"<blockquote>&ldquo;{escape(r['ai_quote'])}&rdquo;</blockquote>" if r.get("ai_quote") else \
             "<p class=muted>The employer did not connect these cuts to AI.</p>"
         cards.append(f"""
 <article class=card>
   <header><h3>{escape(r['company'])}</h3><span class="tag {escape(r['ai_attribution'])}">{escape(r['ai_attribution'])}</span></header>
-  <p class=meta>{escape(str(r.get('event_date') or 'date not stated'))} · {escape(r.get('jobs_cut_text') or 'number not stated')}</p>
+  <p class=meta>{escape(str(r.get('event_date') or 'date not stated'))} · {escape(r.get('jobs_cut_text') or 'number not stated')}{(' · ' + escape(where)) if where else ''}</p>
   {quote}
-  <p class=src>Source: <a href="{escape(r['source_url'])}">{escape(r.get('doc_type') or 'SEC filing')}</a> · {warn_txt}</p>
+  {gap_txt}
+  <p class=src>Source: <a href="{escape(r['source_url'])}">{escape(r.get('doc_type') or 'filing')}</a> · {warn_txt}</p>
   <ul class=flags>{flags}</ul>
 </article>""")
     return f"""<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1">
@@ -147,12 +181,16 @@ main{{max-width:880px;margin:0 auto;padding:32px 16px}} h1{{font-size:28px;margi
 .explicit{{color:var(--ex)}} .partial{{color:var(--pa)}} .none{{color:var(--no)}}
 blockquote{{margin:12px 0;padding:8px 14px;border-left:3px solid var(--line);font-family:Georgia,serif}}
 a{{color:var(--accent)}} .src{{font-size:14px}} .flags{{font-size:14px;color:var(--muted);margin:8px 0 0;padding-left:18px}}
+.headline{{font-size:20px;font-weight:600;border-left:4px solid var(--ex);padding:6px 14px;margin:20px 0}} .gap{{font-size:14px;margin:6px 0}}
 footer{{font-size:13px;color:var(--muted);margin-top:32px;border-top:1px solid var(--line);padding-top:16px}}
 </style></head><body><main>
 <h1>Seismograph: AI-attributed job cuts, in employers' own words</h1>
 <p class=muted>{mode} · generated {stamp}. Each entry quotes the employer verbatim and links the filing it came from. The labels describe what the employer said, not whether AI caused the cuts.</p>
+{f'<p class=headline>{escape(gaps["headline"])}</p>' if gaps.get("headline") else ''}
+{f'<p class=headline>{escape(gaps["erm"]["headline"])} <span class=muted>(Eurofound summaries compiled from media, not employer statements)</span></p>' if (gaps.get("erm") or {}).get("headline") else ''}
 <section class=stats>
 <div class=stat><b>{len(rows)}</b>published records</div>
+<div class=stat><b>{len({r.get("country") for r in rows if r.get("country")})}</b>countries (employer business address)</div>
 <div class=stat><b>{explicit}</b>employer says AI is a reason</div>
 <div class=stat><b>{jobs:,}</b>jobs stated in those filings</div>
 <div class=stat><b>{count(status='pending_review')}</b>awaiting editor review</div>
@@ -161,7 +199,8 @@ footer{{font-size:13px;color:var(--muted);margin-top:32px;border-top:1px solid v
 </section>
 {''.join(cards) or '<p>No approved records yet.</p>'}
 <footer>Published only when the quote matched the source verbatim, the Judge agent passed it and a human editor approved it.
-Data: SEC EDGAR filings; WARN notices via Big Local News warn-scraper (states loaded only). Built for the Open Agent Hackathon 2026.</footer>
+Data: SEC EDGAR filings; UK regulatory announcements from the FCA National Storage Mechanism; WARN notices via Big Local News warn-scraper (states loaded only).
+"Told regulators" compares what the employer said with WARN notices filed by the same employer within 180 days; it does not say which statement is true. Built for the Open Agent Hackathon 2026.</footer>
 </main></body></html>"""
 
 

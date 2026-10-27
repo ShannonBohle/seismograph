@@ -1,0 +1,288 @@
+[
+ {
+  "company": "Latch, Inc.",
+  "records": [
+   {
+    "record_id": "rec_10ba9dd832c6",
+    "cik": "1826000",
+    "company": "Latch, Inc.",
+    "event_date": "2026-08-05",
+    "jobs_cut_text": "The restructuring plan eliminates approximately 65 roles globally.",
+    "ai_attribution": "partial",
+    "ai_quote": "We've embedded AI across software development, customer support, and our internal systems, and the result is a company that can design, build, and ship with a substantially leaner organization.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1826000/000110465926091071/tm2622239d1_ex99-1.htm",
+    "memory_id": "mem_e67ee8379666459e",
+    "supersedes": "mem_a61b9baf8c824468"
+   }
+  ],
+  "outcomes": [
+   {
+    "record_id": "rec_10ba9dd832c6",
+    "company": "Latch, Inc.",
+    "kind": "charges",
+    "quote": "The Company estimates that it will incur approximately $1.5 million to $2.5 million of total cash restructuring and related charges, primarily related to severance and benefit costs, a majority of which is expected to be incurred in the third and fourth quarters of 2026.",
+    "amount_text": "$1.5 million to $2.5 million",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1826000/000110465926091071/tm2622239d1_8k.htm",
+    "file_date": "2026-08-05"
+   },
+   {
+    "record_id": "rec_10ba9dd832c6",
+    "company": "Latch, Inc.",
+    "kind": "charges",
+    "quote": "The Company estimates that it will incur approximately $1.5 million to $2.5 million of total cash restructuring and related charges, primarily related to severance and benefit costs, a majority of which is expected to be incurred in the third and fourth quarters of 2026.",
+    "amount_text": "$1.5 million to $2.5 million",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1826000/000182600026000048/tmb-20260630x10q.htm",
+    "file_date": "2026-08-10"
+   }
+  ],
+  "confidence": "High",
+  "confidence_reason": "editor-approved announcement and results the company later reported, quoted from its filings",
+  "memory_confidence": 0.65
+ },
+ {
+  "company": "NIQ Global Intelligence plc",
+  "records": [
+   {
+    "record_id": "rec_b60868941d85",
+    "cik": "2054696",
+    "company": "NIQ Global Intelligence plc",
+    "event_date": "2026-08-10",
+    "jobs_cut_text": null,
+    "ai_attribution": "partial",
+    "ai_quote": "Investments in automation and artificial intelligence (\"AI\") are anticipated to accelerate the Company's optimization efforts as it begins its journey to operationalize these digital tools throughout the organization.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/2054696/000162828026055207/niqpressrelease-q226.htm",
+    "memory_id": "mem_d7c2051f1d8647c2",
+    "supersedes": null
+   }
+  ],
+  "outcomes": [
+   {
+    "record_id": "rec_b60868941d85",
+    "company": "NIQ Global Intelligence plc",
+    "kind": "savings_expected",
+    "quote": "Collectively, these actions are expected to improve efficiency, customer satisfaction, product innovation and productivity.",
+    "amount_text": null,
+    "source_url": "https://www.sec.gov/Archives/edgar/data/2054696/000162828026055223/niq-20260630.htm",
+    "file_date": "2026-08-10"
+   },
+   {
+    "record_id": "rec_b60868941d85",
+    "company": "NIQ Global Intelligence plc",
+    "kind": "savings_expected",
+    "quote": "The 2026 Program is intended to further reduce costs primarily within selling, general and administrative expenses.",
+    "amount_text": null,
+    "source_url": "https://www.sec.gov/Archives/edgar/data/2054696/000162828026055223/niq-20260630.htm",
+    "file_date": "2026-08-10"
+   },
+   {
+    "record_id": "rec_b60868941d85",
+    "company": "NIQ Global Intelligence plc",
+    "kind": "charges",
+    "quote": "For the six months ended June 30, 2026, the Company recognized incremental non\u2011cash compensation charges of $9.5 million in connection with her separation agreement.",
+    "amount_text": "$9.5 million",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/2054696/000162828026055223/niq-20260630.htm",
+    "file_date": "2026-08-10"
+   },
+   {
+    "record_id": "rec_b60868941d85",
+    "company": "NIQ Global Intelligence plc",
+    "kind": "charges",
+    "quote": "Restructuring, net 8.7 0.4 73.6 5.0",
+    "amount_text": "8.7, 0.4, 73.6, 5.0",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/2054696/000162828026055223/niq-20260630.htm",
+    "file_date": "2026-08-10"
+   },
+   {
+    "record_id": "rec_b60868941d85",
+    "company": "NIQ Global Intelligence plc",
+    "kind": "charges",
+    "quote": "Restructuring liabilities (Note 12) 58.7 51.7",
+    "amount_text": "58.7, 51.7",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/2054696/000162828026055223/niq-20260630.htm",
+    "file_date": "2026-08-10"
+   }
+  ],
+  "confidence": "High",
+  "confidence_reason": "editor-approved announcement and results the company later reported, quoted from its filings",
+  "memory_confidence": 0.65
+ },
+ {
+  "company": "Valneva SE",
+  "records": [
+   {
+    "record_id": "rec_0387fb8146f6",
+    "cik": "1836564",
+    "company": "Valneva SE",
+    "event_date": "2026-05-01",
+    "jobs_cut_text": "10-15%",
+    "ai_attribution": "none",
+    "ai_quote": null,
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1836564/000162828026056525/valn-20260630.htm",
+    "memory_id": "mem_d6e9d69182e3461b",
+    "supersedes": null
+   }
+  ],
+  "outcomes": [
+   {
+    "record_id": "rec_0387fb8146f6",
+    "company": "Valneva SE",
+    "kind": "savings_expected",
+    "quote": "Restructuring program implemented with positive P&L and cash flow impacts expected in the second half of the year and beyond",
+    "amount_text": null,
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1836564/000162828026056525/a2026_08x13xvlaxh1x2026xpr.htm",
+    "file_date": "2026-08-13"
+   },
+   {
+    "record_id": "rec_0387fb8146f6",
+    "company": "Valneva SE",
+    "kind": "savings_achieved",
+    "quote": "This strong cash position reflects the positive impact of restructuring initiatives, disciplined cash management and \u20ac37 million in gross proceeds from the successful reserved offering completed in the second quarter of 2026.",
+    "amount_text": null,
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1836564/000162828026056525/a2026_08x13xvlaxh1x2026xpr.htm",
+    "file_date": "2026-08-13"
+   },
+   {
+    "record_id": "rec_0387fb8146f6",
+    "company": "Valneva SE",
+    "kind": "charges",
+    "quote": "In the first half of 2026, \u20ac3.2 million of expenses were recognized across the affected functions in connection with the workforce reduction and restructuring program initiated in the second quarter of 2026.",
+    "amount_text": "\u20ac3.2 million",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1836564/000162828026056525/a2026_08x13xvlaxh1x2026xpr.htm",
+    "file_date": "2026-08-13"
+   }
+  ],
+  "confidence": "High",
+  "confidence_reason": "editor-approved announcement and results the company later reported, quoted from its filings",
+  "memory_confidence": 0.65
+ },
+ {
+  "company": "monday.com Ltd.",
+  "records": [
+   {
+    "record_id": "rec_f110b0ccbfa9",
+    "cik": "1845338",
+    "company": "monday.com Ltd.",
+    "event_date": "2026-07-22",
+    "jobs_cut_text": "approximately 20% of the Company's current workforce",
+    "ai_attribution": "partial",
+    "ai_quote": "On July 22, 2026, the Company announced a restructuring plan (the \"2026 Restructuring Plan\") designed to align its organizational structure with its strategic focus on the AI Work Platform, support a leaner operating model, and accelerate investment in its AI-driven growth strategy.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1845338/000117891326003971/exhibit_99-2.htm",
+    "memory_id": "mem_d639ae4a0e5a4f9d",
+    "supersedes": null
+   }
+  ],
+  "outcomes": [
+   {
+    "record_id": "rec_f110b0ccbfa9",
+    "company": "monday.com Ltd.",
+    "kind": "charges",
+    "quote": "Restructuring charges were $21.4 million for the six months ended June 30, 2026, compared to nil for the six months ended June 30, 2025.",
+    "amount_text": "$21.4 million",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1845338/000117891326003971/exhibit_99-3.htm",
+    "file_date": "2026-08-10"
+   },
+   {
+    "record_id": "rec_f110b0ccbfa9",
+    "company": "monday.com Ltd.",
+    "kind": "charges",
+    "quote": "We estimate total net charges under the Plan of approximately $45\u201355 million for the full year 2026, consisting of approximately $30\u201335 million of future net charges related to severance payments, employee benefits and related costs, and approximately $30\u201335 million in charges related to the impairment of certain office spaces, partially offset by approximately $15 million in non-cash credits related to the forfeiture of unvested share-based compensation awards by departing employees.",
+    "amount_text": "$45\u201355 million",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1845338/000117891326003971/exhibit_99-3.htm",
+    "file_date": "2026-08-10"
+   },
+   {
+    "record_id": "rec_f110b0ccbfa9",
+    "company": "monday.com Ltd.",
+    "kind": "savings_expected",
+    "quote": "We expect full year 2026 research and development expenses to decline as a percentage of revenue compared to the first half of 2026, to the low-20s as a percentage of revenue, as savings from the 2026 restructuring plan (the \u201cPlan\u201d) and newly enacted Israeli research and development tax benefits (\u201cThe Encouragement and Incentivization of Research and Development Law, 5786-2026\u201d) are realized in the second half of the year.",
+    "amount_text": null,
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1845338/000117891326003971/exhibit_99-3.htm",
+    "file_date": "2026-08-10"
+   },
+   {
+    "record_id": "rec_f110b0ccbfa9",
+    "company": "monday.com Ltd.",
+    "kind": "savings_expected",
+    "quote": "We expect full year 2026 sales and marketing expenses to remain broadly stable as a percentage of revenue as continued investment in go-to-market initiatives is largely offset by cost savings from the Plan.",
+    "amount_text": null,
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1845338/000117891326003971/exhibit_99-3.htm",
+    "file_date": "2026-08-10"
+   },
+   {
+    "record_id": "rec_f110b0ccbfa9",
+    "company": "monday.com Ltd.",
+    "kind": "problem",
+    "quote": "that our restructuring plan may not achieve the expected benefits or that the costs may exceed our expectations;",
+    "amount_text": null,
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1845338/000117891326003971/exhibit_99-3.htm",
+    "file_date": "2026-08-10"
+   }
+  ],
+  "confidence": "High",
+  "confidence_reason": "editor-approved announcement and results the company later reported, quoted from its filings",
+  "memory_confidence": 0.65
+ },
+ {
+  "company": "FLOWTECH FLUIDPOWER PLC",
+  "records": [
+   {
+    "record_id": "rec_7c4a9be7344d",
+    "cik": "LEI:213800N68SQY5X5XS290",
+    "company": "FLOWTECH FLUIDPOWER PLC",
+    "event_date": "2026-09-08",
+    "jobs_cut_text": "1.2%",
+    "ai_attribution": "none",
+    "ai_quote": null,
+    "source_url": "https://data.fca.org.uk/artefacts/NSM/RNS/bb1981c7-263c-4432-af88-d02aeaaa3ed0.html",
+    "memory_id": "mem_316a3f7f7990462b",
+    "supersedes": null
+   }
+  ],
+  "outcomes": [],
+  "confidence": "Low",
+  "confidence_reason": "editor-approved announcement; no later reported results found yet",
+  "memory_confidence": 0.7
+ },
+ {
+  "company": "Quantum-Si Inc",
+  "records": [
+   {
+    "record_id": "rec_67da24882607",
+    "cik": "1816431",
+    "company": "Quantum-Si Inc",
+    "event_date": "2026-08-13",
+    "jobs_cut_text": "approximately 20% of the Company\u2019s workforce",
+    "ai_attribution": "none",
+    "ai_quote": null,
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1816431/000181643126000053/qsi8132026ex991.htm",
+    "memory_id": "mem_acb6f68a27864d64",
+    "supersedes": null
+   }
+  ],
+  "outcomes": [],
+  "confidence": "Low",
+  "confidence_reason": "editor-approved announcement; no later reported results found yet",
+  "memory_confidence": 0.65
+ },
+ {
+  "company": "YouGov plc",
+  "records": [
+   {
+    "record_id": "rec_09436ac27454",
+    "cik": "LEI:213800MZGBGCJIPOBB41",
+    "company": "YouGov plc",
+    "event_date": "2026-10-13",
+    "jobs_cut_text": "targeted headcount and other cost reductions in non-revenue-generating areas",
+    "ai_attribution": "partial",
+    "ai_quote": "The waves combine efficiency improvements and enhanced ways of working along with significant transformation enabled by AI.",
+    "source_url": "https://data.fca.org.uk/artefacts/NSM/RNS/80994acc-64b5-4b25-84b2-e915b675f09e.html",
+    "memory_id": "mem_848a7e6728f0484c",
+    "supersedes": null
+   }
+  ],
+  "outcomes": [],
+  "confidence": "Low",
+  "confidence_reason": "editor-approved announcement; no later reported results found yet",
+  "memory_confidence": 0.65
+ }
+]

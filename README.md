@@ -274,7 +274,13 @@ Sample mode replays the SEC and Nightshift responses recorded during the live ru
 
 ## Pre-existing work (declared)
 
-The idea and an earlier jobs-tracker dashboard (WARN Act data and a press-claims ledger) predate the build window. That earlier dashboard was also built with Claude as the AI coding assistant. It is declared as a pre-existing component in the submission form. This repository's code was written during the build window and does not include the earlier dashboard's code.
+Work that existed before the build window, all by the same author and all public:
+
+- **An earlier AI-jobs dashboard**, published on GitHub on 14 September 2026 at **https://github.com/ShannonBohle/ai-jobs-dashboard** (with a daily data refresh). It holds a four-state WARN feed (New York, Illinois, Texas, Washington), occupation exposure scores, a 14-item hand-labelled set of press and filing claims with a judge-calibration study, and a Next.js site. Its headline, "1 in 5,081" WARN notices with a stated reason naming AI, is the earlier, independent version of this project's "1 of 5,108".
+- **The design for this agent**, written in that repository as `AGENT_SPEC.md` (14 September 2026): discover, extract, verify the quote as a substring of the source, judge, and let only a human publish. This project implements that design; several principles (claims-only quotes, the verbatim check, the human gate, measuring the judge against the editor) come from it.
+- Both were built with Claude as the AI coding assistant.
+
+What was built in the window: everything in this repository. Its first commit is 27 October 2026, and no code or data files were copied from the earlier repository; the WARN loading, labelling rules, verifier, Judge, memory, sources and site were written afresh here. The pre-existing work is also declared in the submission form.
 
 ## Third-party code and licences
 

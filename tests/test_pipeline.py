@@ -105,11 +105,11 @@ def test_full_loop_with_send_backs_memory_and_publishing(tmp_path):
     assert m.confidence == pytest.approx(0.65) and m.layer == "long_term"
     assert [e["action"] for e in ctx.hmem.history(m.id)][-2:] == ["feedback", "promote"]
     assert publish(ctx)["published"] == 1
-    html = (ctx.settings.out_dir / "index.html").read_text()
+    html = (ctx.settings.out_dir / "index.html").read_text(encoding="utf-8")
     assert "Example Widgets Corp" in html and "first-line support" in html
     assert evaluate(ctx)["n"] == 1
 
-    events = [json.loads(l) for l in ctx.log.path.read_text().splitlines()]
+    events = [json.loads(l) for l in ctx.log.path.read_text(encoding="utf-8").splitlines()]
     models = {e["model"] for e in events if e["action"] == "model_call"}
     assert models == {"nvidia/nemotron-3-super-120b-a12b"}
     assert any(e["action"] == "zetaris_query" for e in events)
@@ -142,7 +142,7 @@ def test_record_that_never_passes_is_not_publishable(tmp_path):
 def test_log_scrubs_secrets(tmp_path):
     log = TraceLog(tmp_path, echo=False)
     log.log("X", "y", output_summary="key nvapi-abc123DEF and Bearer eyJhbGciOi.eyJzdWIi.sig", api_key="nvapi-zzz")
-    text = log.path.read_text()
+    text = log.path.read_text(encoding="utf-8")
     assert "nvapi-abc" not in text and "nvapi-zzz" not in text and "eyJ" not in text
 
 
@@ -166,7 +166,7 @@ def test_transient_provider_error_is_retried(tmp_path):
     ctx.nightshift = FlakyNightshift([DRAFT_EXACT, JUDGE_PASS], fail_on=[2])  # first Judge call fails once
     stats = Pipeline(ctx).run(days=30, end="2026-03-10")
     assert stats["pending_review"] == 1 and stats["errors"] == 0
-    events = [json.loads(l) for l in ctx.log.path.read_text().splitlines()]
+    events = [json.loads(l) for l in ctx.log.path.read_text(encoding="utf-8").splitlines()]
     assert any(e["action"] == "model_call" and e["status"] == "failure" for e in events)
 
 
@@ -230,7 +230,7 @@ def test_spenders_annual_figures_and_report(tmp_path):
     top = spenders.top10(ctx)
     assert top[0]["ticker"] == "MSFT" and top[0]["capex"][0]["value"] == 64.551e9
     assert spenders.report(ctx, top)["companies"] == 1
-    html = (ctx.settings.out_dir / "spenders.html").read_text()
+    html = (ctx.settings.out_dir / "spenders.html").read_text(encoding="utf-8")
     assert "$64.6B" in html and "nothing here claims that spending caused" in html
     assert spenders.scan_ciks(top) == "0000789019"
 
@@ -266,7 +266,7 @@ def test_outcomes_playbook_and_scorecard(tmp_path):
     assert stats["outcomes"] == 2 and stats["rejected_quotes"] == 2   # boilerplate and invented quotes dropped
     pb = outcomes.playbook(ctx)
     assert pb["cases"] == 1 and pb["by_confidence"]["High"] == 1
-    html = (ctx.settings.out_dir / "playbook.html").read_text()
+    html = (ctx.settings.out_dir / "playbook.html").read_text(encoding="utf-8")
     assert "rehired 40 support roles" in html and "Failures or problems reported: 1" in html
     card = outcomes.scorecard(ctx, "2026Q1")
     assert card["published"] == 1 and card["by_label"]["explicit"] == 1 and card["jobs_stated"] == 1200
@@ -290,7 +290,7 @@ def test_country_and_shareholder_vs_regulator_gap(tmp_path):
     assert out["countries"] == ["Netherlands"]
     assert out["record_gaps"] == {"warn_reason_without_ai": 1}
     assert out["headline"].startswith("1 of 2 WARN layoff notices that state a reason cite AI or automation")
-    html = (ctx.settings.out_dir / "index.html").read_text()
+    html = (ctx.settings.out_dir / "index.html").read_text(encoding="utf-8")
     assert "Told regulators:" in html and "Netherlands" in html
     assert (tmp_path / "docs" / "index.html").exists()      # site copy for GitHub Pages
 

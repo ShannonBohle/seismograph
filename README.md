@@ -1,4 +1,4 @@
-# Seismograph
+# AI Seismograph
 
 **Agentic daily tracking of AI-attributed job cuts, in employers' own words.**
 

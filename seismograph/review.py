@@ -87,12 +87,17 @@ def publish(ctx) -> dict:
         agent="Publisher", purpose="approved, verified records for the public record")
     out = out_dir(ctx)
     superseded = {r.get("supersedes") for r in rows if r.get("supersedes")}
+    warn_loaded = bool(z.query(f"SELECT COUNT(*) AS n FROM {z.t('warn_notices')}", agent="Publisher",
+                               purpose="is WARN data loaded now")[0].get("n") not in (0, "0", None))
+    STALE = "WARN notices not checked: no state WARN data is loaded yet"
     for r in rows:
         for k in ("warn_match", "gap_flags"):
             try:
                 r[k] = json.loads(r.get(k) or "[]")
             except (TypeError, ValueError):
                 r[k] = []
+        if warn_loaded:  # drafted before WARN was loaded; the "Told regulators" line now carries the current check
+            r["gap_flags"] = [f for f in r["gap_flags"] if f != STALE]
         if r.get("memory_id") and r["memory_id"] in superseded:
             r["gap_flags"].insert(0, "Superseded: a later record for the same event adds detail (see the other entry)")
     (out / "records.json").write_text(json.dumps(rows, indent=1, default=str, ensure_ascii=False), encoding="utf-8")

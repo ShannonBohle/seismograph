@@ -54,3 +54,13 @@ Hong Kong's HKEXnews blocks automated requests, Singapore's SGXNet needs a per-s
 ## 12. Comparisons that invite causal readings
 **Risk.** Setting capital spending beside job cuts, or countries side by side, invites "AI caused this" or "this country is ahead".
 **Control.** Every page says what the figures are and are not: capital expenditure is total spending, not AI investment; the country page measures disclosure, not AI progress; the WARN comparison compares statements and does not say which is true.
+
+## 13. A verifier that was more lenient than its description (found by the independent replication)
+**What happened.** The README said every published quote appears "character for character" in its source. Cursor's independent checker, which normalised whitespace only, found that NIQ's published quote uses straight quotation marks where the SEC exhibit uses typographic ones. Our Verifier normalises whitespace, letter case, curly quotes and dashes before matching, so it passed.
+**Fix.** The documentation now states the normalisation exactly. Next: store the quote with the source's own characters, so a strict check passes too.
+**Lesson.** Describe a check by what the code does, and let an independent implementation test the description.
+
+## 14. A results release read as a new announcement
+**What happened.** METAVISIO's half-year results listed "Réduction des effectifs sur 2025 et début 2026" (staff reductions during 2025 and early 2026) as one bullet among past measures. The Extractor drafted a job-cut record and the Judge passed it. The editor rejected it: nothing new was announced.
+**Lesson.** Like boilerplate (case 1), backward-looking summaries in results releases need a rule: a record requires an announcement, not a mention.
+

@@ -16,7 +16,7 @@ Seismograph finds SEC filings and official company announcements in the UK, Fran
 - **partial**: the employer mentions AI or automation alongside the cuts as strategy, reinvestment or efficiency (including AI as the company's new strategic focus), but does not say AI caused the cuts
 - **none**: the employer announces cuts and does not connect them to AI; mentions of AI that appear only in risk factors or forward-looking-statement boilerplate do not count
 
-The labels describe what the employer said, not whether AI caused the cuts. Every record cites the filing it came from. A record is published only when its quote matches the source verbatim, the Judge agent passes it, and a human editor approves it (enforced in `review.py`).
+The labels describe what the employer said, not whether AI caused the cuts. Every record cites the filing it came from. A record is published only when its quote matches the source verbatim (after normalising whitespace, letter case, typographic quotes and dashes; see Reproducibility), the Judge agent passes it, and a human editor approves it (enforced in `review.py`).
 
 The same engine then produces:
 - **What employers tell regulators.** For each employer that linked its cuts to AI, the record shows whether the employer filed a WARN layoff notice in the states loaded within 180 days, and whether that notice's stated reason mentions AI. Across all WARN notices loaded, the report counts how many of those that state a reason cite AI or automation. This compares statements; it does not say which one is true.
@@ -26,7 +26,7 @@ The same engine then produces:
 - **Ask and check.** `python -m seismograph ask "..."` answers a plain-English question from the published record: Nemotron writes one read-only SQL query over the disclosure views, Zetaris runs it, and the answer is the returned rows with their sources. `check "<claim>"` returns what the named employer itself said, which makes it a claim checker.
 - **Quarterly scorecards** of AI-attributed cuts by label, jobs stated, and reported outcomes (`out/scorecard-YYYYQn.html`).
 
-**Coverage.** Each record carries the employer's market and, for SEC filers, the country of its business address (SEC submissions data), so coverage is counted from the data: the 8 published records come from employers in the United States, France and Israel (SEC filers) and two UK-listed companies (FCA announcements). Foreign companies appear through the forms they file with the SEC (6-K, 20-F) and through UK announcements. UK announcements carry an LEI rather than an address, so their country is left blank rather than guessed.
+**Coverage.** Each record carries the employer's market and, for SEC filers, the country of its business address (SEC submissions data), so coverage is counted from the data: the 12 published records come from employers in six countries: the United States, France and Israel (SEC filers; France also through its official storage mechanism), the United Kingdom (FCA announcements), Australia (ASX) and Japan (TDnet). For SEC filers the country is the business address; for exchange announcements it is the listing market, not necessarily the company's domicile.
 
 ## Results from the live runs (27 October 2026)
 
@@ -37,12 +37,13 @@ The same engine then produces:
 | SEC filings processed live | 18 (8-K and 6-K, last 90 days) |
 | UK announcements processed live | 13 unique, from the FCA National Storage Mechanism (a further set failed to download and are retried on the next run) |
 | Identified as not announcing job cuts | 9 SEC (e.g. Gartner, PayPal, Xerox, Wayfair; an Informa TechTarget release where "workforce reduction" appeared only in boilerplate) and 10 UK (e.g. Renishaw, Softcat, NatWest Markets; Midwich after the Judge sent the draft back) |
-| Records sent to the editor | 12 |
-| Approved and published | 8: Latch (two filings), Quantum-Si, NIQ, monday.com, Valneva (SEC); YouGov, Flowtech Fluidpower (UK) |
-| Rejected by the editor | 4 |
-| Employers in the published record | United States, France, Israel (SEC business address), and two UK-listed companies |
+| Documents read, by country (`out/countries.json`) | United States 37, United Kingdom 13, France 10, China 9, Australia 8, Japan 7, India 5, Canada 4, Brazil 3, Israel 3, Netherlands 1, not known 2 (101 in all). Exchange announcements count by listing market |
+| Records sent to the editor | 17 with a verified quote and a Judge pass, plus held-back records shown for labelling only |
+| Approved and published | 12: Latch (two filings), Quantum-Si, NIQ, monday.com, Valneva (SEC); YouGov, Flowtech Fluidpower (UK); National Australia Bank, Mayfield Childcare (ASX); Kosé Holdings (TDnet); VOLTZ (France) |
+| Rejected by the editor | 5 (TechTarget, UTStarcom, CollPlant, Hilton Food Group, METAVISIO) |
+| Employers in the published record | Six countries: United States, United Kingdom, France, Israel, Australia, Japan |
 | Told regulators | None of the 5 published employers that linked their cuts to AI has a WARN notice in the loaded states within 180 days |
-| Judge vs editor agreement | 67% (8 of 12 reviewed). All 4 disagreements were the Judge passing a record the editor rejected; the Judge has not yet failed a record that reached the editor, so Cohen's kappa is 0 and not yet informative |
+| Judge vs editor agreement | 71% (12 of 17 reviewed). All 5 disagreements were the Judge passing a record the editor rejected; the Judge has not yet failed a record that reached the editor, so Cohen's kappa is 0 and not yet informative |
 | Outcomes found in later filings | 15 verbatim, verified statements for 5 companies (charges, expected savings and other reported results); the playbook rates 4 peer cases high confidence (later results reported) and 3 low (nothing reported yet) |
 | Quarterly scorecard, 2026 Q3 | 6 published records with events in the quarter: 4 partial, 2 none, 0 explicit; 65 jobs stated by number |
 
@@ -52,6 +53,24 @@ What the editor caught, and what changed because of it:
 - **Close to explicit.** YouGov's CFO review places Wave 1 headcount reductions inside a plan that "combine[s] efficiency improvements and enhanced ways of working along with significant transformation enabled by AI". It is published as partial because YouGov does not say the cuts were caused by AI; a later filing that does would supersede it in H-MEM.
 
 The published record is in `out/index.html`, `out/records.json` and `out/records.csv`.
+
+## Reproducibility
+
+**Independent replication.** On 27 October 2026 a fresh clone of this repository (commit `79cfe2e`) was opened in Cursor, and Cursor's own agent (model: Cursor Grok 4.6), with no access to the original build session, was given a written specification of what to check, not the code. It rebuilt the project, replayed the sample-mode run, wrote its own quote checker (`replication/verify_quotes.py`, which does not import this repository's verifier) and recomputed the headline. Its full report is `replication/REPLICATION.md`; nothing it found was patched before publication.
+
+| Check | Result |
+|---|---|
+| Fresh environment, `pytest` | pass: 29 passed |
+| Sample-mode replay with an empty `.env` | pass: 20 documents, 0 errors; same labels as the published record for the five overlapping SEC employers |
+| `jobs_cut_text` found in the live source | pass: 9 of 9 |
+| `ai_quote` found in the live source | 4 of 5: NIQ failed |
+| Headline recomputed from `out/gap.json` | pass: 1 of 5,108 |
+
+**What it found, and what it means.**
+- **NIQ's quote is not character-for-character.** The source uses typographic quotation marks (“AI”, Company’s); the published quote has straight ones. The words are identical. Our Verifier normalises whitespace, letter case, curly quotes and dashes before matching; the replication normalised whitespace only. Earlier versions of this README said "character for character"; that overstated the check, and the wording above now states the normalisation exactly. The published quote should keep the source's punctuation; the Verifier is to be changed to store the source's own characters.
+- **The README's counts were out of date** (8 records instead of 12; 9 not-layoffs where the current replay gives 10). The results table above was updated after the replication.
+- **One published filing could not be replayed** (Latch, 10 August) because its model response is not in the sample recording, and **CollPlant appears as pending in the replay** because sample mode does not replay the editor's rejection.
+- Sample mode replays the SEC run only, so UK and other foreign records cannot appear in it.
 
 ## How it works
 
@@ -72,7 +91,7 @@ Approved records ─► Outcomes agent (later filings, Nemotron, verbatim check)
 |---|---|---|
 | Scout | Searches EDGAR full-text search (8-K, 6-K; 20-F and 10-K/10-Q for the spenders scan) and the FCA National Storage Mechanism for documents that mention AI and workforce reductions; fetches each document into the evidence store; skips documents already recorded (asked through Zetaris) | SEC EDGAR, Zetaris |
 | Extractor | Reads the document **through Zetaris** and drafts a claims-only record: company, date, the sentence announcing the cuts, number of jobs and the employer's verbatim AI quote | Nemotron via Nightshift |
-| Verifier | Checks that the announcement sentence, the AI quote and the job-number wording appear verbatim in the source, that none of them come from boilerplate, and that the number matches the wording. Sends failures back to the Extractor with the reason | Deterministic code |
+| Verifier | Checks that the announcement sentence, the AI quote and the job-number wording appear verbatim in the source (whitespace, letter case, curly quotes and dashes normalised), that none of them come from boilerplate, and that the number matches the wording. Sends failures back to the Extractor with the reason | Deterministic code |
 | Judge | Independent second opinion against a written rubric (employer's own words? label correct? an announcement rather than boilerplate? causation overclaimed? consistent with what memory holds?). Sends failures back to the Extractor with a critique | Nemotron via Nightshift |
 | MemorySteward | Recalls what H-MEM already knows about the company and gives it to the Judge; detects duplicates and supersession; turns the editor's decision into H-MEM feedback | Meterless H-MEM |
 | Corroborator | Cross-source checks **through Zetaris**: matching WARN notices within 120 days, WARN job totals versus the filing's number, and AI language present in one document of a filing but absent from another | Zetaris |
@@ -102,7 +121,7 @@ Every run writes `logs/run-<id>.jsonl`. Each line has `timestamp`, `agent_name`,
 - **Meterless Nightshift**: the agent's model provider at run time, implemented to the Meterless Runtime provider contract (`seismograph/nightshift.py`): normalised `/v1` base URL, bearer token from Nightshift's `proxy-token`, `meterless-app: seismograph` and `meterless-scope: user` headers, 180 s timeout, and `GET /v1/models` as the status check.
 - **NVIDIA**: Nemotron 3 Ultra, reached through Nightshift's NVIDIA provider (the NVIDIA key lives in Nightshift, not in this project), runs the Extractor and the Judge.
 
-**Development tools:** Built with Claude (Anthropic) as the AI coding assistant, for design, code, tests, debugging and documentation, including this README and the slide deck. The earlier jobs-tracker dashboard this project builds on (see Pre-existing work) was also built with Claude. Cursor was used for an independent replication (see Reproducibility). All code was reviewed and tested by the author.
+**Development tools:** Built with Claude (Anthropic) as the AI coding assistant, for design, code, tests, debugging and documentation, including this README and the slide deck. The earlier jobs-tracker dashboard this project builds on (see Pre-existing work) was also built with Claude. Cursor was used only for the independent replication described under Reproducibility, using Cursor's agent with the Grok 4.6 model (SpaceXAI); Grok Build, xAI's separate coding product, was not used. All code was reviewed and tested by the author.
 
 **Agent framework:** none; a small custom orchestrator (`seismograph/pipeline.py`).
 

@@ -7,7 +7,7 @@
   "enddt": "2026-10-27"
  },
  "response": {
-  "took": 158,
+  "took": 27,
   "timed_out": false,
   "_shards": {
    "total": 50,
@@ -20,12 +20,12 @@
     "value": 45,
     "relation": "eq"
    },
-   "max_score": 26.756939,
+   "max_score": 26.75636,
    "hits": [
     {
      "_index": "edgar_file",
      "_id": "0001493152-26-035730:ex99-1.htm",
-     "_score": 26.756939,
+     "_score": 26.75636,
      "_source": {
       "ciks": [
        "0001498148"
@@ -71,7 +71,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001493152-26-048336:ex99-1.htm",
-     "_score": 22.850664,
+     "_score": 22.849548,
      "_source": {
       "ciks": [
        "0001498148"
@@ -118,7 +118,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001816431-26-000064:a19aadetectionpressrelea.htm",
-     "_score": 20.86168,
+     "_score": 20.860699,
      "_source": {
       "ciks": [
        "0001816431"
@@ -165,7 +165,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001816431-26-000061:proteusvsplatinumdatapr.htm",
-     "_score": 20.112297,
+     "_score": 20.111576,
      "_source": {
       "ciks": [
        "0001816431"
@@ -212,7 +212,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001816431-26-000053:qsi8132026ex991.htm",
-     "_score": 20.039022,
+     "_score": 20.038143,
      "_source": {
       "ciks": [
        "0001816431"
@@ -258,7 +258,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001507605-26-000020:q226shareholderletter.htm",
-     "_score": 19.682262,
+     "_score": 19.681921,
      "_source": {
       "ciks": [
        "0001507605"
@@ -304,7 +304,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001628280-26-053319:ex991earningspr.htm",
-     "_score": 19.433254,
+     "_score": 19.433256,
      "_source": {
       "ciks": [
        "0001830214"
@@ -350,7 +350,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001816431-26-000061:proteus_worldhupo2026.htm",
-     "_score": 18.997942,
+     "_score": 18.998184,
      "_source": {
       "ciks": [
        "0001816431"
@@ -397,7 +397,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001834622-26-000046:a2026q2991er.htm",
-     "_score": 18.034206,
+     "_score": 18.033604,
      "_source": {
       "ciks": [
        "0001834622"
@@ -441,7 +441,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001628280-26-051836:ex_991q22026ppli-pressrele.htm",
-     "_score": 17.98631,
+     "_score": 17.98597,
      "_source": {
       "ciks": [
        "0001800227"
@@ -488,7 +488,7 @@
     {
      "_index": "edgar_file",
      "_id": "0000101984-26-000109:exhibit99-8ker20260806.htm",
-     "_score": 17.459784,
+     "_score": 17.460032,
      "_source": {
       "ciks": [
        "0000101984"
@@ -536,7 +536,7 @@
     {
      "_index": "edgar_file",
      "_id": "0000719955-26-000203:exhibit991fy2026q2earnings.htm",
-     "_score": 17.063768,
+     "_score": 17.063465,
      "_source": {
       "ciks": [
        "0000719955"
@@ -582,7 +582,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001084765-26-000078:rgpq1fy2027pressrelease.htm",
-     "_score": 16.094776,
+     "_score": 16.094889,
      "_source": {
       "ciks": [
        "0001084765"
@@ -629,7 +629,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001827090-26-000026:q22026earningsreleaseex99.htm",
-     "_score": 15.618795,
+     "_score": 15.61904,
      "_source": {
       "ciks": [
        "0001827090"
@@ -675,7 +675,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001871509-26-000055:exhibit991earningsrelease6.htm",
-     "_score": 15.601057,
+     "_score": 15.600766,
      "_source": {
       "ciks": [
        "0001871509"
@@ -722,7 +722,7 @@
     {
      "_index": "edgar_file",
      "_id": "0000718937-26-000036:staa-ex99_1.htm",
-     "_score": 14.073255,
+     "_score": 14.072913,
      "_source": {
       "ciks": [
        "0000718937"
@@ -769,7 +769,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001783879-26-000113:q22026robinhoodexhibit991.htm",
-     "_score": 13.215115,
+     "_score": 13.214787,
      "_source": {
       "ciks": [
        "0001783879"
@@ -815,7 +815,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001213900-26-093229:ea030301301ex2-1.htm",
-     "_score": 9.567316,
+     "_score": 9.567104,
      "_source": {
       "ciks": [
        "0002128045"
@@ -865,7 +865,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001213900-26-100367:ea030470201ex2-1.htm",
-     "_score": 9.427841,
+     "_score": 9.427527,
      "_source": {
       "ciks": [
        "0002111542"
@@ -911,7 +911,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001193125-26-322225:d174772dex21.htm",
-     "_score": 9.301633,
+     "_score": 9.301708,
      "_source": {
       "ciks": [
        "0000944148"
@@ -959,7 +959,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001628280-26-061981:ex101-subscriptionagreement.htm",
-     "_score": 7.990214,
+     "_score": 7.990347,
      "_source": {
       "ciks": [
        "0001825088"
@@ -1008,7 +1008,7 @@
     {
      "_index": "edgar_file",
      "_id": "0000950103-26-015848:dp255212_ex1002.htm",
-     "_score": 7.859387,
+     "_score": 7.859324,
      "_source": {
       "ciks": [
        "0001657853",
@@ -1063,7 +1063,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001829126-26-011096:pioneeracq1_ex2-1.htm",
-     "_score": 7.7382374,
+     "_score": 7.737856,
      "_source": {
       "ciks": [
        "0002040381"
@@ -1111,7 +1111,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001193125-26-353148:d375900dex21.htm",
-     "_score": 7.3187294,
+     "_score": 7.3187532,
      "_source": {
       "ciks": [
        "0001116942"
@@ -1158,7 +1158,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001213900-26-084282:ea029962401ex2-1.htm",
-     "_score": 6.7073584,
+     "_score": 6.7073307,
      "_source": {
       "ciks": [
        "0002081532"
@@ -1207,7 +1207,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001820144-26-000033:exhibit21-securitiespurcha.htm",
-     "_score": 6.3093414,
+     "_score": 6.3092985,
      "_source": {
       "ciks": [
        "0001820144"
@@ -1256,7 +1256,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001104659-26-092934:tm2621904d5_ex2-1.htm",
-     "_score": 5.9228554,
+     "_score": 5.922947,
      "_source": {
       "ciks": [
        "0001819928"
@@ -1303,7 +1303,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001839799-26-000139:gamb-20260630.htm",
-     "_score": 5.2847614,
+     "_score": 5.2847824,
      "_source": {
       "ciks": [
        "0001839799"
@@ -1342,7 +1342,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001393726-26-000047:tipt-ex10_1.htm",
-     "_score": 5.2349586,
+     "_score": 5.2348347,
      "_source": {
       "ciks": [
        "0001393726"
@@ -1390,7 +1390,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001683168-26-008094:radnet_ex0201.htm",
-     "_score": 4.5663366,
+     "_score": 4.566408,
      "_source": {
       "ciks": [
        "0000790526"
@@ -1439,7 +1439,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001628280-26-056966:projectsummit-transactiona.htm",
-     "_score": 4.37798,
+     "_score": 4.378001,
      "_source": {
       "ciks": [
        "0001516551"
@@ -1491,7 +1491,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001140361-26-039581:ef20083685_ex99-1.htm",
-     "_score": 4.370083,
+     "_score": 4.370064,
      "_source": {
       "ciks": [
        "0001358239"
@@ -1536,7 +1536,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001140361-26-039580:ef20083684_ex99-1.htm",
-     "_score": 4.3647594,
+     "_score": 4.364748,
      "_source": {
       "ciks": [
        "0001331696"
@@ -1581,7 +1581,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001140361-26-039577:ef20083682_ex99-1.htm",
-     "_score": 4.3647594,
+     "_score": 4.364748,
      "_source": {
       "ciks": [
        "0001330979"
@@ -1626,7 +1626,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001193125-26-427316:d166089dex21.htm",
-     "_score": 4.132721,
+     "_score": 4.132579,
      "_source": {
       "ciks": [
        "0001092796"
@@ -1677,7 +1677,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001628280-26-061393:exhibit21-8xka.htm",
-     "_score": 4.0556192,
+     "_score": 4.0555696,
      "_source": {
       "ciks": [
        "0000805928"
@@ -1724,7 +1724,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001213900-26-109266:ea030803901ex99-2.htm",
-     "_score": 3.442134,
+     "_score": 3.4421654,
      "_source": {
       "ciks": [
        "0001951222"
@@ -1768,7 +1768,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001193125-26-419728:d86532dex21.htm",
-     "_score": 3.4293718,
+     "_score": 3.4292622,
      "_source": {
       "ciks": [
        "0002080019"
@@ -1816,7 +1816,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001213900-26-109271:ea030854701ex99-2.htm",
-     "_score": 3.4214182,
+     "_score": 3.4213076,
      "_source": {
       "ciks": [
        "0001738699"
@@ -1858,7 +1858,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001104659-26-111482:tm2626100d3_ex2-1.htm",
-     "_score": 2.947689,
+     "_score": 2.947547,
      "_source": {
       "ciks": [
        "0000001750"
@@ -1907,7 +1907,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001140361-26-037767:ef20082009_ex2-1.htm",
-     "_score": 2.7031488,
+     "_score": 2.703189,
      "_source": {
       "ciks": [
        "0001005286"
@@ -1955,7 +1955,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001193125-26-349114:d101885dex991.htm",
-     "_score": 2.5836143,
+     "_score": 2.5837622,
      "_source": {
       "ciks": [
        "0002134183"
@@ -2001,7 +2001,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001193125-26-425515:d188463dex101.htm",
-     "_score": 2.5330591,
+     "_score": 2.5330095,
      "_source": {
       "ciks": [
        "0000849869"
@@ -2049,7 +2049,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001554855-26-001979:ex991_1.pdf",
-     "_score": 2.2556791,
+     "_score": 2.2556534,
      "_source": {
       "ciks": [
        "0000888721"
@@ -2090,7 +2090,7 @@
     {
      "_index": "edgar_file",
      "_id": "0001653242-26-000083:regal-agmproxycompiled.htm",
-     "_score": 2.1714973,
+     "_score": 2.1714525,
      "_source": {
       "ciks": [
        "0001653242"

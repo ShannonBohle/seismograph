@@ -166,6 +166,50 @@
    "public_regulator_layoff_notices": "None connected; none found public"
   },
   {
+   "country": "Canada",
+   "markets": [
+    "SEC (US)"
+   ],
+   "documents_read": 4,
+   "employers_read": 3,
+   "job_cuts_found": 1,
+   "published": 0,
+   "explicit": 0,
+   "partial": 0,
+   "none": 0,
+   "jobs_stated": 0,
+   "outcomes_reported": 0,
+   "savings_achieved": 0,
+   "savings_expected": 0,
+   "problems_or_reversals": 0,
+   "companies": [],
+   "ai_linked_share_of_published": null,
+   "job_cuts_per_100_documents": 25.0,
+   "public_regulator_layoff_notices": "None connected; none found public"
+  },
+  {
+   "country": "Brazil",
+   "markets": [
+    "CVM / B3 (Brazil)"
+   ],
+   "documents_read": 3,
+   "employers_read": 3,
+   "job_cuts_found": 1,
+   "published": 0,
+   "explicit": 0,
+   "partial": 0,
+   "none": 0,
+   "jobs_stated": 0,
+   "outcomes_reported": 0,
+   "savings_achieved": 0,
+   "savings_expected": 0,
+   "problems_or_reversals": 0,
+   "companies": [],
+   "ai_linked_share_of_published": null,
+   "job_cuts_per_100_documents": 33.3,
+   "public_regulator_layoff_notices": "None connected; none found public"
+  },
+  {
    "country": "Israel",
    "markets": [
     "SEC (US)"
@@ -190,56 +234,12 @@
    "public_regulator_layoff_notices": "None connected; none found public"
   },
   {
-   "country": "Ontario, Canada",
-   "markets": [
-    "SEC (US)"
-   ],
-   "documents_read": 3,
-   "employers_read": 2,
-   "job_cuts_found": 1,
-   "published": 0,
-   "explicit": 0,
-   "partial": 0,
-   "none": 0,
-   "jobs_stated": 0,
-   "outcomes_reported": 0,
-   "savings_achieved": 0,
-   "savings_expected": 0,
-   "problems_or_reversals": 0,
-   "companies": [],
-   "ai_linked_share_of_published": null,
-   "job_cuts_per_100_documents": 33.3,
-   "public_regulator_layoff_notices": "None connected; none found public"
-  },
-  {
    "country": "Not known",
    "markets": [
     "SEC (US)"
    ],
    "documents_read": 2,
    "employers_read": 2,
-   "job_cuts_found": 0,
-   "published": 0,
-   "explicit": 0,
-   "partial": 0,
-   "none": 0,
-   "jobs_stated": 0,
-   "outcomes_reported": 0,
-   "savings_achieved": 0,
-   "savings_expected": 0,
-   "problems_or_reversals": 0,
-   "companies": [],
-   "ai_linked_share_of_published": null,
-   "job_cuts_per_100_documents": 0.0,
-   "public_regulator_layoff_notices": "None connected; none found public"
-  },
-  {
-   "country": "Canada (Federal Level)",
-   "markets": [
-    "SEC (US)"
-   ],
-   "documents_read": 1,
-   "employers_read": 1,
    "job_cuts_found": 0,
    "published": 0,
    "explicit": 0,

@@ -1,5 +1,51 @@
 [
  {
+  "record_id": "rec_0898eacfe07a",
+  "company": "National Australia Bank",
+  "cik": "ASX:NAB",
+  "event_date": "2026-10-20",
+  "jobs_cut": "2500",
+  "jobs_cut_text": "up to 2,500 roles or ~6%",
+  "ai_attribution": "none",
+  "ai_quote": null,
+  "source_url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03150315-3A704448?access_token=83ff96335c2d45a094df02a206a39ff4",
+  "doc_type": "Australia announcement: NAB simplifying operating model and improving alignment",
+  "judge_model": "nvidia/nemotron-3-ultra-550b-a55b",
+  "extractor_model": "nvidia/nemotron-3-ultra-550b-a55b",
+  "warn_match": [],
+  "gap_flags": [
+   "no matching WARN notice within 120 days in the states loaded (AK, AL, AZ, CT, DE, GA, IL, IN, KS, ME, MT, NE, NJ, NY, OK, OR, SC, SD, TX, UT, VT, WA)"
+  ],
+  "supersedes": null,
+  "memory_id": "mem_7ed475c5fd9249fb",
+  "reviewed_at": "2026-10-27 17:02:06.0",
+  "market": "ASX (Australia)",
+  "country": "Australia"
+ },
+ {
+  "record_id": "rec_a975fec2093e",
+  "company": "Mayfield Childcare Limited",
+  "cik": "ASX:MFD",
+  "event_date": "2026-10-15",
+  "jobs_cut": "12",
+  "jobs_cut_text": "12 head office roles",
+  "ai_attribution": "none",
+  "ai_quote": null,
+  "source_url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03148728-3A704168?access_token=83ff96335c2d45a094df02a206a39ff4",
+  "doc_type": "Australia announcement: Correction - FY26 Guidance Reinstated & Restructure Complete",
+  "judge_model": "nvidia/nemotron-3-ultra-550b-a55b",
+  "extractor_model": "nvidia/nemotron-3-ultra-550b-a55b",
+  "warn_match": [],
+  "gap_flags": [
+   "no matching WARN notice within 120 days in the states loaded (AK, AL, AZ, CT, DE, GA, IL, IN, KS, ME, MT, NE, NJ, NY, OK, OR, SC, SD, TX, UT, VT, WA)"
+  ],
+  "supersedes": null,
+  "memory_id": "mem_1134ce0594884cbc",
+  "reviewed_at": "2026-10-27 17:02:17.0",
+  "market": "ASX (Australia)",
+  "country": "Australia"
+ },
+ {
   "record_id": "rec_09436ac27454",
   "company": "YouGov plc",
   "cik": "LEI:213800MZGBGCJIPOBB41",
@@ -21,6 +67,52 @@
   "reviewed_at": "2026-10-27 13:28:29.0",
   "market": "FCA NSM (UK)",
   "country": "United Kingdom"
+ },
+ {
+  "record_id": "rec_1ffa525386f3",
+  "company": "株式会社コーセーホールディングス",
+  "cik": "TDNET:49220",
+  "event_date": "2026-10-09",
+  "jobs_cut": "199",
+  "jobs_cut_text": "199名",
+  "ai_attribution": "none",
+  "ai_quote": null,
+  "source_url": "https://www.release.tdnet.info/inbs/140120261008547775.pdf",
+  "doc_type": "Japan announcement: 希望退職施策「特別ライフチャレンジ」の結果に関するお知らせ (original language Japanese; quote verbatim in Japanese)",
+  "judge_model": "nvidia/nemotron-3-ultra-550b-a55b",
+  "extractor_model": "nvidia/nemotron-3-ultra-550b-a55b",
+  "warn_match": [],
+  "gap_flags": [
+   "no matching WARN notice within 120 days in the states loaded (AK, AL, AZ, CT, DE, GA, IL, IN, KS, ME, MT, NE, NJ, NY, OK, OR, SC, SD, TX, UT, VT, WA)"
+  ],
+  "supersedes": null,
+  "memory_id": "mem_9dbd4566039646ad",
+  "reviewed_at": "2026-10-27 17:02:11.0",
+  "market": "TDnet / Tokyo Stock Exchange (Japan)",
+  "country": "Japan"
+ },
+ {
+  "record_id": "rec_48226fabc925",
+  "company": "VOLTZ",
+  "cik": "AMF:969500ZX35JFNKB6H637",
+  "event_date": "2026-09-09",
+  "jobs_cut": null,
+  "jobs_cut_text": null,
+  "ai_attribution": "none",
+  "ai_quote": null,
+  "source_url": "https://fr.ftp.opendatasoft.com/datadila/INFOFI/ACT/2026/09/FCACT081269_20260909.pdf",
+  "doc_type": "France announcement: PROJET DE RESTRUCTURATION DES ACTIVITÉS DE PÉPINIÈRE (original language French; quote verbatim in French)",
+  "judge_model": "nvidia/nemotron-3-ultra-550b-a55b",
+  "extractor_model": "nvidia/nemotron-3-ultra-550b-a55b",
+  "warn_match": [],
+  "gap_flags": [
+   "no matching WARN notice within 120 days in the states loaded (AK, AL, AZ, CT, DE, GA, IL, IN, KS, ME, MT, NE, NJ, NY, OK, OR, SC, SD, TX, UT, VT, WA)"
+  ],
+  "supersedes": null,
+  "memory_id": "mem_487d2a6a1dbe4e5a",
+  "reviewed_at": "2026-10-27 17:02:22.0",
+  "market": "info-financiere.gouv.fr / AMF (France)",
+  "country": "France"
  },
  {
   "record_id": "rec_7c4a9be7344d",

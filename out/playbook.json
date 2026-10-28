@@ -33,6 +33,24 @@
     "amount_text": "$1.5 million to $2.5 million",
     "source_url": "https://www.sec.gov/Archives/edgar/data/1826000/000182600026000048/tmb-20260630x10q.htm",
     "file_date": "2026-08-10"
+   },
+   {
+    "record_id": "rec_10ba9dd832c6",
+    "company": "Latch, Inc.",
+    "kind": "charges",
+    "quote": "The Company estimates that it will incur approximately $1.5 million to $2.5 million of total cash restructuring and related charges, primarily related to severance and benefit costs, a majority of which is expected to be incurred in the third and fourth quarters of 2026.",
+    "amount_text": "$1.5 million to $2.5 million",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1826000/000110465926091071/tm2622239d1_8k.htm",
+    "file_date": "2026-08-05"
+   },
+   {
+    "record_id": "rec_10ba9dd832c6",
+    "company": "Latch, Inc.",
+    "kind": "charges",
+    "quote": "The Company estimates that it will incur approximately $1.5 million to $2.5 million of total cash restructuring and related charges, primarily related to severance and benefit costs, a majority of which is expected to be incurred in the third and fourth quarters of 2026.",
+    "amount_text": "$1.5 million to $2.5 million",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1826000/000182600026000048/tmb-20260630x10q.htm",
+    "file_date": "2026-08-10"
    }
   ],
   "confidence": "High",
@@ -100,6 +118,51 @@
     "amount_text": "58.7, 51.7",
     "source_url": "https://www.sec.gov/Archives/edgar/data/2054696/000162828026055223/niq-20260630.htm",
     "file_date": "2026-08-10"
+   },
+   {
+    "record_id": "rec_b60868941d85",
+    "company": "NIQ Global Intelligence plc",
+    "kind": "savings_expected",
+    "quote": "Collectively, these actions are expected to improve efficiency, customer satisfaction, product innovation and productivity.",
+    "amount_text": null,
+    "source_url": "https://www.sec.gov/Archives/edgar/data/2054696/000162828026055223/niq-20260630.htm",
+    "file_date": "2026-08-10"
+   },
+   {
+    "record_id": "rec_b60868941d85",
+    "company": "NIQ Global Intelligence plc",
+    "kind": "savings_expected",
+    "quote": "The 2026 Program is intended to further reduce costs primarily within selling, general and administrative expenses.",
+    "amount_text": null,
+    "source_url": "https://www.sec.gov/Archives/edgar/data/2054696/000162828026055223/niq-20260630.htm",
+    "file_date": "2026-08-10"
+   },
+   {
+    "record_id": "rec_b60868941d85",
+    "company": "NIQ Global Intelligence plc",
+    "kind": "charges",
+    "quote": "For the six months ended June 30, 2026, the Company recognized incremental non\u2011cash compensation charges of $9.5 million in connection with her separation agreement.",
+    "amount_text": "$9.5 million",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/2054696/000162828026055223/niq-20260630.htm",
+    "file_date": "2026-08-10"
+   },
+   {
+    "record_id": "rec_b60868941d85",
+    "company": "NIQ Global Intelligence plc",
+    "kind": "charges",
+    "quote": "Restructuring, net 8.7 0.4 73.6 5.0",
+    "amount_text": "8.7, 0.4, 73.6, 5.0",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/2054696/000162828026055223/niq-20260630.htm",
+    "file_date": "2026-08-10"
+   },
+   {
+    "record_id": "rec_b60868941d85",
+    "company": "NIQ Global Intelligence plc",
+    "kind": "charges",
+    "quote": "Restructuring liabilities (Note 12) 58.7 51.7",
+    "amount_text": "58.7, 51.7",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/2054696/000162828026055223/niq-20260630.htm",
+    "file_date": "2026-08-10"
    }
   ],
   "confidence": "High",
@@ -123,6 +186,33 @@
    }
   ],
   "outcomes": [
+   {
+    "record_id": "rec_0387fb8146f6",
+    "company": "Valneva SE",
+    "kind": "savings_expected",
+    "quote": "Restructuring program implemented with positive P&L and cash flow impacts expected in the second half of the year and beyond",
+    "amount_text": null,
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1836564/000162828026056525/a2026_08x13xvlaxh1x2026xpr.htm",
+    "file_date": "2026-08-13"
+   },
+   {
+    "record_id": "rec_0387fb8146f6",
+    "company": "Valneva SE",
+    "kind": "savings_achieved",
+    "quote": "This strong cash position reflects the positive impact of restructuring initiatives, disciplined cash management and \u20ac37 million in gross proceeds from the successful reserved offering completed in the second quarter of 2026.",
+    "amount_text": null,
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1836564/000162828026056525/a2026_08x13xvlaxh1x2026xpr.htm",
+    "file_date": "2026-08-13"
+   },
+   {
+    "record_id": "rec_0387fb8146f6",
+    "company": "Valneva SE",
+    "kind": "charges",
+    "quote": "In the first half of 2026, \u20ac3.2 million of expenses were recognized across the affected functions in connection with the workforce reduction and restructuring program initiated in the second quarter of 2026.",
+    "amount_text": "\u20ac3.2 million",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1836564/000162828026056525/a2026_08x13xvlaxh1x2026xpr.htm",
+    "file_date": "2026-08-13"
+   },
    {
     "record_id": "rec_0387fb8146f6",
     "company": "Valneva SE",
@@ -244,6 +334,48 @@
   "memory_confidence": 0.7
  },
  {
+  "company": "Mayfield Childcare Limited",
+  "records": [
+   {
+    "record_id": "rec_a975fec2093e",
+    "cik": "ASX:MFD",
+    "company": "Mayfield Childcare Limited",
+    "event_date": "2026-10-15",
+    "jobs_cut_text": "12 head office roles",
+    "ai_attribution": "none",
+    "ai_quote": null,
+    "source_url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03148728-3A704168?access_token=83ff96335c2d45a094df02a206a39ff4",
+    "memory_id": "mem_1134ce0594884cbc",
+    "supersedes": null
+   }
+  ],
+  "outcomes": [],
+  "confidence": "Low",
+  "confidence_reason": "editor-approved announcement; no later reported results found yet",
+  "memory_confidence": 0.65
+ },
+ {
+  "company": "National Australia Bank",
+  "records": [
+   {
+    "record_id": "rec_0898eacfe07a",
+    "cik": "ASX:NAB",
+    "company": "National Australia Bank",
+    "event_date": "2026-10-20",
+    "jobs_cut_text": "up to 2,500 roles or ~6%",
+    "ai_attribution": "none",
+    "ai_quote": null,
+    "source_url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03150315-3A704448?access_token=83ff96335c2d45a094df02a206a39ff4",
+    "memory_id": "mem_7ed475c5fd9249fb",
+    "supersedes": null
+   }
+  ],
+  "outcomes": [],
+  "confidence": "Low",
+  "confidence_reason": "editor-approved announcement; no later reported results found yet",
+  "memory_confidence": 0.65
+ },
+ {
   "company": "Quantum-Si Inc",
   "records": [
    {
@@ -265,6 +397,27 @@
   "memory_confidence": 0.65
  },
  {
+  "company": "VOLTZ",
+  "records": [
+   {
+    "record_id": "rec_48226fabc925",
+    "cik": "AMF:969500ZX35JFNKB6H637",
+    "company": "VOLTZ",
+    "event_date": "2026-09-09",
+    "jobs_cut_text": null,
+    "ai_attribution": "none",
+    "ai_quote": null,
+    "source_url": "https://fr.ftp.opendatasoft.com/datadila/INFOFI/ACT/2026/09/FCACT081269_20260909.pdf",
+    "memory_id": "mem_487d2a6a1dbe4e5a",
+    "supersedes": null
+   }
+  ],
+  "outcomes": [],
+  "confidence": "Low",
+  "confidence_reason": "editor-approved announcement; no later reported results found yet",
+  "memory_confidence": 0.65
+ },
+ {
   "company": "YouGov plc",
   "records": [
    {
@@ -277,6 +430,27 @@
     "ai_quote": "The waves combine efficiency improvements and enhanced ways of working along with significant transformation enabled by AI.",
     "source_url": "https://data.fca.org.uk/artefacts/NSM/RNS/80994acc-64b5-4b25-84b2-e915b675f09e.html",
     "memory_id": "mem_848a7e6728f0484c",
+    "supersedes": null
+   }
+  ],
+  "outcomes": [],
+  "confidence": "Low",
+  "confidence_reason": "editor-approved announcement; no later reported results found yet",
+  "memory_confidence": 0.65
+ },
+ {
+  "company": "\u682a\u5f0f\u4f1a\u793e\u30b3\u30fc\u30bb\u30fc\u30db\u30fc\u30eb\u30c7\u30a3\u30f3\u30b0\u30b9",
+  "records": [
+   {
+    "record_id": "rec_1ffa525386f3",
+    "cik": "TDNET:49220",
+    "company": "\u682a\u5f0f\u4f1a\u793e\u30b3\u30fc\u30bb\u30fc\u30db\u30fc\u30eb\u30c7\u30a3\u30f3\u30b0\u30b9",
+    "event_date": "2026-10-09",
+    "jobs_cut_text": "199\u540d",
+    "ai_attribution": "none",
+    "ai_quote": null,
+    "source_url": "https://www.release.tdnet.info/inbs/140120261008547775.pdf",
+    "memory_id": "mem_9dbd4566039646ad",
     "supersedes": null
    }
   ],

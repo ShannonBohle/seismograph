@@ -1,5 +1,5 @@
 {
- "headline": "1 of 5,108 WARN layoff notices that state a reason cite AI or automation (2 of 22 states loaded record a reason).",
+ "headline": "2 of 5,160 WARN layoff notices that state a reason cite AI or automation (2 of 22 states loaded record a reason).",
  "erm": {
   "events": 342,
   "mention_ai_or_automation": 50,
@@ -182,42 +182,6 @@
   ],
   "ai_events": [
    {
-    "event_id": "ERM:301330",
-    "country": "France",
-    "company": "Ikea",
-    "announced": "2026-10-21",
-    "employment_change": "-303",
-    "event_type": "Internal restructuring",
-    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/301330"
-   },
-   {
-    "event_id": "ERM:301324",
-    "country": "Slovakia",
-    "company": "Foxconn Slovakia",
-    "announced": "2026-10-18",
-    "employment_change": "300",
-    "event_type": "Business expansion",
-    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/301324"
-   },
-   {
-    "event_id": "ERM:301293",
-    "country": "Poland",
-    "company": "SHEIN",
-    "announced": "2026-10-15",
-    "employment_change": "1000",
-    "event_type": "Business expansion",
-    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/301293"
-   },
-   {
-    "event_id": "ERM:301270",
-    "country": "Spain",
-    "company": "Avatel",
-    "announced": "2026-10-14",
-    "employment_change": "-444",
-    "event_type": "Internal restructuring",
-    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/301270"
-   },
-   {
     "event_id": "ERM:301249",
     "country": "Estonia",
     "company": "Telia Eesti",
@@ -261,6 +225,33 @@
     "employment_change": "-190",
     "event_type": "Internal restructuring",
     "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/301235"
+   },
+   {
+    "event_id": "ERM:301324",
+    "country": "Slovakia",
+    "company": "Foxconn Slovakia",
+    "announced": "2026-10-18",
+    "employment_change": "300",
+    "event_type": "Business expansion",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/301324"
+   },
+   {
+    "event_id": "ERM:301293",
+    "country": "Poland",
+    "company": "SHEIN",
+    "announced": "2026-10-15",
+    "employment_change": "1000",
+    "event_type": "Business expansion",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/301293"
+   },
+   {
+    "event_id": "ERM:301270",
+    "country": "Spain",
+    "company": "Avatel",
+    "announced": "2026-10-14",
+    "employment_change": "-444",
+    "event_type": "Internal restructuring",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/301270"
    },
    {
     "event_id": "ERM:301254",
@@ -630,12 +621,21 @@
     "employment_change": "-165",
     "event_type": "Bankruptcy",
     "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/300678"
+   },
+   {
+    "event_id": "ERM:301330",
+    "country": "France",
+    "company": "Ikea",
+    "announced": "2026-10-21",
+    "employment_change": "-303",
+    "event_type": "Internal restructuring",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/301330"
    }
   ],
   "headline": "50 of 342 European restructuring events in Eurofound's monitor have a summary that mentions AI or automation (29 countries)."
  },
  "warn": {
-  "warn_notices": 29062,
+  "warn_notices": 34076,
   "states_loaded": [
    "AK",
    "AL",
@@ -664,9 +664,17 @@
    "IL",
    "NY"
   ],
-  "notices_with_reason": 5108,
-  "notices_citing_ai": 1,
+  "notices_with_reason": 5160,
+  "notices_citing_ai": 2,
   "ai_notices": [
+   {
+    "notice_id": "NY:1d057a9d85d5441d",
+    "state": "NY",
+    "reason": "Relocation of Business, Artificial Intelligence",
+    "company": "Nespresso",
+    "notice_date": "2026-01-13",
+    "jobs": "46"
+   },
    {
     "notice_id": "NY:cd671665c860e736",
     "state": "NY",

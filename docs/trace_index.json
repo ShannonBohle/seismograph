@@ -1,0 +1,943 @@
+[
+ {
+  "file": "run-20261027T065705Z-f2bec3.jsonl",
+  "lines": 7,
+  "first": "2026-10-27T06:57:14Z",
+  "agents": {
+   "Check": 6,
+   "Nightshift": 1
+  },
+  "models": [
+   "nvidia/nemotron-3.5-bolt-e4b"
+  ],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T070204Z-1c97a9.jsonl",
+  "lines": 59,
+  "first": "2026-10-27T07:02:06Z",
+  "agents": {
+   "Pipeline": 6,
+   "Scout": 11,
+   "Extractor": 11,
+   "MemorySteward": 8,
+   "Verifier": 4,
+   "Judge": 7,
+   "Corroborator": 12
+  },
+  "models": [
+   "meterless/auto",
+   "nvidia/nemotron-3-ultra-550b-a55b",
+   "nvidia/nemotron-3.5-bolt-e4b"
+  ],
+  "run_end": "{\"documents\": 5, \"not_layoffs\": 1, \"drafted\": 0, \"judge_failed\": 0, \"duplicates\": 0, \"pending_review\": 3, \"errors\": 1}"
+ },
+ {
+  "file": "run-20261027T071518Z-9b11bb.jsonl",
+  "lines": 6,
+  "first": "2026-10-27T07:17:15Z",
+  "agents": {
+   "MemorySteward": 3,
+   "Editor": 3
+  },
+  "models": [],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T072157Z-871fe9.jsonl",
+  "lines": 3,
+  "first": "2026-10-27T07:22:04Z",
+  "agents": {
+   "Publisher": 3
+  },
+  "models": [],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T072602Z-3cd955.jsonl",
+  "lines": 2,
+  "first": "2026-10-27T07:26:07Z",
+  "agents": {
+   "Evaluator": 2
+  },
+  "models": [],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T072820Z-6eb176.jsonl",
+  "lines": 3,
+  "first": "2026-10-27T07:28:24Z",
+  "agents": {
+   "Publisher": 3
+  },
+  "models": [],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T072931Z-4b6eeb.jsonl",
+  "lines": 3,
+  "first": "2026-10-27T07:29:36Z",
+  "agents": {
+   "Publisher": 3
+  },
+  "models": [],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T073807Z-95828e.jsonl",
+  "lines": 113,
+  "first": "2026-10-27T07:38:08Z",
+  "agents": {
+   "Pipeline": 17,
+   "Scout": 21,
+   "Extractor": 60,
+   "MemorySteward": 15
+  },
+  "models": [
+   "nvidia/nemotron-3.5-lightning-30b-a3b"
+  ],
+  "run_end": "{\"documents\": 15, \"not_layoffs\": 0, \"drafted\": 0, \"judge_failed\": 0, \"duplicates\": 0, \"pending_review\": 0, \"errors\": 15}"
+ },
+ {
+  "file": "run-20261027T111255Z-9d2752.jsonl",
+  "lines": 131,
+  "first": "2026-10-27T11:12:56Z",
+  "agents": {
+   "Pipeline": 8,
+   "Scout": 21,
+   "Extractor": 39,
+   "MemorySteward": 21,
+   "Verifier": 6,
+   "Judge": 12,
+   "Corroborator": 24
+  },
+  "models": [
+   "nvidia/nemotron-3-ultra-550b-a55b"
+  ],
+  "run_end": "{\"documents\": 15, \"not_layoffs\": 9, \"drafted\": 0, \"judge_failed\": 0, \"duplicates\": 0, \"pending_review\": 6, \"errors\": 0}"
+ },
+ {
+  "file": "run-20261027T111805Z-4f4454.jsonl",
+  "lines": 12,
+  "first": "2026-10-27T11:19:20Z",
+  "agents": {
+   "MemorySteward": 6,
+   "Editor": 6
+  },
+  "models": [],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T112435Z-a96c9f.jsonl",
+  "lines": 3,
+  "first": "2026-10-27T11:24:41Z",
+  "agents": {
+   "Publisher": 3
+  },
+  "models": [],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T112446Z-5af370.jsonl",
+  "lines": 2,
+  "first": "2026-10-27T11:24:50Z",
+  "agents": {
+   "Evaluator": 2
+  },
+  "models": [],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T112955Z-197944.jsonl",
+  "lines": 3,
+  "first": "2026-10-27T11:30:00Z",
+  "agents": {
+   "Publisher": 3
+  },
+  "models": [],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T115015Z-04c7f9.jsonl",
+  "lines": 13,
+  "first": "2026-10-27T11:50:18Z",
+  "agents": {
+   "Spenders": 13
+  },
+  "models": [],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T115033Z-271d7b.jsonl",
+  "lines": 75,
+  "first": "2026-10-27T11:50:51Z",
+  "agents": {
+   "WarnLoader": 75
+  },
+  "models": [],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T115446Z-dab7f8.jsonl",
+  "lines": 75,
+  "first": "2026-10-27T11:55:09Z",
+  "agents": {
+   "WarnLoader": 75
+  },
+  "models": [],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T115923Z-b593fd.jsonl",
+  "lines": 1,
+  "first": "2026-10-27T11:59:25Z",
+  "agents": {
+   "UKSource": 1
+  },
+  "models": [],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T123135Z-7f0b97.jsonl",
+  "lines": 1,
+  "first": "2026-10-27T12:31:37Z",
+  "agents": {
+   "UKSource": 1
+  },
+  "models": [],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T123139Z-0f567f.jsonl",
+  "lines": 52,
+  "first": "2026-10-27T12:31:40Z",
+  "agents": {
+   "Pipeline": 3,
+   "Scout": 18,
+   "Extractor": 15,
+   "MemorySteward": 6,
+   "Verifier": 2,
+   "Judge": 4,
+   "Corroborator": 4
+  },
+  "models": [
+   "nvidia/nemotron-3-ultra-550b-a55b"
+  ],
+  "run_end": "{\"documents\": 5, \"not_layoffs\": 4, \"drafted\": 0, \"judge_failed\": 0, \"duplicates\": 0, \"pending_review\": 1, \"errors\": 5}"
+ },
+ {
+  "file": "run-20261027T123319Z-55a776.jsonl",
+  "lines": 1,
+  "first": "2026-10-27T12:33:21Z",
+  "agents": {
+   "UKSource": 1
+  },
+  "models": [],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T123323Z-4cbb11.jsonl",
+  "lines": 48,
+  "first": "2026-10-27T12:33:24Z",
+  "agents": {
+   "Pipeline": 2,
+   "Scout": 18,
+   "Extractor": 19,
+   "MemorySteward": 6,
+   "Verifier": 1,
+   "Judge": 2
+  },
+  "models": [
+   "nvidia/nemotron-3-ultra-550b-a55b"
+  ],
+  "run_end": "{\"documents\": 6, \"not_layoffs\": 6, \"drafted\": 0, \"judge_failed\": 0, \"duplicates\": 0, \"pending_review\": 0, \"errors\": 4}"
+ },
+ {
+  "file": "run-20261027T123505Z-b23ec8.jsonl",
+  "lines": 24,
+  "first": "2026-10-27T12:35:06Z",
+  "agents": {
+   "WarnLoader": 24
+  },
+  "models": [],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T124426Z-ac90d6.jsonl",
+  "lines": 17,
+  "first": "2026-10-27T12:44:30Z",
+  "agents": {
+   "Publisher": 9,
+   "GapAnalyst": 8
+  },
+  "models": [],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T124539Z-6df614.jsonl",
+  "lines": 69,
+  "first": "2026-10-27T12:45:40Z",
+  "agents": {
+   "Pipeline": 4,
+   "Scout": 23,
+   "Extractor": 19,
+   "MemorySteward": 9,
+   "Verifier": 2,
+   "Judge": 4,
+   "Corroborator": 8
+  },
+  "models": [
+   "nvidia/nemotron-3-ultra-550b-a55b"
+  ],
+  "run_end": "{\"documents\": 7, \"not_layoffs\": 5, \"drafted\": 0, \"judge_failed\": 0, \"duplicates\": 0, \"pending_review\": 2, \"errors\": 8}"
+ },
+ {
+  "file": "run-20261027T125822Z-2e9a2b.jsonl",
+  "lines": 24,
+  "first": "2026-10-27T12:58:24Z",
+  "agents": {
+   "WarnLoader": 24
+  },
+  "models": [],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T132232Z-930945.jsonl",
+  "lines": 12,
+  "first": "2026-10-27T13:22:38Z",
+  "agents": {
+   "Publisher": 4,
+   "GapAnalyst": 8
+  },
+  "models": [],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T132314Z-b54e1f.jsonl",
+  "lines": 2,
+  "first": "2026-10-27T13:23:15Z",
+  "agents": {
+   "MemorySteward": 1,
+   "Editor": 1
+  },
+  "models": [],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T132503Z-1acd8e.jsonl",
+  "lines": 2,
+  "first": "2026-10-27T13:25:04Z",
+  "agents": {
+   "MemorySteward": 1,
+   "Editor": 1
+  },
+  "models": [],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T132510Z-7dc15a.jsonl",
+  "lines": 2,
+  "first": "2026-10-27T13:25:11Z",
+  "agents": {
+   "MemorySteward": 1,
+   "Editor": 1
+  },
+  "models": [],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T132827Z-8e6f3d.jsonl",
+  "lines": 2,
+  "first": "2026-10-27T13:28:29Z",
+  "agents": {
+   "MemorySteward": 1,
+   "Editor": 1
+  },
+  "models": [],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T132848Z-f5bc18.jsonl",
+  "lines": 15,
+  "first": "2026-10-27T13:28:53Z",
+  "agents": {
+   "Publisher": 6,
+   "GapAnalyst": 9
+  },
+  "models": [],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T133110Z-7b9ba6.jsonl",
+  "lines": 2,
+  "first": "2026-10-27T13:31:14Z",
+  "agents": {
+   "Evaluator": 2
+  },
+  "models": [],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T133117Z-1f0412.jsonl",
+  "lines": 29,
+  "first": "2026-10-27T13:31:21Z",
+  "agents": {
+   "Outcomes": 19,
+   "Scout": 5,
+   "Verifier": 5
+  },
+  "models": [
+   "nvidia/nemotron-3-ultra-550b-a55b"
+  ],
+  "run_end": "{\"companies\": 5, \"documents\": 5, \"outcomes\": 15, \"rejected_quotes\": 0, \"not_in_sample\": 0}"
+ },
+ {
+  "file": "run-20261027T133226Z-5ace00.jsonl",
+  "lines": 3,
+  "first": "2026-10-27T13:32:30Z",
+  "agents": {
+   "Outcomes": 1,
+   "Playbook": 2
+  },
+  "models": [],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T133234Z-bb2f04.jsonl",
+  "lines": 3,
+  "first": "2026-10-27T13:32:38Z",
+  "agents": {
+   "Scorecard": 3
+  },
+  "models": [],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T133241Z-6de325.jsonl",
+  "lines": 16,
+  "first": "2026-10-27T13:32:44Z",
+  "agents": {
+   "Spenders": 16
+  },
+  "models": [],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T133431Z-489977.jsonl",
+  "lines": 124,
+  "first": "2026-10-27T13:34:35Z",
+  "agents": {
+   "Spenders": 16,
+   "Pipeline": 2,
+   "Scout": 26,
+   "Extractor": 60,
+   "MemorySteward": 20
+  },
+  "models": [
+   "nvidia/nemotron-3-ultra-550b-a55b"
+  ],
+  "run_end": "{\"documents\": 20, \"not_layoffs\": 20, \"drafted\": 0, \"judge_failed\": 0, \"duplicates\": 0, \"pending_review\": 0, \"errors\": 0}"
+ },
+ {
+  "file": "run-20261027T140229Z-30816a.jsonl",
+  "lines": 1,
+  "first": "2026-10-27T14:10:15Z",
+  "agents": {
+   "ERMLoader": 1
+  },
+  "models": [],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T141024Z-90e47a.jsonl",
+  "lines": 60,
+  "first": "2026-10-27T14:10:26Z",
+  "agents": {
+   "Pipeline": 10,
+   "Scout": 22,
+   "Extractor": 21,
+   "MemorySteward": 7
+  },
+  "models": [
+   "nvidia/nemotron-3-ultra-550b-a55b"
+  ],
+  "run_end": "{\"documents\": 0, \"not_layoffs\": 0, \"drafted\": 0, \"judge_failed\": 0, \"duplicates\": 0, \"pending_review\": 0, \"errors\": 0}"
+ },
+ {
+  "file": "run-20261027T142035Z-46f133.jsonl",
+  "lines": 42,
+  "first": "2026-10-27T14:20:36Z",
+  "agents": {
+   "Pipeline": 3,
+   "Scout": 11,
+   "Extractor": 16,
+   "MemorySteward": 5,
+   "Verifier": 3,
+   "Corroborator": 4
+  },
+  "models": [
+   "nvidia/nemotron-3-ultra-550b-a55b"
+  ],
+  "run_end": "{\"documents\": 5, \"not_layoffs\": 4, \"drafted\": 0, \"judge_failed\": 1, \"duplicates\": 0, \"pending_review\": 0, \"errors\": 0}"
+ },
+ {
+  "file": "run-20261027T143650Z-e9cd94.jsonl",
+  "lines": 68,
+  "first": "2026-10-27T14:36:51Z",
+  "agents": {
+   "Pipeline": 5,
+   "Scout": 10,
+   "Extractor": 23,
+   "MemorySteward": 9,
+   "Verifier": 10,
+   "Corroborator": 9,
+   "Judge": 2
+  },
+  "models": [
+   "nvidia/nemotron-3-ultra-550b-a55b"
+  ],
+  "run_end": "{\"documents\": 7, \"not_layoffs\": 3, \"drafted\": 0, \"judge_failed\": 2, \"duplicates\": 1, \"pending_review\": 1, \"errors\": 0}"
+ },
+ {
+  "file": "run-20261027T144059Z-b7b2f9.jsonl",
+  "lines": 61,
+  "first": "2026-10-27T14:41:01Z",
+  "agents": {
+   "Pipeline": 4,
+   "Scout": 11,
+   "Extractor": 22,
+   "MemorySteward": 10,
+   "Verifier": 2,
+   "Judge": 4,
+   "Corroborator": 8
+  },
+  "models": [
+   "nvidia/nemotron-3-ultra-550b-a55b"
+  ],
+  "run_end": "{\"documents\": 8, \"not_layoffs\": 6, \"drafted\": 0, \"judge_failed\": 0, \"duplicates\": 0, \"pending_review\": 2, \"errors\": 0}"
+ },
+ {
+  "file": "run-20261027T144453Z-b812db.jsonl",
+  "lines": 71,
+  "first": "2026-10-27T14:44:55Z",
+  "agents": {
+   "Pipeline": 5,
+   "Scout": 11,
+   "Extractor": 24,
+   "MemorySteward": 10,
+   "Verifier": 5,
+   "Judge": 4,
+   "Corroborator": 12
+  },
+  "models": [
+   "nvidia/nemotron-3-ultra-550b-a55b"
+  ],
+  "run_end": "{\"documents\": 8, \"not_layoffs\": 5, \"drafted\": 0, \"judge_failed\": 1, \"duplicates\": 0, \"pending_review\": 2, \"errors\": 0}"
+ },
+ {
+  "file": "run-20261027T145004Z-b3fd13.jsonl",
+  "lines": 45,
+  "first": "2026-10-27T14:50:05Z",
+  "agents": {
+   "Pipeline": 2,
+   "Scout": 11,
+   "Extractor": 24,
+   "MemorySteward": 8
+  },
+  "models": [
+   "nvidia/nemotron-3-ultra-550b-a55b"
+  ],
+  "run_end": "{\"documents\": 8, \"not_layoffs\": 8, \"drafted\": 0, \"judge_failed\": 0, \"duplicates\": 0, \"pending_review\": 0, \"errors\": 0}"
+ },
+ {
+  "file": "run-20261027T162626Z-eb1c6d.jsonl",
+  "lines": 2,
+  "first": "2026-10-27T16:26:33Z",
+  "agents": {
+   "Setup": 2
+  },
+  "models": [],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T162638Z-cb4aba.jsonl",
+  "lines": 5,
+  "first": "2026-10-27T16:26:39Z",
+  "agents": {
+   "Pipeline": 2,
+   "Scout": 3
+  },
+  "models": [],
+  "run_end": "{\"documents\": 0, \"not_layoffs\": 0, \"drafted\": 0, \"judge_failed\": 0, \"duplicates\": 0, \"pending_review\": 0, \"errors\": 0}"
+ },
+ {
+  "file": "run-20261027T162648Z-9851a2.jsonl",
+  "lines": 3,
+  "first": "2026-10-27T16:26:59Z",
+  "agents": {
+   "Ask": 3
+  },
+  "models": [
+   "nvidia/nemotron-3-ultra-550b-a55b"
+  ],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T162702Z-92b9b6.jsonl",
+  "lines": 3,
+  "first": "2026-10-27T16:27:07Z",
+  "agents": {
+   "Ask": 3
+  },
+  "models": [
+   "nvidia/nemotron-3-ultra-550b-a55b"
+  ],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T162711Z-50cd85.jsonl",
+  "lines": 33,
+  "first": "2026-10-27T16:27:12Z",
+  "agents": {
+   "Pipeline": 2,
+   "Scout": 11,
+   "Extractor": 15,
+   "MemorySteward": 5
+  },
+  "models": [
+   "nvidia/nemotron-3-ultra-550b-a55b"
+  ],
+  "run_end": "{\"documents\": 5, \"not_layoffs\": 5, \"drafted\": 0, \"judge_failed\": 0, \"duplicates\": 0, \"pending_review\": 0, \"errors\": 0}"
+ },
+ {
+  "file": "run-20261027T162751Z-1b9186.jsonl",
+  "lines": 3,
+  "first": "2026-10-27T16:28:02Z",
+  "agents": {
+   "Ask": 3
+  },
+  "models": [
+   "nvidia/nemotron-3-ultra-550b-a55b"
+  ],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T162803Z-9fd690.jsonl",
+  "lines": 3,
+  "first": "2026-10-27T16:28:07Z",
+  "agents": {
+   "Ask": 3
+  },
+  "models": [
+   "nvidia/nemotron-3-ultra-550b-a55b"
+  ],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T162814Z-8f4914.jsonl",
+  "lines": 2,
+  "first": "2026-10-27T16:28:25Z",
+  "agents": {
+   "Benchmark": 2
+  },
+  "models": [],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T162828Z-bcb1dd.jsonl",
+  "lines": 22,
+  "first": "2026-10-27T16:28:31Z",
+  "agents": {
+   "Publisher": 6,
+   "GapAnalyst": 16
+  },
+  "models": [],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T162904Z-416cc1.jsonl",
+  "lines": 74,
+  "first": "2026-10-27T16:29:09Z",
+  "agents": {
+   "CountryAnalyst": 5,
+   "Publisher": 67,
+   "GapAnalyst": 2
+  },
+  "models": [],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T163736Z-289551.jsonl",
+  "lines": 29,
+  "first": "2026-10-27T16:37:37Z",
+  "agents": {
+   "Pipeline": 3,
+   "Scout": 6,
+   "Extractor": 10,
+   "MemorySteward": 3,
+   "Verifier": 3,
+   "Corroborator": 4
+  },
+  "models": [
+   "nvidia/nemotron-3-ultra-550b-a55b"
+  ],
+  "run_end": "{\"documents\": 3, \"not_layoffs\": 2, \"drafted\": 0, \"judge_failed\": 1, \"duplicates\": 0, \"pending_review\": 0, \"errors\": 0}"
+ },
+ {
+  "file": "run-20261027T163835Z-a414f0.jsonl",
+  "lines": 20,
+  "first": "2026-10-27T16:38:38Z",
+  "agents": {
+   "Publisher": 4,
+   "GapAnalyst": 16
+  },
+  "models": [],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T163908Z-9af0ce.jsonl",
+  "lines": 11,
+  "first": "2026-10-27T16:39:13Z",
+  "agents": {
+   "CountryAnalyst": 5,
+   "Publisher": 4,
+   "GapAnalyst": 2
+  },
+  "models": [],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T170205Z-d1185f.jsonl",
+  "lines": 2,
+  "first": "2026-10-27T17:02:06Z",
+  "agents": {
+   "MemorySteward": 1,
+   "Editor": 1
+  },
+  "models": [],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T170210Z-be3fd6.jsonl",
+  "lines": 2,
+  "first": "2026-10-27T17:02:11Z",
+  "agents": {
+   "MemorySteward": 1,
+   "Editor": 1
+  },
+  "models": [],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T170215Z-913a5b.jsonl",
+  "lines": 2,
+  "first": "2026-10-27T17:02:17Z",
+  "agents": {
+   "MemorySteward": 1,
+   "Editor": 1
+  },
+  "models": [],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T170220Z-17d29d.jsonl",
+  "lines": 2,
+  "first": "2026-10-27T17:02:22Z",
+  "agents": {
+   "MemorySteward": 1,
+   "Editor": 1
+  },
+  "models": [],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T170224Z-4ff467.jsonl",
+  "lines": 2,
+  "first": "2026-10-27T17:02:26Z",
+  "agents": {
+   "MemorySteward": 1,
+   "Editor": 1
+  },
+  "models": [],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T170228Z-2fca06.jsonl",
+  "lines": 20,
+  "first": "2026-10-27T17:02:32Z",
+  "agents": {
+   "Publisher": 4,
+   "GapAnalyst": 16
+  },
+  "models": [],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T170307Z-0426f0.jsonl",
+  "lines": 8,
+  "first": "2026-10-27T17:03:11Z",
+  "agents": {
+   "CountryAnalyst": 5,
+   "Publisher": 1,
+   "GapAnalyst": 2
+  },
+  "models": [],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T185222Z-aeaf28.jsonl",
+  "lines": 2,
+  "first": "2026-10-27T18:52:33Z",
+  "agents": {
+   "Evaluator": 2
+  },
+  "models": [],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T185236Z-11ee42.jsonl",
+  "lines": 2,
+  "first": "2026-10-27T18:52:55Z",
+  "agents": {
+   "Benchmark": 2
+  },
+  "models": [],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T185258Z-236c29.jsonl",
+  "lines": 21,
+  "first": "2026-10-27T18:53:02Z",
+  "agents": {
+   "Publisher": 5,
+   "GapAnalyst": 16
+  },
+  "models": [],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T185347Z-231680.jsonl",
+  "lines": 8,
+  "first": "2026-10-27T18:53:52Z",
+  "agents": {
+   "CountryAnalyst": 5,
+   "Publisher": 1,
+   "GapAnalyst": 2
+  },
+  "models": [],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T192903Z-dc9b89.jsonl",
+  "lines": 21,
+  "first": "2026-10-27T19:29:13Z",
+  "agents": {
+   "Publisher": 5,
+   "GapAnalyst": 16
+  },
+  "models": [],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T195501Z-240904.jsonl",
+  "lines": 8,
+  "first": "2026-10-27T19:55:12Z",
+  "agents": {
+   "CountryAnalyst": 5,
+   "Publisher": 1,
+   "GapAnalyst": 2
+  },
+  "models": [],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T195535Z-6bc6fa.jsonl",
+  "lines": 21,
+  "first": "2026-10-27T19:55:43Z",
+  "agents": {
+   "Publisher": 5,
+   "GapAnalyst": 16
+  },
+  "models": [],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T195945Z-ef6e36.jsonl",
+  "lines": 8,
+  "first": "2026-10-27T19:59:52Z",
+  "agents": {
+   "CountryAnalyst": 5,
+   "Publisher": 1,
+   "GapAnalyst": 2
+  },
+  "models": [],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T200013Z-42a8a8.jsonl",
+  "lines": 21,
+  "first": "2026-10-27T20:00:18Z",
+  "agents": {
+   "Publisher": 5,
+   "GapAnalyst": 16
+  },
+  "models": [],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T200313Z-6325aa.jsonl",
+  "lines": 8,
+  "first": "2026-10-27T20:03:23Z",
+  "agents": {
+   "CountryAnalyst": 5,
+   "Publisher": 1,
+   "GapAnalyst": 2
+  },
+  "models": [],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T200348Z-2f50f8.jsonl",
+  "lines": 21,
+  "first": "2026-10-27T20:03:52Z",
+  "agents": {
+   "Publisher": 5,
+   "GapAnalyst": 16
+  },
+  "models": [],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T203814Z-0529cd.jsonl",
+  "lines": 8,
+  "first": "2026-10-27T20:38:22Z",
+  "agents": {
+   "CountryAnalyst": 5,
+   "Publisher": 1,
+   "GapAnalyst": 2
+  },
+  "models": [],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T203843Z-5ef29c.jsonl",
+  "lines": 3,
+  "first": "2026-10-27T20:38:48Z",
+  "agents": {
+   "Scorecard": 3
+  },
+  "models": [],
+  "run_end": ""
+ },
+ {
+  "file": "run-20261027T203852Z-e93430.jsonl",
+  "lines": 21,
+  "first": "2026-10-27T20:39:00Z",
+  "agents": {
+   "Publisher": 5,
+   "GapAnalyst": 16
+  },
+  "models": [],
+  "run_end": ""
+ }
+]

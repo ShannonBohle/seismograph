@@ -5,17 +5,17 @@
    "markets": [
     "SEC (US)"
    ],
-   "documents_read": 37,
-   "employers_read": 16,
-   "job_cuts_found": 5,
+   "documents_read": 43,
+   "employers_read": 22,
+   "job_cuts_found": 8,
    "published": 4,
    "explicit": 0,
    "partial": 3,
    "none": 1,
    "jobs_stated": 65,
-   "outcomes_reported": 7,
+   "outcomes_reported": 14,
    "savings_achieved": 0,
-   "savings_expected": 2,
+   "savings_expected": 4,
    "problems_or_reversals": 0,
    "companies": [
     "Latch, Inc.",
@@ -23,7 +23,7 @@
     "Quantum-Si Inc"
    ],
    "ai_linked_share_of_published": 0.75,
-   "job_cuts_per_100_documents": 13.5,
+   "job_cuts_per_100_documents": 18.6,
    "public_regulator_layoff_notices": "Yes: state WARN Act notices (loaded for the states listed on the main page)"
   },
   {
@@ -31,9 +31,9 @@
    "markets": [
     "FCA NSM (UK)"
    ],
-   "documents_read": 13,
-   "employers_read": 13,
-   "job_cuts_found": 3,
+   "documents_read": 19,
+   "employers_read": 19,
+   "job_cuts_found": 5,
    "published": 2,
    "explicit": 0,
    "partial": 1,
@@ -48,7 +48,7 @@
     "YouGov plc"
    ],
    "ai_linked_share_of_published": 0.5,
-   "job_cuts_per_100_documents": 23.1,
+   "job_cuts_per_100_documents": 26.3,
    "public_regulator_layoff_notices": "No: HR1 advance notifications of collective redundancies are not published"
   },
   {
@@ -65,9 +65,9 @@
    "partial": 0,
    "none": 2,
    "jobs_stated": 0,
-   "outcomes_reported": 3,
-   "savings_achieved": 1,
-   "savings_expected": 1,
+   "outcomes_reported": 6,
+   "savings_achieved": 2,
+   "savings_expected": 2,
    "problems_or_reversals": 0,
    "companies": [
     "VOLTZ",
@@ -126,6 +126,28 @@
    "public_regulator_layoff_notices": "None connected; none found public"
   },
   {
+   "country": "India",
+   "markets": [
+    "BSE (India)"
+   ],
+   "documents_read": 8,
+   "employers_read": 6,
+   "job_cuts_found": 0,
+   "published": 0,
+   "explicit": 0,
+   "partial": 0,
+   "none": 0,
+   "jobs_stated": 0,
+   "outcomes_reported": 0,
+   "savings_achieved": 0,
+   "savings_expected": 0,
+   "problems_or_reversals": 0,
+   "companies": [],
+   "ai_linked_share_of_published": null,
+   "job_cuts_per_100_documents": 0.0,
+   "public_regulator_layoff_notices": "None connected; none found public"
+  },
+  {
    "country": "Japan",
    "markets": [
     "TDnet / Tokyo Stock Exchange (Japan)"
@@ -150,13 +172,13 @@
    "public_regulator_layoff_notices": "None connected; none found public"
   },
   {
-   "country": "India",
+   "country": "Canada",
    "markets": [
-    "BSE (India)"
+    "SEC (US)"
    ],
-   "documents_read": 5,
-   "employers_read": 4,
-   "job_cuts_found": 0,
+   "documents_read": 4,
+   "employers_read": 3,
+   "job_cuts_found": 1,
    "published": 0,
    "explicit": 0,
    "partial": 0,
@@ -168,16 +190,16 @@
    "problems_or_reversals": 0,
    "companies": [],
    "ai_linked_share_of_published": null,
-   "job_cuts_per_100_documents": 0.0,
+   "job_cuts_per_100_documents": 25.0,
    "public_regulator_layoff_notices": "None connected; none found public"
   },
   {
-   "country": "Canada",
+   "country": "Not known",
    "markets": [
     "SEC (US)"
    ],
    "documents_read": 4,
-   "employers_read": 3,
+   "employers_read": 4,
    "job_cuts_found": 1,
    "published": 0,
    "explicit": 0,
@@ -240,12 +262,12 @@
    "public_regulator_layoff_notices": "None connected; none found public"
   },
   {
-   "country": "Not known",
+   "country": "Ireland",
    "markets": [
     "SEC (US)"
    ],
-   "documents_read": 2,
-   "employers_read": 2,
+   "documents_read": 1,
+   "employers_read": 1,
    "job_cuts_found": 0,
    "published": 0,
    "explicit": 0,
@@ -466,42 +488,6 @@
   ],
   "ai_events": [
    {
-    "event_id": "ERM:301330",
-    "country": "France",
-    "company": "Ikea",
-    "announced": "2026-10-21",
-    "employment_change": "-303",
-    "event_type": "Internal restructuring",
-    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/301330"
-   },
-   {
-    "event_id": "ERM:301324",
-    "country": "Slovakia",
-    "company": "Foxconn Slovakia",
-    "announced": "2026-10-18",
-    "employment_change": "300",
-    "event_type": "Business expansion",
-    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/301324"
-   },
-   {
-    "event_id": "ERM:301293",
-    "country": "Poland",
-    "company": "SHEIN",
-    "announced": "2026-10-15",
-    "employment_change": "1000",
-    "event_type": "Business expansion",
-    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/301293"
-   },
-   {
-    "event_id": "ERM:301270",
-    "country": "Spain",
-    "company": "Avatel",
-    "announced": "2026-10-14",
-    "employment_change": "-444",
-    "event_type": "Internal restructuring",
-    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/301270"
-   },
-   {
     "event_id": "ERM:301249",
     "country": "Estonia",
     "company": "Telia Eesti",
@@ -545,6 +531,33 @@
     "employment_change": "-190",
     "event_type": "Internal restructuring",
     "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/301235"
+   },
+   {
+    "event_id": "ERM:301324",
+    "country": "Slovakia",
+    "company": "Foxconn Slovakia",
+    "announced": "2026-10-18",
+    "employment_change": "300",
+    "event_type": "Business expansion",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/301324"
+   },
+   {
+    "event_id": "ERM:301293",
+    "country": "Poland",
+    "company": "SHEIN",
+    "announced": "2026-10-15",
+    "employment_change": "1000",
+    "event_type": "Business expansion",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/301293"
+   },
+   {
+    "event_id": "ERM:301270",
+    "country": "Spain",
+    "company": "Avatel",
+    "announced": "2026-10-14",
+    "employment_change": "-444",
+    "event_type": "Internal restructuring",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/301270"
    },
    {
     "event_id": "ERM:301254",
@@ -914,6 +927,15 @@
     "employment_change": "-165",
     "event_type": "Bankruptcy",
     "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/300678"
+   },
+   {
+    "event_id": "ERM:301330",
+    "country": "France",
+    "company": "Ikea",
+    "announced": "2026-10-21",
+    "employment_change": "-303",
+    "event_type": "Internal restructuring",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/301330"
    }
   ],
   "headline": "50 of 342 European restructuring events in Eurofound's monitor have a summary that mentions AI or automation (29 countries)."

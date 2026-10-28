@@ -1,0 +1,76 @@
+{
+ "quarter": "2026Q4",
+ "window": [
+  "2026-10-01",
+  "2026-12-31"
+ ],
+ "published": 4,
+ "pending_review": 7,
+ "rejected": 0,
+ "by_label": {
+  "explicit": 0,
+  "partial": 1,
+  "none": 3
+ },
+ "jobs_stated": 2711,
+ "judge_editor_agreement": "4/4",
+ "companies_with_reported_outcomes": [],
+ "records": [
+  {
+   "record_id": "rec_09436ac27454",
+   "cik": "LEI:213800MZGBGCJIPOBB41",
+   "company": "YouGov plc",
+   "event_date": "2026-10-13",
+   "jobs_cut": null,
+   "jobs_cut_text": "targeted headcount and other cost reductions in non-revenue-generating areas",
+   "ai_attribution": "partial",
+   "ai_quote": "The waves combine efficiency improvements and enhanced ways of working along with significant transformation enabled by AI.",
+   "source_url": "https://data.fca.org.uk/artefacts/NSM/RNS/80994acc-64b5-4b25-84b2-e915b675f09e.html",
+   "status": "approved",
+   "judge_verdict": "pass",
+   "reviewer_note": "Real Wave 1 headcount reductions (VDP). CFO review places them in a plan combining efficiency with transformation enabled by AI; Chair says VDP embeds efficiencies unlocked by AI. No direct causal claim for the cuts, so partial. Close to explicit; watch Wave 2."
+  },
+  {
+   "record_id": "rec_a975fec2093e",
+   "cik": "ASX:MFD",
+   "company": "Mayfield Childcare Limited",
+   "event_date": "2026-10-15",
+   "jobs_cut": "12",
+   "jobs_cut_text": "12 head office roles",
+   "ai_attribution": "none",
+   "ai_quote": null,
+   "source_url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03148728-3A704168?access_token=83ff96335c2d45a094df02a206a39ff4",
+   "status": "approved",
+   "judge_verdict": "pass",
+   "reviewer_note": "checked source: 12 head office roles; no AI link"
+  },
+  {
+   "record_id": "rec_0898eacfe07a",
+   "cik": "ASX:NAB",
+   "company": "National Australia Bank",
+   "event_date": "2026-10-20",
+   "jobs_cut": "2500",
+   "jobs_cut_text": "up to 2,500 roles or ~6%",
+   "ai_attribution": "none",
+   "ai_quote": null,
+   "source_url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03150315-3A704448?access_token=83ff96335c2d45a094df02a206a39ff4",
+   "status": "approved",
+   "judge_verdict": "pass",
+   "reviewer_note": "checked source: 2,500 roles; cites technology initiatives and technological change, not AI or automation"
+  },
+  {
+   "record_id": "rec_1ffa525386f3",
+   "cik": "TDNET:49220",
+   "company": "\u682a\u5f0f\u4f1a\u793e\u30b3\u30fc\u30bb\u30fc\u30db\u30fc\u30eb\u30c7\u30a3\u30f3\u30b0\u30b9",
+   "event_date": "2026-10-09",
+   "jobs_cut": "199",
+   "jobs_cut_text": "199\u540d",
+   "ai_attribution": "none",
+   "ai_quote": null,
+   "source_url": "https://www.release.tdnet.info/inbs/140120261008547775.pdf",
+   "status": "approved",
+   "judge_verdict": "pass",
+   "reviewer_note": "checked source: 199 voluntary retirements; no AI link"
+  }
+ ]
+}

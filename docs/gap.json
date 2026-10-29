@@ -1,8 +1,8 @@
 {
- "headline": "2 of 5,160 WARN layoff notices that state a reason cite AI or automation (2 of 22 states loaded record a reason).",
+ "headline": "2 of 10,002 WARN layoff notices that state a reason cite AI or automation (2 of 22 states loaded record a reason).",
  "erm": {
-  "events": 342,
-  "mention_ai_or_automation": 50,
+  "events": 344,
+  "mention_ai_or_automation": 51,
   "countries": 29,
   "by_country": [
    {
@@ -31,9 +31,9 @@
    },
    {
     "country": "Italy",
-    "events": 25,
+    "events": 26,
     "mention_ai": 6,
-    "jobs_lost": 4716
+    "jobs_lost": 4876
    },
    {
     "country": "Ireland",
@@ -138,6 +138,12 @@
     "jobs_lost": 255
    },
    {
+    "country": "Norway",
+    "events": 3,
+    "mention_ai": 1,
+    "jobs_lost": 443
+   },
+   {
     "country": "Denmark",
     "events": 3,
     "mention_ai": 0,
@@ -148,12 +154,6 @@
     "events": 3,
     "mention_ai": 0,
     "jobs_lost": 591
-   },
-   {
-    "country": "Norway",
-    "events": 2,
-    "mention_ai": 0,
-    "jobs_lost": 330
    },
    {
     "country": "Slovenia",
@@ -623,6 +623,15 @@
     "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/300678"
    },
    {
+    "event_id": "ERM:301351",
+    "country": "Norway",
+    "company": "Sparebank 1 Kundesenter",
+    "announced": "2026-10-28",
+    "employment_change": "-113",
+    "event_type": "Closure",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/301351"
+   },
+   {
     "event_id": "ERM:301330",
     "country": "France",
     "company": "Ikea",
@@ -632,10 +641,10 @@
     "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/301330"
    }
   ],
-  "headline": "50 of 342 European restructuring events in Eurofound's monitor have a summary that mentions AI or automation (29 countries)."
+  "headline": "51 of 344 European restructuring events in Eurofound's monitor have a summary that mentions AI or automation (29 countries)."
  },
  "warn": {
-  "warn_notices": 34076,
+  "warn_notices": 47717,
   "states_loaded": [
    "AK",
    "AL",
@@ -664,7 +673,7 @@
    "IL",
    "NY"
   ],
-  "notices_with_reason": 5160,
+  "notices_with_reason": 10002,
   "notices_citing_ai": 2,
   "ai_notices": [
    {

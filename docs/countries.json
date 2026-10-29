@@ -5,17 +5,17 @@
    "markets": [
     "SEC (US)"
    ],
-   "documents_read": 43,
-   "employers_read": 22,
-   "job_cuts_found": 8,
+   "documents_read": 45,
+   "employers_read": 24,
+   "job_cuts_found": 9,
    "published": 4,
    "explicit": 0,
    "partial": 3,
    "none": 1,
    "jobs_stated": 65,
-   "outcomes_reported": 14,
+   "outcomes_reported": 20,
    "savings_achieved": 0,
-   "savings_expected": 4,
+   "savings_expected": 6,
    "problems_or_reversals": 0,
    "companies": [
     "Latch, Inc.",
@@ -23,7 +23,7 @@
     "Quantum-Si Inc"
    ],
    "ai_linked_share_of_published": 0.75,
-   "job_cuts_per_100_documents": 18.6,
+   "job_cuts_per_100_documents": 20.0,
    "public_regulator_layoff_notices": "Yes: state WARN Act notices (loaded for the states listed on the main page)"
   },
   {
@@ -31,8 +31,8 @@
    "markets": [
     "FCA NSM (UK)"
    ],
-   "documents_read": 19,
-   "employers_read": 19,
+   "documents_read": 20,
+   "employers_read": 20,
    "job_cuts_found": 5,
    "published": 2,
    "explicit": 0,
@@ -48,8 +48,30 @@
     "YouGov plc"
    ],
    "ai_linked_share_of_published": 0.5,
-   "job_cuts_per_100_documents": 26.3,
+   "job_cuts_per_100_documents": 25.0,
    "public_regulator_layoff_notices": "No: HR1 advance notifications of collective redundancies are not published"
+  },
+  {
+   "country": "India",
+   "markets": [
+    "BSE (India)"
+   ],
+   "documents_read": 11,
+   "employers_read": 8,
+   "job_cuts_found": 0,
+   "published": 0,
+   "explicit": 0,
+   "partial": 0,
+   "none": 0,
+   "jobs_stated": 0,
+   "outcomes_reported": 0,
+   "savings_achieved": 0,
+   "savings_expected": 0,
+   "problems_or_reversals": 0,
+   "companies": [],
+   "ai_linked_share_of_published": null,
+   "job_cuts_per_100_documents": 0.0,
+   "public_regulator_layoff_notices": "None connected; none found public"
   },
   {
    "country": "France",
@@ -65,9 +87,9 @@
    "partial": 0,
    "none": 2,
    "jobs_stated": 0,
-   "outcomes_reported": 6,
-   "savings_achieved": 2,
-   "savings_expected": 2,
+   "outcomes_reported": 10,
+   "savings_achieved": 3,
+   "savings_expected": 3,
    "problems_or_reversals": 0,
    "companies": [
     "VOLTZ",
@@ -75,6 +97,31 @@
    ],
    "ai_linked_share_of_published": 0.0,
    "job_cuts_per_100_documents": 40.0,
+   "public_regulator_layoff_notices": "None connected; none found public"
+  },
+  {
+   "country": "Australia",
+   "markets": [
+    "ASX (Australia)"
+   ],
+   "documents_read": 9,
+   "employers_read": 9,
+   "job_cuts_found": 2,
+   "published": 2,
+   "explicit": 0,
+   "partial": 0,
+   "none": 2,
+   "jobs_stated": 2512,
+   "outcomes_reported": 0,
+   "savings_achieved": 0,
+   "savings_expected": 0,
+   "problems_or_reversals": 0,
+   "companies": [
+    "Mayfield Childcare Limited",
+    "National Australia Bank"
+   ],
+   "ai_linked_share_of_published": 0.0,
+   "job_cuts_per_100_documents": 22.2,
    "public_regulator_layoff_notices": "None connected; none found public"
   },
   {
@@ -101,59 +148,12 @@
    "public_regulator_layoff_notices": "None connected; none found public"
   },
   {
-   "country": "Australia",
-   "markets": [
-    "ASX (Australia)"
-   ],
-   "documents_read": 8,
-   "employers_read": 8,
-   "job_cuts_found": 2,
-   "published": 2,
-   "explicit": 0,
-   "partial": 0,
-   "none": 2,
-   "jobs_stated": 2512,
-   "outcomes_reported": 0,
-   "savings_achieved": 0,
-   "savings_expected": 0,
-   "problems_or_reversals": 0,
-   "companies": [
-    "Mayfield Childcare Limited",
-    "National Australia Bank"
-   ],
-   "ai_linked_share_of_published": 0.0,
-   "job_cuts_per_100_documents": 25.0,
-   "public_regulator_layoff_notices": "None connected; none found public"
-  },
-  {
-   "country": "India",
-   "markets": [
-    "BSE (India)"
-   ],
-   "documents_read": 8,
-   "employers_read": 6,
-   "job_cuts_found": 0,
-   "published": 0,
-   "explicit": 0,
-   "partial": 0,
-   "none": 0,
-   "jobs_stated": 0,
-   "outcomes_reported": 0,
-   "savings_achieved": 0,
-   "savings_expected": 0,
-   "problems_or_reversals": 0,
-   "companies": [],
-   "ai_linked_share_of_published": null,
-   "job_cuts_per_100_documents": 0.0,
-   "public_regulator_layoff_notices": "None connected; none found public"
-  },
-  {
    "country": "Japan",
    "markets": [
     "TDnet / Tokyo Stock Exchange (Japan)"
    ],
-   "documents_read": 7,
-   "employers_read": 7,
+   "documents_read": 8,
+   "employers_read": 8,
    "job_cuts_found": 3,
    "published": 1,
    "explicit": 0,
@@ -168,16 +168,16 @@
     "株式会社コーセーホールディングス"
    ],
    "ai_linked_share_of_published": 0.0,
-   "job_cuts_per_100_documents": 42.9,
+   "job_cuts_per_100_documents": 37.5,
    "public_regulator_layoff_notices": "None connected; none found public"
   },
   {
-   "country": "Canada",
+   "country": "Not known",
    "markets": [
     "SEC (US)"
    ],
-   "documents_read": 4,
-   "employers_read": 3,
+   "documents_read": 6,
+   "employers_read": 5,
    "job_cuts_found": 1,
    "published": 0,
    "explicit": 0,
@@ -190,16 +190,16 @@
    "problems_or_reversals": 0,
    "companies": [],
    "ai_linked_share_of_published": null,
-   "job_cuts_per_100_documents": 25.0,
+   "job_cuts_per_100_documents": 16.7,
    "public_regulator_layoff_notices": "None connected; none found public"
   },
   {
-   "country": "Not known",
+   "country": "Canada",
    "markets": [
     "SEC (US)"
    ],
    "documents_read": 4,
-   "employers_read": 4,
+   "employers_read": 3,
    "job_cuts_found": 1,
    "published": 0,
    "explicit": 0,
@@ -250,10 +250,10 @@
    "partial": 1,
    "none": 0,
    "jobs_stated": 0,
-   "outcomes_reported": 5,
+   "outcomes_reported": 10,
    "savings_achieved": 0,
-   "savings_expected": 2,
-   "problems_or_reversals": 1,
+   "savings_expected": 4,
+   "problems_or_reversals": 2,
    "companies": [
     "monday.com Ltd."
    ],
@@ -268,7 +268,7 @@
    ],
    "documents_read": 1,
    "employers_read": 1,
-   "job_cuts_found": 0,
+   "job_cuts_found": 1,
    "published": 0,
    "explicit": 0,
    "partial": 0,
@@ -280,7 +280,7 @@
    "problems_or_reversals": 0,
    "companies": [],
    "ai_linked_share_of_published": null,
-   "job_cuts_per_100_documents": 0.0,
+   "job_cuts_per_100_documents": 100.0,
    "public_regulator_layoff_notices": "None connected; none found public"
   },
   {
@@ -307,8 +307,8 @@
   }
  ],
  "erm": {
-  "events": 342,
-  "mention_ai_or_automation": 50,
+  "events": 344,
+  "mention_ai_or_automation": 51,
   "countries": 29,
   "by_country": [
    {
@@ -337,9 +337,9 @@
    },
    {
     "country": "Italy",
-    "events": 25,
+    "events": 26,
     "mention_ai": 6,
-    "jobs_lost": 4716
+    "jobs_lost": 4876
    },
    {
     "country": "Ireland",
@@ -444,6 +444,12 @@
     "jobs_lost": 255
    },
    {
+    "country": "Norway",
+    "events": 3,
+    "mention_ai": 1,
+    "jobs_lost": 443
+   },
+   {
     "country": "Denmark",
     "events": 3,
     "mention_ai": 0,
@@ -454,12 +460,6 @@
     "events": 3,
     "mention_ai": 0,
     "jobs_lost": 591
-   },
-   {
-    "country": "Norway",
-    "events": 2,
-    "mention_ai": 0,
-    "jobs_lost": 330
    },
    {
     "country": "Slovenia",
@@ -929,6 +929,15 @@
     "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/300678"
    },
    {
+    "event_id": "ERM:301351",
+    "country": "Norway",
+    "company": "Sparebank 1 Kundesenter",
+    "announced": "2026-10-28",
+    "employment_change": "-113",
+    "event_type": "Closure",
+    "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/301351"
+   },
+   {
     "event_id": "ERM:301330",
     "country": "France",
     "company": "Ikea",
@@ -938,7 +947,7 @@
     "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/301330"
    }
   ],
-  "headline": "50 of 342 European restructuring events in Eurofound's monitor have a summary that mentions AI or automation (29 countries)."
+  "headline": "51 of 344 European restructuring events in Eurofound's monitor have a summary that mentions AI or automation (29 countries)."
  },
  "caveat": "it compares disclosures in the documents this agent read. Disclosure rules, languages,\nsearch terms, listing populations and sample sizes differ by country, so the figures describe this record. They do not\nmeasure which country is \"ahead\" in AI, and a low count can mean less disclosure rather than fewer AI-linked cuts."
 }

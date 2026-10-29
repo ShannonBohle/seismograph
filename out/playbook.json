@@ -51,6 +51,15 @@
     "amount_text": "$1.5 million to $2.5 million",
     "source_url": "https://www.sec.gov/Archives/edgar/data/1826000/000182600026000048/tmb-20260630x10q.htm",
     "file_date": "2026-08-10"
+   },
+   {
+    "record_id": "rec_10ba9dd832c6",
+    "company": "Latch, Inc.",
+    "kind": "charges",
+    "quote": "The Company estimates that it will incur approximately $1.5 million to $2.5 million of total cash restructuring and related charges, primarily related to severance and benefit costs, a majority of which is expected to be incurred in the third and fourth quarters of 2026.",
+    "amount_text": "$1.5 million to $2.5 million",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1826000/000110465926091071/tm2622239d1_8k.htm",
+    "file_date": "2026-08-05"
    }
   ],
   "confidence": "High",
@@ -163,6 +172,51 @@
     "amount_text": "58.7, 51.7",
     "source_url": "https://www.sec.gov/Archives/edgar/data/2054696/000162828026055223/niq-20260630.htm",
     "file_date": "2026-08-10"
+   },
+   {
+    "record_id": "rec_b60868941d85",
+    "company": "NIQ Global Intelligence plc",
+    "kind": "savings_expected",
+    "quote": "Collectively, these actions are expected to improve efficiency, customer satisfaction, product innovation and productivity.",
+    "amount_text": null,
+    "source_url": "https://www.sec.gov/Archives/edgar/data/2054696/000162828026055223/niq-20260630.htm",
+    "file_date": "2026-08-10"
+   },
+   {
+    "record_id": "rec_b60868941d85",
+    "company": "NIQ Global Intelligence plc",
+    "kind": "savings_expected",
+    "quote": "The 2026 Program is intended to further reduce costs primarily within selling, general and administrative expenses.",
+    "amount_text": null,
+    "source_url": "https://www.sec.gov/Archives/edgar/data/2054696/000162828026055223/niq-20260630.htm",
+    "file_date": "2026-08-10"
+   },
+   {
+    "record_id": "rec_b60868941d85",
+    "company": "NIQ Global Intelligence plc",
+    "kind": "charges",
+    "quote": "For the six months ended June 30, 2026, the Company recognized incremental non\u2011cash compensation charges of $9.5 million in connection with her separation agreement.",
+    "amount_text": "$9.5 million",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/2054696/000162828026055223/niq-20260630.htm",
+    "file_date": "2026-08-10"
+   },
+   {
+    "record_id": "rec_b60868941d85",
+    "company": "NIQ Global Intelligence plc",
+    "kind": "charges",
+    "quote": "Restructuring, net 8.7 0.4 73.6 5.0",
+    "amount_text": "8.7 0.4 73.6 5.0",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/2054696/000162828026055223/niq-20260630.htm",
+    "file_date": "2026-08-10"
+   },
+   {
+    "record_id": "rec_b60868941d85",
+    "company": "NIQ Global Intelligence plc",
+    "kind": "other",
+    "quote": "Investments in automation and artificial intelligence (\"AI\") are anticipated to accelerate the Company's optimization efforts as it begins its journey to operationalize these digital tools throughout the organization.",
+    "amount_text": null,
+    "source_url": "https://www.sec.gov/Archives/edgar/data/2054696/000162828026055223/niq-20260630.htm",
+    "file_date": "2026-08-10"
    }
   ],
   "confidence": "High",
@@ -239,6 +293,42 @@
     "amount_text": "\u20ac3.2 million",
     "source_url": "https://www.sec.gov/Archives/edgar/data/1836564/000162828026056525/a2026_08x13xvlaxh1x2026xpr.htm",
     "file_date": "2026-08-13"
+   },
+   {
+    "record_id": "rec_0387fb8146f6",
+    "company": "Valneva SE",
+    "kind": "savings_expected",
+    "quote": "Restructuring program implemented with positive P&L and cash flow impacts expected in the second half of the year and beyond",
+    "amount_text": null,
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1836564/000162828026056525/a2026_08x13xvlaxh1x2026xpr.htm",
+    "file_date": "2026-08-13"
+   },
+   {
+    "record_id": "rec_0387fb8146f6",
+    "company": "Valneva SE",
+    "kind": "savings_achieved",
+    "quote": "This strong cash position reflects the positive impact of restructuring initiatives, disciplined cash management and \u20ac37 million in gross proceeds from the successful reserved offering completed in the second quarter of 2026.",
+    "amount_text": null,
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1836564/000162828026056525/a2026_08x13xvlaxh1x2026xpr.htm",
+    "file_date": "2026-08-13"
+   },
+   {
+    "record_id": "rec_0387fb8146f6",
+    "company": "Valneva SE",
+    "kind": "charges",
+    "quote": "In the first half of 2026, \u20ac3.2 million of expenses were recognized across the affected functions in connection with the workforce reduction and restructuring program initiated in the second quarter of 2026.",
+    "amount_text": "\u20ac3.2 million",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1836564/000162828026056525/a2026_08x13xvlaxh1x2026xpr.htm",
+    "file_date": "2026-08-13"
+   },
+   {
+    "record_id": "rec_0387fb8146f6",
+    "company": "Valneva SE",
+    "kind": "other",
+    "quote": "As part of this initiative, the Company also agreed to sell its Nantes site in France for \u20ac6.2 million.",
+    "amount_text": "\u20ac6.2 million",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1836564/000162828026056525/a2026_08x13xvlaxh1x2026xpr.htm",
+    "file_date": "2026-08-13"
    }
   ],
   "confidence": "High",
@@ -262,6 +352,51 @@
    }
   ],
   "outcomes": [
+   {
+    "record_id": "rec_f110b0ccbfa9",
+    "company": "monday.com Ltd.",
+    "kind": "charges",
+    "quote": "Restructuring charges were $21.4 million for the six months ended June 30, 2026, compared to nil for the six months ended June 30, 2025.",
+    "amount_text": "$21.4 million",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1845338/000117891326003971/exhibit_99-3.htm",
+    "file_date": "2026-08-10"
+   },
+   {
+    "record_id": "rec_f110b0ccbfa9",
+    "company": "monday.com Ltd.",
+    "kind": "charges",
+    "quote": "We estimate total net charges under the Plan of approximately $45\u201355 million for the full year 2026, consisting of approximately $30\u201335 million of future net charges related to severance payments, employee benefits and related costs, and approximately $30\u201335 million in charges related to the impairment of certain office spaces, partially offset by approximately $15 million in non-cash credits related to the forfeiture of unvested share-based compensation awards by departing employees.",
+    "amount_text": "$45\u201355 million",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1845338/000117891326003971/exhibit_99-3.htm",
+    "file_date": "2026-08-10"
+   },
+   {
+    "record_id": "rec_f110b0ccbfa9",
+    "company": "monday.com Ltd.",
+    "kind": "savings_expected",
+    "quote": "We expect full year 2026 research and development expenses to decline as a percentage of revenue compared to the first half of 2026, to the low-20s as a percentage of revenue, as savings from the 2026 restructuring plan (the \u201cPlan\u201d) and newly enacted Israeli research and development tax benefits (\u201cThe Encouragement and Incentivization of Research and Development Law, 5786-2026\u201d) are realized in the second half of the year.",
+    "amount_text": null,
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1845338/000117891326003971/exhibit_99-3.htm",
+    "file_date": "2026-08-10"
+   },
+   {
+    "record_id": "rec_f110b0ccbfa9",
+    "company": "monday.com Ltd.",
+    "kind": "savings_expected",
+    "quote": "We expect full year 2026 sales and marketing expenses to remain broadly stable as a percentage of revenue as continued investment in go-to-market initiatives is largely offset by cost savings from the Plan.",
+    "amount_text": null,
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1845338/000117891326003971/exhibit_99-3.htm",
+    "file_date": "2026-08-10"
+   },
+   {
+    "record_id": "rec_f110b0ccbfa9",
+    "company": "monday.com Ltd.",
+    "kind": "problem",
+    "quote": "that our restructuring plan may not achieve the expected benefits or that the costs may exceed our expectations;",
+    "amount_text": null,
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1845338/000117891326003971/exhibit_99-3.htm",
+    "file_date": "2026-08-10"
+   },
    {
     "record_id": "rec_f110b0ccbfa9",
     "company": "monday.com Ltd.",
